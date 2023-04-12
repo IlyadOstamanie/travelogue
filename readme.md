@@ -1212,6 +1212,7 @@ Stone & Goldbart 和 Geroch 一样属于休闲读物，也可以拿来作为补�
 > 当前发展最快，成果影响最大的人工智能技术。
 > 入门可以直接去看经典的两部开放课程：Stanford [CS229 Machine Learning](http://cs229.stanford.edu/)，[CS231N Deep Learning for Computer Vision](http://cs231n.stanford.edu/)，前者用于基础，后者用于了解深度学习等当下一线技术。
 > 「如果只是想在毕业之后能找到算法工程师的工作，《统计学习方法》、CS229、CS231N、《deep learning》这些书再加上leetcode、数据挖掘比赛、以及相关项目经验就已经足够。不过如果真的对机器学习背后的理论非常感兴趣，愿意将此作为个人一生的事业，我觉得以上四本书籍都非常经典，可以根据个人具体的情况来取舍。」——[最近开始学习机器学习，不知道看哪本书比较好（PRML ESL or MLAPP）？ - 知乎用户的回答](https://www.zhihu.com/question/37868662/answer/543175270)
+> 更新：对于算法工程师打工路线（而非理论路线），现在可以速通了（取代CS229 CS231N，会Python即可入门，书可以之后再看）——[《动手学深度学习》：面向中文读者的能运行、可讨论的深度学习教科书, 含 PyTorch、NumPy/MXNet、TensorFlow 和 PaddlePaddle 实现, 被全球 60 多个国家 400 多所大学用于教学](https://zh-v2.d2l.ai/index.html) 。这是一本由一个豪华的算法从业者团队打造的开源在线教程，纸质版也已经在人民邮电出版社出版。直接快速入门深度学习及其在CV、NLP的具体应用，还包含Kaggle实战案例，拯救伤心转码人（
 
 
 * 周志华，《机器学习》
