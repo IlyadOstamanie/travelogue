@@ -922,6 +922,10 @@ Carrol的书是北美普遍的通用教材，起点更基础也更详尽的则�
 > 实用侧重的标准教材，内容风格相比面向凝聚态更偏向粒子物理，（至于图像之类的东西见仁见智，这种东西又不是只读一本就能懂完的 可以去清华物理系的鲜于中之老师的主页上找到他制作的全本答案（谢谢老师XD
 > 比较经典教材利弊请看 [如何评价 Zee、Srednicki、Schwartz 和 Peskin 的量子场论教材？](https://www.zhihu.com/question/47587717/answer/1011925721)
 
+* [法国] François Gelis，Quantum Field Theory: From Basics to Modern Topics
+> 巴黎综合理工的QFT讲义，偏重粒子物理中的应用，涉及到的内容比Peskin等老教材更加现代。
+> 在知乎上的翻译：https://zhuanlan.zhihu.com/p/157927184
+
 * [美国] Steven Weinberg, The Quantum Theory of Fields （三卷本）
 > 公认的QFT圣经，'one's last QFT book'，充满思想深度、历史背景和审美品位的百科全书式教材；不过因为篇幅浩大，适合已经初步掌握的人进修。
 
