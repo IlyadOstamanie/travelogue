@@ -17,7 +17,7 @@
       - [1.3.1 高等代数学入门（线性代数+多项式理论）、抽象代数/近世代数、表示论——本科数学院系代数全序列](#131-高等代数学入门线性代数多项式理论抽象代数近世代数表示论本科数学院系代数全序列)
       - [1.3.2 交换代数和同调代数（作为代数几何的铺垫）](#132-交换代数和同调代数作为代数几何的铺垫)
       - [1.3.3 现代代数学综览性材料](#133-现代代数学综览性材料)
-      - [1.3.4 面向物理学的群论教材](#134-面向物理学的群论教材)
+      - [1.3.4 李群、李代数](#134-李群李代数)
     - [1.4 几何学](#14-几何学)
       - [1.4.1 解析几何：](#141-解析几何)
       - [1.4.2 微分几何、拓扑学](#142-微分几何拓扑学)
@@ -398,9 +398,18 @@
 > "As I see it, the graduate course in algebra must primarily prepare students to handle the algebra which they will meet in all of mathematics" ——序言 
 > 本书的英文原本已由施普林格（Springer）出版公司出版，被收入其GTM（Graduate Texts in Mathematics）系列，编号GTM 211。
 
-#### 1.3.4 面向物理学的群论教材
+#### 1.3.4 李群、李代数
+> 快速入门可以参考苏黎世大学的讲义（简明扼要，不到100页，还有带答案的习题和试卷，而且讲了其他地方很少提到的Haar Measure）：https://www.math.uzh.ch/gorodnik/lg17/index.html
+> 这方面理论物理用的比较多，所以不少不错的书是面向那边的。
+* [美国] Howard Georgi，Lie Algebras in Particle Physics: From Isospin to Unified Theories
+* [美国] Nadir Jeevanjee，An Introduction to Tensors and Group Theory for Physicists （中译本名《给物理学家的张量和群论导论》）
+> 这两部都是面向物理的，篇幅比较简练，适合初学，该有的也基本都不缺（
+* [美国] Brian Hall，Lie Groups, Lie Algebras, and Representations
+> 这是数学书，原书（英文）已由施普林格（Springer）出版公司出版，被收入其GTM（Graduate Texts in Mathematics）系列，编号GTM 222。
+> 入门友好且材料丰富，挺够用的，如果还想要补充阅读可以去看 Humphrey 的 GTM9。
+> 如果对自己对基本群论的熟悉自信不足，可以去看2004年的旧版，那里比现在的版本多了复习群论基础的附录。
 * 徐一鸿，Group Theory in a Nutshell for Physicists
-> 从理论物理应用角度入门群论、群表示、李理论的佳作。新手友好，对于理论物理来说涵盖大部分需要，讲解友善，「如同在读小说」，这也是徐一鸿老师的个人风格，他确实也算是个作家：推荐他的另一部关于中国文化的通俗作品 Swallowing Clouds（《吞云》），非常有趣。
+> 从理论物理应用角度入门群论、李群、李代数及它们的表示的大厚书。新手友好，对于理论物理来说涵盖大部分需要，讲解比较友善，「如同在读小说」算是徐一鸿的个人风格，他确实也算是个作家：推荐他的另一部关于中国文化的通俗作品 Swallowing Clouds（《吞云》），非常有趣。
 > 徐一鸿（UCSB的Kavli Institute for Theoretical Physics的教授）是民国时期生于上海的美籍华人，Zee实际上是「徐」的上海话转写（物理部分会有关于他的更多情报
 
 ### 1.4 几何学
