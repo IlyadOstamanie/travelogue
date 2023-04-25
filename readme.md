@@ -63,6 +63,7 @@
       - [3.10.2 面向凝聚态的QFT专门技术教学](#3102-面向凝聚态的qft专门技术教学)
       - [3.10.3 共形场论](#3103-共形场论)
       - [3.10.4 弯曲时空中的量子场论](#3104-弯曲时空中的量子场论)
+      - [3.10.5 超对称（Supersymmetry, 缩写为SUSY）](#3105-超对称supersymmetry-缩写为susy)
     - [间章 基础理论物理一贯制教材](#间章-基础理论物理一贯制教材)
     - [3.11 固体物理-凝聚态物理学](#311-固体物理-凝聚态物理学)
       - [3.10.1 固体物理学入门](#3101-固体物理学入门)
@@ -76,6 +77,9 @@
     - [3.14 （基本）粒子物理学/高能物理学](#314-基本粒子物理学高能物理学)
     - [3.15 量子信息（量子通信、量子计算）](#315-量子信息量子通信量子计算)
     - [3.16 弦（理）论](#316-弦理论)
+      - [3.16.1 弦论入门](#3161-弦论入门)
+      - [3.16.2 弦唯象学（String Phenomenology）](#3162-弦唯象学string-phenomenology)
+      - [3.16.3 镜像对称（Mirror Symmetry）](#3163-镜像对称mirror-symmetry)
   - [4 电气信息科学/电气工程与计算机科学（EECS）部分](#4-电气信息科学电气工程与计算机科学eecs部分)
     - [4.1 电气信息科学综览性材料](#41-电气信息科学综览性材料)
     - [4.2 电子科学（与技术）部分](#42-电子科学与技术部分)
@@ -417,8 +421,9 @@
 >（即从诞生到近代解析几何出现之前的早期几何学） 
 > 几何应该算是中学理科内容里唯一对之后学习有必要性的部分（其他的基本上都是上了大学要换正经方式重学的x），说的更精确些的话就是欧几里得几何学这一块内容，是几何学从起源到近代初期发展的部分——因为在这里建立了几何对象的基本概念，而这些是后续所有几何内容的共同基础。 总之如果之前中学程度的几何全都忘干净了的话可以用这个复习一下： 
 > * 项武义，《基础几何学之一：定性与定量平面几何，立体几何基础》及《基础几何学之二：向量几何，解析几何与球面几何》 
-> 系统、简明、完善的一套讲义，几乎完美涵盖了中学几何学的全部核心内容，快速浏览一下回复印象之后下面的学习就好办了。 如果感觉整体印象还有一些，就直接进行下一步：真正坚实地在逻辑上建立最基础的几何概念。这一点可以读： 
+> 系统、简明、完善的一套讲义，几乎完美涵盖了中学几何学的全部核心内容，快速浏览一下回复印象之后下面的学习就好办了。 如果感觉整体印象还有一些，就直接进行下一步：坚实地在逻辑上建立最基础的几何概念。这一点可以读： 
 > - 项武义，王申怀，潘养廉，《古典几何学》（相当于希尔伯特的《几何基础》青春版）
+> 完整的射影几何处理可以参考 Robin Hartshorne（与GTM52的作者应为一人）的讲义：https://www.math.rug.nl/~piter/KR/Hartshorne.pdf
 
 #### 1.4.1 解析几何：
 * 吕林根, 许子道，《解析几何》
@@ -550,20 +555,31 @@
 
 ### 1.8 代数几何
 #### 1.8.1 代数几何入门
-> 常规入门学习可以参考斯坦福给本科生开的代数几何课的资料：[Math 145: Undergraduate Algebraic Geometry（可以访问完整的讲义）](http://virtualmath1.stanford.edu/~vakil/17-145/)
+> 常规入门学习可以参考斯坦福给本科生开的代数几何课（Ravi Vakil）的资料：[Math 145: Undergraduate Algebraic Geometry（可以访问完整的讲义）](http://virtualmath1.stanford.edu/~vakil/17-145/)，如果更喜欢书的话可以退而求其次选择Karen Smith的An Invitation to Algebraic Geometry，都很简短。
 > 之后就可以自由选择材料深入学习了。不专门研究代数几何的话，直接[The Stacks project](https://stacks.math.columbia.edu/) 哪里不会点哪里也是可以的。
 > 对于初学者 Grothendieck 的原作（[Grothendieck's published mathematical writings online](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/pubtexts.php)）还是作参考好些，已经有一些涉猎的（以及熟悉法语）也可以上手，毕竟也说不清 EGA/SGA/FGA 和 GTM52 到底哪个对大部分人学起来更轻松。
+> 
+> Ravi Vakil还有一部非常流行的、简称为Rising Sea的代数几何讲义 [The Rising Sea: Foundations Of Algebraic Geometry Notes](http://math.stanford.edu/~vakil/216blog/)，算是更大（啰嗦x）而全的教材/参考书，也适于入门阶段学习。
+> Vakil本人的代数几何课录像：https://www.bilibili.com/video/BV1n5411h7Xy
 
-[美国] R. Hartshorne，《代数几何》（有英文影印版和中文译本）
-> 知名度最高、使用最广泛的现代代数几何教科书。不是很初学者友好，要能顺利阅读需要足够熟悉交换代数和同调代数的语言（用上范畴论的那种），无论如何作者写的相当用心，提供了承前启后的入门教科书需要的一切，初学不去追究细节也能受益良多。本书的英文原本已由施普林格（Springer）出版公司出版，被收入其 GTM（Graduate Texts in Mathematics）系列，编号GTM 52。
+* [美国] R. Hartshorne，《代数几何》（有英文影印版和中文译本）
+> 知名度最高、使用最广泛的现代代数几何教科书。不是很初学者友好，要能顺利阅读需要足够熟悉交换代数和同调代数的语言（用上范畴论的那种），无论如何作者写的相当用心，提供了承前启后的入门教科书需要的一切，初学不去追究细节也能受益很多。本书的英文原本已由施普林格（Springer）出版公司出版，被收入其 GTM（Graduate Texts in Mathematics）系列，编号GTM 52。
+
+**参考用**
+* [美国] Philips Griffiths, Joseph Harris, Principles of Algebraic Geometry
+> 大而细的另一部主流代数几何教科书，细节很多所以适合参考查阅。
+
+其他适合作为此类参考的还有扶磊（Lei Fu）的Algebraic Geometry以及Justin R. Smith的Introduction to Algebraic Geometry。
+
+* [美国] David A. Cox, John Little, Donal O'Shea，Ideals, Varieties, and Algorithms: An Introduction to Computational Algerbraic Geometry and Commutative Algebra
+> 如题所示，偏重计算方法地讲解了代数几何和交换代数的一些基础内容，是严肃地学习概型等进阶内容的很好准备。虽然深度有限且篇幅很长，但只需要熟悉线性代数就可以读。
 
 #### 1.8.2 算术几何
 > GTM52的资料应该足够作为起始点了。暂时不会在这个方向过多学习。
-* [Lecture Notes | Introduction to Arithmetic Geometry | Mathematics | MIT OpenCourseWare](https://ocw.mit.edu/courses/18-782-introduction-to-arithmetic-geometry-fall-2013/pages/lecture-notes/)
+[Lecture Notes | Introduction to Arithmetic Geometry | Mathematics | MIT OpenCourseWare](https://ocw.mit.edu/courses/18-782-introduction-to-arithmetic-geometry-fall-2013/pages/lecture-notes/)
 
-**参考用**
-[美国] David A. Cox, John Little, Donal O'Shea，Ideals, Varieties, and Algorithms: An Introduction to Computational Algerbraic Geometry and Commutative Algebra
-> 如题所示，偏重计算方法地讲解了代数几何和交换代数的一些基础内容，是严肃地学习概型等进阶内容的很好准备。虽然深度有限且篇幅很长，但只需要熟悉线性代数就可以读。
+* 刘青（Qing Liu），Algebraic Geometry and Arithmetic Curves（《代数几何和算术曲线》）
+> 算术几何方向的基础书。
 
 
 ### 1.9 数论（及密码学）
@@ -618,7 +634,7 @@
 > 完善的技术手册（科研狗Python调包教程），介绍了在诸多科学领域中使用Python进行计算可以使用的工具，除了介绍数值计算之外，还着重介绍了如何制作交互式二维、三维图像，如何设计精巧的程序界面，如何与 C 语言编写的高速计算程序结合，如何编写声音、图像处理算法等内容。
 
 #### 1.10.2 最优化/最适化/（数学）优化
-一个神奇的现象：其实这一领域的研究一般在管理学背景下有着另一个名字——**运筹学**，所以我们可以看到实际上在管理类和数学类单位下都有对这个领域做研究的人员，在管院搞「运筹学」的学者和在数院做「优化」的学者实际上研究的内容往往也完全重合，只是在实际情况上的侧重常有区别w；大概类似于当代事实上已经不再有明确界限的理论物理（一般划为物理学）和数学物理（一般划为数学）之间的关系。
+一个神奇的现象：其实这一领域的研究一般在管理学背景下有着另一个名字——**运筹学**，所以我们可以看到实际上在管理类和数学类院系下都有对这个领域做研究的人员，在很多学校管院搞「运筹学」的学者和在数院做「优化」的学者实际上研究的内容往往也完全重合，只是在实际情况上的侧重常有区别w；大概类似于当代事实上已经不再有明确界限的理论物理（一般划为物理学）和数学物理（一般划为数学）之间的关系。
 
 * 刘浩洋，户将，李勇锋，文再文，《最优化：建模、算法与理论》
 >「本书将介绍最优化的基本概念、典型案例、基本算法和理论。」详细易上手的入门书。 
@@ -805,6 +821,7 @@ Stone & Goldbart 和 Geroch 一样属于休闲读物，也可以拿来作为补�
 **参考**
 * 美国王子屯大学（）物理系开的一门《现代经典力学》（研究生）课的资料，由 A. 波里雅科夫 （俄罗斯著名数学物理学家）主讲：https://physics.princeton.edu//archives/lectures/phy408/
 > Polyakov 作为今天理论物理学界的一名旗帜性人物，某种意义上他所选取的内容也代表着今日经典力学发展的方向。
+> 已经有录像搬运到b站了：https://www.bilibili.com/video/BV1qQ4y1K7DU
 
 * 梅凤翔，《非完整系统力学基础》
 非完整系统是上世纪前半叶一度繁荣的分析力学分支，发展了很丰富的内容——虽然今天已经如椭圆函数一样远离了主流。无论如何，即使已经是旧日的战场，曾经盛况的遗迹仍然值得瞻仰。 梅凤翔老师是中国分析力学研究的先驱与丰碑，他另有一本《高等分析力学》，是中文分析力学专著中的殿堂级参考（。
@@ -964,12 +981,32 @@ Carrol的书是北美普遍的通用教材，起点更基础也更详尽的则�
 #### 3.10.3 共形场论
 > 近二十年被发现在弦论等物理分支中有重要应用价值的一类QFT，算是目前地位最显赫的一类（。
 * [法国] Philippe Di Francesco，Pierre Mathieu，David Sénéchal，Conformal Field Theory（《共形场论》）（两卷本）
-> 大黄书，（主要是二维）CFT圣经，经典的标准教科书。从复习QFT开始的新人友好字典。
+> 大黄书，（主要是二维）CFT圣经，经典的标准教科书。从复习QFT开始的新人友好字典，缺点是太长了所以容易迷失。
+
+* [德国] Ralph Blumenhagen, Erik Plauschinn, Introduction to Conformal Field Theory: with Applications to String Theory
+> 手把手的CFT入门教学，推导详细，内容丰富但浅显，篇幅简短，入门佳作。
 
 #### 3.10.4 弯曲时空中的量子场论
 > 虽然Carroll里有一章但如果要做这方面工作的话还是得有专著参考的好（
 * [美国] Robert Wald，Quantum Field Theory in Curved Spacetime
 > Wald的代表作之一，篇幅简洁，用语比较数学化。
+
+#### 3.10.5 超对称（Supersymmetry, 缩写为SUSY）
+> 姑且先放这吧，超对称也是场论（
+> 入门可以看剑桥Joseph Conlon的两部曲：[A Bluffer's Guide to Supersymmetry](https://www-thphys.physics.ox.ac.uk/people/JosephConlon/LectureNotes/SUSYNotes.pdf) [Intro to Supersymmetry](https://www-thphys.physics.ox.ac.uk/people/JosephConlon/LectureNotes/SUSYLectures.pdf)，其中也提供了对一些其他主要材料的锐评。以及同样是在剑桥Fernando Quevedo的或许更深入的讲义：[Supersymmetry and Extra Dimensions](https://www.damtp.cam.ac.uk/user/fq201/susynotes.pdf)
+> 当然我们永远都可以用Tong的讲义入门（
+
+* [美国] John Terning, Modern Supersymmetry: Dynamics and Duality
+> 如书名，市面上最现代的SUSY教材之一，涉及了很多其他地方没有的东西，不过没有涉及超引力。不足之处是可能有些潦草，需要参考其他书才能流畅阅读。
+
+**参考用**
+* [德国] Harald J. W. Müller-Kirsten, Armin Wiedemann, Introduction to Supersymmetry
+> 比较受欢迎的标准入门教科书，优点是（德国式的）详细。
+
+* [德国] Julius Wess, [美国]Jonathan Bagger, Supersymmetry and Supergravity
+> 经典的工具书，d=1（包括超引力）的权威参考。
+
+当然Weinberg的第三卷也是超对称，不过已经写过的就不在这里重复了。
 
 ### 间章 基础理论物理一贯制教材
 达到此处基本上应该就已经对现代理论物理学的基础知识有完整了解（即使浅尝辄止）了。进一步提高基础技术水准推荐按需选用：
@@ -1070,17 +1107,37 @@ Carrol的书是北美普遍的通用教材，起点更基础也更详尽的则�
 
 ### 3.16 弦（理）论
 > 在这里我还是把它放在物理学底下了...毕竟就目的来说它们依然明显是围绕着一般认知中物理学的研究对象（万物的基本结构与运动的规律）的（而数学则是围绕着万物中的「精确性」规律（或者用老派点的说法，所谓数量关系与空间形式）的科学，当然其实把这也视作一种结构（唔，为什么不呢）的话，数学也就可以名正言顺的归入物理学旗下了——不过这奇怪的政治联姻即视感是怎么回事）。
+
+#### 3.16.1 弦论入门
 * [美国] K. Becker，Melanie Becker，John H. Schwarz，《弦论和M理论导论》（String Theory and M-Theory）
 > 众所周知的著名弦理论教科书 Becker 或 BBS （三位作者的姓氏首字母），轻快地遍览弦理论产生到今日的发展。 书背上有 Nima 大神锐评： '"This is the first comprehensive textbook on string theory to also offer an up-to-date picture of the most important theoretical developments of the last decade, including the AdS/CFT correspondence and flux compactifications, which have played a crucial role in modern efforts to make contact with experiment. An excellent resource for graduate students as well as researchers in high-energy physics and cosmology." -- Nima Arkani-Hamed, Harvard University' 需要对 QFT（如Peskin） 和广相基础知识的熟悉，以及基本的CFT（如http://arxiv.org/abs/hep-th/9108028v1）。需要对于传统物理院系学生而言稍微多一些的群论。 有世界图书出版公司的英文影印版。
+
+* [德国] Ralph Blumenhagen, Stefan Theisen, Dieter Lüst, Basic Concepts of String Theory
+> 起点更低、技术性更强的弦论教材，就内容层次也令人满意。
+> Zwiebach的A First Course in String Theory也有着这些特点（也许是德裔buff？），但稍微比较浅，大概因为是面向本科生的缘故。
+> Blumenhagen 另有一本 Introduction to Conformal Field Theory: with Applications to String Theory（见共形场论部分），可以相互参考。
 
 * [美国] Michael B. Green，John H. Schwarz（就是上面那位没错），Edward Witten，《超弦理论》（Superstring theory）（两卷本）
 > 著名的GSW（作者姓氏首字母）或称 Green（不是写科普的那位 Greene），Witten 参与编写的大作。公认的深入介绍超弦理论的标杆书。（第二卷的第十五章是一些基本的（数学物理中的）代数几何入门教学。 有世界图书出版公司的英文影印版。
 
-著名科普红人加来道雄（Michio Kaku）也有一本超弦书，内容不浅，似乎有些内容比较有趣，不过还没有接触过（有些部分甚至扯上了Teichmüller几何，意义如何我且蒙在鼓里）
+著名科普红人加来道雄（Michio Kaku）也有一本Introduction to Superstrings and M-Theory，内容不浅，似乎有些内容比较有趣，不过还没有接触过（有些部分甚至扯上了Teichmüller几何，意义如何我且蒙在鼓里）
 
 **参考用**
 * [美国] Joseph G Polchinski，《弦论》（String Theory）（两卷本，第一卷副标题为 An Introduction to the Bosonic String，第二卷则为 Superstring Theory and Beyond）
 > 弦论业界标准参考书与研究生教科书之一。内容相对比较旧，有很全面的技术性材料，因此也比较难读（角色类似于 Jackson），更适合查阅。 有世界图书出版公司的英文影印版。
+
+#### 3.16.2 弦唯象学（String Phenomenology）
+* [西班牙] Luis E. Ibáñez, Angel M. Uranga, String theory and particle physics: An Introduction to String Phenomenology
+> 弦唯象标准参考书。
+
+#### 3.16.3 镜像对称（Mirror Symmetry）
+* [日本] 堀健太朗(Kentaro Hori)，Mirror Symmetry
+> 人称 Hori Bible，由AMS Clay Mathematics Institute出版，最著名的镜像对称入门教材。平易近人，上手需要的基础要求很低。
+
+**参考用**
+* [英国] Clifford V. Johnson，D-branes
+> 镜像对称的主要工具——D膜的权威经典，可以作为参考或者“参考的起点/文献指南”查阅。
+
 
 ## 4 电气信息科学/电气工程与计算机科学（EECS）部分
 > 目前根据国内外高校在电气信息科学领域（东方式称呼）/电气工程和计算机科学领域（西方式称呼，即Electrical Engineering and Computer Science，常缩写为EECS）各个分支的本科培养计划，预计现在本部分列出的材料可以大致提供该领域本科中基础水平的知识（其中计算机科学与技术方向可以提供相当于各国大学本科毕业水准的知识，用于提供一个全套的计算机技能组，用来做程序员（划掉）满足各方面生活需要）——但是仅限于理论知识，实验的技能还是需要到实验室里才能学习的；而且不包括向工科学生讲解数学、物理知识的教材，因为需要学的数学、物理知识已经在之前的数学、物理部分包括掉了。
