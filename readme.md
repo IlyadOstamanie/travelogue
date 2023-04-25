@@ -349,6 +349,10 @@
 > 著名分析学家Stein所作的分析课标准参考书。 《傅里叶分析》一本算是调和分析课的通用教材
 
 #### 1.2.5 偏微分方程
+> 泛函基础不特别好的情况下入门Sobolev空间打底的现代PDE理论可以考虑先读
+> [意大利]Arberto Berssan，Lecture Notes on Functional Analysis: With Applications to Linear Partial Differential Equations
+> 还可以参考清华的于品的[数学分析讲义](https://www.bananaspace.org/wiki/%E8%AE%B2%E4%B9%89:%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90)中的相关内容。
+> 顺便一提，这书应该只能当参考书了，属于是Amann的加强升级版
 （英文 Partial Differential Equations，常缩写为 PDE， 一般其入门科目名也常被称为数学物理方程）
 * 陈祖墀，《偏微分方程》
 * 朱长江，阮立志，《偏微分方程简明教程》
