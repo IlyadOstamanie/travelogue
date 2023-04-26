@@ -1096,6 +1096,7 @@ Carrol的书是北美普遍的通用教材，起点更基础也更详尽的则�
 ### 3.15 量子信息（量子通信、量子计算）
 > 迅速入门的标准途径无疑是 John Preskill 在 Caltech 的 Quantum Computation/Information 课的著名讲稿：位于他个人网站上的科目主页[Ph219/CS219 Quantum Computation](http://theory.caltech.edu/~preskill/ph219/ph219_2021-22.html)，可以用来快速进入量子计算。
 > 要快速入门量子信息论的话还可以参考来自匈牙利中央物理研究院粒子与核物理研究所的127页讲义：L. Diósi, A Short Course in Quantum Information Theory, Lect. Notes Phys. 713 (Springer, Berlin Heidelberg 2007), DOI 10.1007/b11844914。 如果了解粒子物理的话还可以选择最简短的（55 页） [arXiv:2010.02931v2: Quantum Information for Particle Theorists](https://arxiv.org/abs/2010.02931v2)，来自著名的费米实验室。
+> 值得列出的还有一个影响很大的科普书：[美国] Scott Aaronson，Quantum Computing since Democritus。这本书有点像《数学之美》，没有太多专业的内容，但指出了很多量子计算与其他学科的联系和对社会的影响，是开拓知识面的休闲读本佳作。
 
 * [日本] 中原幹夫（Mikio Nakahara），大見哲巨（Tetsuo Ohmi），Quantum Computing: from Linear Algebra to Physical Realizations
 > 从复习线性代数开始的量子计算新手入门，友好程度五颗星，尤其适合自学，只要有线代基础就可以在入门量子力学时一起学。虽然可能终点不够高，但是足够保证顺利上手。Nakahara 出品，必属精品（bu
@@ -1106,8 +1107,17 @@ Carrol的书是北美普遍的通用教材，起点更基础也更详尽的则�
 * [美国] Michael A. Nielsen, Issac L. Chuang,《量子计算和量子信息》（Quantum Computation and Quantum Information）
 > 量子信息论（量子通信的基础）与量子计算的领域标准入门书。 你在「量子信息与量子计算」领域有哪些不错的教材推荐？
 
+* [俄罗斯] A.Yu. Kitaev, A. H. Shen（疑似与《集合论基础》作者为同一人），M. N. Vyalyi, Classical and Quantum Computation
+> 量子计算开山鼻祖之一Kitaev的量子计算入门书，详细系统且数学化，可以与他有关拓扑量子计算的著述衔接。
+
 * 张永德，《量子信息物理原理》
 > 更丰富的量子信息论方向的讲义，偏重物理原理。
+
+**参考用**
+* John Watrous, Theory of Quantum Information
+> 详细而且非常数学化（内容+写作方式）的处理量子信息理论。
+
+标准的参考书还有M. Wilde(Preskill的门徒)的Quantum Information Theory。
 
 ### 3.16 弦（理）论
 > 在这里我还是把它放在物理学底下了...毕竟就目的来说它们依然明显是围绕着一般认知中物理学的研究对象（万物的基本结构与运动的规律）的（而数学则是围绕着万物中的「精确性」规律（或者用老派点的说法，所谓数量关系与空间形式）的科学，当然其实把这也视作一种结构（唔，为什么不呢）的话，数学也就可以名正言顺的归入物理学旗下了——不过这奇怪的政治联姻即视感是怎么回事）。
