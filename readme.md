@@ -23,6 +23,7 @@
     - [1.4 几何学](#14-几何学)
       - [1.4.1 解析几何](#141-解析几何)
       - [1.4.2 微分几何、拓扑学（微分拓扑\&代数拓扑）](#142-微分几何拓扑学微分拓扑代数拓扑)
+      - [间节 几何分析（Geometric Analysis）](#间节-几何分析geometric-analysis)
       - [1.4.3 辛几何（Symplectic Geometry, 又称辛拓扑(Symplectic Topology)）](#143-辛几何symplectic-geometry-又称辛拓扑symplectic-topology)
         - [1.4.3.1 辛几何入门](#1431-辛几何入门)
         - [1.4.3.2 泊松几何（Poisson Geometry）-形变量子化（Deformation Quantisation）](#1432-泊松几何poisson-geometry-形变量子化deformation-quantisation)
@@ -417,18 +418,25 @@
 > 著名分析学家Stein所作的分析课标准参考书。 《傅里叶分析》一本算是调和分析课的通用教材
 
 #### 1.2.5 偏微分方程
-> 泛函基础不特别好的情况下入门Sobolev空间打底的现代PDE理论可以考虑先读
-> [意大利]Arberto Berssan，Lecture Notes on Functional Analysis: With Applications to Linear Partial Differential Equations
-> 还可以参考清华的于品的[数学分析讲义](https://www.bananaspace.org/wiki/%E8%AE%B2%E4%B9%89:%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90)中的相关内容。
+> 偏微分方程的英文是 Partial Differential Equations，常缩写为 PDE， 一般主要讲解几个起源于物理的重要方程的PDE入门课常被命名为《数学物理方程》。
+泛函基础不特别好的情况下入门Sobolev空间打底的现代PDE理论可以考虑先读
+* [意大利]Arberto Berssan，Lecture Notes on Functional Analysis: With Applications to Linear Partial Differential Equations
+还可以参考清华的于品的[数学分析讲义](https://www.bananaspace.org/wiki/%E8%AE%B2%E4%B9%89:%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90)中的相关内容。
 > 顺便一提，这书应该只能当参考书了，属于是Amann的加强升级版
-（英文 Partial Differential Equations，常缩写为 PDE， 一般其入门科目名也常被称为数学物理方程）
 * 陈祖墀，《偏微分方程》
 * 朱长江，阮立志，《偏微分方程简明教程》
 > 也许是中文世界最与时俱进的两本数学专业PDE标准教材，比其他标准教材多些现代内容。可搭配 Evans 互相参照食用
 * [美国] Lawrence C. Evans，《偏微分方程》（Partial Differential Equations）（由高等教育出版社出版了第二版的英文影印版，暂时没有译本。）
-> 1. 标准PDE本科研究生一贯制教科书，圣经，内容最全面
+> 1. 标准PDE本科研究生一贯制教科书，圣经，内容全面
 > 2. 其中的符号风格也很大影响了今天英语学界PDE圈的流行趋势，值得熟悉
-> 3. 接近PDE及相关领域（如几何分析）研究前沿内容的不二选择
+> 3. 接近PDE及相关领域（如几何分析）研究前沿内容的不二选择，基本上可以完成具体PDE研究的背景知识储备。
+
+* 陈恕行，《现代偏微分方程导论》
+> 介绍现代偏微分方程的一般理论和方法，作为对Evans 2~3卷的补充参考。
+
+对于最常见的类别椭圆型方程，经典的专门教材是林芳华（Fanghua Lin，纽约大学柯朗所，华人PDE界的泰斗）与韩青（Qing Han，印第安纳州圣母大学）的Elliptic Partial Differential Equations，常常被用于研究生的PDE课程。韩青还有一本面向研究生新生的A Basic Course in Partial Differential Equations很受欢迎，可以查阅参考。
+
+当然对于非PDE职业研究者而言，在Evans级别的知识之上，我的建议依然是等到遇到什么问题再去找讲对应的方程类别的书也不迟（
 
 ### 1.3 代数学
 #### 1.3.1 高等代数学入门（线性代数+多项式理论）、抽象代数/近世代数
@@ -579,6 +587,15 @@
 * [法国] M. 贝尔热（Marcel Berger）[20]，B. 戈斯丢（Bernard Gostiaux），《微分几何——流形、曲线和曲面》
 > 古典微分几何在法国学派的代表作。对于常微分方程、单位分解、临界点、拓扑度和流形上的微积分等研究微分几何的各种奇技淫巧做了相当充分的讲解。
 > 本书的英文译本已由施普林格（Springer）出版公司出版，被收入其GTM（Graduate Texts in Mathematics）系列，编号GTM 115。
+
+#### 间节 几何分析（Geometric Analysis）
+> 几何分析是分析与几何的交界地，是用分析的方法去认识几何现象，用几何的概念解读分析结论的分支，研究内容丰富多样，涉及到分析与几何的几乎所有方面。它在20世纪后半叶起通过Nash, Nirenberg, Morrey, Caffarelli, Calabi, 丘成桐，Gromov，Donaldson等数学家们的工作发展起来，到今天逐渐成为一个相对独立的方向，并且成为当代数学的一个热点。不过，对几何分析这一新名称的使用还并未完全普及，所以有一些实际上可以归入的研究不常带上几何分析的分类标签。
+> 和代数几何一样，它可以被归入分析，也可以被归入几何，此处因为本人更青睐偏几何的几何分析而选择了后者。
+> 两项当代（21世纪20年代）几何分析的基本技术是黎曼几何和（主要是椭圆）PDE。
+作为一个新的领域，几何分析方面的教材很少，这本可能是最著名的：
+* [德国] Jürgen Jost, Riemannian Geometry and Geometric Analysis（影音版标题翻译为《黎曼几何和几何分析》）
+> 研究生教材，前半本是黎曼几何的一个详尽的入门，后半本则是对于几何分析的代表性方法的介绍，并且着力于在对于黎曼流形的研究中综合几何与分析的方法。
+> 说到几何分析相关，Jost还有一本面向研究生新生的 Postmodern Analysis，是一本介绍了Sobolev Space、Weak Solution还有Maximum Principle的分析书，完成了从基本的分析学概念到PDE理论的过渡，是很好的参考书。
 
 #### 1.4.3 辛几何（Symplectic Geometry, 又称辛拓扑(Symplectic Topology)）
 > 辛几何是由分析力学中哈密顿力学的研究所产生的几何学科，发展的方法的独特性使其成为相对独立的几何分支。辛几何和理论物理的发展一直有着相对密切的联系，在镜像对称中更是理论的舞台。
