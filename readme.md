@@ -362,7 +362,7 @@
 不推荐 baby Rudin（即 Walter Rudin, Principles of Mathematical Analysis 的俗称）。虽然享誉世界，它的一大问题在于只有体系框架的构造——这使得读完之后读者大概率只能学会搭建现代微积分学基本的理论框架，而对于微积分学的核心思想源流以及如何具体实行微积分演算的掌握则很缺乏。就论证而言是艺术品，但作为获取技能的工具它能赋予学习者的非常有限。
 
 **参考用**
-* 陶哲轩（Terrance Chi-Shen Tao），《实分析》（原作名：Real Analysis）
+* 陶哲轩（Terrance Chi-Shen Tao，菲尔兹奖2006），《实分析》（原作名：Real Analysis）
 > 很基础的数分教材，循循善诱，自学者福音，但涵盖的内容稍窄
 > 值得参考的部分是全书开头的实数理论部分：以一丝不苟的细节一步步从实数搭起实数的整个理论体系，可以作为Zorich《实数》一章的极佳补充
 
@@ -388,7 +388,7 @@
 对于哈密顿动力系统，可以参考[印度]Sarada G. Rajeev的Advanced Mechanics: From Euler's Determinism to Arnold's Chaos（见后面流体力学部分顺带的介绍）和Arnold本人的《经典力学的数学方法》。对于理论的历史发展比较好的综述是[美国]H. S. Dumas的《KAM的故事——经典Kolmogorov-Arnorld-Moser理论的历史之旅》（The KAM Story: A Friendly Introduction to the Content, History, and Significance of Classical Kolmogorov-Arnold-Moser Theory，2014年出版）
 
 > 乌克兰数学家Владимир Гершонович Дринфельд（Vladimir Gershonovich Drinfel'd，菲尔兹奖1990（与同为Manin门徒的合作者Beilinson共同获得），沃尔夫奖2018，目前在芝加哥大学，几何朗兰兹纲领的主要人物之一）最主要的工作之一是提出了量子群（见数学-代数学-量子群部分）以及量子可积系统，这些具有丰富物理意义的理论都成为数学/理论物理学者们关注的焦点。此后，其他诞生于经典力学的可积系统理论就被称为经典可积系统。量子可积系统是目前可积系统研究中的主流，其中的两个核心对象是Yang-Baxter方程（其描述的统计力学关系分别由杨振宁和在澳大利亚国立大学养老（好像现在退休了x）的澳洲数学家Rodney J. Baxter独立提出）和Bathe拟设，几种重要的理论物理模型，包括Hubbard模型和Lieb-Liniger模型，都是量子可积系统的实例。
-针对可积系统的入门教材并不多，比较有名的一个针对数学学生的小册子是三位数学物理学者 [英国][Negal James Hitchin](https://people.maths.ox.ac.uk/hitchin/)（几何与数学物理泰斗，除了在量子可积系统的重要工作外还有Yang-Mills瞬子的Atiyah-Drinfeld-Hitchin-Manin构造等贡献，牛津大学）, [澳大利亚] [Graeme B. Segal](https://www.maths.ox.ac.uk/people/graeme.segal)（牛津大学）, [英国]R. S. Ward（杜伦大学）的Integrable Systems。还有一本可以参考的是[俄罗斯]С.М.那汤松（С.М.Натанзон，S. M. Natanzon，有本旧但经典的实变函数论）的Complex Analysis, Riemann Surfaces and Integrable System（原作名Комплексный анализ, римановы поверхности и интегрируемые системы，翻译本由Springer出版收入其Moscow Lectures系列）（去看《数学物理学百科全书》的动力系统卷也行）可以参考的还有Martin A. Guest的From Quantum Cohomology to Integrable Systems，算是用一本书同时入门量子上同调（见辛几何部分）和可积系统的入门串讲。
+针对可积系统的入门教材并不多，比较有名的一个针对数学学生的小册子是三位数学物理学者 [英国][Negal James Hitchin](https://people.maths.ox.ac.uk/hitchin/)（几何与数学物理泰斗，除了在量子可积系统的重要工作外还有Yang-Mill场论数学化方面的（Yang-Mills瞬子的）Atiyah-Drinfeld-Hitchin-Manin构造等贡献，并且是当今最著名的几何学大师、用物理理解几何的引领者之一、1986年菲尔兹奖得主Simon Donaldson（石溪Simons中心）的两位导师之一——另一位正是20世纪最有影响力的数学家之一大名鼎鼎的Michael Atiyah；牛津大学）, [澳大利亚] [Graeme B. Segal](https://www.maths.ox.ac.uk/people/graeme.segal)（牛津大学）, [英国]R. S. Ward（杜伦大学）的Integrable Systems。还有一本可以参考的是[俄罗斯]С.М.那汤松（С.М.Натанзон，S. M. Natanzon，有本旧但经典的实变函数论）的Complex Analysis, Riemann Surfaces and Integrable System（原作名Комплексный анализ, римановы поверхности и интегрируемые системы，翻译本由Springer出版收入其Moscow Lectures系列）（去看《数学物理学百科全书》的动力系统卷也行）可以参考的还有Martin A. Guest的From Quantum Cohomology to Integrable Systems，算是用一本书同时入门量子上同调（见辛几何部分）和可积系统的入门串讲。
 
 论述经典可积系统的有名专著是[法国]Olivier Babelon（巴黎六大）, Denis Bernard（IAS）, Michel Talon（巴黎六大、七大）的Introduction to Classical Integrable Systems，而论述量子可积系统的专著则有[印度]Asesh Roy Chowdhury和Aninlya Ghose Choudhury兄弟的Quantum Integrable Systems；
 稍微更专一些的有俄罗斯/美国数学家Edward Frenkel（几何朗兰兹的主要人物之一，著名科普Love and Math的作者）的Infinite Dimensional Algebras and Quantum Integrable Systems；
@@ -635,7 +635,8 @@
 > 材料现代（=与其他现代几何方向的联系多）、丰富的Morse理论教材。
 
 #### 间节 几何分析（Geometric Analysis）
-> 几何分析是分析与几何的交界地，是用分析的方法去认识几何现象，用几何的概念解读分析结论的分支，研究内容丰富多样，涉及到分析与几何的几乎所有方面。它在20世纪后半叶起通过Nash, Nirenberg, Morrey, Caffarelli, Calabi, 丘成桐，Gromov，Donaldson等数学家们的工作发展起来，到今天逐渐成为一个相对独立的方向，并且成为当代数学的一个热点。不过，对几何分析这一新名称的使用还并未完全普及，所以有一些实际上可以归入的研究不常带上几何分析的分类标签。
+> 几何分析是分析与几何的交界地，是用分析的方法去认识几何现象，用几何的概念解读分析结论的分支，研究内容丰富多样，涉及到分析与几何的几乎所有方面。它在20世纪后半叶起通过Nash, Nirenberg, Morrey, Caffarelli, Calabi, 丘成桐，Gromov，Donaldson等数学家们的工作发展起来，到今天逐渐成为一个相对独立的方向，并且成为当代数学的一个热点。几何分析在近年的最大胜利之一是俄罗斯数学家Grigori Yakovlevich Perelman利用Ricci流技术对Poincaré猜想的成功证明（菲尔兹奖2006）。
+> 不过，对几何分析这一新名称的使用还并未完全普及，所以有一些实际上可以归入的研究不常带上几何分析的分类标签。
 > 和代数几何一样，它可以被归入分析，也可以被归入几何，此处因为本人更青睐偏几何的几何分析而选择了后者。
 > 两项当代（21世纪20年代）几何分析的基本技术是黎曼几何和（主要是椭圆）PDE。
 作为一个新的领域，几何分析方面的教材很少，这本可能是最著名的：
@@ -646,7 +647,13 @@
 #### 1.4.3 辛几何（Symplectic Geometry, 又称辛拓扑(Symplectic Topology)）
 > 辛几何是由分析力学中哈密顿力学的研究所产生的几何学科，发展的方法的独特性使其成为相对独立的几何分支。辛几何和理论物理的发展一直有着相对密切的联系，在镜像对称中更是理论的舞台。
 ##### 1.4.3.1 辛几何入门
-基本概念靠Arnold的《经典力学的数学方法》可以了解一些，而下面泊松几何的资料也提供了辛几何中关键概念的入门讲解。目前只准备了解到这个程度（+或许读一下da Silva）
+基本概念靠Arnold的《经典力学的数学方法》可以了解一些，而下面泊松几何的资料也提供了辛几何中关键概念的入门讲解。目前只准备了解到这个程度（+下面这本+或许读一下da Silva）
+
+* [日本] 植田一石（Kazushi Ueda，东京大学），《数物系のためのシンプレクティック幾何学入門》
+> 面向数学和物理学科学生的辛几何入门讲义（只有日文，好在不难懂），大概是为数不多会考虑物理的同类教材之一。语言精炼，节奏较快，在200页的篇幅内完成了从入门到Gromov-Witten不变量这些比较深入的物理应用的征程，甚至复习了经典力学、介绍了可积系统和Hamilton动力系统（
+相似风格的还有伊藤克司（Katsushi Ito, 东京工业大学）的《共形場理論: 現代数理物理の基礎として》，是共形场论的简短教材。（知乎上的翻译：https://zhuanlan.zhihu.com/p/590386434）
+
+
 如果需要进一步学习，下面是一些参考资料：
 * [葡萄牙] Ana Cannas da Silva，Lectures on Symplectic Geometry
 > 200多页的辛几何入门讲义，简明浅显。
@@ -655,7 +662,7 @@
 > 大部头，1995年发行的初版是第一本综合性的辛几何入门教材，适合作为字典案头参考。2017年更新至第三版，再版中增补了一些新进展的记述。
 
 ##### 1.4.3.2 泊松几何（Poisson Geometry）-形变量子化（Deformation Quantisation）
-> 与NCG一样，泊松几何是在现代数学与理论物理领域发挥重要作用的几何理论，而它正是当代俄罗斯数学物理大家Maxim Kontsevich（菲尔兹奖1998）开创的形变量子化这一最具影响力的数学物理理论的舞台。
+> 与NCG一样，泊松几何是在现代数学与理论物理领域发挥重要作用的几何理论，而它正是当代俄罗斯数学物理大家Maxim Kontsevich（菲尔兹奖1998，2012物理学突破奖，2014数学突破奖）开创的形变量子化这一最具影响力的数学物理理论的舞台。
 * [瑞士] Nima Moshayedi，[Lectures on Symplectic Geometry, Poisson Geometry, Deformation Quantization and Quantum Field Theory](https://arxiv.org/abs/2012.14662v1)
 > 非常友好的入门资料，甚至一路从所需的微分几何基础讲起，在不到200页的篇幅里简洁明快地迅速介绍了基础的微分几何、辛几何、泊松几何、基于泊松几何的形变量子化、用量子场论方法（路径积分等）对形变量子化的处理，是扫盲的佳作。
 > 关于「量子化」：https://www.zhihu.com/question/453772140/answer/1826982277
@@ -673,7 +680,7 @@ Kontsevich的另一项重要工作——同调镜像对称（见物理学-镜像
 当然，事实上辛几何本身就——和复几何（见上方微分几何部分）一起——构成镜像对称的主要数学基础，所以可以说Kontsevich的这两项重要工作都至少部分地源于辛几何。
 
 ##### 14.3.3 量子上同调（Quantum Cohomology）
-> 量子上同调理论的建立是Kontsevich最重要的工作中的第三项（与Manin一起，见下），它处于辛几何和代数几何的交界地带，但因为和辛几何看上去更紧密放在辛几何底下了。量子上同调的一个（代数几何上的）重要结果是有理平面曲线的Kontsevich公式，与Drinfeld的量子群和量子可积系统都有重要的联系，与数学物理则有根本性的关系，如Kontsevich与Manin在 Gromov-Witten 不变量上的（对量子上同调而言的）奠基性工作。
+> 量子上同调理论的建立是Kontsevich四项最著名的工作中的第三项（与Manin一起，见下；最后一项是他刚开始博士学习时证明的Witten猜想），它处于辛几何和代数几何的交界地带，但因为和辛几何看上去更紧密放在辛几何底下了。量子上同调的一个（代数几何上的）重要结果是有理平面曲线的Kontsevich公式，与Drinfeld的量子群和量子可积系统都有重要的联系，与数学物理则有根本性的关系，如Kontsevich与Manin在 Gromov-Witten 不变量上的（对量子上同调而言的）奠基性工作。
 * [瑞典] [Joachim Kock](https://www.mat.uab.cat/~kock/)（巴塞罗那自治大学）, [巴西] Israel Vainsencher（巴西Minas Gerais联邦大学）, An Invitation to Quantum Cohomology: Kontsevich’s Formula for Rational Plane Curves
 > 友好而富有直觉的量子上同调入门书，不到200页，风评不错。
 * [苏联-俄罗斯] 尤里·伊万诺维奇·马宁（Ю́рий Ива́нович Ма́нин，Yuri Ivanovich Manin）, Frobenius Manifolds, Quantum Cohomology, and Moduli Spaces
@@ -683,6 +690,7 @@ Kontsevich的另一项重要工作——同调镜像对称（见物理学-镜像
 > Davesh Maulik, Andrei Okounkov. Quantum Groups and Quantum Cohomology arXiv:1211.1287 [math.AG]
 > Tohru Eguchi（江口徹，Hori（以及整整两代日本弦论大家中的大部分人）的导师，日本数学物理殿堂级人物，Mathieu月光的发现者）, Kentaro Hori（堀健太朗）, Chuan-Sheng Xiong（熊传胜，北京大学），Gravitational Quantum Cohomology 	arXiv:hep-th/9605225（Int.J.Mod.Phys. A12 (1997) 1743-1782）
 > Martin A. Guest，Quantum cohomology: is it still relevant? arXiv:2210.05413 [math.DG] 包含了对量子上同调的相对完整的历史记述（包括Simon Donaldson在Kontsevich与Manin前的前瞻工作）
+> Matthew Strom Borman, Nick Sheridan, Umut Varolgunes. Quantum cohomology as a deformation of symplectic cohomology arXiv:2108.08391 [math.SG]
 
 ### 1.5 概率论、数理统计、信息论
 > 数理统计应该是概率论最重要的应用。概率论与数理统计的另一个重要的应用是由美国数学家Claude Shannon创立的信息论，它是信息的数学理论，是现代通信工程乃至所有信息技术最重要的基础理论之一。
@@ -793,6 +801,7 @@ Schapira还有两个比较友好的讲义[Categories and Homological algebra](ht
 > 如题所示，偏重计算方法地讲解了代数几何和交换代数的一些基础内容，是严肃地学习概型等进阶内容的很好准备。虽然深度有限且篇幅很长，但只需要熟悉线性代数就可以读。
 
 #### 1.8.2 算术几何
+> 应用于数论的代数几何（基本上）。算术几何在近几十年的最大胜利之一是英国数学家Andrew Wiles（阿贝尔奖2016）和他在普林斯顿期间的学生Richard Taylor（2014突破奖，当世数论大家之一，几何朗兰兹纲领的主要人物之一）利用椭圆曲线对费马大定理的成功证明。
 > GTM52的资料应该足够作为起始点了。暂时不会在这个方向过多学习。
 [Lecture Notes | Introduction to Arithmetic Geometry | Mathematics | MIT OpenCourseWare](https://ocw.mit.edu/courses/18-782-introduction-to-arithmetic-geometry-fall-2013/pages/lecture-notes/)
 
@@ -1273,7 +1282,7 @@ Stone & Goldbart 和 Geroch 一样属于休闲读物，也可以拿来作为补�
 
 * [法国] François Gelis，Quantum Field Theory: From Basics to Modern Topics
 > 巴黎综合理工的QFT讲义，偏重粒子物理中的应用，涉及到的内容比Peskin等老教材更加现代。
-> 在知乎上的翻译：https://zhuanlan.zhihu.com/p/157927184
+> 知乎上的翻译：https://zhuanlan.zhihu.com/p/590386434
 
 * [美国] Steven Weinberg, The Quantum Theory of Fields （三卷本）
 > 公认的QFT圣经，'one's last QFT book'，充满思想深度、历史背景和审美品位的百科全书式教材；不过因为篇幅浩大，适合已经初步掌握的人进修。
@@ -1575,6 +1584,8 @@ TQFT的奠基性文献是Atiyah开天辟地的文章，可读性很高：
 > 激光-半导体作用的新入门教材（2023），基于作者开的研究生课，'This book is aimed at students and researchers new to the field of laser-plasma interactions. It is motivated by the general lack of recent textbooks on the subject and by the renewed excitement about the field of inertial confinement fusion (ICF) following the achievement of nuclear fusion ignition in December 2022 at the National Ignition Facility at Lawrence Livermore National Laboratory (LLNL).'——前言
 > 'With exercises and plenty of illustrations, this book is ideal as a textbook for a course on laser-plasma interactions or as a supplementary text for graduate introductory plasma physics course. Students and researchers will also find it to be an invaluable reference and self-study resource.'——出版社
 
+有一套看样子正在出版的大部头字典：Patrick H. Diamond, Sanae-I. Itoh, Kimitaka Itoh, Modern Plasma Physics （现在只能找到第一卷）
+
 ### 3.15 （基本）粒子物理学/高能物理学
 > 一般地，基本粒子物理学=粒子物理学=高能物理学。当下（21世纪20年代）物理学界的偏好是将「高能物理学」作为这一领域的首选称谓。
 > 粒子物理学的理论是随着量子力学与量子场论、量子电动力学、量子色动力学的发展而发展起来的；这些发展使得人类得以逐步深入物质的微观尺度，最终确定基本粒子的存在并在20世纪70年代建立起描述它们的成功理论——**标准模型**（the standard model）。_这一部分列举的教材（对应大学中开设的《粒子物理》类似课程）基本也以到这个阶段为止的研究作为讲授内容。_
@@ -1644,6 +1655,7 @@ TQFT的奠基性文献是Atiyah开天辟地的文章，可读性很高：
 #### 3.17.1 一般弦论
 * [美国] K. Becker，Melanie Becker，John H. Schwarz，《弦论和M理论导论》（String Theory and M-Theory）
 > 众所周知的著名弦理论教科书 Becker 或 BBS （三位作者的姓氏首字母），轻快地遍览弦理论产生到今日的发展。 书背上有 Nima 大神锐评： '"This is the first comprehensive textbook on string theory to also offer an up-to-date picture of the most important theoretical developments of the last decade, including the AdS/CFT correspondence and flux compactifications, which have played a crucial role in modern efforts to make contact with experiment. An excellent resource for graduate students as well as researchers in high-energy physics and cosmology." -- Nima Arkani-Hamed, Harvard University' 需要对 QFT（如Peskin） 和广相基础知识的熟悉，以及基本的CFT（如http://arxiv.org/abs/hep-th/9108028v1）。需要对于传统物理院系学生而言稍微多一些的群论。 有世界图书出版公司的英文影印版。
+> 知乎上的翻译（部分）：https://zhuanlan.zhihu.com/p/590386434
 
 * [德国] Ralph Blumenhagen, Stefan Theisen, Dieter Lüst, Basic Concepts of String Theory
 > 起点更低、技术性更强的弦论教材，就内容层次也令人满意。
@@ -1675,7 +1687,7 @@ TQFT的奠基性文献是Atiyah开天辟地的文章，可读性很高：
 > 一点都不Gentle（全恼
 > 作者在阿姆斯特丹大学开的同调镜像对称课的讲义，各方面比较常规。
 > 作为镜像对称的热门方面（它的两个重要数学表述之一，另一个则是植根于弦论的Strominger-Yau-Zaslow(SYZ)猜想），Kontsevich开创的同调镜像对称（Homological Mirror Symmetry, HMS，在之前的数学-几何学-辛几何部分曾提及）或许是当代最激动人心的几何主题之一，这一范畴化的理论在当代数学/理论物理中产生了巨大、深远的影响，因此对于学习HMS，参考Kontsevich和与他合作的数学物理学家们的文章是有益的。
-> 适合**快速入门扫盲**的是Nicolas Sheridan在爱丁堡大学的HMS讲义：[Lectures on Homological Mirror Symmetry](https://www.maths.ed.ac.uk/~nsherida/HMS.html)，涉及知识面非常广，向所有学习者推荐之。Sheridan在IAS的HMS授课视频：https://www.bilibili.com/video/BV1ss411P7Tx
+> 适合**快速入门扫盲**的是Nicolas Sheridan（他也在量子上同调理论上有突出的贡献）在爱丁堡大学的HMS讲义：[Lectures on Homological Mirror Symmetry](https://www.maths.ed.ac.uk/~nsherida/HMS.html)，涉及知识面非常广，向所有学习者推荐之。Sheridan在IAS的HMS授课视频：https://www.bilibili.com/video/BV1ss411P7Tx
 > UIUC的HMS课资料也可作参考：https://faculty.math.illinois.edu/~jpascale/courses/2018/595/
 * [美国] David A. Cox（代数几何那边有他的另一本书），Sheldon Katz，Mirror Symmetry and Algebraic Geometry
 >  另一本同调镜像对称教材，侧重其中的代数几何技术。
@@ -1729,31 +1741,47 @@ TQFT的奠基性文献是Atiyah开天辟地的文章，可读性很高：
 > Rajeev还有一本和Arnold的《经典力学的数学方法》同类但没有那么多数学，更平易近人，主题选择也更偏与动力系统联系的Advanced Mechanics: From Euler's Determinism to Arnold's Chaos，是学一点动力系统与可积系统的好选择。
 #### 3.Ex1.1.2 计算流体力学（Computational Fluid Dynamics, CFD）
 > 它从方法上算是数值PDE, 但其本身依然是用数值方法对流体进行的研究。CFD在气动（航空航天、导弹）、医疗（血管等建模）等领域都有广泛应用。
-* [美国] 约翰 D.安德森，《计算流体力学基础及其应用》
+* [美国] 约翰 D.安德森（John D. Anderson），《计算流体力学基础及其应用》
 > 入门名著，讲了基础的原理、方法和一些前沿问题和发展前景，内容丰富，零流体基础可以上手，「读者在阅读计算流体力学领域的其他教科书和现有文献之前，本书应该成为首先学习和掌握的第一本书。」——译者序
 > 本书中采用的数值PDE解法是基于有限差分法（Finite Difference Method, FDM），这也是CFD领域占主导地位的PDE数值解方法，具体学习资料见数值方法-有限元方法部分。
 > 另外两类常见的PDE数值解法是有限（单）元法（Finite Element Method, FEM，在数值方法部分已经提到并列出学习材料）与有限体积法（Finite Volume Method，FVM），它们也可以用于CFD，三者的简述见https://zhuanlan.zhihu.com/p/516229051
 > 在ANSYS, COMSOL, OpenFOAM等针对流体（等物理场）的主流仿真模拟软件中，对流体仿真的实现就包括FEM（ANSYS，COMSOL）和FVM（针对流体的OpenFOAM）。
+> 
 另一本有名的CFT方面的专题著作是 Randall J. LeVeque的Numerical Methods for Conservation Laws。其他
+
+针对面向CFD的有限体积法（也同样可以拿来入门CFD），可以参考H. Versteeg的An Introduction to Computational Fluid Dynamics: The Finite Volume Method，也可以参考更详尽的Jiri Blazek的Computational Fluid Dynamics: Principles and Applications，文献列表非常之全，几乎无所不包；对于具体的软件模拟，可以参考F. Moukalled等的The Finite Volume Method in Computational Fluid Dynamics_ An Advanced Introduction with OpenFOAM® and Matlab®。  
 #### 3.Ex1.2 偏物理的流体力学资料
 > 实际上，对于取得理解今日各方面物理研究所需的流体力学，天体物理流体部分的流体教材加上朗道的那两本已经基本够用了，这里提供的基本上只是参考补充。
 > 对于流体的动力学的入门知识，入门的最佳选择当然也包括Tong的Fluid Dynamics讲义。
 #### 3.Ex1.2.1 一般流体动力学
 > 呃，就像刚刚说的，朗道的《流体动力学》打底，再加上天体物理流体部分的资料（比如那本Modern Fluid Dynamics for Physics and Astrophysics里面不止包括了天体物理方面的应用，也有流体在等离子体等其他方面的应用，MHD也包了）应该就已经入门了。
+* [日本] 神部勉（Tsutomu Kambe，东京大学（已退休，2006年曾在南开大学访问）），Elementary fluid mechanics
+> 300余页的简短教材，但核心的知识面都覆盖到了，如果没有刚刚说的那些资料的基础，入门可以先看这个；如果已经入门可以作参考。
 可以参考的是的[法国] Etienne Guyon，Jean-Pierre Hulin，Luc Petit，Catalin D. Mitescu的Physical Hydrodynamics，是500页+的大部头，理论和实验并举，有不少彩图，适合做字典。
-对于不可压缩流体动力学，一个质量比较高的新参考书是[英国]P. A. Davidson的 Incompressible Fluid Dynamics。
+对于不可压缩流体动力学，一个质量比较高的新参考书是[英国]P. A. Davidson的 Incompressible Fluid Dynamics，他还有一本湍流，turbulence: An introduction for scientists and engineers.
 #### 3.Ex1.2.2 磁流体动力学（Magnetohydrodynamics, 缩写为MHD）
 > 因为与磁场背景的流体的交叉性，因此MHD往往在流体力学中被视作单独的理论，与一般的流体力学分离开来。 
 * [法国] Sébastien Galtier（巴黎综合理工学院），Introduction to Modern Magnetohydrodynamics
 > 较新（2016），物理内容和各方面应用丰富的入门教材。篇幅精炼，适合作为起步。
-> 这个专栏刊发了对其的中文翻译：https://zhuanlan.zhihu.com/p/413541267
+> 知乎上的翻译：https://zhuanlan.zhihu.com/p/590386434
 Kip S. Thorne（美国理论物理学家，引力波泰斗，成功探测到引力波的激光干涉引力波天文台（LIGO）的主要发起人之一，2017年诺贝尔物理学奖）的Modern Classical Physics里的流体（含MHD）部分也可以作为参考资料，但用于初学风评复杂。
-
+值得留意的是Chandrasekhar也有一本Hydromagnetic and Hydromagnetic Stability。（
 #### 3.Ex1.3 偏工程的流体力学资料
-* []
->
-* []
-> //TODO
+* [美国] E. 约翰・芬纳莫尔（E. John Finnemore），约瑟夫 B. 弗朗兹尼（Joseph B. Franzini），《流体力学及其工程应用》（Fluid Mechanics Fundamentals and Applications）
+> 篇幅比大字典短很多，学起来比较现实的导论教材。对于工程学生而言覆盖的知识面也足够广泛，读起来比较轻松，是合适的入门书。（绪论部分还讲了点流体力学的历史x
+* 周光坰，严宗毅、许世雄、章克本，《流体力学》（上下册） & 吴望一，《流体力学》（上下册）
+> 两套国内的流体力学字典（考研参考书），但质量都比较高，都是很系统而且知识全面的入门书和参考书。前者的流体内容更丰富一点（偏工程类），后者的处理则明显数学化很多（偏力学类），二者可以形成互补。
+比较受欢迎的标准教科书（都是大字典）还包括最有名的老书G. K. Batchler的An Introduction to Fluid Dynamics，P. K. Kundu和I. M. Cohen的Fluid Mechanics,还有比较新的时兴的 Frank White的Fluid Mechanics。值得用作补充阅读的还有M. van Dyke的An Album of Fluid Motion，包含漂亮的流体图展现其原理。
+空气动力学之父与现代流体力学之父、德国物理学家路德维希・普朗特（Ludwig Prandtl）也曾亲自写过一本《流体力学概论》（Führer durch die Strömungslehre），一直增补修订再版至今。
+> 普朗特最著名的学生之一是匈牙利、德国与美国的空气动力学泰斗（「卡门涡街」理论的提出者，风洞试验的创造者，超声速空气动力学的创始人、喷气推进与火箭的专家）西奥多・冯・卡门（或译卡尔曼）（Theodore von Kármán）。卡门在加州理工学院最著名的学生之一（他也参与指导过钱伟长）正是钱学森，在加州理工学院他们一起创建了著名的喷气推进实验室（	Jet Propulsion Laboratory）；而在二战德国战败后，这对普朗特门下的师徒亲自参与了美军对他本人的审查。
+
+针对空气动力学的有：
+* [美国] 约翰 D.安德森（John D. Anderson），《空气动力学基础》（Fundamentals of Aerodynamics）
+> 不要求流体力学基础（因为需要的一起讲了）的空气动力学经典，大字典，但是与Anderson的CFD一样系统和清晰，而且还有丰富的历史背景资料。
+针对湍流的有：
+* [英国] Stephen B. Pope, Turbulent Flows（影印版标题翻译为《湍流》）
+> 湍流的专题论著，起源于作者在Cornell的讲义。全面综合的大部头，解析与模拟并重，有湍流圣经的美名。
+P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好的参考。
 
 最后，其他方面
 ### 3.Ex2 医学物理学（Medical Physics）
