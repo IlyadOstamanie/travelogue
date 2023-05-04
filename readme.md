@@ -898,6 +898,7 @@ Schapira还有两个比较友好的讲义[Categories and Homological algebra](ht
 > 侧重有限元计算程序设计的教材，可以查阅很多计算上的细节。
 * [英国] O. C. Zienkiewicz, R. L. Taylor, The finite element method（三卷本）
 > 两名有限元开山泰斗的巨著，三卷本的有限元字典。
+对于CFT等领域需要的非连续Galerkin法的一本名著则是Jan S. Hesthaven和Tim Warburton的Nodal Discontinuous Galerkin Methods，Algorithms, Analysis, and Applications。 
 
 #### 1.10.2 最优化/最适化/（数学）优化
 一个神奇的现象：其实这一领域的研究一般在管理学背景下有着另一个名字——**运筹学**，所以我们可以看到实际上在管理类和数学类院系下都有对这个领域做研究的人员，在很多学校管院搞「运筹学」的学者和在数院做「优化」的学者实际上研究的内容往往也完全重合，只是在实际情况上的侧重常有区别w；大概类似于当代事实上已经不再有明确界限的理论物理（一般划为物理学）和数学物理（一般划为数学）之间的关系。
@@ -1724,7 +1725,7 @@ TQFT的奠基性文献是Atiyah开天辟地的文章，可读性很高：
 ### 3.Ex1 流体力学
 > 流体力学产生于数学、物理学等学科尚未分化的时代，诞生于欧拉、高斯、拉格朗日、柯西等伟大的数学-物理（自然哲学）家之手。因为它本身是一门高度依赖数学的、以研究流体的力学性质的理论（流体相关的PDE在数学界也是主流的方向之一），而又在工程上有非常广泛和重要的应用（航空航天、医疗、汽车、高层建筑...），当代流体力学的研究呈现出数学-物理学-工程学的复合属性。以各种流体为对象的研究同时在以上三种学科的组织中开展，研究的具体方面（数学模型、物理性质、工程应用）与方法都各有不同。这也催生了面向数学、物理学、工程学的三类不同的流体力学教科书，下面我会将其各自分开谈论。
 > 
-> 关于学科「**力学**（Mechanics）」: 在现代科学尚未分化的诸神时代（x）与流体力学一并产生于上述大师之手的还有一众对流体以外其他物理对象的力学（当时就等同于经典力学）研究。其后，这些由经典力学与数学诞生的物理理论与解决实际的工程问题（如火炮弹道、机械设计）密切相关，与相应的工程应用协同发展，最终形成了一般力学（振动力学、刚体力学、陀螺力学...）、固体力学（弹性力学、结构力学、材料力学、塑性力学、断裂力学...）、流体力学（空气动力学、渗流力学...）和与其他研究交叉的生物力学等繁杂的研究领域，其标志性的共同特点是它们的核心理论都是基于经典力学（主要是牛顿力学）发展出来的，对其他物理理论的使用远没有其他物理学分支多。这一系列领域因为以上的独特性，在发展壮大的过程中逐渐被冠以「力学」的总称，在人员组织与学术交流上从数学、物理学与工程学的学术圈中获得比较独立的地位——于是就有了今天的力学类专业与一些高校带有力学之名的专门院系；不过按照研究对象，它们毫无疑问仍然属于物理学。
+> 关于学科「**力学**（Mechanics）」: 在现代科学尚未分化的诸神时代（x）与流体力学一并产生于上述大师之手的还有一众对流体以外其他物理对象的力学（当时就等同于经典力学）研究。其后，这些由经典力学与数学诞生的物理理论与解决实际的工程问题（如火炮弹道、机械设计）密切相关，与相应的工程应用协同发展，最终形成了一般力学（振动力学、刚体力学、陀螺力学...）、固体力学（弹性力学、结构力学、材料力学、塑性力学、断裂力学...）、流体力学（空气动力学、渗流力学...）和与其他研究交叉的生物力学等繁杂的研究领域，其标志性的共同特点是它们的核心理论都是基于经典力学（主要是牛顿力学）发展出来的，对其他物理理论的使用远没有其他物理学分支多。这一系列领域因为以上的独特性，在发展壮大的过程中逐渐被冠以「力学」的总称，在人员组织与学术交流上从数学、物理学与工程学的学术圈中获得比较独立的地位——于是就有了今天的力学类专业与一些高校带有力学之名的专门院系（当然有时也会被归入工程大类）；不过按照研究对象，它们毫无疑问仍然属于物理学。
 > 当然，因为流体力学明显的数学-物理学-工程学的复合属性，对流体力学的研究在大部分时间实际上并不被视作「力学」学科的成员，而是如一开始所述仍然分散在以上三个领域，算是力学中的特例。同时，它也比其他力学学科同这三个领域都有更密切的关联。
 > 如果像我一样暂时不关心具体的工程细节，那么很明显，值得首先掌握的是它们的数学与物理基础，而非绝大部分具体的力学专著。数学的基础已经被数学部分的资料（其实主要就是PDE）涵盖，而最核心的物理基础亦然——基本上就是之前谈到过的朗道十卷中的《流体动力学》、《弹性理论》、《连续介质电动力学》、《物理动理学》四卷的内容。
 > 
@@ -1749,7 +1750,9 @@ TQFT的奠基性文献是Atiyah开天辟地的文章，可读性很高：
 > 
 另一本有名的CFT方面的专题著作是 Randall J. LeVeque的Numerical Methods for Conservation Laws。其他
 
-针对面向CFD的有限体积法（也同样可以拿来入门CFD），可以参考H. Versteeg的An Introduction to Computational Fluid Dynamics: The Finite Volume Method，也可以参考更详尽的Jiri Blazek的Computational Fluid Dynamics: Principles and Applications，文献列表非常之全，几乎无所不包；对于具体的软件模拟，可以参考F. Moukalled等的The Finite Volume Method in Computational Fluid Dynamics_ An Advanced Introduction with OpenFOAM® and Matlab®。  
+针对面向CFD的有限体积法（也同样可以拿来入门CFD），可以参考H. Versteeg的An Introduction to Computational Fluid Dynamics: The Finite Volume Method，也可以参考更详尽的Jiri Blazek的Computational Fluid Dynamics: Principles and Applications，文献列表非常之全，几乎无所不包（风评很好）；对于具体的软件模拟，可以参考F. Moukalled等的The Finite Volume Method in Computational Fluid Dynamics： An Advanced Introduction with OpenFOAM® and Matlab®。 
+黎曼解和近似黎曼解是计算网格界面通量的基础，是构建当下FVM,FDM方法体系的核心支柱，也是CFD学习的核心内容之一。这方面的经典是Eleuterio F. Toro的Riemann Solvers and Numerical Methods for Fluid Dynamic。
+其他高精度方法（谱方法）的专著还有C. Pozrikidis的Introduction to finite and spectral element methods using MATLAB与Roger Peryet的Spectral methods for incompressible viscous flow。
 #### 3.Ex1.2 偏物理的流体力学资料
 > 实际上，对于取得理解今日各方面物理研究所需的流体力学，天体物理流体部分的流体教材加上朗道的那两本已经基本够用了，这里提供的基本上只是参考补充。
 > 对于流体的动力学的入门知识，入门的最佳选择当然也包括Tong的Fluid Dynamics讲义。
@@ -1757,6 +1760,8 @@ TQFT的奠基性文献是Atiyah开天辟地的文章，可读性很高：
 > 呃，就像刚刚说的，朗道的《流体动力学》打底，再加上天体物理流体部分的资料（比如那本Modern Fluid Dynamics for Physics and Astrophysics里面不止包括了天体物理方面的应用，也有流体在等离子体等其他方面的应用，MHD也包了）应该就已经入门了。
 * [日本] 神部勉（Tsutomu Kambe，东京大学（已退休，2006年曾在南开大学访问）），Elementary fluid mechanics
 > 300余页的简短教材，但核心的知识面都覆盖到了，如果没有刚刚说的那些资料的基础，入门可以先看这个；如果已经入门可以作参考。
+与之同类（甚至篇幅也差不多）的一本知名老书是Tritton的Physical Fluid Dynamics。如果想要更简明扼要的可以看（200页不到）：
+* [俄罗斯] Gregory Falkovich（以色列魏茨曼科学研究所）, Fluid Mechanics: A Short Course for Physicists
 可以参考的是的[法国] Etienne Guyon，Jean-Pierre Hulin，Luc Petit，Catalin D. Mitescu的Physical Hydrodynamics，是500页+的大部头，理论和实验并举，有不少彩图，适合做字典。
 对于不可压缩流体动力学，一个质量比较高的新参考书是[英国]P. A. Davidson的 Incompressible Fluid Dynamics，他还有一本湍流，turbulence: An introduction for scientists and engineers.
 #### 3.Ex1.2.2 磁流体动力学（Magnetohydrodynamics, 缩写为MHD）
@@ -1771,10 +1776,10 @@ Kip S. Thorne（美国理论物理学家，引力波泰斗，成功探测到引�
 > 篇幅比大字典短很多，学起来比较现实的导论教材。对于工程学生而言覆盖的知识面也足够广泛，读起来比较轻松，是合适的入门书。（绪论部分还讲了点流体力学的历史x
 * 周光坰，严宗毅、许世雄、章克本，《流体力学》（上下册） & 吴望一，《流体力学》（上下册）
 > 两套国内的流体力学字典（考研参考书），但质量都比较高，都是很系统而且知识全面的入门书和参考书。前者的流体内容更丰富一点（偏工程类），后者的处理则明显数学化很多（偏力学类），二者可以形成互补。
-比较受欢迎的标准教科书（都是大字典）还包括最有名的老书G. K. Batchler的An Introduction to Fluid Dynamics，P. K. Kundu和I. M. Cohen的Fluid Mechanics,还有比较新的时兴的 Frank White的Fluid Mechanics。值得用作补充阅读的还有M. van Dyke的An Album of Fluid Motion，包含漂亮的流体图展现其原理。
+比较受欢迎的标准教科书（都是大字典）还包括最有名的老书G. K. Batchler的An Introduction to Fluid Dynamics，P. K. Kundu和I. M. Cohen的Fluid Mechanics,还有比较时兴的偏机械的新书 Frank White的Fluid Mechanics。值得用作补充阅读的还有M. van Dyke的An Album of Fluid Motion，包含漂亮的流体图展现其原理。
 空气动力学之父与现代流体力学之父、德国物理学家路德维希・普朗特（Ludwig Prandtl）也曾亲自写过一本《流体力学概论》（Führer durch die Strömungslehre），一直增补修订再版至今。
 > 普朗特最著名的学生之一是匈牙利、德国与美国的空气动力学泰斗（「卡门涡街」理论的提出者，风洞试验的创造者，超声速空气动力学的创始人、喷气推进与火箭的专家）西奥多・冯・卡门（或译卡尔曼）（Theodore von Kármán）。卡门在加州理工学院最著名的学生之一（他也参与指导过钱伟长）正是钱学森，在加州理工学院他们一起创建了著名的喷气推进实验室（	Jet Propulsion Laboratory）；而在二战德国战败后，这对普朗特门下的师徒亲自参与了美军对他本人的审查。
-
+更深入一些的教材中较新且综合性的有张鸣远，景思睿，李国君的《高等工程流体力学》。
 针对空气动力学的有：
 * [美国] 约翰 D.安德森（John D. Anderson），《空气动力学基础》（Fundamentals of Aerodynamics）
 > 不要求流体力学基础（因为需要的一起讲了）的空气动力学经典，大字典，但是与Anderson的CFD一样系统和清晰，而且还有丰富的历史背景资料。
@@ -1782,14 +1787,26 @@ Kip S. Thorne（美国理论物理学家，引力波泰斗，成功探测到引�
 * [英国] Stephen B. Pope, Turbulent Flows（影印版标题翻译为《湍流》）
 > 湍流的专题论著，起源于作者在Cornell的讲义。全面综合的大部头，解析与模拟并重，有湍流圣经的美名。
 P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好的参考。
+论述湍流实验的名著则有P. Bradshaw的An iintroduction to Turbulence and its Measurment。
+针对流体实验的大手册有Springer Handbook of Experimental Fluid Mechanics。
+针对涡[旋]动力学（vortex dynamics）的有：
+*  Julian C. R. Hunt, J. C. Vassilicos, Turbulence Structure and Vortex Dynamics
+> 比较新的教材，入门友好且现代。
+还可以参考90年代的老书，「涡动力学圣经」，P. G. Saffman, Vortex Dynamics，面向地球科学应用的Joseph Nebus的Vortex Dynamics, Statistical Mechanics, and Planetary Atmospheres 以及在超流体方面更深入的: C. F. Barenghi, R. J. Donnelly, W. F. Vinen的Quantized Vortex Dynamics and Superfluid Turbulence。国内的专著有
+* 吴介之，马晖扬，周明德（北大工学院），Vorticity and Vortex Dynamics（英文版2006年出版，此前有较旧的中文版《涡动力学引论》）
+> 国内主流且比较权威（三位作者都是专家）的涡旋专著。
+在CFT方面也有重要作用的是边界层理论。这方面的权威是Hermann Schlitching的Boundary-Layer Theory.
+最后，专门讲解流体力学在其他学科应用的教材也有，比如Eric Lauga的The Fluid Dynamics of Cell Motility（在生物学上的应用）与Owen M. Phillips的Geological Fluid Dynamics Sub-surface Flow and Reactions（在地质学上的应用）。
 
-最后，其他方面
+
+
 ### 3.Ex2 医学物理学（Medical Physics）
 > 「医学物理是把物理学的原理和方法应用于人类疾病预防、诊断、治疗和保健的交叉学科。该学科以医学影像、放射治疗、核医学以及其他非电离辐射如超声、微波、射频、激光等在医学中的应用，及其应用过程中的质量保证、质量控制，和辐射防护与安全等为其主要内容。」——http://eap.ustc.edu.cn/2018/0706/c15097a270559/page.htm
 > 直接导向「医学物理师」这一医院职位，在放射治疗等实际治疗过程中发挥着核心作用。[解密医学物理师：12000名缺口巨大 没有职称、没有正常晋升通道](https://m.21jingji.com/article/20190712/ef401b608cbf910037ec6ce6bca6b2c9.html)
 * Debbie Peet, Emma Chung，Practical Medical Physics: A Guide to the Work of Hospital Clinical Scientists 
 > 面向医学物理职业实际的全覆盖教科书。
 更深入的医学物理概念可以查阅Slavik Tabakov等编著的两卷本 Enclyclopedia of Medical Physics。
+
 
 ### 3.Ex3 非线性动力系统-非线性物理-（复杂）系统科学与工程、非线性科学
 > [系统科学](https://sss.bnu.edu.cn/xkjs/xkjj/xkgk/index.htm)关心涉及各种系统性质和演化规律的基本科学问题，取决于「复杂」的标准，「复杂系统科学」可以是整个系统科学的别称（这里默认如此），也可以特指其中对于复杂性较高的系统的研究。一般系统科学的研究对象有社会经济、生态、脑与认知等。它是综合了各种不同研究领域的交叉学科。
