@@ -13,6 +13,7 @@
       - [1.2.3 复变函数论/复分析](#123-复变函数论复分析)
       - [1.2.4 实变函数论/实分析 及 泛函分析](#124-实变函数论实分析-及-泛函分析)
       - [1.2.5 偏微分方程](#125-偏微分方程)
+      - [1.2.6 傅里叶分析/调和分析](#126-傅里叶分析调和分析)
     - [1.3 代数学](#13-代数学)
       - [1.3.1 高等代数学入门（线性代数+多项式理论）、抽象代数/近世代数](#131-高等代数学入门线性代数多项式理论抽象代数近世代数)
       - [间节 现代代数学综览性材料](#间节-现代代数学综览性材料)
@@ -471,6 +472,39 @@
 对于最常见的类别椭圆型方程，经典的专门教材是林芳华（Fanghua Lin，纽约大学柯朗所，华人PDE界的泰斗）与韩青（Qing Han，印第安纳州圣母大学）的Elliptic Partial Differential Equations，常常被用于研究生的PDE课程。韩青还有一本面向研究生新生的A Basic Course in Partial Differential Equations很受欢迎，可以查阅参考。
 
 当然对于非PDE职业研究者而言，在Evans级别的知识之上，我的建议依然是等到遇到什么问题再去找讲对应的方程类别的书也不迟（
+
+#### 1.2.6 傅里叶分析/调和分析
+> 首先傅里叶分析和调和分析是同义词，后者是更新也更流行的名字，但是前者作为旧名字常常作为这一分支基础课的标题。
+入门级别的傅里叶分析内容（基本技术）一般在数学分析教材中已经初步讲解完毕。这个层次更系统一点的处理是Stein四卷本分析里的首卷Fourier Analysis。下面是更深入进入现代调和分析的参考：
+经典调和分析（稍后解释）的最重要论著之一是
+* [美国] Elias M. Stein，Harmonic Analysis（影印本标题译为《调和分析》）
+> 1993年出版的经典调和分析圣经，对到当时为止调和分析的进展与调和分析领域使用的各种方法作了全面、系统、深入的详述。
+> 比Stein稍微程度低一些的更友好入门教材则是[希腊]Loukas Grafakos的GTM249 Classical Fourier Analysis & GTM250 Modern Fourier Analysis。
+
+较新的调和分析的一个主要应用是陶哲轩，Emmanuel Candès等人开创**压缩感知**（Compressed Sensing）这一信号重建技术的工作:	arXiv:math/0409186 [math.NA] Robust Uncertainty Principles: Exact Signal Reconstruction from Highly Incomplete Frequency Information。对于压缩感知的一个综述是arXiv:1203.3815v2 [cs.IT] Theory and Applications of Compressed Sensing。压缩感知理论保证了比奈奎斯特理论以更少的采样值还原信号的可能性，目前在通信、医学、生物传感等领域有着良好的应用前景。
+
+近20年来兴起了新的引入代数方法处理调和分析内容的研究，并发展成为新的分支——抽象调和分析(Abstract Harmonic Analysis)。旧有的纯分析方法的调和分析则开始被称为经典调和分析。抽象调和分析的主要基础是抽象代数、基本的拓扑和泛函分析，这方面可以参考：
+* [美国] Lynn H. Loomis, Introduction to Abstract Harmonic Analysis
+> 二百余页的简短入门书。
+* [美国] Edwin Hewitt，Kenneth A. Ross，Abstract Harmonic Analysis（两卷本，影印本标题翻译为《抽象调和分析》）
+> 起源于作者的讲义，比较大而全的参考书。
+在小波分析上的应用可以参考[德国]Hartmut Führ（亚琛工大）的Abstract Harmonic Analysis of Continuous Wavelet Transforms。
+
+**小波分析补充**
+> 小波分析是调和分析主要与工程接轨的相对独立的应用方向，其用途是信号的处理。
+> 入门科普可看：https://www.zhihu.com/question/19725983/answer/17040960
+理论一侧的现代处理可以看上面那本Abstract Harmonic Analysis of Continuous Wavelet Transforms。下面列一些面向工程实用的材料。
+
+首先一般在电子信息类专业的《数字信号处理》教材里也会有一些包含小波分析的基本技术的讲解。
+
+*  孙延奎，《小波分析及其应用》
+> 源于清华同名课程的讲义，系统地从偏工程的角度介绍了小波分析的基本原理与技术，并且包含了丰富的应用（小波的数据压缩、信号奇异检测和图像多尺度边缘提取、信号去噪、多分辨造型等方面的典型应用及代表性算法）
+> 更简短但是应用没有那么丰富的入门书还有Dwight F. Mix的《小波基础及应用教程》。
+> 类似的材料还有这套讲义：[The Wavelet Tutorial](https://users.rowan.edu/~polikar/WTtutorial.html)
+更大而全一些的专门面向工程（包含医药、金融）领域的教材还有Paul S. Addison的The Illustrated Wavelet Transform Handbook： Introductory Theory and Applications in Science, Engineering, Medicine and Finance。
+
+* Ingrid Daubechies, Ten Lectures on Wavelets（中译本标题《小波十讲》）
+> 小波分析领域的经典教材，篇幅精简（300余页），但要求有较高的分析基础，原文本和译本也有不少印刷错误，比较难读，但可以参考。
 
 ### 1.3 代数学
 #### 1.3.1 高等代数学入门（线性代数+多项式理论）、抽象代数/近世代数
