@@ -42,9 +42,9 @@
       - [1.8.1 一般代数几何](#181-一般代数几何)
       - [1.8.2 算术几何](#182-算术几何)
       - [1.8.3 非交换几何（Noncommutative Geometry, 缩写为NCG）](#183-非交换几何noncommutative-geometry-缩写为ncg)
-    - [1.8.4 曲线的模空间-Teichmüller理论-远阿贝尔几何-IUT理论](#184-曲线的模空间-teichmüller理论-远阿贝尔几何-iut理论)
-    - [1.8.5 解析几何（Analytic Geometry）与凝聚态数学（Condensed Mathematics）](#185-解析几何analytic-geometry与凝聚态数学condensed-mathematics)
-    - [1.8.6 导出代数几何（Derived Algebraic Geometry）-高阶范畴（Higher Categories）-高阶意象（Higher Topos）-高阶代数（Higher Algebra）](#186-导出代数几何derived-algebraic-geometry-高阶范畴higher-categories-高阶意象higher-topos-高阶代数higher-algebra)
+      - [1.8.4 曲线的模空间-Teichmüller理论-远阿贝尔几何-IUT理论](#184-曲线的模空间-teichmüller理论-远阿贝尔几何-iut理论)
+      - [1.8.5 解析几何（Analytic Geometry）与凝聚态数学（Condensed Mathematics）](#185-解析几何analytic-geometry与凝聚态数学condensed-mathematics)
+      - [1.8.6 导出代数几何（Derived Algebraic Geometry）-高阶范畴（Higher Categories）-高阶意象（Higher Topos）-高阶代数（Higher Algebra）](#186-导出代数几何derived-algebraic-geometry-高阶范畴higher-categories-高阶意象higher-topos-高阶代数higher-algebra)
     - [1.9 数论（及密码学）](#19-数论及密码学)
       - [1.9.1 数论入门及综览性材料](#191-数论入门及综览性材料)
       - [1.9.2 代数数论](#192-代数数论)
@@ -96,9 +96,10 @@
         - [3.11.Ex2.1 生物物理学](#311ex21-生物物理学)
         - [3.11.Ex2.2 高分子物理学-化学](#311ex22-高分子物理学-化学)
     - [3.12 天体物理学](#312-天体物理学)
-      - [3.12.1 一般天体力学 \& 天体力学综合教材](#3121-一般天体力学--天体力学综合教材)
+      - [3.12.1 一般天体物理 \& 天体物理综合教材](#3121-一般天体物理--天体物理综合教材)
       - [3.12.2 高能天体物理学](#3122-高能天体物理学)
       - [3.12.3 天体力学](#3123-天体力学)
+      - [间节 星系动力学（Galactic Dynamics）](#间节-星系动力学galactic-dynamics)
       - [3.12.4 天文/天体观测](#3124-天文天体观测)
       - [3.12.5 天体辐射过程](#3125-天体辐射过程)
       - [3.12.6 天体物理流体（astrophysical fluids）](#3126-天体物理流体astrophysical-fluids)
@@ -629,6 +630,18 @@
 > 3. 解几的几个章节中充满了很多漂亮的图，也穿插着诸如草图绘制立体图形直观图（斜二测画法）、Maple和Mathematica的基本操作等使用的彩蛋内容，暂时还没有找到其他这么做的。总之可以做很好的参考和补充。
 
 #### 1.4.2 微分几何、拓扑学（微分拓扑&代数拓扑）
+> 微分几何可以形容为研究空间（几何对象）的局部性质的数学分支，由于微积分使得精确研究几何对象的局部性质成为可能，它以微积分为主要工具。微积分的技术产生和发展后，欧拉、蒙日等数学家在18世纪以曲线与曲面为研究对象，开创了对其「内在几何」——微分几何的研究；这一阶段起始的微分几何局限于对曲线和曲面的研究，称为古典微分几何。
+> 
+> 到了19世纪，**古典微分几何**的集大成者是高斯（也有人将他的工作到黎曼的工作为止的阶段单独称为近代微分几何），他在《关于曲面的一般研究》等著作中建立了完整的曲面的内蕴几何，使得微分几何的研究从三维欧几里得空间的坐标系（即曲面嵌入其中的方式）中完全脱离。著名的高斯-博内公式也为整体微分几何的诞生奠定了基础。
+> 其后，黎曼将高斯的理论推广到n维空间，并建立了流形的概念，创造了**黎曼几何**，这标志着古典微分几何时代的结束，自此，微分几何主要的研究对象由曲线曲面转为一般的流形，黎曼几何成为微分几何学的主要理论框架，现代微分几何（有时也单独称为黎曼几何，而将旧有的古典微分几何及其衍生理论称呼为微分几何）诞生了，它包括复几何在内的的各个分支蓬勃发展，在几何学的史诗中发挥了重要的作用。黎曼几何也是广义相对论的基础语言。随着黎曼等人的工作还发展出了张量分析的技术体系。
+> 当然，古典微分几何仍然延续着它的生命力。在黎曼之后最有影响力的微分几何学家之一是 E. 嘉当。他延续了古典微分几何的方法，强调了联络的概念，建立了外微分形式的微分几何理论，对黎曼几何以及其他几何分支都产生了重要的影响。在此基础上，嘉当与他的门徒，杰出的几何学家陈省身几乎完全结束了古典微分几何的已有研究，并共同创造了**整体微分几何**的新理论框架，它可以被视为古典微分几何的现代分支，也可以因为其整体性视为独立的分支（其中的Chern-Simons类等概念在现代物理学中的拓扑量子物质理论中（见物理学的相应部分）有非常重要的应用）；无论如何，整体微分几何已经成为了现代微分几何（狭义）研究的主体。陈省身的代表性工作还有推广了曲面上的高斯-博内定理，成为高斯-博内-陈定理。
+>  
+> 在发展中与微分几何相互交织的是拓扑学，它可以形容为研究空间（几何对象）的整体性质的数学分支，与微分几何对立而互补，因而两者的发展相互影响促进，所以我们在此也就不分开叙述和列举材料了。
+> 拓扑学研究的历史也可以一直追溯到早至欧拉的年代，如经典的欧拉多面体公式 V - E + F = 2 就产生于斯。（在很长的早期年代中，拓扑学的名字尚未被广泛采用，这时一般使用的名称是据称由莱布尼茨首先使用的「位置分析（拉丁语：analysis situs）」。）在随后的很长一段时间中，最初步的拓扑概念开始逐渐产生。Gauss和Johann Benedict Listing（拓扑学一词的最早使用者），还有Riemann、Jordan等都在这一持续至19世纪末的漫长阶段为拓扑学积累了丰富的素材和概念，虽然尚未形成有序的一个体系。完成这一工作的是1895年Poincaré的论文系列《位置分析（Analysis Situs）》，它第一次初步奠定了整个拓扑学的严格基础，是现代拓扑学的真正开端。（同时Poincaré提出了著名的三维流形的Poincaré猜想，它的解决见几何分析部分）自此以后掀开了拓扑学分化和发展的风潮，也对几何学的其他方面产生了极大的影响：与集合论的结合产生了**点集拓扑**的基础语言（内容不多，并不构成研究方向）；与代数方法的结合（最早的主要推动者之一是L. E. J. Brouwer）产生了研究代数化的拓扑空间的**代数拓扑**（其中到20世纪中叶又发展出同调论和作为其推广的同伦论，以及K理论等几种广义同调论（这些也是同伦论的一部分）），与微分几何的结合产生了研究微分流形的**微分拓扑**（这也是Smale，Milnor等人成名的领域），在20世纪后半叶代数拓扑与微分拓扑一度是拓扑学最鼎盛的两个分支（当然现在代数拓扑因为代数的繁荣和分析的相对衰弱而更胜一筹）。除这两个分别引入了代数与分析工具的分支以外的部分，基本就属于原本的拓扑学的传承，即原教旨的，由Poincaré开创的以一般的（拓扑）流形为对象的拓扑学，现在它一般被称为**几何拓扑**，其中对于低维数（一般认为维数不低于4）的几何对象——包括三维流形（Perelman用几何分析解决的Poincaré猜想就属于这里）、四维流形（具有尤其奇怪的性质，Donaldson将规范场论引入低维拓扑的主要开创性工作就在这里，后来的Seiberg-Witten Theory则提供了更简便的替代）、扭结等——的研究被称为**低维拓扑**。因为其本身的性质，低维拓扑的结构在数学物理中发挥着很大的价值（如在弦论中发挥意想不到作用的扭结不变量和在TQFT中发挥核心作用的三维流形（见TQFT部分））。与低维拓扑相对的是高维拓扑，这方面主要运用的方法是示性类、割补（surgery）技术、Morse理论等。现在的几何拓扑已经发展为高度综合的学科，运用的技术十分多样，来自代数拓扑、微分拓扑、微分几何等各个数学领域，在今日与代数拓扑、微分拓扑共同组成拓扑学的三大研究领域，也可以加上点集拓扑并称拓扑学的四大分支。 
+> 
+> 因为几何方面的领域与概念相对而言复杂而缺少条理，通过历史进行概念的梳理相比其他条理比较清楚的分支就变得更加必要了——这也是在这里专门从历史发展梳理各个分支及其基本概念的原因。
+> 微分几何、拓扑学与代数几何共同构成了20世纪几何学理论体系中的基础，因而了解他们的历史就能够大致把握住整个几何学发展至今的一般脉络。（代数几何的历史解说见代数几何部分）
+
 > 关于微分形式到底是个什么东西的有益讨论：[魔鬼的枷锁：几何中的微分形式是什么？Hodge星算子又是什么意思？](https://zhuanlan.zhihu.com/p/401207597)
 
 * [日本] 中原幹夫（Mikio Nakahara）等，Geometry, Topology and Physics
@@ -820,6 +833,13 @@ Kontsevich的另一项重要工作——同调镜像对称（见物理学-镜像
 ### 1.8 代数几何
 #### 1.8.1 一般代数几何
 > 代数几何的研究对象是相互关联的代数方程与几何曲线（面），以及由此衍生出的各种一般的数学对象，因此同时具有代数和几何的特点与意义，而不完全适合被归入其中一方。当然在粗略的代数-分析-几何三分法下，还是常被首先视为几何学的分支。
+> 代数几何的历史贯穿几何学的整个发展史，堪称几何学的主线，了解代数几何的历史（与微分几何和拓扑学部分论述的历史相结合，那可以说是一条副主线，二者共同构成现代几何学的主体）可以揭示数学的整个几何学发展的一般脉络。
+> 第一阶段（古代）：代数几何最早的研究可以追溯到古希腊人研究代数方程时用几何方法构造代数曲线的研究。对于圆锥曲线的研究也在此基础上逐步变得非常成熟，对于二次曲面也有一些研究。
+> 第二阶段（17-18世纪）：在17-18世纪数学进入快速发展的时代后，**坐标解析几何**的诞生使得人们可以用多项式方程组的零点描述代数几何的研究对象（从这个角度看代数几何正是其自然发展），虽然一切仍然局限于三维Euclid空间，在这一时期积累了很多现象（例子）的观察与了解。微积分与**微分几何**的发展则引出了奇点等重要的基本概念——这后来成为代数几何中的一个核心概念，奇点解消理论更成为广中平祐等代数几何学家一生追求的主题。对曲线交点的研究引出了对新工具的需要，进而引发了新的变革。
+> 第三阶段（19世纪）：射影几何与Grassman和Cayley等人提出的n维空间理论的发展激发了对n维射影空间中的仿射簇的研究，代数几何开始脱离原有的Euclid几何的直观，向更抽象发展。以Abel对椭圆积分与椭圆函数的研究为基础，革新了整个几何学的Riemann创立了流形的概念和Riemann几何，他提出的Riemann曲面的概念更是在日后的代数几何中发挥重要的作用；Riemann的诸多工作也为模空间的理论和1双有理几何的理论奠定了基础。这一时期微分几何（含复几何）在Poincaré 和 Cartan发展的外微分形式等理论下步入了现代时期，复代数几何随之迅速发展，Kähler 流形的发现和 Hodge 理论的发展也对代数几何产生了重要影响。
+> 第四阶段（20世纪）：20世纪初期，代数几何的研究百花齐放，Kronecker，Dedekind等大数学家的工作使得一些重要的结果，如Riemann-Roch定理与代数曲面的分类，已经被得到。但几何方法无力，代数工具不足，学界语言混乱的问题开始凸显。这些问题的解决要归功于一众法国数学大师：Andre Weil（沃尔夫奖1979，Bourbaki学派的灵魂人物）建立了抽象域上的代数几何理论，而Jean-Pierre Serre（菲尔兹奖1954（时年28岁，为迄今最年轻者），沃尔夫奖2000，阿贝尔奖2003，Bourbaki重要成员）将层这个重要的工具引入了代数几何，并且建立了凝聚层（coherent sheaf）的上同调理论。最后，Alexandre Grothendieck（菲尔兹奖1966）创立了以概形（scheme）为语言(这语言是范畴化的）的现代代数几何理论框架，从此代数几何拥有了一个统一的基础，进入现代代数几何的时代。Grothendieck 奠基性的著作《代数几何原理》（EGA）等从诞生起就成为了代数几何领域的权威性参考文献，直至今天。
+> 同时，研究概形形变的形变理论、对代数簇的分类引出的模空间理论、在概形上做比普通拓扑空间上的Zariski更精细的拓扑带来的平展（étale）拓扑（包括重要的平展上同调）、以及利用代数几何研究数论问题的算术几何理论等代数几何中的重要方面都发展起来；概形语言的进一步发展引发了叠（stack）和代数空间（algebraic space）等概念，到今天也成为代数几何的基本语言。日趋重要的导出范畴（derived category）则将代数几何与其他许多数学领域相联系，并引出了Jacob Lurie一系列对Grothendieck理论框架的新发展（见导出代数几何-高阶范畴-高阶意象-高阶代数部分）。
+> 
 > 常规入门学习可以参考斯坦福给本科生开的代数几何课（Ravi Vakil）的资料：[Math 145: Undergraduate Algebraic Geometry（可以访问完整的讲义）](http://virtualmath1.stanford.edu/~vakil/17-145/)，如果更喜欢书的话可以退而求其次选择Karen Smith的An Invitation to Algebraic Geometry，都很简短。
 > 之后就可以自由选择材料深入学习了。不专门研究代数几何的话，直接[The Stacks project](https://stacks.math.columbia.edu/) 哪里不会点哪里也是可以的。
 > 对于初学者 Grothendieck 的原作（[Grothendieck's published mathematical writings online](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/pubtexts.php)）还是作参考好些，已经有一些涉猎的（以及熟悉法语）也可以上手，毕竟也说不清 EGA/SGA/FGA 和 GTM52 到底哪个对大部分人学起来更轻松。
@@ -843,7 +863,7 @@ Kontsevich的另一项重要工作——同调镜像对称（见物理学-镜像
 > 代数分析的主要基础专著是柏原正树本人与河合隆裕 (Takahiro Kawai)， 木村达雄 (Tatsuo Kimura)合著的 Foundations of Algebraic Analysis（日文版名：《代数解析学の基礎》）。（作为起点足够，主要的文献还都是论文形式）
 > 了解代数分析与数学物理的联系可以参考这个简要的综述（共51页） arXiv:1706.04105 [math-ph]（Jean-Francois Pommaret, Algebraic Analysis and Mathematical Physics）
 > IHES之前还办过群星云集的代数分析专题讲座：https://www.bilibili.com/video/BV1p4411A7LX/
-> 
+
 Schapira还有两个比较友好的讲义[Categories and Homological algebra](https://perso.imj-prg.fr/pierre-schapira/wp-content/uploads/schapira-pub/lectnotes/HomAl.pdf)和[Abelian Sheaves](https://perso.imj-prg.fr/pierre-schapira/wp-content/uploads/schapira-pub/lectnotes/Shv.pdf)。非常简洁，节奏很快的讲义，像前者可以直接从基础的范畴论、R-模速通到导出范畴，后者则是Abel范畴进一步的相关补充。
 
 
@@ -851,7 +871,7 @@ Schapira还有两个比较友好的讲义[Categories and Homological algebra](ht
 > 如题所示，偏重计算方法地讲解了代数几何和交换代数的一些基础内容，是严肃地学习概型等进阶内容的很好准备。虽然深度有限且篇幅很长，但只需要熟悉线性代数就可以读。
 
 **双有理几何补充**
-一般代数几何（即代数几何中比较基本的，不可视为相对独立的部分）中一直比较热门的一个领域是双有理几何（birational geometry），它是以双有理等价分类代数簇的研究，是可以追溯到ALexandre Grothendieck（菲尔兹奖1966）开创以概形语言为基础的现代代数几何的统一体系的一系列工作前的古老领域。众多知名的数学家都因在双有理几何上的重要贡献而闻名，其中包括日本数学家广中平祐（Heisuke Hironaka，菲尔兹奖1970），森重文（Shigefumi Mori，菲尔兹奖1990），俄罗斯数学家Vyacheslav Shokurov（Вячеслав Владимирович Шокуров）和其门徒伊朗数学家 Caucher Birkar（菲尔兹奖2018）。
+一般代数几何（即代数几何中比较基本的，不可视为相对独立的部分）中一直比较热门的一个领域是双有理几何（birational geometry），它是以双有理等价分类代数簇的研究，是可以追溯到ALexandre Grothendieck开创以概形语言为基础的现代代数几何的统一体系的一系列工作前的古老领域。众多知名的数学家都因在双有理几何上的重要贡献而闻名，其中包括日本数学家广中平祐（Heisuke Hironaka，菲尔兹奖1970），森重文（Shigefumi Mori，菲尔兹奖1990），俄罗斯数学家Vyacheslav Shokurov（Вячеслав Владимирович Шокуров）和其门徒伊朗数学家 Caucher Birkar（菲尔兹奖2018）。
 
 入门学习可以参考巴黎数学科学基金会主办的系列讲座：https://www.bilibili.com/video/BV1Q4411g7ax 和清华数学科学中心Caucher Birkar主讲的双有理几何课程：https://www.bilibili.com/video/BV1K44y1Y7S6
 当代双有理几何方面的没有很多体系化的入门教科书，比较著名的一本专著是
@@ -864,11 +884,16 @@ Schapira还有两个比较友好的讲义[Categories and Homological algebra](ht
 > 应用于数论的代数几何（基本上，也有模形式等来自解析数论与代数数论的重要工具）。算术几何在近几十年有着丰硕的进展，包括1973年比利时数学家皮埃尔·德利涅(Vicomte Pierre René Deligne，Grothendieck的门徒，菲尔兹奖1978，沃尔夫奖2008，阿贝尔奖2013)，完成韦伊猜想(Weil conjecture)的证明、1983年德国数学家法尔廷斯(Gerd Faltings，菲尔兹奖1986)对莫德尔猜想(Mordell conjecture)的证明（他与Grothendick就此有过交流，而据称远Abel几何就发源于此；他还是远Abel几何最重要的学者之一、日本数学家望月新一的导师，也指导过当代著名代数几何泰斗张寿武），以及1993年英国数学家Andrew Wiles（阿贝尔奖2016）和他在普林斯顿期间的学生Richard Taylor（2014突破奖，当世数论大家之一，几何朗兰兹纲领的主要人物之一）利用椭圆曲线对费马大定理的成功证明。
 > 实际上，因为这三项工作涵盖了算术几何随Grothendieck创始现代代数几何诞生以来最有影响力的内容，它们也成为算术几何学生进行学习的主线。
 > GTM52的资料应该足够作为起始点了。暂时不会在这个方向过多学习。
+
 入门可以参考MIT的课程资料：[Lecture Notes | Introduction to Arithmetic Geometry | Mathematics | MIT OpenCourseWare](https://ocw.mit.edu/courses/18-782-introduction-to-arithmetic-geometry-fall-2013/pages/lecture-notes/)
+
 Rising Sea中也有相关的一些内容。
+
 * 刘青（Qing Liu），Algebraic Geometry and Arithmetic Curves（《代数几何和算术曲线》）
 > 算术几何方向的基础书。
+
 算术几何方面核心的一个对象是椭圆曲线的算术。这方面最著名的入门教材是美国学者Joseph H. Silverman（布朗大学）的两部曲The Arithmetic of Elliptic Curves（GTM 106）和Advanced Topics in the Arithmetic of Elliptic Curves（GTM 151），可以说是这方面最友好的入门。Silverman本人还有一本友好但浅显的数论入门书A Friendly Introduction to Number Theory。
+
 我个人对算术几何进一步学习的动力有限，即使后面开始也还是以EGA，FGA等作为起点。
 
 #### 1.8.3 非交换几何（Noncommutative Geometry, 缩写为NCG）
@@ -877,17 +902,19 @@ Rising Sea中也有相关的一些内容。
 > 也可以先看一下Connes的入门讲座：https://www.bilibili.com/video/BV1Q64y1h78g，Victor Ginzburg的[Lectures on Noncommutative Geometry](https://arxiv.org/abs/math/0506603)（数学侧）和Michael Douglas&Nikita Nekrasov的[Noncommutative Field Theory](https://arxiv.org/abs/hep-th/0106048v4)（物理侧），附带一个良好文献列表的历史性的综述可以参考 J. Madore 的 [Noncommutative Geometry for Pedestrians](https://arxiv.org/abs/gr-qc/9906059)。作为开始是足够了。
 > **包含NCG在内各种当代几何框架的一些进展**可以从[科莫湖高级研究学院：几何中的统一主题—M.Kontsevich；L.Lafforgue；I.Fesenko—辛几何；代数几何；非交换几何；热带几何；远阿贝尔几何](https://www.bilibili.com/video/BV17S4y1Y7dR)了解。
 > 下面还是列一些参考书：
+
 * [法国] J. Madore, An Introduction to Noncommutative Differential Geometry and its Physical Applications 
 > 侧重讲解物理学应用的NCG教材，起点较低，但友善程度存疑。
 * [法国] Alain Connes, Noncommutative Geometry & Noncommutative Geometry, Quantum Fields and Motives
 > 前者是 Connes 亲自写的非交换几何教材，被誉为NCG的圣经。成书较早，但适合参考。
 > 后者算是某种意义上的续作，讲解NCG的新进展以及在物理学和数论上的一些应用。
 
-### 1.8.4 曲线的模空间-Teichmüller理论-远阿贝尔几何-IUT理论
+#### 1.8.4 曲线的模空间-Teichmüller理论-远阿贝尔几何-IUT理论
 > 代数曲线的模空间（moduli space）是代数几何中一类基本的对象，虽然代数几何的入门教科书中它往往不具有主要地位，但它实际上在Grothendieck以来的代数几何中都有着基本的作用，算术几何、表示论等领域中都具有比较重要的应用，在量子上同调、镜像对称、可积系统、弦论等数学物理领域更是大放异彩。Deligne，Mumford等代数几何大师都对代数曲线的模空间有过深刻的研究；今天，模空间相关的研究已经称为几何中的研究热点之一。
 > 比代数曲线的模空间更古老的另外一类模空间（实际上这可能也是模空间概念的起源）是从黎曼开始研究的黎曼曲面的模空间，对该模空间的结构的研究突破始于由德国数学家Oswald Teichmüller创立的Teichmüller理论(即对Teichmüller空间的研究)，其相关的研究也成为今天的热点之一。2014年，伊朗数学家玛利亚姆·米尔扎哈尼（Maryam Mirzakhani）就因发明了一种计算Teichmüller空间体积的方法而获得菲尔兹奖。
 > 这还与一个数学界已经持续了十年有余的争议有关——在2012年，日本数学家望月新一（Shinichi Mochizuki）公布了自己的「宇宙际Teichmüller（Inter-universal Teichmüller, IUT/IUTeich）几何理论」，并且宣称其证明了数论中的一个主要猜想——abc猜想。发表至今，望月新一在IUT理论方面的工作受到了Peter Schloze, Jakob Stix甚至他的导师Faltings等相关领域数学家的公开质疑和批驳以及Ivan Fesenko，Vesselin等数学家的公开支持，就理论本身及其细节的产生了旷日持久的争论，即使八年后他的论文在京都大学（他担任编辑的）《数理解析研究所公刊（Publications of the Research Institute for Mathematical Sciences， PRIMS）》上得到发表，但学术界仍未普遍承认IUT理论的正确性或肯定abc猜想已被证明；不过，IUT的支持者们仍然已经发表了一些基于IUT的工作。
 > IUT几何是一个全新、庞大、基础性的数学理论框架，尽管正确性存疑，但许多数学工作者都认为一旦被确认，将意味着代数几何甚至大部分数学领域的一个重大革新。构建IUT的主要工具是远阿贝尔几何与表示论。远阿贝尔几何是由Grothendieck创始的代数几何分支，望月新一本人也是因为在该领域的核心性工作（对Grothendieck远Abel猜想的证明）而成名。
+
 对模空间的初步了解可以通过Manin的Frobenius Manifolds, Quantum Cohomology, and Moduli Spaces（见量子上同调部分）取得，上方一般代数几何和算术几何主要列出的入门材料中也提供了一些相关的内容。
 
 对Teichmüller理论的良好起点是nLab的条目：https://ncatlab.org/nlab/show/Teichm%C3%BCller+theory。特别值得提及的一篇综述是Georg Schumacher的The theory of Teichmüller spaces – A view towards moduli spaces of Kähler manifolds。对于专门的入门材料，可以看Michael Kapovich的讲义[Introduction to Teichmüller Theory](https://www.math.ucdavis.edu/~kapovich/EPR/T.pdf)
@@ -898,19 +925,23 @@ Rising Sea中也有相关的一些内容。
 
 对于IUT的nLab条目：https://ncatlab.org/nlab/show/inter-universal+Teichm%C3%BCller+theory。望月的原始论文可以在[他的主页]https://www.kurims.kyoto-u.ac.jp/~motizuki/top-english.html)找到。
 
-### 1.8.5 解析几何（Analytic Geometry）与凝聚态数学（Condensed Mathematics）
+#### 1.8.5 解析几何（Analytic Geometry）与凝聚态数学（Condensed Mathematics）
 > **解析几何**（analytic geometry，这里区分于前述的论述坐标几何学的解析几何）可以形容为关于解析（即解析函数的解析义）簇的研究，一般也专指对复解析空间（光滑的复解析空间=复流形，因而与复几何天然联系）的研究，是当代代数几何的主要相关方向之一（方法上可以视作其分支）。其较热门的一种泛化是Tate等数学家创始的刚性（解析）几何（rigid (analytic) geometry）或称全局解析几何（global analytic geometry）。关于解析几何的最著名的结果之一是Serre的GAGA（Géométrie Algébrique et Géométrie Analytique, 代数几何与解析几何）定理。
+
 对这部分知识取得基本的了解可以参考Amnon Neeman的Algebraic and Analytic Geometry以及nLab对应条目https://ncatlab.org/nlab/show/analytic+geometry的资料。
 与解析几何密切相关的另一个重要主题则是$\mathbb{F}_1$（上的）几何，这是整个几何学发展中的一片新领域。一个良好但略微过时的综述是 	arXiv:0909.0069 [math.AG] Mapping $\mathbb{F}_1$-land:An overview of geometries over the field with one element，一个更新的教程是则是arXiv:1801.05337 [math.AG]  $\mathbb{F}_1$ for everyone。
 
 > 解析几何近年来主要的进展是由凝聚态数学纲领的发展推动的。**凝聚态数学**（Condensed Mathematics）是由德国当代传奇的青年算术几何学家 Peter Schloze（神迹：2004 IMO银牌，2005，2006，2007 连续三届IMO金牌（2005年满分），三个学期读完学士学位，两个学期读完硕士，24岁博士毕业之后被波恩大学聘任为德国史上最年轻的W3最高级教授，在算术几何做出了Langlands纲领相关的（p进Hodge理论等方面的）重要工作，菲尔兹奖2018）与Dustin Clausen、Bhargav Bhatt等数学学者创始的数学纲领，旨在合理地于带拓扑的对象上做代数, 并试图由此理清目前较为混乱的解析几何理论（已经取得了部分的成功，今日凝聚态数学已经有成为解析几何主线的趋势，其核心对象正是Scholze的完美胚（perfectoid）理论），具有以统一的语言连通数学各个分支的潜力。
+
 了解凝聚态数学的好参考是 2021 春季学期北京大学凝聚态数学讨论班的讲义（发布于香蕉空间）：https://www.bananaspace.org/wiki/%E8%AE%B2%E4%B9%89:%E5%87%9D%E8%81%9A%E6%80%81%E6%95%B0%E5%AD%A6 以及 nLab的对应条目：https://ncatlab.org/nlab/show/condensed+mathematics
 
 
-### 1.8.6 导出代数几何（Derived Algebraic Geometry）-高阶范畴（Higher Categories）-高阶意象（Higher Topos）-高阶代数（Higher Algebra）
+#### 1.8.6 导出代数几何（Derived Algebraic Geometry）-高阶范畴（Higher Categories）-高阶意象（Higher Topos）-高阶代数（Higher Algebra）
 > 这一部分的工作始于一个核心人物——美国当代数学家Jacob Lurie（2014数学突破奖，目前在IAS）连通现代代数几何与代数拓扑之间的杰出工作。从他草创导出代数几何这一将代数几何同伦化的全新领域的博士论文开始，他与他的合作者们又为给这一领域提供基础的同伦论建立了新的理论框架——高阶范畴论，和以此为基础的高阶意象（意象/topos是Grothendieck创始的概念）理论和以其为语言的高阶几何（Higher Geometry）理论，以及高阶算筹（Higher Operad）理论和以其为语言的高阶代数理论。在原则方面，这一系列理论框架都可以视为Grothendieck开创的代数几何现代流派的思路的延续，只是借由同伦论而得到了进一步的改良。这一系列工作也为拓扑量子场论提供了可用的数学语言（见物理学-量子场论-拓扑量子场论部分Lurie的相关工作），并且推动了范畴化数学与物理学潮流的发展，这一潮流（不过其开始的时间早在Lurie的工作前）涉及的领域从已经以范畴为标准语言的代数几何和代数拓扑遍及拓扑量子场论相关的数学物理领域（量子群、量子上同调、镜像对称甚至量子可积系统）和凝聚态物理中新兴的拓扑量子物质领域（尤其是文小刚引领的对拓扑序的研究）。
-> 这一潮流所产生了一个与范畴（尤其是高阶范畴）相关联的数学、物理乃至哲学的理论联盟，其中的各个领域因共通的理论基础产生着联系与互动。对于这一「n阶范畴（n-category）」理论的联盟，产生了一个重要的民间资源：名为nLab的维基社群，收录了对于这一理论联盟中众多主题与相关主题的介绍与文献索引，所有内容都具有相当高的质量，并可以成为入门学习的优质起点。
+> 这一潮流所产生了一个与范畴（尤其是高阶范畴）相关联的数学、物理乃至哲学的理论联盟，其中的各个领域因共通的理论基础产生着联系与互动。对于这一「n阶范畴（n-category）」理论的联盟，产生了一个重要的民间资源（实际上它源于Baez等职业研究者的博客，详见维基百科的nLab条目中的历史部分）：名为nLab的维基社群，收录了对于这一理论联盟中众多主题与相关主题的介绍与文献索引，所有内容都具有相当高的质量，并可以成为入门学习的优质起点。
+
 通过nLab查找分散的论文、讲义等各类材料进行学习也是我本人认为最行之有效的学习n阶范畴理论联盟中感兴趣的领域的方法。当然，因为理论的大致脉络已经在方才的介绍中理清，本人自己的途径是从应用的其他方面（主要是物理学方面）的材料入手按需要学习Lurie的一系列理论中的部分，而不会单独对其进行研究。
+
 这一系列工作最权威的参考无疑还是要数创造它们的核心人物、写书狂魔Lurie自己的一系列专著和论文，覆盖了以上所有的领域，在[他本人的主页](https://www.math.ias.edu/~lurie/)上都能免费取得。但缺点是往往这些专著过于篇幅庞大，更适合作为字典而非初学者使用。
 
 ### 1.9 数论（及密码学）
@@ -1661,6 +1692,9 @@ TQFT的奠基性文献是Atiyah开天辟地的文章，可读性很高：
 * Rob Philips, Jane Kondev, Julie Theriot, Hernan G. Garcia, Nigel Orme(插图)，Physical Biology of the Cell
 > 有“生物物理圣经”之名，领域入门教材（类似于Mankiw的半科普），全面的导论，可以算是统计物理入门习题集生物分册（x）。
 
+* [美国] Philip Nelson，《生物物理学——能量・信息・生命》（Biological Physics: Energy, Information, Life）
+> 强调物理原理，对生物物理学各个方面进行统一介绍的入门书。讲解生动形象。「这本书不是生物学基础课的一个新分支，而是能够带领读者迅速到达当代生命科学研究前沿的旅游指南。」——出版社推介语
+
 ##### 3.11.Ex2.2 高分子物理学-化学
 > 实际上这部分和化学是打通的（实际上更接近化工一点）。主要的对象是聚合物。
 * 何曼君，《高分子物理》& 潘祖仁，《高分子化学》
@@ -1674,7 +1708,7 @@ TQFT的奠基性文献是Atiyah开天辟地的文章，可读性很高：
 > 有必要解说一下天文学与天体物理的关系：在很久以前人类的社会中只有观察和记录星空之上的事物的天文学，它和地理学一样是记录+整理的博物类学科（相对于探求规律预测现象的自然哲学类学科而言）。
 > 近代物理学、化学等学科发展后，探索天体的物理规律的物理研究发展成为天体物理学，它基于已有的天文知识，又推动人类发现更多天文现象，因而，从一开始天体物理学与天文学就是彼此交汇难以分割的一个知识整体，而且天体物理学在诞生后至今（因为我们还没有物理技术以外的其他手段）已经成为了获取天文知识的唯一主要渠道。
 > 因此，「天文学」常常泛指传统博物式天文学和天体物理两部分的总和（其他相关解说另见天文学部分和地球科学部分），这个范围是确定的；而且在今天（21世纪20年代），天文-天体物理学的研究会被并行不悖地同时称呼为「天文学」和「天体物理」。
-#### 3.12.1 一般天体力学 & 天体力学综合教材
+#### 3.12.1 一般天体物理 & 天体物理综合教材
 * 向守平，《天体物理概论》
 > USTC 的教材。入门友好。「注意把天文学和天体物理学发展史上的主要事件结合到课程内容之中介绍，使读者能够比较生动具体地了解人类对宇宙奥秘的艰苦探索过程。在侧重基础的同时，对一些前沿热门问题也进行了适当的介绍和讨论，读者可以根据自己感兴趣的程度对这些内容进行取舍。」 已经很坚定不可能去搞主流的天体物理了（风格也太搬砖了...理论浓度低到让人觉得失落的那种），所以先学一点就好。
 
@@ -1712,6 +1746,11 @@ TQFT的奠基性文献是Atiyah开天辟地的文章，可读性很高：
 > 主要使用经典力学研究天体运动与天体间引力作用的学科方向。（入门内容也作为天文类专业的核心专业课。
 * 易照华，《天体力学基础》
 > 内容比较丰富的一部入门教程。
+
+#### 间节 星系动力学（Galactic Dynamics）
+> 星系动力学主要研究恒星系统中物质分布（即结构）和运动学状态的动力学理论，以及系统的动力学演化，是天体运动与天体间引力作用的多体（大数目）情况。原则上可以归入对星系的一般研究中（实际上在一般天体物理部分的教材中已有涉及此部分）或者天体力学中（虽然实际上天体力学研究的范围一般止于三体或少体，达不到大数目的程度），因为这种复合性我们单独将它列出。
+* [英国] James Binney, 《星系动力学》（Galactic Dynamics）
+> 星系动力学的代表性专著，有「星系动力学圣经」的美誉。
 
 #### 3.12.4 天文/天体观测
 > 首先，观测天体物理学=观测天文学=天文观测（w
@@ -1939,8 +1978,8 @@ AMO方面时下比较常用的**计算/模拟工具**是**Qutip**, 一个强大�
 > Zwiebach的A First Course in String Theory也有着这些特点（也许是德裔buff？），但稍微比较浅，大概因为是面向本科生的缘故。
 > Blumenhagen 另有一本 Introduction to Conformal Field Theory: with Applications to String Theory（见共形场论部分），可以相互参考。
 
-* [美国] Michael B. Green，John H. Schwarz（就是上面那位没错），Edward Witten，《超弦理论》（Superstring theory）（两卷本）
-> 著名的GSW（作者姓氏首字母）或称 Green（不是写科普的那位 Greene），Witten 参与编写的大作。公认的深入介绍超弦理论的标杆书。（第二卷的第十五章是一些基本的（数学物理中的）代数几何入门教学。 有世界图书出版公司的英文影印版。
+* [美国] Michael B. Green（不是写科普的那位 Greene），John H. Schwarz（就是上面那位没错），Edward Witten（菲尔兹奖1990），《超弦理论》（Superstring theory）（两卷本）
+> 著名的GSW（作者姓氏首字母） 三位弦论大家参与编写的大作。公认的深入介绍超弦理论的标杆书。（第二卷的第十五章是一些基本的（数学物理中的）代数几何入门教学。 有世界图书出版公司的英文影印版。
 
 著名科普红人加来道雄（Michio Kaku）也有一本Introduction to Superstrings and M-Theory，内容不浅，似乎有些内容比较有趣，有些部分甚至扯上了Teichmüller几何，但意义如何我且蒙在鼓里）
 
@@ -1996,7 +2035,10 @@ AMO方面时下比较常用的**计算/模拟工具**是**Qutip**, 一个强大�
 > 内容更深入一些、侧重协变方法的教材，亮点是讲解了“LQG版本的路径积分”j技术——自旋泡沫（spinfoam），也包含了一些宇宙学上的应用。
 > Rovelli 的授课视频，于法国马赛理论物理中心：https://www.bilibili.com/video/BV12t411S71B/
 > Rovelli 本人现已入驻bilibili: https://www.bilibili.com/video/BV1gY4y187NS/ 个人空间：https://space.bilibili.com/1798008365
-> 他另有一本非常著名的科普书《七堂极简物理课》。
+> 他另有一本非常著名的理论物理科普书《七堂极简物理课》，以及一本关于量子引力的科普书《现实不似你所见：量子引力之旅》，等等。Rovelli应该也已经称得上是科普大家了。
+Rovelli 另有一本大部头的 Quantum Gravity，这个是完整的、可供参考的LQG专著，侧重于物理（广义相对论与量子理论）统一性的论述。另一本侧重数学体系的专著是：
+* [德国] Thomas Thiemann，Modern Canonical Quantum General Relativity（2008，序言是Chris Isham写的XD）
+两者恰好相互补充，可以算作一套完整的LQG专著。
 
 ### 3.Ex1 流体力学
 > 流体力学产生于数学、物理学等学科尚未分化的时代，诞生于欧拉、高斯、拉格朗日、柯西等伟大的数学-物理（自然哲学）家之手。因为它本身是一门高度依赖数学的、以研究流体的力学性质的理论（流体相关的PDE在数学界也是主流的方向之一），而又在工程上有非常广泛和重要的应用（航空航天、医疗、汽车、高层建筑...），当代流体力学的研究呈现出数学-物理学-工程学的复合属性。以各种流体为对象的研究同时在以上三种学科的组织中开展，研究的具体方面（数学模型、物理性质、工程应用）与方法都各有不同。这也催生了面向数学、物理学、工程学的三类不同的流体力学教科书，下面我会将其各自分开谈论。
