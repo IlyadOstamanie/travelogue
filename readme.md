@@ -2902,10 +2902,14 @@ The Ultimate Objective: supervise yourself ((
 2. 另一个好渠道则是如果身在研究院校的话，现在各类讨论班、会议等学术活动中都会有受邀学者对自己新工作的的（**口头）报告**，也是一个获知当前各个领域进展好的机会。
 3. 传统的信息源在上面的《文献管理与信息分析》中也已有阐述，如各类**期刊、会议、以及它们在文献数据库中的存档**等。最主要的还是**期刊**。
 
+主要的外文（英文）电子期刊数据库可参见中科大图书馆网站上的索引：https://lib.ustc.edu.cn/category/%e7%94%b5%e5%ad%90%e8%b5%84%e6%ba%90/database/4-%e5%a4%96%e6%96%87%e7%94%b5%e5%ad%90%e6%9c%9f%e5%88%8a/
+
 关于数学和物理学的最知名期刊的一点常识：
 [各学科的世界顶级权威期刊都有哪些？](https://www.zhihu.com/question/283562820)
 [物理领域的顶尖期刊有哪些？](https://www.zhihu.com/question/576473192)
 [物理学领域有哪些值得长期阅读关注的期刊、网站？](https://www.zhihu.com/question/55715651)
+数学领域顶尖的四大期刊是Acta Mathematica, Annals of Mathematics, Inventiones Mathematicae 和 Journal of American Mathematical Society。
+物理领域顶尖的期刊除了自然科学的CNS三幻神（Cell, Nature, Science）上的物理部分，最有名的当属Physical Review Letters (PRL)和Reviews of Modern Physics(RMP)；除此之外被视为顶尖的期刊还有Physical Review A/B/(或根据具体方向的其他分刊)。
 
 因为我们在自然科学领域工作，更多了解一点适用这个领域的SCI以及影响因子（Impact Factor）吧：
 [SCI到底是什么？一篇文章带你搞清楚|sci|学术|引文|科学引文索引](https://m.163.com/dy/article/HC889KOP05368TFK.html?spss=adap_pc)
@@ -2919,7 +2923,7 @@ The Ultimate Objective: supervise yourself ((
 [h指数多高才能评上教授？](https://blog.sciencenet.cn/blog-1792012-1087213.html)
 [一个科研工作者的文章H-index=57具体是一个什么样的水平？](https://www.zhihu.com/question/268211994)
 
-对了，正式的期刊文献却没有出版商的获取权限，可以求助于Sci-Hub。
+对了，正式的期刊文献却没有出版商的获取权限，可以求助于神奇的Sci-Hub。
 总之，以上这些应该足够覆盖对于科研这一工作的所有基本概念。余下的只是进一步的细节了。
 
 ### 第三部分 进行研究工作
@@ -2936,16 +2940,63 @@ The Ultimate Objective: supervise yourself ((
 
 ## 附录三 工业生产常识
 > 补习关于工业生产的常识；代替工厂参观和实地学习。
-[工程训练_河北工业大学_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1YJ41177aV/)
+> 在现代工程学与与之对应的工业中，起最基础作用的三类工程/工业学科是机、电、建三类。它们为现代工业制造提供了所需的基本部分。有了这些工业常识之后，也会容易理解其他制造业的工作。
+
+**机械/金工**
+
+对于机械类以及其他任何工业都必须的基本技能是绘制和读*工程图*的能力。速成可以直接读[机械制图备课笔记.doc](https://max.book118.com/html/2019/0508/8057120076002022.shtm)和[机械制图基础知识，大学四年的精华全在这里了！_绘图](https://www.sohu.com/a/435418232_727425)了解基本概念与图线规则，具体的零件、装配图等细节再去参考工程制图相关教材（见工程制图部分）；对于几种常见的轴测图（直观图）及其草图的画法，数学-代数学部分提到的《高等代数与解析几何》中也有系统易懂的入门讲解。
+
+对于机械工业的其他基本知识，一般会在大学工学专业中的《金工实习/工程训练/工程实习》课程中学习。
+
+获得对于机械工业与整个现代制造业的常识，可以参考[工程训练 - 大连理工大学(国家精品课)](https://www.bilibili.com/video/BV1Se4y1C7vL/)。如果只想知道整体的概念，前三节就足够了，后面是具体技术，可以看下面的补充。
+
+[工程训练_河北工业大学_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1YJ41177aV/)以及[[中英字幕]麻省理工MITx 2.008x 制造工艺基础 Fundamentals of Manufacturing Processing_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1LR4y1Q7p7)可以作为补充。
+
 
 **参考用**
 [名校公开课-机械制造实习-李双寿 | 清华大学_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1fi4y1x7Ct?p=19)
+
 [工程技术训练(金工实习)_国防科学技术大学_主讲-范大鹏 42讲_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1gv411V7LF/?p=40)
+
 [工程训练 - 西南科技大学 - 学堂在线（好像已经结课了）](https://www.xuetangx.com/course/xnkj0829zw/5894477)
+
 [机械制造实习 - 清华大学 - 学堂在线（现在也已经结课了）](https://www.xuetangx.com/course/THU287662002794/9635269) 但是它们遗留下来的授课大纲依然可以作为学习的参考。
+
+**补充**
+
+初步了解*焊接*，还可以参考[5分钟了解焊接基础_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Br4y1t7BE/)。
+
+两类机械制造的基本个体技能分别是*钳工*（磨锤子）和*机工*（车床加工）。
+
+钳工基本技能组的典范实例是用切割好的毛坯磨出一把锤子（这也是很多地方金工实习唯一教的东西）。非常好的教程是[小铝锤的制_哔哩哔哩_bilibili作](https://www.bilibili.com/video/BV1fK411H7jn/)。
+
+机工的基本技能就是机床的操作。初步了解机床操作可参考[车床操作基本技能_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1B5411g7ks/)（机械机床）与[数控机床初了解_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1t14y1W7th/)（数控机床）。
+
+另一个比较重要的技术是当下时兴的*快速成型/3D打印*技术。初步了解操作可以参考：
+[【硬件科普】什么是3D打印，3D打印有哪些种类，优劣分别是什么？_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1C34y1o771/)
+
+[小白入门-3D打印初流程_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1pQ4y1U7iU/)
+
+[第二节FDM的打印流程_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Vb4y1t72n/)
+
+
+**电工**
+除去电子信息科学部分的理论与实践知识（含软件工具使用，见电子信息科学部分），需要专门学习的最基本的个人用工具可以参考：
+
+主要工具列表：[如何打造自己的低成本电子实验室？](https://zhuanlan.zhihu.com/p/169841389)
+
+使用电烙铁/电路焊接：[工具 | 如何使用电烙铁？基础焊接、接线、接件_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1yv41167ky/)（嘉立创yyds）
+
+使用示波器：[示波器实验(物理老师制作，示波器原理讲解非常详细，非常适合初学者理解示波器原理与操作时使用)_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Pg4y1a7HU/)（模拟示波器）与[大学物理实验：数字示波器原理与使用详解（共7集）_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Eb4y1x7VA/)（数字示波器）
+
+余下的一个主要工具是万用表，这个一般在物理学课程中都有教授其原理与使用，无需单独学习。
+
+**土建**
+这部分的背景知识在上面的土建类部分已经覆盖到了，基础技能一般不在工地也无法实践，工具的原理和使用也要简单得多，所以对非从业者没有专门跑去学习的必要。
 
 > 上面那些都算是浅尝辄止，如果想深入的话...
 > 诶？民兵训练手册？军地两用人才之友？我不知道，不要问我（。
+
 
 ## 附录四 文言（传统汉文/古典汉文）
 > 古代东亚上层通用书面语，除行政外也广泛用于文艺。
