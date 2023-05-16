@@ -868,15 +868,19 @@ Kontsevich的另一项重要工作——同调镜像对称（见物理学-镜像
 > 柏原正树与Pierre Schapira（索邦大学及IMJ-PRG）同为代数分析发展中的重要贡献者，他们在这方面最主要的工作是对微局部分析的发展，由此诞生的微局部层论使得微局部分析成为辛几何的有效工具，而这本书至今还是微局部层论最主要的成书资料。
 > 前三章基础知识可以用来入门同调代数和层。之后的正题部分是讲流形上的层，但是实际上大部分都是微局部层论的东西（
 > **代数分析**/代数解析（Algebraic Analysis）是当代数学的主要方向之一，是，虽然并不大红大紫，但也一直在不断发展和对数学的各个方向产生影响（主要是日本和欧洲），与几何表示论与几何Langlands纲领都有可观的联系。
-> 代数分析的主要基础专著是柏原正树本人与河合隆裕 (Takahiro Kawai)， 木村达雄 (Tatsuo Kimura)合著的 Foundations of Algebraic Analysis（日文版名：《代数解析学の基礎》）。（作为起点足够，主要的文献还都是论文形式）
+> 代数分析的主要入门专著是柏原正树本人与河合隆裕 (Takahiro Kawai)， 木村达雄 (Tatsuo Kimura)合著的 Foundations of Algebraic Analysis（日文版名：《代数解析学の基礎》）。（作为起点足够，主要的文献还都是论文形式）
 > 了解代数分析与数学物理的联系可以参考这个简要的综述（共51页） arXiv:1706.04105 [math-ph]（Jean-Francois Pommaret, Algebraic Analysis and Mathematical Physics）
 > IHES之前还办过群星云集的代数分析专题讲座：https://www.bilibili.com/video/BV1p4411A7LX/
 
 Schapira还有两个比较友好的讲义[Categories and Homological algebra](https://perso.imj-prg.fr/pierre-schapira/wp-content/uploads/schapira-pub/lectnotes/HomAl.pdf)和[Abelian Sheaves](https://perso.imj-prg.fr/pierre-schapira/wp-content/uploads/schapira-pub/lectnotes/Shv.pdf)。非常简洁，节奏很快的讲义，像前者可以直接从基础的范畴论、R-模速通到导出范畴，后者则是Abel范畴进一步的相关补充。
 
+说到**微局部分析**（Microlocal Analysis），实际上除了Sato和Kashiwara等人通过代数（代数几何）方法发展出的微局部分析及相关的代数分析（基于微局部层论，所谓「日本学派」）理论之外，更加传统、篇分析方法的微局部分析同样在欧洲一直发展着（所谓「欧洲学派」或者「传统的」微局部分析），其中的核心人物之一是瑞典数学家、分析学大师Lars Valter Hörmander（菲尔兹奖1962，沃尔夫奖1988，分布/广义函数理论的建立者之一），他开创的*拟微分算子理论*成为微局部分析的基础性方法；对于这方面的最主流参考是他本人大而全的四卷本The Analysis of Linear Partial Differential Operators。
+
+由 Hörmander 开创的欧洲流派微局部分析的一个重要方向是致力于*严格化量子力学到经典力学的极限过渡过程*的**半经典（微局部）分析**（Semiclassical (Microlocal) Anlaysis），也是今天数学物理中正在发展的一个方向。今天关于半经典分析的著名教程是[Maciej Zworski](https://math.berkeley.edu/~zworski/)（波兰）的Semiclassical Analysis（Zworski还有一本数学物理著作Mathematical Theory of Scattering Resonances），更简短的入门材料是 André Martinez（法国）的An Introduction to Semi-classical and Microlocal Analysis，不到200页。还可以参考中科大开设的《半经典微局部分析》课程资料（王作勤）：http://staff.ustc.edu.cn/~wangzuoq/Courses/20F-SMA/index.html。
+
 
 * [美国] David A. Cox, John Little, Donal O'Shea，Ideals, Varieties, and Algorithms: An Introduction to Computational Algerbraic Geometry and Commutative Algebra
-> 如题所示，偏重计算方法地讲解了代数几何和交换代数的一些基础内容，是严肃地学习概型等进阶内容的很好准备。虽然深度有限且篇幅很长，但只需要熟悉线性代数就可以读。
+> 如题所示，偏重计算方法地讲解了代数几何和交换代数的一些基础内容，是严肃地学习概形等现代内容的很好准备。虽然深度有限且篇幅很长，但只需要熟悉线性代数就可以读。
 
 **双有理几何补充**
 一般代数几何（即代数几何中比较基本的，不可视为相对独立的部分）中一直比较热门的一个领域是双有理几何（birational geometry），它是以双有理等价分类代数簇的研究，是可以追溯到ALexandre Grothendieck开创以概形语言为基础的现代代数几何的统一体系的一系列工作前的古老领域。众多知名的数学家都因在双有理几何上的重要贡献而闻名，其中包括日本数学家广中平祐（Heisuke Hironaka，菲尔兹奖1970），森重文（Shigefumi Mori，菲尔兹奖1990），俄罗斯数学家Vyacheslav Shokurov（Вячеслав Владимирович Шокуров）和其门徒伊朗数学家 Caucher Birkar（菲尔兹奖2018）。
