@@ -119,7 +119,7 @@
       - [3.17.2 弦唯象学（String Phenomenology）](#3172-弦唯象学string-phenomenology)
       - [3.17.3 镜像对称（Mirror Symmetry）](#3173-镜像对称mirror-symmetry)
       - [3.17.4 AdS/CFT对偶](#3174-adscft对偶)
-    - [3.18 圈量子引力论（Loop Quantum Gravity, LQG）](#318-圈量子引力论loop-quantum-gravity-lqg)
+    - [3.18 圈量子引力（Loop Quantum Gravity, LQG）](#318-圈量子引力loop-quantum-gravity-lqg)
     - [3.Ex1 流体力学](#3ex1-流体力学)
       - [3.Ex1.1 偏数学的流体力学资料](#3ex11-偏数学的流体力学资料)
         - [3.Ex1.1.1 一般（解析的）流体力学理论](#3ex111-一般解析的流体力学理论)
@@ -130,6 +130,7 @@
       - [3.Ex1.3 偏工程的流体力学资料](#3ex13-偏工程的流体力学资料)
     - [3.Ex2 医学物理学（Medical Physics）](#3ex2-医学物理学medical-physics)
     - [3.Ex3 非线性动力系统-非线性物理-（复杂）系统科学与工程、非线性科学](#3ex3-非线性动力系统-非线性物理-复杂系统科学与工程非线性科学)
+    - [3.Ex4 声学](#3ex4-声学)
   - [4 电气信息科学/电气工程与计算机科学（EECS）部分](#4-电气信息科学电气工程与计算机科学eecs部分)
     - [4.1 电气信息科学综览性材料](#41-电气信息科学综览性材料)
     - [4.2 电子科学（与技术）部分](#42-电子科学与技术部分)
@@ -2040,7 +2041,7 @@ AMO方面时下比较常用的**计算/模拟工具**是**Qutip**, 一个强大�
 > 同样是低起点（不过要求的场论背景比Ammon略高一点）的入门教程，也同时讲解了理论和应用，可以和Ammon形成补充；还包括了一个Ammon没有的参考文献列表。
 
 
-### 3.18 圈量子引力论（Loop Quantum Gravity, LQG）
+### 3.18 圈量子引力（Loop Quantum Gravity, LQG）
 > 虽然同为（尚未完成的）量子引力理论，弦论中的内容与从宇宙学到代数几何的广大数学物理范围都有着繁杂的联系，而圈量子引力因为它本身从广义相对论开始量子化的路线则相对僻静很多。LQG的开山鼻祖是当代印度广义相对论名家Abhay Ashtekar，他是GR泰斗Robert Geroch（就是那本Mathematical Physics的作者本人，与Hawking和Penrose一起证明奇点定理的物理大师）的门徒，和美国理论物理学家（弦论和黑洞信息悖论的名家，卡拉比—丘紧化，全息原理及其应用方面的突出贡献者）与希腊物理学家Basilis Xanthopoulos（与1983年诺贝尔物理学奖得主Chandrasekhar（就是Chandrasekhar极限的那位钱德拉塞卡）一起在广义相对论中平面波碰撞产生的奇点研究上做出了重要贡献）师出同门。
 
 > [欢迎光临北京师范大学圈量子引力研究组！](http://virphysics.bnu.edu.cn/web/application/research/gravity/LQG/cn/index.html)
@@ -2134,7 +2135,6 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 最后，专门讲解流体力学在其他学科应用的教材也有，比如Eric Lauga的The Fluid Dynamics of Cell Motility（在生物学上的应用）与Owen M. Phillips的Geological Fluid Dynamics Sub-surface Flow and Reactions（在地质学上的应用）。
 
 
-
 ### 3.Ex2 医学物理学（Medical Physics）
 > 「医学物理是把物理学的原理和方法应用于人类疾病预防、诊断、治疗和保健的交叉学科。该学科以医学影像、放射治疗、核医学以及其他非电离辐射如超声、微波、射频、激光等在医学中的应用，及其应用过程中的质量保证、质量控制，和辐射防护与安全等为其主要内容。」——http://eap.ustc.edu.cn/2018/0706/c15097a270559/page.htm
 > 直接导向「医学物理师」这一医院职位，在放射治疗等实际治疗过程中发挥着核心作用。[解密医学物理师：12000名缺口巨大 没有职称、没有正常晋升通道](https://m.21jingji.com/article/20190712/ef401b608cbf910037ec6ce6bca6b2c9.html)
@@ -2176,6 +2176,23 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 > Bertalanffy 正是当今成体系的系统论研究的创立者，「系统论之父」；而这本教材正是正式确立系统论的学术地位的第一部系统的专著。
 > 'An attempt to formulate common laws that apply to virtually every scientific field, this conceptual approach has had a profound impact on such widely diverse disciplines as biology, economics, psychology, and demography.'
 
+### 3.Ex4 声学
+> 对声现象的研究，主要基于经典力学（毕竟声音是振动），是支持当今耳机、音响、话筒等声学设备与其他音频、音乐相关技术（录音、音乐制作等）发展的基础研究，也是在建筑、航空航天、汽车等工业中的声学问题研究的基础（这部分的基本知识一般也会在面向具体工程领域的教材里面涉及到，比如建筑学的教材）。
+> 入门可以参考东南大学的课程资料：https://www.icourse163.org/spoc/course/SEU-1450304511?tid=1450741745，还可以参考 https://zhuanlan.zhihu.com/p/37203931
+* 张揽月，张明辉，《振动与声基础》
+> 比较新的国内入门教材，非常简要地介绍了最基本的声学理论。
+* [美国] Lawrence E. Kinsler, A. R. Frey, A. B.Coppens, J. V. Sanders, Fundamentals of Acoustics
+> 声学主流参考书，包含原理与一些应用，详尽的大部头。
+*  杜功焕, 朱哲民, 龚秀芬, 《声学基础》
+> 与上一本同类的声学理论参考书，需要一定的基础。 
+
+作为具体应用的补充（都很友好，不要求太多基础）：
+* [美国] F.Alton Everest，Ken C. Pohlmann，《声学手册——声学设计与建筑声学实用指南》（建筑声学）
+* [美国] David M. Howard，Jamie Angus，《音乐声学与心理声学》（Acoustics and Psychoacoustics）（音乐声学，标题欺诈：其实只是结合了一点点心理相关的东西；音响等音乐设备研发的基础）
+*  吴硕贤，赵越哲，《室内声学与环境声学》（室内与环境声学，可归入建筑声学）
+同为振动的研究，声学与地震的研究有着相同的理论基础，只是研究的主要对象有所不同（声波 vs 地震波），后者一般被归入地球科学的范围内（见地球科学部分）。
+
+关于耳机、音响和其他现代音乐技术的一般知识，可以上网云一云（指贴吧/知乎/豆瓣等平台），也可以参考《耳机宝书》《音乐声学 音响·乐器·计算机音乐·MIDI·音乐声学原理及应用》这种科普；其他声学设备亦然。
 
 ## 4 电气信息科学/电气工程与计算机科学（EECS）部分
 > 目前根据国内外高校在电气信息科学领域（东方式称呼）/电气工程和计算机科学领域（西方式称呼，即Electrical Engineering and Computer Science，常缩写为EECS）各个分支的本科培养计划，预计现在本部分列出的材料可以大致提供该领域本科中基础水平的知识（其中计算机科学与技术方向可以提供相当于各国大学本科毕业水准的知识，用于提供一个全套的计算机技能组，用来做程序员（划掉）满足各方面生活需要）——但是仅限于理论知识，实验的技能还是需要到实验室里才能学习的；而且不包括向工科学生讲解数学、物理知识的教材，因为需要学的数学、物理知识已经在之前的数学、物理部分包括掉了。
@@ -2677,6 +2694,7 @@ William D. Callister（美国）的Materials Science and Engineering: An Introdu
 > 最早引入国内的汽车工程手册之一，来自世界最大的汽车零部件供应商之一，德国博世（BOSCH）集团。按照部件索引。
 *  日本自动车技术会（中国汽车工程学会翻译）《汽车工程手册》（《自動車技術ハンドブック》）
 > 十卷本的终极解决方案（），涵盖了汽车工程的方方面面，比前一本也更加系统，可能是市面上最详尽的。
+
 
 ## 10 土木工程（即整个土建大类，建筑-桥梁-水利-土木工程）与建筑学（也包含城市规划、风景园林、室内设计等旁支）部分
 > 土木很可能是我近期会了解的最后一个工程领域了。到这里本指南基本上已经涵盖了所有在所有人的社会生活中最相关的工程学门类。余下的工程技术门类，如矿业、冶金，以及一些相对具体的小工程门类（如现有武器门类的制造）等，都属于没有太多理论内容（即较高的理论知识门槛）的实践性学科，因而不值得首先学习。
