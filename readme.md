@@ -2178,7 +2178,8 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 > 'An attempt to formulate common laws that apply to virtually every scientific field, this conceptual approach has had a profound impact on such widely diverse disciplines as biology, economics, psychology, and demography.'
 
 ### 3.Ex4 声学（工程）
-> 对声现象的研究，主要基于经典力学（毕竟声音是振动），是支持当今耳机、音响、话筒等声学设备与其他音频、音乐相关技术（录音、音乐制作等）发展的基础研究，也是在建筑、航空航天、汽车等工业中的声学问题研究的基础（这部分的基本知识一般也会在面向具体工程领域的教材里面涉及到，比如建筑学的教材）。因为主要为具体工程服务，在物理学中处于边缘，常常被划到物理院系之外，研究规模不大。但因为声现象的普遍，了解其基本理论是有帮助的。
+> 对声现象的研究，主要基于经典力学（毕竟声音是振动），是支持当今耳机、音响、话筒等声学设备与其他音频、音乐相关技术（录音、音乐制作等）发展的基础研究，也是在建筑、航空航天、汽车等工业中的声学问题研究的基础（这部分的基本知识一般也会在面向具体工程领域的教材里面涉及到，比如建筑学的教材）。因为其与力学类似的地位（主要为具体工程服务），在物理学中处于边缘，常常也被划到物理院系之外，研究规模不大。但因为声现象的普遍，了解其基本理论是有帮助的。
+> 同为涉及波动现象的研究，声学与光学在研究传播过程中有着类同的方法。有些高校也会把声学与光学工程（光电信息工程）合为一个学位项目开设。
 > 入门可以参考东南大学的课程资料：https://www.icourse163.org/spoc/course/SEU-1450304511?tid=1450741745，还可以参考 https://zhuanlan.zhihu.com/p/37203931
 对于对音响技术感兴趣的学习者，最好的入门资料可能是MIT的6.312：[MIT麻省理工学院6.312-声学 Acoustics by Amar G. Bose (Bose公司创始人)](https://www.bilibili.com/video/BV1Ct4y147Ym)
 * 张揽月，张明辉，《振动与声基础》
