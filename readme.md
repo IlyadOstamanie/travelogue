@@ -1920,6 +1920,9 @@ AMO方面时下比较常用的**计算/模拟工具**是**Qutip**, 一个强大�
 * [美国] Richard D. Hazeltine，[比利时] François L. Waelbroeck, The Framework of Plasma Physics
 > 同样基于研究生等离子体物理课的比较简短的教材，追求系统性：'This book attempts to develop an understanding of plasma behavior, starting from identified physical laws and assumptions, as systematically as possible.' ——前言
 
+* 胡希伟，《等离子体理论基础》
+> 国内的标准教材之一，700页+的大部头。比较全面地覆盖了等离子体的主要理论。
+
 * [法国] Pierre Michel, The Physics of Laser Plasma Interactions
 > 激光-半导体作用的新入门教材（2023），基于作者开的研究生课，'This book is aimed at students and researchers new to the field of laser-plasma interactions. It is motivated by the general lack of recent textbooks on the subject and by the renewed excitement about the field of inertial confinement fusion (ICF) following the achievement of nuclear fusion ignition in December 2022 at the National Ignition Facility at Lawrence Livermore National Laboratory (LLNL).'——前言
 > 'With exercises and plenty of illustrations, this book is ideal as a textbook for a course on laser-plasma interactions or as a supplementary text for graduate introductory plasma physics course. Students and researchers will also find it to be an invaluable reference and self-study resource.'——出版社
@@ -2104,9 +2107,14 @@ Rovelli 另有一本大部头的 Quantum Gravity，这个是完整的、可供�
 > 呃，就像刚刚说的，朗道的《流体动力学》打底，再加上天体物理流体部分的资料（比如那本Modern Fluid Dynamics for Physics and Astrophysics里面不止包括了天体物理方面的应用，也有流体在等离子体等其他方面的应用，MHD也包了）应该就已经入门了。
 * [日本] 神部勉（Tsutomu Kambe，东京大学（已退休，2006年曾在南开大学访问）），Elementary fluid mechanics
 > 300余页的简短教材，但核心的知识面都覆盖到了，如果没有刚刚说的那些资料的基础，入门可以先看这个；如果已经入门可以作参考。
-与之同类（甚至篇幅也差不多）的一本知名老书是Tritton的Physical Fluid Dynamics。如果想要更简明扼要的可以看（200页不到）：
+作为补充的一本同类教材是
+* [英国] T. E. Faber, Fluid Dynamics for Physicists
+如果想要更简明扼要的可以看（200页不到）：
 * [俄罗斯] Gregory Falkovich（以色列魏茨曼科学研究所）, Fluid Mechanics: A Short Course for Physicists
+入门材料中还有一本知名的老书是
+* [英国] D. J. Tritton，Physical Fluid Dynamics
 可以参考的是的[法国] Etienne Guyon，Jean-Pierre Hulin，Luc Petit，Catalin D. Mitescu的Physical Hydrodynamics，是500页+的大部头，理论和实验并举，有不少彩图，适合做字典。
+
 对于不可压缩流体动力学，一个质量比较高的新参考书是[英国]P. A. Davidson的 Incompressible Fluid Dynamics，他还有一本湍流，turbulence: An introduction for scientists and engineers.
 #### 3.Ex1.2.2 磁流体动力学（Magnetohydrodynamics, 缩写为MHD）
 > 因为与磁场背景的流体的交叉性，因此MHD往往在流体力学中被视作单独的理论，与一般的流体力学分离开来。 
