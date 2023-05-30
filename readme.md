@@ -863,6 +863,9 @@ Kontsevich的另一项重要工作——同调镜像对称（见物理学-镜像
 * [美国] R. Hartshorne，《代数几何》（有英文影印版和中文译本）
 > 知名度最高、使用最广泛的现代代数几何教科书。不是很初学者友好，要能顺利阅读需要足够熟悉交换代数和同调代数的语言（用上范畴论的那种），无论如何作者写的相当用心，提供了承前启后的入门教科书需要的一切，初学不去追究细节也能受益很多。本书的英文原本已由施普林格（Springer）出版公司出版，被收入其 GTM（Graduate Texts in Mathematics）系列，编号GTM 52。
 
+* [德国] Siegfried Bosch, Algebraic Geometry and Commutative Algebra
+> 一本交换代数和代数几何的一贯制教科书，大部头新书（第二版2022年发行；实际上交换代数不过200页，代数几何也不到300页），入门友好，内容简明扼要地把握了对当代数学最核心的主线。
+
 **参考用**
 * [美国] Philips Griffiths, Joseph Harris, Principles of Algebraic Geometry
 > 大而细的另一部主流代数几何教科书，细节很多所以适合参考查阅。
