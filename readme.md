@@ -2439,13 +2439,14 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 * [美国]Tom Mitchell，《机器学习》（Machine Learning）
 > 来自 CMU 大名鼎鼎的经典教材，和周志华的《深度学习》内容层次相同，但周书包括一些更新的内容（如SVM），相比新人友好叙述更加专业（数学多一些），篇幅更短，水分更少，可以作参考。
 
-* [美国、加拿大]Ian Goodfellow，Yoshua Bengio，Aaron Courville，《深度学习》（Deep Learning）
+* [美国、加拿大] Ian Goodfellow，Yoshua Bengio，Aaron Courville，《深度学习》（Deep Learning）
 > 深度学习领域奠基性的「圣经」，深度学习界唯一指定百科参考书（雾），深入浅出地介绍深度学习的各种技术，从基础到最新的发展，从理论到实践。阅读需要一定的机器学习基础（但不多，比如CS231n，大概）。
 > 作者中的Ian Goodfellow是GAN之父，而Yoshua Bengio更是图灵奖得主，三位深度学习创始人之一：[三位深度学习之父荣获2018 年度图灵奖（Bengio, Hinton and LeCun）](https://zhuanlan.zhihu.com/p/60603751)
 > “深度神经网络负责现代计算机科学的一些最大进步，帮助在计算机视觉，语音识别和自然语言理解方面的长期问题上取得实质性进展，”Google高级研究员兼Google高级研究员Jeff Dean说。“这一进步的核心是30多年前由图灵奖获奖者，Yoshua Bengio，Geoffrey Hinton和Yann LeCun开始的基本技术。通过大幅提高计算机理解世界的能力，深度神经网络不仅改变了计算领域，而且几乎改变了科学和人类努力的每一个领域。“
 > 中文翻译可以在https://github.com/exacity/deeplearningbook-chinese 免费读。
 
-还有一本剑桥卡文迪许实验室David J. C. Mackay的《信息论、推理与学习算法》（Information Theory, Inference and Learning Algorithms），可以作为参考。
+还有一本剑桥卡文迪许实验室David J. C. Mackay的《信息论、推理与学习算法》（Information Theory, Inference and Learning Algorithms），可以作为参考。**「学习算法」（Learning Algorithms, Bengio创立的蒙特利尔学习算法研究所（Montreal Institute for Learning Algorithms, MILA）里面就是这个意思），以及更老式的「模式识别」）（Pattern Recognition，这个名称现在主要在自动化等应用此技术的传统工科中使用），都是「机器学习」（Machine Learning）的同义词，指的是同一类技术。「机器学习」在相关领域内部的交流中也常简单地称呼为「学习」(Learning)。**
+
 
 **参考用（实践）**
 * 范淼，李超 编著，《Python机器学习及实践——从零开始通往Kaggle竞赛之路》[有《动手学机器学习》后大部分不再必要]
