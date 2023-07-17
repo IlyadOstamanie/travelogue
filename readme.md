@@ -431,7 +431,7 @@
 
 **非线性动力学补充**
 > 与此密切相关的非数学领域是非线性科学（见物理学部分最后）与复杂系统科学。
-首先可以参考的是郝柏林院士在复旦开设的[【复旦大学精品课程】混沌动力学基础 (郝柏林院士主讲)](https://www.bilibili.com/video/BV1FW41157zW/)
+首先可以参考的是郝柏林院士在复旦开设的[【复旦大学精品课程】混沌动力学基础 (郝柏林院士主讲)](https://www.bilibili.com/video/BV1FW41157zW/)和其著作《从抛物线谈起——混沌动力学引论》。
 * [美国] 史蒂芬 H. 斯托加茨（Steven H. Strogatz）, 《非线性动力学与混沌》(Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering)
 > 名著，重点讨论非线性动力系统/非线性动力学和它在自然科学和工程上的各种应用的教材，MIT的教科书。
 > 作者是非线性动力系统（以及复杂系统）领域的知名数学家，也是和Ian Stewart一样的科普作家。
@@ -1166,6 +1166,8 @@ Stone & Goldbart 和 Geroch 一样属于休闲读物，也可以拿来作为补�
 * [德国] Albrecht Lindner（汉堡大学）, Dieter Strauch, A Complete Course on Theoretical Physics - From Classical Mechanics to Advanced Quantum Statistics（原作名（德文）：Grundkurs Theoretische Physik，第二作者将原作译为英文）
 > 德国体系的一部教科书，四大力学级别内容的一贯式教材（量子力学部分甚至更深入），但是缺点在于组织内容的体系和对于一些内容的术语可能和主流存在着较大的区别，因此为了让知识能与大部分资料更好相通，本书适合查阅但不适合作为初次学习之用。
 
+以及Kip Thorne 和 Roger Blandford 涵盖统计物理、经典光学、弹性动力学、流体力学、等离子体、广义相对论与宇宙学的巨部头 Modern Classical Physics。
+
 不过对于理论物理学而言最完整的参考大概还要数这个：
 * [法国] Jean-Pierre Francoise（索邦大学），[美国] Gregory L.Naber（德雷塞尔大学，费城），周尚真（[Tsou Sheung Tsun](https://www.maths.ox.ac.uk/people/tsou.sheung.tsun)，牛津大学）（主编），《数学物理学百科全书》（共12卷，分别为《数学物理学导言》《经典力学；流体动力学》《可积系统；经典、共形与拓扑场论》《规范场论；量子场论》《广义相对论；量子引力；弦论和M-理论》《凝聚态物质与光学；量子信息与量子计算；量子力学》《无序系统；动力系统》《平衡态统计力学和非平衡态统计力学》《代数技巧；李群和李代数；离散数学；量子群；随机方法》《复几何；微分几何；低维几何；非交换几何》《代数拓扑；辛几何与拓扑；常微分和偏微分方程 》《泛函分析和算子代数、量子化方法和路径积分、变分技术》）
 > 或许是当世内容最丰富、材料最全面的理论物理学（及其数学基础）的百科全书。要有效使用，足够的背景知识储备是必要的。
@@ -1300,11 +1302,12 @@ Stone & Goldbart 和 Geroch 一样属于休闲读物，也可以拿来作为补�
 高雄中山大学配套的网课：http://ocw.nsysu.edu.tw/files/11-1059-5409-1.php
 
 #### 3.4.2 更现代的（研究生级）电动力学
+> 内容基本上是在入门级教材之上加入更复杂的数学技巧和一些物理内容的补充。就后续学习的需要而言过掉Griffiths的内容已经可以提供较为完备的基础知识；除此以外的内容可以在这个级别的材料中按需查阅。
 * [美国] Robert Wald, Advanced Classical Electromagnetism（高等经典电磁学）
-> 新书，侧重于理论概念而非计算（所以比下面的 Jackson短亿点点），覆盖全面，适合速通。
+> 新书，侧重于理论概念而非计算（所以比下面的 Jackson短亿点点），适合需要提高的人速通。
 > 部分中文翻译稿：[高等经典电磁学](https://www.zhihu.com/column/c_1479464391897165824)
 
-* [美国]J. D. 杰克逊 (John David Jackson)，《经典电动力学》（原作名：Classical Electrodynamics）（由高等教育出版社出版了第三版的英文影印版。第二版有人民教育出版社在上世纪80年代初发行的中译本）
+* [美国]J. D. 杰克逊 (John David Jackson)，《经典电动力学》（原作名：Classical Electrodynamics）（由高等教育出版社出版了第三版的英文影印版。第二版有人民教育出版社在上世纪80年代初发行的中译本，质量不错）
 > 电动力学圣经，到处都在用的标准研究生教科书。不过很大一部分内容都是解方程的数学训练（，还是当字典查比较好一些。
 
 ### 间节 经典场论
@@ -2314,9 +2317,12 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 > 更进一步的日用计算机设备（台式电脑、笔记本电脑、智能手机）的使用和维护指南。
 
 #### 4.3.2 计算机科学综览性材料
+> 一个很好的快速入门/补充材料是 [【计算机科学速成课】[40集全/精校] - Crash Course Computer Science_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1EW411u7th/)
 * [美国] 内尔・黛尔（Nell Dale），约翰・路易斯（John Lewis），《计算机科学概论》
 * [美国] 贝赫鲁兹・佛罗赞（Behrouz Forouzan），《计算机科学导论》
 > 常规教科书。看完就会对计算机科学的疆域与其中主要的方面有一个全面的认识。
+
+来自物理背景、希望了解计算机系统的物理学方面的学习者，可以参考费曼的 Feynman Lectures on Computation（开课于1984-86，加州理工学院）。
 
 #### 4.3.3 计算机系统技术方面
 ##### 4.3.3.1 计算机组成原理
