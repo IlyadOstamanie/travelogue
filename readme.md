@@ -20,6 +20,7 @@
       - [间节 现代代数学综览性材料](#间节-现代代数学综览性材料)
       - [1.3.2 交换代数和同调代数（作为代数几何的铺垫）](#132-交换代数和同调代数作为代数几何的铺垫)
       - [1.3.3 李群、李代数（及其表示）](#133-李群李代数及其表示)
+      - [间节 李理论的进一步发展、不变量理论](#间节-李理论的进一步发展不变量理论)
       - [1.3.4 表示论](#134-表示论)
       - [1.3.5 量子群](#135-量子群)
     - [1.4 几何学](#14-几何学)
@@ -109,9 +110,10 @@
       - [3.13.3 量子光学](#3133-量子光学)
       - [3.13.4 当代AMO综览性材料与各分支资料](#3134-当代amo综览性材料与各分支资料)
       - [3.13.4 光电信息科学（与技术）](#3134-光电信息科学与技术)
-    - [3.14 核物理、等离子体物理](#314-核物理等离子体物理)
+    - [3.14 核物理、等离子体物理、核工程](#314-核物理等离子体物理核工程)
       - [3.14.1 核物理](#3141-核物理)
       - [3.14.2 等离子体物理](#3142-等离子体物理)
+      - [3.14.3 核工程【待定】](#3143-核工程待定)
     - [3.15 （基本）粒子物理学/高能物理学](#315-基本粒子物理学高能物理学)
     - [3.16 量子信息（量子通信、量子计算）](#316-量子信息量子通信量子计算)
       - [3.16.1 拓扑量子计算](#3161-拓扑量子计算)
@@ -583,6 +585,7 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 > 「其目的是把读者的线性代数水平从本科一、二年级提高到国内及欧美大学的研究生水平，让读者有实力利用线性代数学习其他学科并展开科研」。内容包括了以此为主线延伸的内容：张量、张量代数、交错型、行列式、双线性型、二次型、Clifford 代数、典型群、旋量、模理论、线性变换结构与Jordan 典范型、数值线性代数关于复矩阵的基础理论、模的各种构造法、群表示理论、同调代数以及范畴学。可以用来在初学阶段速通，也可以用来作综合复习或参考。
 
 #### 1.3.3 李群、李代数（及其表示）
+> 有时这些被统称为「李理论」。
 > 快速入门可以参考苏黎世大学的讲义（简明扼要，不到100页，还有带答案的习题和试卷，而且讲了其他地方很少提到的Haar Measure）：https://www.math.uzh.ch/gorodnik/lg17/index.html
 > 这方面理论物理用的比较多，所以不少不错的书是面向那边的。
 * [美国] Howard Georgi，Lie Algebras in Particle Physics: From Isospin to Unified Theories
@@ -594,10 +597,18 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 > 如果对自己对基本群论的熟悉自信不足，可以去看2004年的旧版，那里比现在的版本多了复习群论基础的附录。
 * [美国] James E. Humphreys, Introduction to Lie Algebras and Representation Theory
 > 比GTM222简短很多，内容更少也更干的教材，适合速成（，原书（英文）已由施普林格（Springer）出版公司出版，被收入其GTM（Graduate Texts in Mathematics）系列，编号GTM 9。
-细节处理的更多，更受数学院系欢迎的一部教科书则是 [美国] Daniel Bump 的 Lie Groups。
+细节处理的更多、更受数学院系欢迎的一部教科书则是 [美国] Daniel Bump 的 Lie Groups。
+
 * 徐一鸿，Group Theory in a Nutshell for Physicists
 > 从理论物理应用角度入门群论、李群、李代数及它们的表示的大厚书。新手友好，对于理论物理来说涵盖大部分需要，讲解比较友善，「如同在读小说」算是徐一鸿的个人风格，他确实也算是个作家：推荐他的另一部关于中国文化的通俗作品 Swallowing Clouds（《吞云》），非常有趣。
 > 徐一鸿（UCSB的Kavli Institute for Theoretical Physics的教授）是民国时期生于上海的美籍华人，Zee实际上是「徐」的上海话转写（物理部分会有关于他的更多情报
+
+#### 间节 李理论的进一步发展、不变量理论
+事实上，李群和李代数的理论在现代数学中早已开支散叶，从它们的应用中发展出众多（尤其是与对称性相关）的新结构，例如从与代数几何的互动中产生的代数群（Algebraic Groups；Humphreys也有一本专讲这个的GTM）理论；一本在Bump级别的李理论教学之外还初步涉足这些进一步发展的教材是
+* [美国] Roe Goodman , Nolan R. Wallach, Symmetry, Representations, and Invariants
+> 前言中作者们如此界定其内容：'...The result is a comprehensive introduction to Lie theory, representation theory, invariant theory, and algebraic groups, in a new presentation that is more accessible to students and includes a broader range of applications.'
+不变量理论虽然诞生于抽象代数的土壤之中（主要是Hilbert，Calyley与Klein的贡献），但其发展与李理论（当然也包括上述李理论教材中覆盖的群表示论的初步内容）的发展联系千丝万缕，密不可分；Goodman和Wallach的此书也可以作为一个入门。在19世纪60年代，David Mumford为沉寂的不变量理论带来了变革，与几何与拓扑的交汇产生了在现代数学物理中（尤其是TQFT相关）光芒四射的**几何不变量理论**，而延续之前主要研究风格的其他内容则有时被对应称为**经典/代数不变量理论**，几何不变量理论的经典教材是Mumford的名著Geometric Invariant Theory，后续可以衔接到与之相关的更近发展。
+
 
 #### 1.3.4 表示论
 > [表示论比较系统的研究](https://www.zhihu.com/question/28116211/answer/39453997)主要有三部分：群表示论、李代数的表示（在上一小节包含了）、结合代数的表示（=箭图（quiver）的表示）。
@@ -652,7 +663,7 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 > 当然，古典微分几何仍然延续着它的生命力。在黎曼之后最有影响力的微分几何学家之一是 E. 嘉当。他延续了古典微分几何的方法，强调了联络的概念，建立了外微分形式的微分几何理论，对黎曼几何以及其他几何分支都产生了重要的影响。在此基础上，嘉当与他的门徒，杰出的几何学家陈省身几乎完全结束了古典微分几何的已有研究，并共同创造了**整体微分几何**的新理论框架，它可以被视为古典微分几何的现代分支，也可以因为其整体性视为独立的分支（其中的Chern-Simons类等概念在现代物理学中的拓扑量子物质理论中（见物理学的相应部分）有非常重要的应用）；无论如何，整体微分几何已经成为了现代微分几何（狭义）研究的主体。陈省身的代表性工作还有推广了曲面上的高斯-博内定理，成为高斯-博内-陈定理。
 >  
 > 在发展中与微分几何相互交织的是拓扑学，它可以形容为研究空间（几何对象）的整体性质的数学分支，与微分几何对立而互补，因而两者的发展相互影响促进，所以我们在此也就不分开叙述和列举材料了。
-> 拓扑学研究的历史也可以一直追溯到早至欧拉的年代，如经典的欧拉多面体公式 V - E + F = 2 就产生于斯。（在很长的早期年代中，拓扑学的名字尚未被广泛采用，这时一般使用的名称是据称由莱布尼茨首先使用的「位置分析（拉丁语：analysis situs）」。）在随后的很长一段时间中，最初步的拓扑概念开始逐渐产生。Gauss和Johann Benedict Listing（拓扑学一词的最早使用者），还有Riemann、Jordan等都在这一持续至19世纪末的漫长阶段为拓扑学积累了丰富的素材和概念，虽然尚未形成有序的一个体系。完成这一工作的是1895年Poincaré的论文系列《位置分析（Analysis Situs）》，它第一次初步奠定了整个拓扑学的严格基础，是现代拓扑学的真正开端。（同时Poincaré提出了著名的三维流形的Poincaré猜想，它的解决见几何分析部分）自此以后掀开了拓扑学分化和发展的风潮，也对几何学的其他方面产生了极大的影响：与集合论的结合产生了**点集拓扑**的基础语言（内容不多，并不构成研究方向）；与代数方法的结合（最早的主要推动者之一是L. E. J. Brouwer）产生了研究代数化的拓扑空间的**代数拓扑**（其中到20世纪中叶又发展出同调论和作为其推广的同伦论，以及K理论等几种广义同调论（这些也是同伦论的一部分）），与微分几何的结合产生了研究微分流形的**微分拓扑**（这也是Smale，Milnor等人成名的领域），在20世纪后半叶代数拓扑与微分拓扑一度是拓扑学最鼎盛的两个分支（当然现在代数拓扑因为代数的繁荣和分析的相对衰弱而更胜一筹）。除这两个分别引入了代数与分析工具的分支以外的部分，基本就属于原本的拓扑学的传承，即原教旨的，由Poincaré开创的以一般的（拓扑）流形为对象的拓扑学，现在它一般被称为**几何拓扑**，其中对于低维数（一般认为维数不低于4）的几何对象——包括三维流形（这方面有过杰出工作的是美国数学家William Paul Thurston（菲尔兹奖1983，将二维流形概念拓展到三维流形的研究），他提出的几何化猜想（Geometrisation Conjecture）启发了其证明者，俄罗斯数学家Grigori Perelman（菲尔兹奖2006）用几何分析解决Poincaré猜想（它正是以三维流形为对象的）的工作; 三维流形下比较时兴的一个主题是Heegaard Floer同调）、四维流形（具有尤其奇怪的性质，Donaldson将规范场论引入低维拓扑的主要开创性工作就在这里，后来的Seiberg-Witten Theory则提供了更简便的替代）、扭结等——的研究被称为**低维拓扑**。因为其本身的性质，低维拓扑的结构在数学物理中发挥着很大的价值（如在弦论中发挥意想不到作用的扭结不变量和在TQFT中发挥核心作用的三维流形（见TQFT部分），是一个仍在发展中（但不热门）的方向。与低维拓扑相对的是高维拓扑，这方面主要运用的方法是示性类、割补（surgery）技术、Morse理论等。现在的几何拓扑已经发展为高度综合的学科，运用的技术十分多样，来自代数拓扑、微分拓扑、微分几何等各个数学领域，在今日与代数拓扑、微分拓扑共同组成拓扑学的三大研究领域，也可以加上点集拓扑并称拓扑学的四大分支。 
+> 拓扑学研究的历史也可以一直追溯到早至欧拉的年代，如经典的欧拉多面体公式 V - E + F = 2 就产生于斯。（在很长的早期年代中，拓扑学的名字尚未被广泛采用，这时一般使用的名称是据称由莱布尼茨首先使用的「位置分析（拉丁语：analysis situs）」。）在随后的很长一段时间中，最初步的拓扑概念开始逐渐产生。Gauss和Johann Benedict Listing（拓扑学一词的最早使用者），还有Riemann、Jordan等都在这一持续至19世纪末的漫长阶段为拓扑学积累了丰富的素材和概念，虽然尚未形成有序的一个体系。完成这一工作的是1895年Poincaré的论文系列《位置分析（Analysis Situs）》，它第一次初步奠定了整个拓扑学的严格基础，是现代拓扑学的真正开端。（同时Poincaré提出了著名的三维流形的Poincaré猜想，它的解决见几何分析部分）自此以后掀开了拓扑学分化和发展的风潮，也对几何学的其他方面产生了极大的影响：与集合论的结合产生了**点集拓扑**的基础语言（内容不多，并不构成研究方向）；与代数方法的结合（最早的主要推动者之一是L. E. J. Brouwer）产生了研究代数化的拓扑空间的**代数拓扑**（其中到20世纪中叶又发展出同调论和作为其推广的同伦论，以及K理论等几种广义同调论（这些也是同伦论的一部分）），与微分几何的结合产生了研究微分流形的**微分拓扑**（这也是Smale，Milnor等人成名的领域），在20世纪后半叶代数拓扑与微分拓扑一度是拓扑学最鼎盛的两个分支（当然现在代数拓扑因为代数的繁荣和分析的相对衰弱而更胜一筹）。除这两个分别引入了代数与分析工具的分支以外的部分，基本就属于原本的拓扑学的传承，即原教旨的，由Poincaré开创的以一般的（拓扑）流形为对象的拓扑学，现在它一般被称为**几何拓扑**，其中对于低维数（一般认为维数不低于4）的几何对象——包括三维流形（这方面有过杰出工作的是美国数学家William Paul Thurston（菲尔兹奖1983，将二维流形概念拓展到三维流形的研究），他提出的几何化猜想（Geometrisation Conjecture）启发了其证明者，俄罗斯数学家Grigori Perelman（菲尔兹奖2006）用几何分析解决Poincaré猜想（它正是以三维流形为对象的）的工作; 三维流形下比较时兴的一个主题是Heegaard Floer同调）、四维流形（具有尤其奇怪的性质，Donaldson将规范场论引入低维拓扑的主要开创性工作就在这里，Witten在这一方面初期的工作被称为Donaldson-Witten Theory，后来的Seiberg-Witten Theory则提供了更简便的方法）、扭结等——的研究被称为**低维拓扑**。因为其本身的性质，低维拓扑的结构在数学物理中发挥着很大的价值（如在弦论中发挥意想不到作用的扭结不变量和在TQFT中发挥核心作用的三维流形（见TQFT部分），是一个仍在发展中（但不热门）的方向。与低维拓扑相对的是高维拓扑，这方面主要运用的方法是示性类、割补（surgery）技术、Morse理论等。现在的几何拓扑已经发展为高度综合的学科，运用的技术十分多样，来自代数拓扑、微分拓扑、微分几何等各个数学领域，在今日与代数拓扑、微分拓扑共同组成拓扑学的三大研究领域，也可以加上点集拓扑并称拓扑学的四大分支。 
 > 
 > 因为几何方面的领域与概念相对而言复杂而缺少条理，通过历史进行概念的梳理相比其他条理比较清楚的分支就变得更加必要了——这也是在这里专门从历史发展梳理各个分支及其基本概念的原因。
 > 微分几何、拓扑学与代数几何共同构成了20世纪几何学理论体系中的基础，因而了解他们的历史就能够大致把握住整个几何学发展至今的一般脉络。（代数几何的历史解说见代数几何部分）
@@ -760,13 +771,13 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 > 3. Maxim Kontsevich.“Deformation quantization of algebraic varieties”. In: Letters in Mathematical Physics 56.3 (2001), pp. 271–294.
 > 还可以参考该导读：https://zhuanlan.zhihu.com/p/509886971
 
-形变量子化还可以联系到另一个更广泛的几何理论——**形变理论**（[deformation theory](https://ncatlab.org/nlab/show/deformation+theory)），暂时不准备学，不过一篇比较的入门文值得看看：深谷贤治（Kenji Fukaya），Deformation Theory, Homological Algebra, and Mirror Symmetry，其他材料可以参考https://www.zhihu.com/question/512415828。
+形变量子化还可以联系到另一个更广泛的几何理论——**形变理论**（[deformation theory](https://ncatlab.org/nlab/show/deformation+theory)），暂时不准备学，不过一篇比较的入门文值得看看：深谷贤治（Kenji Fukaya），[Deformation Theory, Homological Algebra, and Mirror Symmetry](https://www1.mat.uniroma1.it/people/manetti/DT2011/fukaya.pdf)，其他材料可以参考https://www.zhihu.com/question/512415828。
 > 深谷贤治的一个比较有意思的报告：https://www.bilibili.com/video/BV1va411n7E4/
 Kontsevich的另一项重要工作——同调镜像对称（见物理学-镜像对称部分）中的很多技术也来源于他亲手奠基的形变量子化理论，其中也包括在弦论和TQFT以及非交换几何的范畴化结构中大放异彩的深谷范畴（[fukaya category](https://ncatlab.org/nlab/show/Fukaya+category)），它在镜像对称中具有很基本的作用。
 当然，事实上辛几何本身就——和复几何（见上方微分几何部分）一起——构成镜像对称的主要数学基础，所以可以说Kontsevich的这两项重要工作都至少部分地源于辛几何。
 
 ##### 14.3.3 量子上同调（Quantum Cohomology）
-> 量子上同调理论的建立是Kontsevich四项最著名的工作中的第三项（与Manin一起，见下；最后一项是他刚开始博士学习时证明的Witten猜想），它处于辛几何和代数几何的交界地带，但因为和辛几何看上去更紧密放在辛几何底下了。量子上同调的一个（代数几何上的）重要结果是有理平面曲线的Kontsevich公式，与Drinfeld的量子群和量子可积系统都有重要的联系，与数学物理则有根本性的关系，如Kontsevich与Manin在 Gromov-Witten 不变量上的（对量子上同调而言的）奠基性工作。
+> 量子上同调理论的建立是Kontsevich四项最著名的工作中的第三项（与Manin一起，见下；最后一项是他刚开始博士学习时证明的Witten猜想），它处于辛几何和代数几何的交界地带，但因为和辛几何看上去更紧密放在辛几何底下了。量子上同调的一个（代数几何上的）重要结果是有理平面曲线的Kontsevich公式，与Drinfeld的量子群和量子可积系统都有重要的联系，与数学物理则有根本性的关系，如Kontsevich与Manin在 Gromov-Witten 不变量（这部分就是著名的「Gromov-Witten理论」，这部分还可看Simon Rose的讲义：https://arxiv.org/abs/1407.1260）上的（对量子上同调而言的）奠基性工作。
 * [瑞典] [Joachim Kock](https://www.mat.uab.cat/~kock/)（巴塞罗那自治大学）, [巴西] Israel Vainsencher（巴西Minas Gerais联邦大学）, An Invitation to Quantum Cohomology: Kontsevich’s Formula for Rational Plane Curves
 > 友好而富有直觉的量子上同调入门书，不到200页，风评不错。
 * [苏联-俄罗斯] 尤里·伊万诺维奇·马宁（Ю́рий Ива́нович Ма́нин，Yuri Ivanovich Manin）, Frobenius Manifolds, Quantum Cohomology, and Moduli Spaces
@@ -885,15 +896,15 @@ Kontsevich的另一项重要工作——同调镜像对称（见物理学-镜像
 其他适合作为此类参考的还有扶磊（Lei Fu）的Algebraic Geometry以及Justin R. Smith的Introduction to Algebraic Geometry。
 
 * [日本] 柏原正树（Masaki Kashiwara），[法国] Pierre Schapira，Sheaves on Manifolds（影印本标题翻译为《流形上的层》）
-> 柏原正树（京都大学RIMS教授）是日本数学界泰斗、2003年Wolf奖得主、RIMS前所长佐藤干夫（Mikio Sato）的门徒。佐藤干夫是现代代数分析理论的开山鼻祖，在完整量子场论（holonomic QFT）等数学物理问题上也有重要工作。
-> 柏原正树与Pierre Schapira（索邦大学及IMJ-PRG）同为代数分析发展中的重要贡献者，他们在这方面最主要的工作是对微局部分析的发展，由此诞生的微局部层论使得微局部分析成为辛几何的有效工具，而这本书至今还是微局部层论最主要的成书资料。
+> 柏原正树（京都大学RIMS教授）是日本数学界泰斗、2003年Wolf奖得主、RIMS前所长佐藤干夫（Mikio Sato）的门徒。佐藤干夫是现代代数分析理论（日本学派）的开山鼻祖，在完整量子场论（holonomic QFT）等数学物理问题上也有重要工作。
+> 柏原正树与Pierre Schapira（索邦大学及IMJ-PRG）同为这一支代数分析发展中的重要贡献者，他们在这方面最主要的工作是对微局部分析的发展，由此诞生的微局部层论使得微局部分析成为辛几何的有效工具，而这本书至今还是微局部层论最主要的成书资料。
 > 前三章基础知识可以用来入门同调代数和层。之后的正题部分是讲流形上的层，但是实际上大部分都是微局部层论的东西（
 > **代数分析**/代数解析（Algebraic Analysis）是当代数学的主要方向之一，是，虽然并不大红大紫，但也一直在不断发展和对数学的各个方向产生影响（主要是日本和欧洲），与几何表示论与几何Langlands纲领都有可观的联系。
-> 代数分析的主要入门专著是柏原正树本人与河合隆裕 (Takahiro Kawai)， 木村达雄 (Tatsuo Kimura)合著的 Foundations of Algebraic Analysis（日文版名：《代数解析学の基礎》）。（作为起点足够，主要的文献还都是论文形式）
+> 代数分析的主要入门专著（「入门」指不分学派的共同基础）之一是柏原正树本人与河合隆裕 (Takahiro Kawai)， 木村达雄 (Tatsuo Kimura)合著的 Foundations of Algebraic Analysis（日文版名：《代数解析学の基礎》）。（作为起点足够，主要的文献还都是论文形式）
 > 了解代数分析与数学物理的联系可以参考这个简要的综述（共51页） arXiv:1706.04105 [math-ph]（Jean-Francois Pommaret, Algebraic Analysis and Mathematical Physics）
 > IHES之前还办过群星云集的代数分析专题讲座：https://www.bilibili.com/video/BV1p4411A7LX/
 
-Schapira还有两个比较友好的讲义[Categories and Homological algebra](https://perso.imj-prg.fr/pierre-schapira/wp-content/uploads/schapira-pub/lectnotes/HomAl.pdf)和[Abelian Sheaves](https://perso.imj-prg.fr/pierre-schapira/wp-content/uploads/schapira-pub/lectnotes/Shv.pdf)。非常简洁，节奏很快的讲义，像前者可以直接从基础的范畴论、R-模速通到导出范畴，后者则是Abel范畴进一步的相关补充。
+Schapira还有两个比较友好的讲义[Categories and Homological algebra](https://perso.imj-prg.fr/pierre-schapira/wp-content/uploads/schapira-pub/lectnotes/HomAl.pdf)和[Abelian Sheaves](https://perso.imj-prg.fr/pierre-schapira/wp-content/uploads/schapira-pub/lectnotes/Shv.pdf)。非常简洁，节奏很快的讲义，像前者可以直接从基础的范畴论、R-模速通到导出范畴，后者则可以作为微局部层论的一个“热身环节”衔接到《流形上的层》。
 
 说到**微局部分析**（Microlocal Analysis），实际上除了Sato和Kashiwara等人通过代数（代数几何）方法发展出的微局部分析及相关的代数分析（基于微局部层论，所谓「日本学派」）理论之外，更加传统、篇分析方法的微局部分析同样在欧洲一直发展着（所谓「欧洲学派」或者「传统的」微局部分析），其中的核心人物之一是瑞典数学家、分析学大师Lars Valter Hörmander（菲尔兹奖1962，沃尔夫奖1988，分布/广义函数理论的建立者之一），他开创的*拟微分算子理论*成为微局部分析的基础性方法；对于这方面的最主流参考是他本人大而全的四卷本The Analysis of Linear Partial Differential Operators。
 
@@ -1673,9 +1684,9 @@ TQFT的奠基性文献是Atiyah开天辟地的文章，可读性很高：
 同样是老书的中文经典教材是由[郝柏林院士](http://power.itp.ac.cn/~hao/)（莫斯科大学和苏联科学院物理问题研究所研究生肄业，第一位通过朗道势垒的中国人，中科院理论物理所前所长，凝聚态、非线性物理、生物信息学家；他的另一本著作是相变的科普《边缘奇迹：相变和临界现象》。）译自俄文的Abrikosov，Gor'kov，Dzyaloshinskii的《统计物理学中的量子场论方法》，是早期凝聚态领域第一本量子多体理论教材，翻译文笔很好且清晰，篇幅比较精炼，适合首先阅读以入门。
 同类的还有Alexander L. Fetter和John Dirk Walecka（核理论部分的那本书也是他写的）的Quantum Theory of Many-Particle systems。更新的一部是：
 * [美国] Piers Coleman，Introduction to Many-Body Physics（2015）
-> 虽然也是传统方法的书，但包含了比两本诞生在20世纪末以前的老书要新的很多主题，很系统，而且比较清晰（有争议）。
+> 虽然也是包括传统方法的书，但包含了比两本诞生在20世纪末以前的老书要新的很多主题，也涉及场论的方法，很系统，而且比较清晰（有争议）。
 
-与传统方法对立，现代凝聚态的一大主要方法是场论。其他的这方面技术可以在面向凝聚态的场论书里补充获取。（见上方QFT部分）
+与传统方法对立，现代凝聚态的一大主要方法是（现代的，指路径积分）场论。其他的这方面技术可以在面向凝聚态的场论书里补充获取。（见上方QFT部分）
 >[凝聚态理论方向，量子多体理论的正确学习方式是怎样的？](https://www.zhihu.com/question/458777401)
 
 **针对强关联体系研究的补充**
@@ -1738,17 +1749,22 @@ Datta还有一本更深入的Electronic Transport in Mesoscopic Systems，是介
 > 以及文小刚等人写出的更长些的讲义 arXiv:1508.02595v4 [cond-mat.str-el] Quantum Information meets Quantum Matter。
 
 #### 3.11.Ex1 半导体物理学
-> 基本对应大学开设的《半导体物理》类似课程。基于现代的凝聚态技术研究半导体物理现象的不在此范围内。
-* 黄昆，韩汝琦，《半导体物理基础》
-> 本书作为半导体方面的补充阅读，简洁，友好，强调物理图像和应用。为了理解现代电子技术，尤其是集成电路工艺的原理，需要学习固体物理，尤其是半导体物理的知识。
+> 基本对应大学开设的《半导体物理》类似课程。基于现代的凝聚态技术研究半导体物理现象的不在此范围内。为了理解现代电子技术，尤其是集成电路工艺的原理，需要学习固体物理，尤其是半导体物理的知识。
 
+**参考用**
 * [日本] 滨口智寻（Chihiro Hamaguchi），Basic Semiconductor Physics
-> 在现代凝聚态理论的高度上的、内容更加深入的半导体物理教材。可以作为补充，
+> 在现代凝聚态理论的高度上的、内容更加深入的半导体物理教材。可以作为补充。
+
+* 黄昆，韩汝琦，《半导体物理基础》
+> 本书可作半导体方面的补充阅读，简洁的经典，强调物理图像和应用。
 
 * 施敏（S. M. Sze），《半导体器件物理》（原作名：Physics of Semiconductor Devices）
 > 进一步学习半导体器件。 「这本经典著作在半导体器件领域已经树立起了先进的学习和参考典范。此书的第3版保留了重要半导体器件的最为详尽的知识内容，并做了更新和重新组织，反映了当今器件在概念和性能等方面的巨大进展，它可以使读者快速地了解当今半导体物理和所有主要半导体器件，如双极、场效应、微波、光子器件和传感器的性能特点。」 作者是微电子领域的世界泰斗，台湾新竹交大的教授，中国工程院外籍院士（他同时持有美国国籍），美国工程院院士。 施敏另有一本《半导体器件物理与工艺》，器件上的解说略少，并增加了关于工艺的内容，也值得作为参考。
 
-下一步在考虑学习的书籍参考：[你所在领域的入门书单是怎样的？](https://www.zhihu.com/question/51265095/answer/129694643)
+其他可选的书籍参考：[你所在领域的入门书单是怎样的？](https://www.zhihu.com/question/51265095/answer/129694643)
+
+**主要学习材料**
+如果不缺时间且严肃考虑进入相关产业，可以选择一些更深入/更与生产前沿接轨的教材。半导体工艺部分可以由**Peter Van Zant**的《芯片制造——半导体工艺制程实用教程》完成，而物理与器件可以由**Neaman**的《半导体物理与器件》更物理且友好地覆盖掉。器件方面更接近前沿的参考书还有**胡正明**（Chenming Calvin Hu）的《现代集成电路半导体器件》。
 
 
 #### 3.11.Ex2 软物质物理学
@@ -1941,7 +1957,7 @@ AMO方面时下比较常用的**计算/模拟工具**是**Qutip**, 一个强大�
 * [意大利] Silvano Donati，《光电仪器：激光传感与测量》
 之后就是具体工程实践（+按需查找材料）的事情了。
 
-### 3.14 核物理、等离子体物理
+### 3.14 核物理、等离子体物理、核工程
 #### 3.14.1 核物理
 > 首先不要忘记我们还可以参考Greiner十三卷里有关的分册（w
 * 卢希庭，《原子核物理》
@@ -1970,6 +1986,10 @@ AMO方面时下比较常用的**计算/模拟工具**是**Qutip**, 一个强大�
 > 'With exercises and plenty of illustrations, this book is ideal as a textbook for a course on laser-plasma interactions or as a supplementary text for graduate introductory plasma physics course. Students and researchers will also find it to be an invaluable reference and self-study resource.'——出版社
 
 有一套看样子正在出版的大部头字典：Patrick H. Diamond, Sanae-I. Itoh, Kimitaka Itoh, Modern Plasma Physics （现在只能找到第一卷）。
+
+#### 3.14.3 核工程【待定】
+> 暂时在考虑加入的是：朱继洲，《核反应堆安全分析》；谢仲生，《核反应堆物理分析》，阎昌琪，《核反应堆工程》；聚变部分有 Friedberg, 《等离子体物理与聚变能》；Seife，《瓶中的太阳——核聚变的怪异历史》；冈本隆司，《核聚变堆设计》；谢华生，《聚变点火原理概述》。
+
 
 ### 3.15 （基本）粒子物理学/高能物理学
 > 一般地，基本粒子物理学=粒子物理学=高能物理学（在一些场合也被（并非完全恰当地）称呼为「理论物理学」或「基础物理学」，这种将其他一切物理视同应用的说法也许带有一些还原论哲学的色彩）。当下（21世纪20年代）物理学界的偏好是将「高能物理学」作为这一领域的首选称谓。
@@ -2388,6 +2408,7 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 > 与其配套的是Stanford的公开课《编译器》：https://www.bilibili.com/video/BV1Ms411A7EP
 
 ##### 4.3.3.8 数据库
+> 如果不是专业的数据库开发人员，用[廖雪峰的SQL教程](https://www.liaoxuefeng.com/wiki/1177760294764384)学会用SQL就能提供足够好的数据库技术基础了。
 * [美国] Abraham Silberschatz, Henry F. Korth, S. Sudarshan，《数据库系统概念》
 > 数据库的权威经典教材，砖头（CS的砖头是真的多...），但重在全面。
 
@@ -2396,7 +2417,12 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 
 ##### 4.3.4.1 算法与数据结构
 * [美国] Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein，《算法导论》
-> 大概是世界上最权威的算法与数据结构教材。砖头（记不清是第几个了）。学院派、百科全书式的教材。一般也将四位作者的姓氏首字母合在一起，用「CLRS」称呼本书。
+> 大概是世界上名气最大的算法与数据结构教材，算法「圣经」。学院派、百科全书式的大砖头。现有第三版（中文译本的最新版）略微缺乏新内容，但这一点在2022年的英文第四版得到了解决。看一般也将四位作者的姓氏首字母合在一起，用「CLRS」称呼本书。
+
+* [美国] Jon Kleinberg， [匈牙利] Éva Tardos, 《算法设计》（Algorithm Design）
+> 更加关注实操的算法教材，近几年很受全球各地大学算法与数据结构课的欢迎。内容上侧重的差异也使其可以与CLRS互为良好补充。
+
+之前更流行于课堂的教材是Robert Sedgewic的《算法》（Algorithms），使用Java进行讲解，有详细代码且非常具体，代价是冗长以及缺乏方法与理论的支撑而显得“流于工程”，更适合做手册。还有一本广受好评的简短讲义是Sanjoy Dasgupta，Christos Papadimitriou 和 Umesh Vazirani 的《算法概论》（Algorithms，英文书名和Sedgewic一样），内容精炼，提供了不少新视角，但因为是课堂讲义涉猎范围比较局限。
 
 * 刘汝佳，《算法竞赛入门经典》
 > 不算是学院派的教材，但是确实是教授算法与数据结构知识的教材，通俗易懂但难度梯度大，实际很深入——因为这是面向算法竞赛的零基础入门教材，无数NOIP和ICPC选手从这里走上光荣（x）的道路。其实包含了任何本科级别的算法与数据结构知识。
@@ -2426,7 +2452,10 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 
 ##### 4.3.5.1 软件工程
 * [美国] Roger S. Pressman，《软件工程——实践者的研究方法》
-> 讲解软件工程技术——如何更好地设计软件的著名教材。内容很全面，结合实际。（但是果然这门课还是没有什么实际用处诶...
+> 讲解软件工程技术——如何更好地设计软件的著名教材。内容很全面，也很枯燥。（但是果然这门课还是没有什么实际用处诶...
+但抛开在某些墨守成规的学校通过考试不谈，实际上更接轨当下软件行业实操的教材无疑是：
+邹欣，《构建之法——现代软件工程》
+> 一些高校已经开始选用它取代传统教材用于软件工程课程了。
 
 ##### 4.3.5.2 人工智能
 ###### 4.3.5.2.1 人工智能入门
@@ -2478,6 +2507,8 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 * [美国] Steve Marschner, Peter Shirley，《计算机图形学》（原作名：Fundamentals of Computer Graphics）
 > 主流的计算机图形学入门教材之一。全面系统地讲解图形学的基本概念和相关技术。 
 也可以考虑这个很好的录像合集：[GAMES101-现代计算机图形学入门-闫令琪_哔哩哔哩_bilibili](https://www.bilibili.com/video/av90798049)
+由这里开始可以搭建出一条游戏开发的学习序列：GAMES101图形学（前述） + GAMES104现代游戏引擎https://www.bilibili.com/video/BV1oU4y1R7Km/ + 参考《Game Coding Complete》 + 《Unity与C++游戏开发实战》 + bilibili和youtube大学的大量项目教学。
+
 
 ##### 4.3.5.4 计算机安全、信息安全、网络安全
 > 可以参考的资料：CMU Introduction to Computer Security, Network Security, and Applied Cryptography Fall 2013: https://users.ece.cmu.edu/~dbrumley/courses/18487-f13/ [零基础学习网络安全这一块，请问有哪些相关资料可以推荐一下？ ](https://www.zhihu.com/question/371464541/answer/1495014590)
@@ -2895,6 +2926,7 @@ William D. Callister（美国）的Materials Science and Engineering: An Introdu
 * [德国] 汉斯·约阿西姆·施杜里希（Hans Joachim Störig），《世界哲学史》
 * [美国] 威廉 F. 劳黑德（William F. Lawhead），《哲学的历程： 西方哲学历史导论》（The Voyage of Discovery:A Historical Introduction to Philosophy）
 > 两部著名的世界哲学通史，没有太多偏向性，作为对于哲学领域的入门很合适，至少能部分地脱离对哲学理论的讨论看天书的状态。
+> 和第二本同类的还有一本Stumpf的西方哲学史，两者在较现代的部分可以互补。
 > 想要继续脱离就要读更多的东西了——不过咱目前还没有明确如何成体系地组织手上的几十本哲学资料，所以就先摸了（
 
 ## 19 医学部分
