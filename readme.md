@@ -349,6 +349,8 @@
 > 1. 现代数学源流性的核心概念的综述，面向序言中的目标「综览近代数学的实质和动力」
 > 2. 与哥廷根学派的风格相匹配，本书中的解释和证明精简、自然（与很多其他作者对于同一个结论的证明往往构成鲜明的对比）、且不失严格性，很具欣赏价值。
 
+快速了解数学在20世纪的重要进展，还可以参考Atiyah的雄文 [迈克尔·阿蒂亚：二十世纪的数学发展](https://mp.weixin.qq.com/s/0KZx2Wo-fZTO5zPHiIhvbw)。  
+
 **参考用工具书**
 * [德国] 埃伯哈德・蔡德勒（Eberhard Zeidler) 等，《数学指南——实用数学手册》（Teubner-Taschenbuch der Mathematik；两卷本，但中译本只包括第一卷，第二卷目前未有译本）
 > 1. 工具向案头手册，齐全精致，可作参考
@@ -673,6 +675,7 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 > 因为几何方面的领域与概念相对而言复杂而缺少条理，通过历史进行概念的梳理相比其他条理比较清楚的分支就变得更加必要了——这也是在这里专门从历史发展梳理各个分支及其基本概念的原因。
 > 微分几何、拓扑学与代数几何共同构成了20世纪几何学理论体系中的基础，因而了解他们的历史就能够大致把握住整个几何学发展至今的一般脉络。（代数几何的历史解说见代数几何部分）
 
+> 速通微分几何与拓扑学的基本概念：[几何在物理学中的妙用 - 返朴](https://mp.weixin.qq.com/s/tqQ8o5Ue7MnHMyYUzL3HeA) [拓扑学基础与Gauss-Bonnet定理最速传说](https://zhuanlan.zhihu.com/p/551634049)
 > 关于微分形式到底是个什么东西的有益讨论：[魔鬼的枷锁：几何中的微分形式是什么？Hodge星算子又是什么意思？](https://zhuanlan.zhihu.com/p/401207597)
 
 * [日本] 中原幹夫（Mikio Nakahara）等，Geometry, Topology and Physics
@@ -1033,6 +1036,8 @@ Rising Sea中也有相关的一些内容。
 当然，在近半个世纪来，数论问题研究的风头无疑还是属于（一般被划归代数几何的）算术几何——借由算术几何的新技术，人们得以在许多经典问题上取得巨大的胜利。（见算术几何部分）
 
 #### 1.9.2 代数数论
+> 浅入门可以看这个知乎专栏：[代数数论：总集篇 - 知乎](https://zhuanlan.zhihu.com/p/24312945)；与算术几何关联的更现代内容可以看[Galois表示及Fermat Last theorem - 知乎](https://zhuanlan.zhihu.com/p/27156003)。
+
 * [日本] 加藤和也（Kazuya Kato, 芝加哥大学），黑川信重（Nobushige Kurokawa，东京工业大学），斋藤毅（Takeshi Saito，东京大学），《数论I—— Fermat的梦想和类域论》&《数论II——岩泽理论和自守形式》
 > 加藤和也是当代著名的算术几何与代数数论的泰斗之一（他在东京大学时的学生中就包含EGA的中文版译者周健（北京大学））；后两位作者则都是解析数论方面的知名学者。（本书的中文译者印林生也是斋藤毅的学生）
 > 两卷本的代数数论教材，比较友好和生动，也包含了椭圆曲线等不少算术几何的核心内容，提供了大部分现代数论（代数数论视角）所需的基本知识。
@@ -1043,6 +1048,8 @@ Rising Sea中也有相关的一些内容。
 > 代数数论的名著，标准的教材，内容全面，语言现代。同类的还有写书狂魔Lang的同标题GTM110，但内容略少一些。
 
 #### 1.9.3 解析数论
+> 浅入门可以看 Freitag 复分析第二卷的解析数论章节。
+
 虽然是老书，但是一个经典而且比较快速的解析数论入门是苏联数学家A. A. 卡拉楚巴（Karatsuba）的《解析数论基础》，只有200余页，但微言大义，不至于如其他入门书一样过浅。
 * [波兰] Henryk Iwaniec（邵逸夫奖2015）, Emmanuel Kowalski，Analytic Number Theory
 > 内容最丰富而现代的同领域教材之一。基本上内容堪称当世最全，也是很受欢迎的数论从业者的参考书。
@@ -1050,7 +1057,7 @@ Rising Sea中也有相关的一些内容。
 
 潘承洞、潘承彪两兄弟在上世纪80年代末的《解析数论基础》则是古典解析数论的大整理，也可以当字典。
 针对具体研究方法（尤其是概率方法）的名著还有法国数学家G. 特伦鲍姆的《解析与概率数论导引》。
-其他著名的材料还可以参考https://www.zhihu.com/question/64485350，但是因为当下解析数论已经渐渐不再快速发展，所以作为非数论从业者的我并不需要首先学习以上基础知识以外的内容。
+其他著名的材料还可以参考https://www.zhihu.com/question/64485350，但是因为当下解析数论已经渐渐不再快速发展，所以非数论从业者并不需要首先学习以上基础知识以外的内容。
 
 **密码学部分**
 > 作为数论或许最有影响力的应用领域，无论是基于它的巧妙还是它在现代科技中的重要地位，密码学都值得进一步了解。有时密码学被归入数学，但更多的时候因为用途被归入计算机科学，但这里由于现代密码学是基于数论的理论，所以放在这里。可以参考的资料：https://www.cs.cmu.edu/~goyal/15356/ http://crypto.cs.mcgill.ca/~crepeau/COMP547/
@@ -1583,14 +1590,20 @@ QCD：[牟田泰三](https://home.hiroshima-u.ac.jp/mutata/)（Taizo Muta）的�
 
 #### 3.10.5 共形场论
 > 近二十年被发现在弦论等物理分支中有重要应用价值的一类QFT结构，算是目前最热门的一类（。
+> 《返朴》上的科普：[通向量子引力的路，又宽了一点点](https://mp.weixin.qq.com/s/YYdcqy-xTwNvoVxk3osM4A?poc_token=HKiyDGWjGj1x754LTnbDLEr6GVlZJJDymT2jT7kN)
 > 场论大师 Moore 和 Seiberg 有一篇很有名的综述：[Classical and Quantum Conformal Field Theory](https://sci-hub.st/10.1007/bf01238857)
 > Moore还有一篇影响很大的数学物理（数学向）综述[Physical Mathematics and Future](https://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf)很值得读。
+> 共性场论的代数结构是**顶点（算子）代数**。关于这一领域的科普可以参看 [关于算子代数与顶点算子代数](https://mp.weixin.qq.com/s/fFbc7B2ebQ4V9eGKBqd5nQ)
+
+* [日本] 伊藤克司（Katsushi Ito, 东京工业大学）的《共形場理論: 現代数理物理の基礎として》
+> 共形场论的简短入门。（知乎上的翻译：https://zhuanlan.zhihu.com/p/590386434）
 
 * [法国] Philippe Di Francesco，Pierre Mathieu，David Sénéchal，Conformal Field Theory（《共形场论》）（两卷本）
 > 大黄书，（主要是二维）CFT圣经，经典的标准教科书。从复习QFT开始的新人友好字典，缺点是太长了所以容易迷失。
 
 * [德国] Ralph Blumenhagen, Erik Plauschinn, Introduction to Conformal Field Theory: with Applications to String Theory
 > 手把手的CFT入门教学，推导详细，内容丰富但浅显，篇幅简短，入门佳作。
+
 
 #### 3.10.6 拓扑量子场论（Topological Quantum Field Theory, TQFT）
 > 常常也被简称为「拓扑场论」（Topological Field Theory）。材料参考：https://zhuanlan.zhihu.com/p/466937989
