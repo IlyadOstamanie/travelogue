@@ -1216,6 +1216,9 @@ Stone & Goldbart 和 Geroch 一样属于休闲读物（但质量不错），也�
 * [苏联-俄罗斯] M. I. Pergament, Methods of Experimental Physics
 > 作者名的正式俄文写法无法查到（悲）。但根据放在亚马逊上的图书介绍基本上可以确定作者本人现在是库尔恰托夫原子能研究所（莫斯科）的教授。 根据前言的描述，这是作者在莫斯科物理技术学院开设的一门《实验物理学方法》课程（好像是研究生的x）的教学产物，主要讲解进行物理实验的原则与方法而非具体细节，所以篇幅也保持了相当的精简；并且也融入了作者多年从事实验工作的经验。
 
+* 吴志诚，荀坤，《近代物理实验（第四版）》
+> 通过过去物理学发展中的重要实验的细节，可以了解近现代物理学中一部分主要的基本实验技术。
+
 **物理历史教科书与物理（圈子的）文化常识读物**
 由于研究对象的不同，物理学研究总体相比数学研究对学术圈与历史知识的需要要低很多，也就是没有那么高的「圈子」壁垒。所以其实对这些没有什么认识也可以进行一些物理学研究。但是了解这门学科的历史和圈子里的文化迈过这个壁垒依然对了解物理学界和加入其中进行研究是有一些帮助的（当然有些教材里也会讲，如开篇必谈历史的Weinberg，通过这些了解历史也是可以的，这里提供的东西仅仅是把一切串起来）。 （至于EECS那边嘛...其实因为EECS和航天等等这样的应用类学科相比之下年轻得多所以综览性材料一般都会顺带把历史讲了就是了，而因为学科本身的强技术性，所以也形不成什么「圈子」的壁垒，就完全不需要这种材料了。)
 
@@ -2001,14 +2004,17 @@ AMO方面时下比较常用的**计算/模拟工具**是**Qutip**, 一个强大�
 
 #### 3.14.2 等离子体物理
 > 因为关系很紧密于是和核放在一起了，尤其是研究可控聚变方面。
+
 * 陈凤翔（Francis F. Chen），《等离子体物理学[与可控聚变(在科学出版社的翻译中省去)]导论》（Introduction to Plasma Physics and Contolled Fusion）
-> 源于作者在UCLA的等离子体物理课讲义，被很多人视为等离子体领域的经典教材，有着系统，现代，重应用的风评（但可能不是那么物理）。
+> 源于作者在UCLA的等离子体物理课讲义，被很多人视为等离子体领域的经典教材，有着系统、现代，重应用的风评（但可能不是那么物理）。
 
 * [美国] Richard D. Hazeltine，[比利时] François L. Waelbroeck, The Framework of Plasma Physics
 > 同样基于研究生等离子体物理课的比较简短的教材，追求系统性：'This book attempts to develop an understanding of plasma behavior, starting from identified physical laws and assumptions, as systematically as possible.' ——前言
 
 * 胡希伟，《等离子体理论基础》
 > 国内的标准教材之一，700页+的大部头。比较全面地覆盖了等离子体的主要理论。
+> 另一本简短很多的入门教材是郑春开的《等离子体物理》，适于快速了解基本概念。
+
 
 * [法国] Pierre Michel, The Physics of Laser Plasma Interactions
 > 激光-半导体作用的新入门教材（2023），基于作者开的研究生课，'This book is aimed at students and researchers new to the field of laser-plasma interactions. It is motivated by the general lack of recent textbooks on the subject and by the renewed excitement about the field of inertial confinement fusion (ICF) following the achievement of nuclear fusion ignition in December 2022 at the National Ignition Facility at Lawrence Livermore National Laboratory (LLNL).'——前言
@@ -2099,7 +2105,7 @@ AMO方面时下比较常用的**计算/模拟工具**是**Qutip**, 一个强大�
 * [美国] Michael B. Green（不是写科普的那位 Greene），John H. Schwarz（就是上面那位没错），Edward Witten（菲尔兹奖1990），《超弦理论》（Superstring theory）（两卷本）
 > 著名的GSW（作者姓氏首字母） 三位弦论大家及第一次弦论革命的领导者编写的大作。公认的深入介绍超弦理论的标杆书。（第二卷的第十五章是一些基本的（数学物理中的）代数几何入门教学。 有世界图书出版公司的英文影印版。
 
-第二次弦论革命的重要贡献者（同时也是著名的科普红人，畅销书作者，公众人物，「未来学家」）、弦场论（String Field Theory，见Moore的那篇Physical Mathematics）的创始人之一加来道雄（Michio Kaku）也有一本Introduction to Superstrings and M-Theory，内容不浅，似乎有些内容比较有趣，有些部分甚至扯上了Teichmüller几何，属实非常花哨）。他还有一本内容更基础的Strings, Conformal Fields, and M-Theory，以及QFT部分提到的那本场论。
+第二次弦论革命的重要贡献者（同时也是著名的科普类畅销书作者，公众人物，「未来学家」）、弦场论（String Field Theory，见Moore的那篇Physical Mathematics）的创始人之一加来道雄（Michio Kaku）也有一本Introduction to Superstrings and M-Theory，内容不浅，似乎有些内容比较有趣，有些部分甚至扯上了Teichmüller几何，属实非常花哨）。他还有一本内容更基础的Strings, Conformal Fields, and M-Theory，以及QFT部分提到的那本场论。
 
 **参考用**
 * [俄罗斯] A. M. Polyakov, Gauge Fields and Strings
