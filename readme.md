@@ -627,6 +627,10 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 * [俄罗斯] Pavel Etingof 等, Introduction to Representation Theory
 > 深入的群表示论讲义，通过后半部分可以了解一些结合代数的表示。
 
+* [美国] Neil Chriss，[俄罗斯/美国] Victor Ginzburg, Representation Theory and Complex Geometry
+> 几何表示论的整体入门介绍。这位Ginzburg是Kirillov与Gelfand的学生；与另一位更年轻的辛几何学者Viktor Ginzburg不是一人。
+> Bulletin of the AMS: "... This is the only available introduction to geometric representation theory. " 
+
 * [波兰] Daniel Simson, Andrej Skowronski, Elements of the Representation Theory of Associative Algebras（三卷本）
 > 结合代数表示的系统入门（字典），面向数学研究生的参考书。
 
@@ -749,14 +753,17 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 
 
 #### 间节 几何分析（Geometric Analysis）
-> 几何分析是分析与几何的交界地，是用分析的方法去认识几何现象，用几何的概念解读分析结论的分支，研究内容丰富多样，涉及到分析与几何的几乎所有方面。它在20世纪后半叶起通过Nash, Nirenberg, Morrey, Caffarelli, Calabi, 丘成桐（菲尔兹奖1982），Gromov（阿贝尔奖2009），Donaldson等数学家们的工作发展起来，到今天逐渐成为一个相对独立的方向，并且成为当代数学的一个热点。几何分析在近年的最大胜利之一是俄罗斯数学家Grigori Yakovlevich Perelman利用Ricci流技术对Poincaré猜想的成功证明（菲尔兹奖2006）。
+> 几何分析是分析与几何的交界地，是用分析（主要是PDE）的方法去认识几何现象，用几何的概念解读分析结论的分支，研究内容丰富多样，涉及到分析与几何的几乎所有方面。它在20世纪后半叶起通过Nash, Nirenberg, Morrey, Caffarelli, Calabi, 丘成桐（菲尔兹奖1982），Gromov（阿贝尔奖2009），Donaldson等数学家们的工作发展起来，到今天逐渐成为一个相对独立的方向，并且成为当代数学的一个热点。它所联系的领域从各种几何背景的PDE，包括平均曲率流与Ricci流在内的各种几何流到极小曲面，调和映照与Yang-Mills方程，几乎包罗万象。
+> 几何分析在近年的最大胜利之一是俄罗斯数学家Grigori Yakovlevich Perelman利用Ricci流技术对Poincaré猜想的成功证明（菲尔兹奖2006）。（关于Ricci流有一本经典的入门书《Ricci流与球定理》）
 > 不过，对几何分析这一新名称的使用还并未完全普及，所以有一些实际上可以归入的研究不常带上几何分析的分类标签。
 > 和代数几何一样，它可以被归入分析，也可以被归入几何，此处因为本人更青睐偏几何的几何分析而选择了后者。
 > 两项当代（21世纪20年代）几何分析的基本技术是黎曼几何和（主要是椭圆）PDE。
 作为一个新的领域，几何分析方面的教材很少，这本可能是最著名的：
 * [德国] Jürgen Jost, Riemannian Geometry and Geometric Analysis（影音版标题翻译为《黎曼几何和几何分析》）
 > 研究生教材，前半本是黎曼几何的一个详尽的入门，后半本则是对于几何分析的代表性方法的介绍，并且着力于在对于黎曼流形的研究中综合几何与分析的方法。
-> 说到几何分析相关，Jost还有一本面向研究生新生的 Postmodern Analysis，是一本介绍了Sobolev Space、Weak Solution还有Maximum Principle的分析书，完成了从基本的分析学概念到PDE理论的过渡，是很好的参考书。
+> 说到几何分析相关，Jost还有一本面向研究生新生的 Postmodern Analysis，是一本介绍了Sobolev Space、Weak Solution还有Maximum Principle的分析书，完成了从基本的分析学概念到现代PDE理论的过渡，是很好的参考书。
+
+几何分析中的另一个重要理论工具是**几何测度论**，诞生于极小曲面问题的研究；这方面的主要专著是[德国] Herbert Federer的 Geometric Measure Theory；更适合入门的教材则是[美国] Frank Morgan的Geometric Measure Theory: A Beginner's Guide。
 
 #### 1.4.3 辛几何（Symplectic Geometry, 又称辛拓扑(Symplectic Topology)）
 > 辛几何是由分析力学中哈密顿力学的研究所产生的几何学科，发展的方法的独特性使其成为相对独立的几何分支。辛几何和理论物理的发展一直有着相对密切的联系，在镜像对称中更是理论的舞台。
