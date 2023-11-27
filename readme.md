@@ -1009,12 +1009,12 @@ Rising Sea中也有相关的一些内容。
 对于IUT的nLab条目：https://ncatlab.org/nlab/show/inter-universal+Teichm%C3%BCller+theory。望月的原始论文可以在[他的主页]https://www.kurims.kyoto-u.ac.jp/~motizuki/top-english.html)找到。
 
 #### 1.8.5 解析几何（Analytic Geometry）与凝聚态数学（Condensed Mathematics）
-> **解析几何**（analytic geometry，这里区分于前述的论述坐标几何学的解析几何）可以形容为关于解析（即解析函数的解析义）簇的研究，一般也专指对复解析空间（光滑的复解析空间=复流形，因而与复几何天然联系）的研究，是当代代数几何的主要相关方向之一（方法上可以视作其分支）。其较热门的一种泛化是Tate等数学家创始的刚性（解析）几何（rigid (analytic) geometry）或称全局解析几何（global analytic geometry）。关于解析几何的最著名的结果之一是Serre的GAGA（Géométrie Algébrique et Géométrie Analytique, 代数几何与解析几何）定理。
+> **解析几何**（analytic geometry，这里区分于前述的论述坐标几何学的解析几何）可以形容为关于解析（即解析函数的解析义）簇的研究，一般也专指对复解析空间（即复几何所研究的对象复流形的推广，光滑的复解析空间=复流形）的研究，是当代代数几何的主要相关方向之一（方法上可以视作其分支）。解析几何的基础是Serre的GAGA（Géométrie Algébrique et Géométrie Analytique, 代数几何与解析几何）定理，由此数学界得以用代数几何的工具研究发源于复几何（但推广到这里已经与传统复几何的语境截然不同了）的对象。其较热门的一种泛化是Tate等数学家创始的刚性（解析）几何（rigid (analytic) geometry）或称全局解析几何（global analytic geometry），即将所有以上的「复」推广到更一般的非阿基米德域（尤其引起注意的例子如p进数域）的产物。
 
 对这部分知识取得基本的了解可以参考Amnon Neeman的Algebraic and Analytic Geometry以及nLab对应条目https://ncatlab.org/nlab/show/analytic+geometry的资料。
 与解析几何密切相关的另一个重要主题则是$\mathbb{F}_1$（上的）几何，这是整个几何学发展中的一片新领域。一个良好但略微过时的综述是 	arXiv:0909.0069 [math.AG] Mapping $\mathbb{F}_1$-land:An overview of geometries over the field with one element，一个更新的教程是则是arXiv:1801.05337 [math.AG]  $\mathbb{F}_1$ for everyone。
 
-> 解析几何近年来主要的进展是由凝聚态数学纲领的发展推动的。**凝聚态数学**（Condensed Mathematics）是由德国当代传奇的青年算术几何学家 Peter Schloze（神迹：2004 IMO银牌，2005，2006，2007 连续三届IMO金牌（2005年满分），三个学期读完学士学位，两个学期读完硕士，24岁博士毕业之后被波恩大学聘任为德国史上最年轻的W3最高级教授，在算术几何做出了Langlands纲领相关的（p进Hodge理论等方面的）重要工作，菲尔兹奖2018）与Dustin Clausen、Bhargav Bhatt等数学学者创始的数学纲领，旨在合理地于带拓扑的对象上做代数, 并试图由此理清目前较为混乱的解析几何理论（已经取得了部分的成功，今日凝聚态数学已经有成为解析几何主线的趋势，其核心对象正是Scholze的完美胚（perfectoid）理论），具有以统一的语言连通数学各个分支的潜力。
+> 解析几何近年来主要的进展是由凝聚态数学纲领的发展推动的。**凝聚态数学**（Condensed Mathematics）是由德国当代传奇的青年算术几何学家 Peter Schloze（开挂的人生：2004 IMO银牌，2005，2006，2007 连续三届IMO金牌（2005年满分），三学期拿到学士学位，两学期拿到硕士学位，24岁博士毕业之后被波恩大学聘任为德国史上最年轻的W3最高级教授，在算术几何做出了Langlands纲领相关的（p进Hodge理论等方面的）重要工作，菲尔兹奖2018）与Dustin Clausen、Bhargav Bhatt等数学学者创始的数学纲领，旨在合理地于带拓扑的对象上做代数, 并试图由此理清目前较为混乱的解析几何理论（已经取得了部分的成功，今日凝聚态数学已经有成为解析几何主线的趋势，其核心对象正是Scholze的完美胚（perfectoid）理论），具有以统一的语言连通数学各个分支的潜力。
 
 了解凝聚态数学的好参考是 2021 春季学期北京大学凝聚态数学讨论班的讲义（发布于香蕉空间）：https://www.bananaspace.org/wiki/%E8%AE%B2%E4%B9%89:%E5%87%9D%E8%81%9A%E6%80%81%E6%95%B0%E5%AD%A6 以及 nLab的对应条目：https://ncatlab.org/nlab/show/condensed+mathematics
 
