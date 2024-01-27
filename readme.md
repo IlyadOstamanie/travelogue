@@ -58,6 +58,7 @@
     - [1.Ex2 一般数学院系教学体系外的数学教程](#1ex2-一般数学院系教学体系外的数学教程)
   - [2 统计学部分](#2-统计学部分)
     - [2.1 统计学综览性材料](#21-统计学综览性材料)
+    - [2.Ex 医学统计学](#2ex-医学统计学)
   - [3 物理学部分](#3-物理学部分)
     - [3.1 物理学综览性材料](#31-物理学综览性材料)
     - [3.2 普通物理/基础物理（力学、热学、电磁学、光学、（原子、分子）量子物理）入门）](#32-普通物理基础物理力学热学电磁学光学原子分子量子物理入门)
@@ -468,7 +469,9 @@
 > 1、泛函+实变教材，在莫斯科国立大学作为数学力学系本科生从入校起三学期数学分析课最后一学期的内容
 > 2. 将实变的内容作为泛函分析的应用进行讲解，（虽然在我国实际上往往是先学习实变内容再学习泛函，但是他们采取了相反的顺序），极大精简篇幅
 > 3. 虽然时过境迁，但由于这一领域没有大的后续发展，提供的知识除专门研究依然很全面
-> 4. 讲解透彻深刻，有着Kolmogorov作为大教育家的鲜明风格
+> 4. 讲解透彻深刻，有着Kolmogorov的特色
+
+教法类似于这本的西方教材则有Pedersen的Analysis Now，观点更新而侧重略异，值得作为补充。
 
 以及数学院系初学者三件套——
 * 胡适耕，刘金山，《实变函数与泛函分析——定理 · 方法 · 问题》
@@ -493,7 +496,7 @@
 
 #### 1.2.5 偏微分方程
 > 偏微分方程的英文是 Partial Differential Equations，常缩写为 PDE， 一般主要讲解几个起源于物理的重要方程的PDE入门课常被命名为《数学物理方程》。
-泛函基础不特别好的情况下入门Sobolev空间打底的现代PDE理论可以考虑先读
+泛函基础不特别好的情况下需要尽快深入Sobolev空间打底的现代PDE理论可以考虑先读
 * [意大利]Arberto Berssan，Lecture Notes on Functional Analysis: With Applications to Linear Partial Differential Equations
 还可以参考清华的于品的[数学分析讲义](https://www.bananaspace.org/wiki/%E8%AE%B2%E4%B9%89:%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90)中的相关内容。
 > 顺便一提，这书应该只能当参考书了，属于是Amann的加强升级版
@@ -804,7 +807,7 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 
 形变量子化还可以联系到另一个更广泛的几何理论——**形变理论**（[deformation theory](https://ncatlab.org/nlab/show/deformation+theory)），暂时不准备学，不过一篇比较的入门文值得看看：深谷贤治（Kenji Fukaya），[Deformation Theory, Homological Algebra, and Mirror Symmetry](https://www1.mat.uniroma1.it/people/manetti/DT2011/fukaya.pdf)，其他材料可以参考https://www.zhihu.com/question/512415828。
 > 深谷贤治的一个比较有意思的报告：https://www.bilibili.com/video/BV1va411n7E4/
-Kontsevich的另一项重要工作——同调镜像对称（见物理学-镜像对称部分）中的很多技术也来源于他亲手奠基的形变量子化理论，其中也包括在弦论和TQFT以及非交换几何的范畴化结构中大放异彩的深谷范畴（[fukaya category](https://ncatlab.org/nlab/show/Fukaya+category)），它在镜像对称中具有很基本的作用。
+Kontsevich的另一项重要工作——同调镜像对称（见物理学-镜像对称部分）中的很多技术也来源于他亲手奠基的形变量子化理论，其中也包括在弦论和TQFT以及非交换几何的范畴化结构中大放异彩的深谷范畴（[fukaya category](https://ncatlab.org/nlab/show/Fukaya+category)），它在镜像对称中具有很基本的作用。关于深谷范畴一个快速入门的材料是Ivan Smith的[A symplectic prolegomen](https://arxiv.org/abs/1401.0269)。
 当然，事实上辛几何本身就——和复几何（见上方微分几何部分）一起——构成镜像对称的主要数学基础，所以可以说Kontsevich的这两项重要工作都至少部分地源于辛几何。
 
 ##### 14.3.3 量子上同调（Quantum Cohomology）
@@ -865,13 +868,18 @@ Kontsevich的另一项重要工作——同调镜像对称（见物理学-镜像
 * [苏联-俄罗斯] A. Shen, N. K. Vereshchagin, 《集合论基础》
 > 莫斯科大学数学力学系的教材，讲解极度精炼，仅114页），起点不高但内容深入，覆盖朴素集合论的全部主要概念。
 
-**参考用**
 * 汪芳庭，《数学基础（修订版）》
-> 1. 按主要内容算一本集合论入门教材，附带从自然数出发用非主流的滤子方法构造实数的额外部分。但内容中有些细节（过时或者过分私货，反而影响到对整体的把握）恐怕并不很值得非本方向的学生花时间搞明白，所以并不推荐作为主要学习材料。
-> 2. 放在这里是因为开篇部分数学基础的历史分析还不错，值得看一下。
+> 1. 按主要内容算一本集合论入门教材，附带从自然数出发用非主流的滤子方法构造实数等一些额外的深入主题。
+> 2. 放在这里主要是因为开篇部分数学基础的历史分析还不错，值得看一下。
 
+**参考用**
 * [匈牙利-美国] 保罗・哈尔莫斯（Paul Halmos），《朴素集合论》（Naive Set Theory）（目前没有中译本，由世界图书出版公司出版了原文（英文）的影印版）
 > 经典的标准朴素集合论教材，作英文的参考。
+
+其他与集合论相关的一些热门主题：
+1. 非标准分析：可以从Issac Davis的[An Introduction to Nonstandard Analysis](https://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Davis.pdf) 看起。
+2. 力迫法：简短的标准入门是Nik Weaver的Forcing for Mathematicians。
+3. 滤子、网：某些场合下非常有力的点集拓扑工具，入门可以从Stijn Vermeeren的[Sequences and Nets in Topology](https://stijnvermeeren.be/download/mathematics/nets.pdf)起步。
 
 #### 1.6.2 数理逻辑（狭义），含模型论
 * 郝兆宽 等，《数理逻辑——证明及其限度》
@@ -1007,7 +1015,7 @@ Rising Sea中也有相关的一些内容。
 
 对Teichmüller理论的良好起点是nLab的条目：https://ncatlab.org/nlab/show/Teichm%C3%BCller+theory。特别值得提及的一篇综述是Georg Schumacher的The theory of Teichmüller spaces – A view towards moduli spaces of Kähler manifolds。对于专门的入门材料，可以看Michael Kapovich的讲义[Introduction to Teichmüller Theory](https://www.math.ucdavis.edu/~kapovich/EPR/T.pdf)
 
-对远Abel几何亦然：https://ncatlab.org/nlab/show/anabelian+geometry
+对远Abel几何亦然：https://ncatlab.org/nlab/show/anabelian+geometry(参考列表中尤其值得一看的是Frans Oort的远阿贝尔几何讲义)
 
 当然我们永远可以去查询Grothendieck的EGA等著作集（可以看看[蒙彼利埃大学的Grothendieck文库](https://grothendieck.umontpellier.fr/archives-grothendieck/)），他在模空间，Teichmüller理论，远阿贝尔几何上都有过论述，也可以看stacks project的相关条目。
 
@@ -1030,7 +1038,7 @@ Rising Sea中也有相关的一些内容。
 
 通过nLab查找分散的论文、讲义等各类材料进行学习也是我本人认为最行之有效的学习n阶范畴理论联盟中感兴趣的领域的方法。当然，因为理论的大致脉络已经在方才的介绍中理清，本人自己的途径是从应用的其他方面（主要是物理学方面）的材料入手按需要学习Lurie的一系列理论中的部分，而不会单独对其进行研究。
 
-这一系列工作最权威的参考无疑还是要数创造它们的核心人物、写书狂魔Lurie自己的一系列专著和论文，覆盖了以上所有的领域，在[他本人的主页](https://www.math.ias.edu/~lurie/)上都能免费取得。但缺点是往往这些专著过于篇幅庞大，更适合作为字典而非初学者使用。
+这一系列工作最权威的参考无疑还是要数创造它们的核心人物、写书狂魔Lurie自己的一系列专著和论文，覆盖了以上所有的领域，在[他本人的主页](https://www.math.ias.edu/~lurie/)上都能免费取得。但缺点是往往这些专著过于篇幅庞大，更适合作为字典而非初学者使用。与此相补充的是Lurie本人仿照the Stacks project所作的综合在线教科书[Kerodon](https://kerodon.net)，正在连载中，作为切入Lurie高阶范畴体系——尤其是核心概念无穷范畴——的一个入口十分合适。
 
 ### 1.9 数论（及密码学）
 > 其实从其他书里云的数论（只相当于最基本的初等数论程度...吧）也有一些了，但是对这个领域本身还没有认识；数论作为某种意义上数学中的核心（尤其考虑到现代在算术几何上不可思议的进展），还是需要正经地学一下比较好。
@@ -1206,8 +1214,12 @@ Stone & Goldbart 和 Geroch 一样属于休闲读物（但质量不错），也�
 ## 2 统计学部分
 ### 2.1 统计学综览性材料
 * 曾五一，肖红叶，《统计学导论》
-* 李勇，金蛟，《统计学导论：基于R语言》
->统计学院系的教材；算是闲书。可以用以了解统计学的全貌以及数理统计学（即结合了数学知识的统计学的分支）在其中的角色（当然这一部分的初步知识在上一部分的「概率论、数理统计」材料下已有充足的讲解），顺便深入学习 Excel 以及入门 R 语言。 目前我的计划里暂时不包含在统计学中除了数理统计学之外的部分（算是社会科学的部分？）进行再深入的学习。所以这是短期内这里全部统计学类的教材了。（摸的透彻.jpg）
+* [美国] Gudmund R. Iversen，Mary M. Gergen《统计学——基本概念和方法》
+* 李勇，金蛟，《统计学导论：基于R语言》或 汪朋，《统计学_基于Excel和R语言》
+>统计学院系的教材；算是比较轻松的闲书。可以用以了解统计学的全貌以及数理统计学（即结合了数学知识的统计学的分支）在其中的角色（当然这一部分的初步知识在上一部分的「概率论、数理统计」材料下已有充足的讲解），顺便可以深入学习 Excel 以及入门 R 语言。
+
+### 2.Ex 医学统计学
+统计学的一个关键的综合应用方向是**医学统计学**，在这一方向一个内容丰富的教程是孙振球的《医学统计学》，除了医学统计方面的专门知识外，也补充了很多实践中各个环节常用的统计方法和技术。
 
 
 ## 3 物理学部分
@@ -1283,6 +1295,13 @@ Stone & Goldbart 和 Geroch 一样属于休闲读物（但质量不错），也�
 * H. Halvorson, Deep beauty: Understanding the quantum world through mathematical innovation (2011, CUP)
 * Ge, Mo-Lin, He, Yang-Hui, Yang, Chen Ning, Topology and physics (2019, World Scientific)
 * [Lecture Notes in Physics №813] S. Abramsky, N. Tzevelekos (auth.), Bob Coecke (eds.), New Structures for Physics (2011, Springer)
+
+**面向物理研究者的数据分析速成**
+以快速上手为目标，两部（主要面向物理）数据分析技术的快速入门教材是
+* [意大利] Luca Lista（那不勒斯大学），Statistical Methods for Data Analysis: With Applications in Particle Physics
+* [德国] Rudolf Mathar 等（亚琛工大），Fundamentals of Data Analytic: With a View to Machine Learning
+> 从最基础的概率分布到机器学习的基本理论，速成书的模范。
+
 
 ### 3.2 普通物理/基础物理（力学、热学、电磁学、光学、（原子、分子）量子物理）入门）
 >普通物理学包含的知识范围是严肃学习物理学的真正起点，可以说是提供了最基本的一套物理常识。从这里开始，只要我们不停下来，通向物理学各个角落的道路就会不断的延伸(x。 其中力学、热学、电磁学、光学也一般被并称「四小力学」，五个部分有时也并称「五小力学」。
@@ -1623,7 +1642,7 @@ QCD：[牟田泰三](https://home.hiroshima-u.ac.jp/mutata/)（Taizo Muta）的�
 > 近二十年被发现在弦论等物理分支中有重要应用价值的一类QFT结构，算是目前最热门的一类（。
 > 《返朴》上的科普：[通向量子引力的路，又宽了一点点](https://mp.weixin.qq.com/s/YYdcqy-xTwNvoVxk3osM4A?poc_token=HKiyDGWjGj1x754LTnbDLEr6GVlZJJDymT2jT7kN)
 > 场论大师 Moore 和 Seiberg 有一篇很有名的综述：[Classical and Quantum Conformal Field Theory](https://sci-hub.st/10.1007/bf01238857)
-> Moore还有一篇影响很大的数学物理（数学向）综述[Physical Mathematics and Future](https://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf)很值得读。
+> Moore还有一篇影响很大的数学物理（数学向）综述，值得每个想要了解数学物理的人阅读： [Physical Mathematics and the Future](https://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf)很值得读。
 > 共性场论的代数结构是**顶点（算子）代数**。关于这一领域的科普可以参看 [关于算子代数与顶点算子代数](https://mp.weixin.qq.com/s/fFbc7B2ebQ4V9eGKBqd5nQ)
 
 * [日本] 伊藤克司（Katsushi Ito, 东京工业大学）的《共形場理論: 現代数理物理の基礎として》
@@ -1638,6 +1657,7 @@ QCD：[牟田泰三](https://home.hiroshima-u.ac.jp/mutata/)（Taizo Muta）的�
 
 #### 3.10.6 拓扑量子场论（Topological Quantum Field Theory, TQFT）
 > 常常也被简称为「拓扑场论」（Topological Field Theory）。材料参考：https://zhuanlan.zhihu.com/p/466937989
+> 一个低起点的浅显入门是Ivancevic的[Undergraduate Lecture Notes in Topological Quantum Field Theory](https://arxiv.org/abs/0810.0344)
 > 了解这方面更新的TQFT之类的拓扑玩应还有各种新的拓扑量子理论可以看这个专栏 [Topological Quantum](https://www.zhihu.com/column/c_1052862727860699136) ，这是剑桥MMathPhys项目的Topological Quantum Theory课的讲义的部分翻译，完整版可在[作者本人在剑桥的网页](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/protobook.html)免费下载，如课名所示，这门课总体介绍了拓扑量子理论的思想，展示了从TQFT，拓扑量子计算，拓扑物态和拓扑序到弦网这一大片新的数学物理领域。）
 > 'A TQFT is a QFT that computes topological invariants' ——[Shintaro Fushida-Hardy](https://www.chineseherald.co.nz/news/education/whangarei-student-accepted-to-do-phd-in-mathematics-at-stanford-university-in-california/)，[Introduction to Topological Quantum Field Theory](https://stanford.edu/~sfh/tqftslides.pdf)
 了解的好起点是nlab的条目：https://ncatlab.org/nlab/show/topological+quantum+field+theory
@@ -1651,7 +1671,7 @@ TQFT的奠基性文献是Atiyah开天辟地的文章，可读性很高：
 * [德国] Nils Carqueville，Ingo Runkel，[Introductory Lectures on Topological Quantum Field Theory](https://arxiv.org/abs/1705.05734)
 经典的技术教材（很数学）：
 * [俄罗斯] Vladimir G. Turaev, Quantum Invariants of Knots and 3-Manifolds
-> 经典名著。Turaev还有一本Monoidal Categories and Topological Field Theory，是很好的补充材料。
+> 经典名著。Turaev还有一本(与Virelizier合著)Monoidal Categories and Topological Field Theory，是很好的补充材料。
 
 一些地方可能需要用到张量范畴，上面范畴论部分有写到。
 
@@ -2475,11 +2495,12 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 > 全面学习Unix和Linux操作系统（世界上最主流的操作系统之一）的工作原理和使用方法（包括Unix和Linux上的常用软件工具的使用方法），以及Unix和Linux发展历程（作者是亲历者）中的八卦趣事。
 
 ##### 4.3.3.6 计算机网络
+> 首先，快速入门可以参考[计算机网络基础知识总结 | 菜鸟教程]（https://www.runoob.com/w3cnote/summary-of-network.html)和 [《计算机网络(谢希仁)》全书学习笔记（详细）- 知乎专栏](https://zhuanlan.zhihu.com/p/455353088)
 * [荷兰] Andrew S. Tanenbaum，《计算机网络》
 > 最受欢迎的几部较深入的入门教材之一，可以初步了解计算机网络技术的全貌。（比诸竞品，Tanenbaum写书的风格还是相当新手友好的。）
 
 #### 4.3.3.7 编译原理
-> 首先可以参考哈工大友好的《编译原理》公开课：https://www.bilibili.com/video/BV1dL4y1H7T8
+> 首先，快速入门可以参考哈工大友好的《编译原理》公开课：https://www.bilibili.com/video/BV1dL4y1H7T8
 * [美国] Charles N. Fischer，Ron K. Cytron，Richard J. LeBlanc Jr., 《编译器构造》
 > 从基本概念开始，手把手教写一个编译器的友好入门教材，简洁清晰。
 
