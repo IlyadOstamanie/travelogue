@@ -1433,7 +1433,7 @@ Stone & Goldbart 和 Geroch 一样属于休闲读物（但质量不错），也�
 
 * [英国] Chris J. Isham, Lectures on Quantum Theory: Mathematical And Structural Foundations 
 > 介绍量子力学的数学（公理化）架构和量子力学基础方面主题的小短书，基于作者在伦敦帝国学院给理论物理本科生的讲义。
-> 是有益的补充。如果要更数学的就还得看Takhtajan那些了（见下方
+> 是有益的补充，尤其是对于纠缠、混态等课题的数学基础（少见地使用了正牌张量积处理）。如果要更偏数学的就还得看Takhtajan那些了（见下方
 > Isham还有一些神奇的用意象理论（见代数几何部分）为量子物理提供基础的工作，如arXiv:1004.3564 [quant-ph] Topos Methods in the Foundations of Physics。
 
 **参考用（没怎么看过）**
@@ -1443,7 +1443,7 @@ Stone & Goldbart 和 Geroch 一样属于休闲读物（但质量不错），也�
 * 钱伯初，《量子力学》
 > 全面的中文教材，可以作为细节的补充；两者符号上似乎也有区别。 对应钱伯初老师的本科量子力学课视频：[【量子力学】量子力学兰州大学钱伯初 全 （高清版）_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1db411q7uP)
 
-曾谨言砖头dame（交叉双臂。（但其实如果能适应的话拿来当字典也可以，毕竟它的优势在于所涵盖范围内百科全书式的细节。
+Shankar的书看起来比较友好，但篇幅冗长很多地方又非主流，导致不适合想要尽快获得稳固的知识面支持下一步学习的读者。至于曾谨言......（交叉双臂。（但其实如果能适应的话拿来当字典也可以，毕竟它的优势在于涵盖的范围，但（仅个人观点）啃着它来初学多少是有点自虐倾向了。
 
 #### 3.6.2 更现代（研究生级别的）量子力学
 处于入门级与这个级别的量子力学之间的一本新教科书是向涛院士（中科院物理所）的Building Blocks of Quantum Mechanics: Theory and Applications，是英文书，可以作为Sakurai的补充参考。
@@ -1464,11 +1464,13 @@ Stone & Goldbart 和 Geroch 一样属于休闲读物（但质量不错），也�
 > 量子力学奠基人Dirac亲著的史上第一部QM教科书。因为是在发展初期的时代写出的，所以内容有限，但可以欣赏Dirac简明的写作风格和他本人对理论本身的理解。
 
 **针对数学背景学习者的量子力学入门**
+> 首先是Isham的那本书（见前文）；与其类似但尤为偏重于Hilbert空间方面的数学基础（例如第二章中用张量积语言处理混态）的是[德国]Jan-Markus Schwindt的Tutorium Quantenmechanik: von einem erfahrenen Tutor - für Physik- und Mathematikstudenten（直译为“量子力学教程——由富有经验的教师写给物理与数学学生”，尚未找到德语以外语言的译本），也是这方面难得的参考。
 >Nikolai Reshetikhin （Николай Ю. Решетихин；尼古拉·莱舍提金） 教授在清华数学科学中心开设的一门 Mathematical Aspects of Classical and Quantum Mechanics 的资料，包含视频录像: [Mathematical aspects of classical and quantum mechanics, Spring 2022](https://tqfts.com/mathematical-aspects-of-classical-and-quantum-mechanics-spring-2022/)，大纲在https://tqftscom.files.wordpress.com/2022/02/syllabus-qm-spring-2022.pdf 适合有数学背景的学生入门经典力学与量子力学（侧重于后者），以完全的数学语言处理内容。
-> 本科目提供了非常好的两本参考书，均适合想要看到以此种方法讲解量子力学（及经典力学的主要）理论的学习者： 
-> [1] L. D. Faddeev. O. A. Yakubovskii, "Lectures on Quantum Mechanics for Mathematics Students", AMS, Student Mathematical Library, vol. 47, 2009 （圣彼得堡大学[38]数学力学系的讲义英文译本，Faddeev 大师之作，尚未找到俄文原本） 
-> [2] L. A. Takhtajan, "Quantum Mechanics for Mathematicians", AMS, Graduate Studies in Mathematics, vol. 95, 2008（Stony Brook 数学系开设的一门面向无物理基础的数学研究生科目的讲义，侧重于数学物理内容，一路讲到QFT和超对称，尤其推荐。）
+> 本科目提供了两本参考书，均适合想要看到以此种方法讲解量子力学（及经典力学的主要）理论的学习者： 
+> [1] L. D. Faddeev. O. A. Yakubovskii, "Lectures on Quantum Mechanics for Mathematics Students", AMS, Student Mathematical Library, vol. 47, 2009 （圣彼得堡大学[38]数学力学系的讲义英文译本，列宁格勒数学物理学派宗师Faddeev亲笔，原著为俄文） 
+> [2] L. A. Takhtajan, "Quantum Mechanics for Mathematicians", AMS, Graduate Studies in Mathematics, vol. 95, 2008（Stony Brook 数学系开设的一门面向无物理基础的数学研究生科目的讲义，侧重于数学方面，也有涉及QFT和超对称，尤其推荐。）
 > 另一本比较有名的是 Brian C. Hall（没错，也是GTM222的作者）的GTM267 Quantum Theory for Mathematicians，作为教材质量一般，不过可以作为参考。
+> 然而或许是囿于目标听众的物理背景，这些教材在物理内容（从理论物理研究的角度）的方面均略为浅显，并未涉及到一些物理院系高量教科书中的重点技术的数学处理。
 
 以上四个部分——理力，电动，热统，量子——一般合称「四大力学」。
 
@@ -1694,6 +1696,11 @@ TQFT的奠基性文献是Atiyah开天辟地的文章，可读性很高：
 > 事无巨细、循循善诱（和顾樵老师的书一个风格）、内容丰富、主次恰当、习题充足且有详细解答，十三卷前后连贯，从经典力学到 GR 和 QFT （甚至还有一本群论）完整覆盖现代物理学必须的理论物理基础概念与方法（在德国作为本科+研究生一贯教材），目前市面尚无出其右。 ~~又名《拯救基础不佳的萌新研究生！》~~ 属于是一些救命书。 此系列有世界图书出版社的英文影印版。
 
 对这个目的也推荐**朗道**的《**理论物理学教程**》十卷（分别为《力学》《场论》（经典场论内容）《量子力学（非相对论理论）》《量子电动力学》《统计物理学》《流体动力学I》《弹性理论》《连续介质电动力学》《统计物理学II（凝聚态理论）》《物理动理学》），虽然年代略微有些久远因而内容可能并不那么切合今日研究者的需要（因此在时间有限的情况下不是很适合首先选用w），但其中思想的闪光依然值得任何有心之士去挖掘深入的见解和启发。
+
+与朗道类似的还有一部成书时间接近的：
+* 吴大猷，《理论物理》（共七卷，分别为《古典动力学》《量子论与原子结构》《电磁学》《相对论》《热力学、气体运动论及统计力学》《量子力学（甲部）》《量子力学（乙部）》）
+> 中国第一部接近完整的理论物理教材，中国物理学界在近代的奠基宗师之一、西南联大物理系教授（任职8年期间指导了本科生杨振宁、李政道（此后一直被两人尊为恩师）及朱光亚、黄昆等其后的大物理学家）、“中国物理学之父”吴大猷总结生平教学经验写成的巨著。虽然因为成书时吴大猷已身在与大陆相互隔绝的台湾而知名度有限，但是其清晰、丰富（尤其注重课题的来龙去脉）并不逊色于朗道等名著，在许多课题——例如薛定谔方程的具体来源——上提供了非常难得的好参考。
+> 本书的一些术语和用词与今天中文圈通行的用词（它们形成于近50年的大陆）有明显差异，不过不影响阅读。
 
 同类型的还有Susskind的一套（似乎还没整完）的《理论最小值》（The Theoretical Minimum）系列教材，目前应该只发行了经典力学（2014年发行，曾经在2013年以What you need to know to start doing physics的书名出版）、狭义相对论和经典场论、量子力学三本。
 
