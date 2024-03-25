@@ -2478,6 +2478,7 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 > 「计算机体系结构」一般在计算机类院系作为计算机组成原理的后续课开设。其内容基本上是从软件性能的角度对计算机系统的最主要部分——处理器（和存储器）进行优化设计的研究。正是这种需要推动了处理器几十年至今一代代的革新。
 * [美国] John L. Hennessy，David A. Patterson，《计算机体系结构：量化研究方法》
 > 标准的教材，查阅相关内容/备课的主流之选，此类课程的参考材料清单上的常客。
+> 同题教材中几乎最为深入而且全面。
 
 * [美国] David Money Harris, Sarah L. Harris, 《数字设计和计算机体系结构》（Degital Design and Computer Architecture）
 > 富有创新性的教材。内容从所需的数电到VHDL/Verilog（实际上是其扩展SystemVerilog），再到体系结构的核心内容，并以硬件描述语言的实例与练习贯穿始终，附带面向FPGA的延伸。虽然在体系结构内容的广度与深度均不及经典的Hennssy & Patterson，但作为初学因其步步为营的讲法而较为适合没有太多相关背景的学习者；同时，也可以作为初学VHDL/Verilog的一个便捷入口，成为踏入FPGA/数字IC设计（参见：https://zhuanlan.zhihu.com/p/365845247；https://www.zhihu.com/question/53921761/answer/1580987167）等硬件行业（电子：嵌入式+硬件设计（数字IC+模拟IC）+硬件工艺（见半导体物理部分）& 通信：软件系统/协议设计 + 通信硬件设计 & 控制：算法（及与嵌入式结合的部分））的起点。
@@ -2514,6 +2515,8 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 > 首先，快速入门可以参考[计算机网络基础知识总结 | 菜鸟教程]（https://www.runoob.com/w3cnote/summary-of-network.html)和 [《计算机网络(谢希仁)》全书学习笔记（详细）- 知乎专栏](https://zhuanlan.zhihu.com/p/455353088)
 * [荷兰] Andrew S. Tanenbaum，《计算机网络》
 > 最受欢迎的几部较深入的入门教材之一，可以初步了解计算机网络技术的全貌。（比诸竞品，Tanenbaum写书的风格还是相当新手友好的。）
+
+对于当代网络开发技术而言尤其重要的一部分是**分布式系统**的技术，此方面可以参考唐伟志的《深入理解分布式系统》。
 
 ##### 4.3.3.7 编译原理
 > 首先，快速入门可以参考哈工大友好的《编译原理》公开课：https://www.bilibili.com/video/BV1dL4y1H7T8
