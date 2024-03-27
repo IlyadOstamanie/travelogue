@@ -2119,7 +2119,8 @@ AMO方面时下比较常用的**计算/模拟工具**是**Qutip**, 一个强大�
 这些资料中都包含了对高能物理所依赖的实验技术的基本介绍，但更多当下实际的实验技术好像找不到什么知名的专门学习资料，暂时我也并不需要，有需要的话去参考文献列表里找吧（
 
 ### 3.16 量子信息（量子通信、量子计算）
-> 迅速入门的标准途径无疑是 John Preskill 在 Caltech 的 Quantum Computation/Information 课的著名讲稿：位于他个人网站上的科目主页[Ph219/CS219 Quantum Computation](http://theory.caltech.edu/preskill/ph219/ph219_2021-22.html)，可以用来快速进入量子计算。
+> 在量子计算方面的先驱之一是理查德・费曼，这源于他对计算的物理性质的深入研究——这方面他留下的一样资料是他在 Caltech 的入门讲稿，以 **Feynman Lecturees on Computation** 之名出版。适合所有对计算的物理性质（不止于量子物理）感兴趣的学习者。
+> 迅速入门的标准途径无疑是 John Preskill 在 Caltech 的 Quantum Computation/Information 课的著名讲稿：位于他个人网站上的科目主页[Ph219/CS219 Quantum Computation](http://theory.caltech.edu/preskill/ph219/ph219_2021-22.html)，可以用来快速进入量子计算。（在量子计算方面人才辈出的 Caltech 称得上是领域的学术中心之一）
 > 要快速入门量子信息论的话还可以参考来自匈牙利中央物理研究院粒子与核物理研究所的127页讲义：L. Diósi, A Short Course in Quantum Information Theory, Lect. Notes Phys. 713 (Springer, Berlin Heidelberg 2007), DOI 10.1007/b11844914。 如果了解粒子物理的话还可以选择最简短的（55 页） [arXiv:2010.02931v2: Quantum Information for Particle Theorists](https://arxiv.org/abs/2010.02931v2)，来自著名的费米实验室。
 > 值得列出的还有一个影响很大的科普书：[美国] Scott Aaronson，Quantum Computing since Democritus。这本书有点像《数学之美》，没有太多专业的内容，但指出了很多量子计算与其他学科的联系和对社会的影响，是开拓知识面的休闲读本佳作。
 
