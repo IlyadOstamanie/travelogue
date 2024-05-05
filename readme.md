@@ -2591,6 +2591,7 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 
 * [美国] John C. Mitchell, Krzysztof Apt,《程序设计语言概念》
 > 知名本科编程语言理论课标准教材，简称CPL。起源于剑桥的本科编程语言课。
+> 与之互补的是 Robert W.Sebesta 的同名教材，二者之和可提供一套完整的编程语言开发基础概念。
 
 ##### 4.3.4.3 计算理论
 * [美国] Michael Sipser，《计算理论导引》
