@@ -122,6 +122,7 @@
       - [3.17.2 弦唯象学（String Phenomenology）](#3172-弦唯象学string-phenomenology)
       - [3.17.3 镜像对称（Mirror Symmetry）](#3173-镜像对称mirror-symmetry)
       - [3.17.4 AdS/CFT对偶](#3174-adscft对偶)
+      - [3.17.5 （弦）散射振幅](#3175-弦散射振幅)
     - [3.18 圈量子引力（Loop Quantum Gravity, LQG）](#318-圈量子引力loop-quantum-gravity-lqg)
     - [3.Ex1 流体力学](#3ex1-流体力学)
       - [3.Ex1.1 偏数学的流体力学资料](#3ex11-偏数学的流体力学资料)
@@ -1285,7 +1286,7 @@ Stone & Goldbart 和 Geroch 一样属于休闲读物（但质量不错）。
 * [德国] Albrecht Lindner（汉堡大学）, Dieter Strauch, A Complete Course on Theoretical Physics - From Classical Mechanics to Advanced Quantum Statistics（原作名（德文）：Grundkurs Theoretische Physik，第二作者将原作译为英文）
 > 德国体系的一部教科书，四大力学级别内容的一贯式教材（量子力学部分甚至更深入），但是缺点在于组织内容的体系和对于一些内容的术语可能和主流存在着较大的区别，因此为了让知识能与大部分资料更好相通，本书适合查阅但不适合作为初次学习之用。
 
-以及Kip Thorne 和 Roger Blandford 涵盖统计物理、经典光学、弹性动力学、流体力学、等离子体、广义相对论与宇宙学的巨部头 Modern Classical Physics。
+在当代常规理论物理学课纲之外，Kip Thorne 和 Roger Blandford 涵盖统计物理、经典光学、弹性动力学、流体力学、等离子体、广义相对论与宇宙学的巨部头 Modern Classical Physics为各类物理学习者提供了补充一些常被课程设置忽略但又对许多研究工作相当重要的基础知识的方便之门。
 
 不过对于理论物理学而言最完整的参考大概还要数这个：
 * [法国] Jean-Pierre Francoise（索邦大学），[美国] Gregory L.Naber（德雷塞尔大学，费城），周尚真（[Tsou Sheung Tsun](https://www.maths.ox.ac.uk/people/tsou.sheung.tsun)，牛津大学）（主编），《数学物理学百科全书》（共12卷，分别为《数学物理学导言》《经典力学；流体动力学》《可积系统；经典、共形与拓扑场论》《规范场论；量子场论》《广义相对论；量子引力；弦论和M-理论》《凝聚态物质与光学；量子信息与量子计算；量子力学》《无序系统；动力系统》《平衡态统计力学和非平衡态统计力学》《代数技巧；李群和李代数；离散数学；量子群；随机方法》《复几何；微分几何；低维几何；非交换几何》《代数拓扑；辛几何与拓扑；常微分和偏微分方程 》《泛函分析和算子代数、量子化方法和路径积分、变分技术》）
@@ -1686,8 +1687,8 @@ QCD：[牟田泰三](https://home.hiroshima-u.ac.jp/mutata/)（Taizo Muta）的�
 #### 3.10.5 共形场论
 > 近二十年被发现在弦论等物理分支中有重要应用价值的一类QFT结构，算是目前最热门的一类（。
 > 《返朴》上的科普：[通向量子引力的路，又宽了一点点](https://mp.weixin.qq.com/s/YYdcqy-xTwNvoVxk3osM4A?poc_token=HKiyDGWjGj1x754LTnbDLEr6GVlZJJDymT2jT7kN)
-> 场论大师 Moore 和 Seiberg 有一篇很有名的综述：[Classical and Quantum Conformal Field Theory](https://sci-hub.st/10.1007/bf01238857)
-> Moore还有一篇影响很大的数学物理（数学向）综述，值得每个想要了解数学物理的人阅读： [Physical Mathematics and the Future](https://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf)很值得读。
+> 弦论大师 Gregory Moore （罗格斯大学）和 Nathan Seiberg （普林斯顿高等研究院）在此方面有一篇很有名的综述：[Classical and Quantum Conformal Field Theory](https://sci-hub.st/10.1007/bf01238857)
+> Moore还有一篇影响很大的数学物理（数学方面，他本人以「物理数学」呼之）综述，值得每个想要了解数学物理的人阅读： [Physical Mathematics and the Future](https://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf)；以及他本人与可积场论大家Nikita Nekrasov（纽约州立大学石溪分校）等人合著的更新的一篇：[A Panorama Of Physical Mathematics c. 2022](http://arxiv.org/abs/2211.04467v2)。
 > 共性场论的代数结构是**顶点（算子）代数**。关于这一领域的科普可以参看 [关于算子代数与顶点算子代数](https://mp.weixin.qq.com/s/fFbc7B2ebQ4V9eGKBqd5nQ)
 
 * [日本] 伊藤克司（Katsushi Ito, 东京工业大学）的《共形場理論: 現代数理物理の基礎として》
@@ -1701,9 +1702,10 @@ QCD：[牟田泰三](https://home.hiroshima-u.ac.jp/mutata/)（Taizo Muta）的�
 
 
 #### 3.10.6 拓扑量子场论（Topological Quantum Field Theory, TQFT）
-> 常常也被简称为「拓扑场论」（Topological Field Theory）。材料参考：https://zhuanlan.zhihu.com/p/466937989
-> 一个低起点的浅显入门是Ivancevic的[Undergraduate Lecture Notes in Topological Quantum Field Theory](https://arxiv.org/abs/0810.0344)
-> 了解这方面更新的TQFT之类的拓扑玩应还有各种新的拓扑量子理论可以看这个专栏 [Topological Quantum](https://www.zhihu.com/column/c_1052862727860699136) ，这是剑桥MMathPhys项目的Topological Quantum Theory课的讲义的部分翻译，完整版可在[作者本人在剑桥的网页](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/protobook.html)免费下载，如课名所示，这门课总体介绍了拓扑量子理论的思想，展示了从TQFT，拓扑量子计算，拓扑物态和拓扑序到弦网这一大片新的数学物理领域。）
+> 常常也被简称为「拓扑场论」（Topological Field Theory）。材料清单参考：https://zhuanlan.zhihu.com/p/466937989
+> 一个低起点的浅显入门是Ivancevic的讲义：[Undergraduate Lecture Notes in Topological Quantum Field Theory](https://arxiv.org/abs/0810.0344)
+> 更广博的延伸话题可参看Muhammad Ilyas的博士论文：[Quantum Field Theories, Topological Materials, and Topological Quantum Computing](https://arxiv.org/abs/2208.09707)
+> 进一步了解这方面更新的进展和各种新的拓扑量子理论还可以看这个专栏 [Topological Quantum](https://www.zhihu.com/column/c_1052862727860699136) ，这是剑桥MMathPhys项目的Topological Quantum Theory课的讲义的部分翻译，完整版可在[作者本人在剑桥的网页](http://www-thphys.physics.ox.ac.uk/people/SteveSimon/protobook.html)免费下载，如课名所示，这门课总体介绍了拓扑量子理论的思想，展示了从TQFT，拓扑量子计算，拓扑物态和拓扑序到弦网这一大片新的数学物理领域。）
 > 'A TQFT is a QFT that computes topological invariants' ——[Shintaro Fushida-Hardy](https://www.chineseherald.co.nz/news/education/whangarei-student-accepted-to-do-phd-in-mathematics-at-stanford-university-in-california/)，[Introduction to Topological Quantum Field Theory](https://stanford.edu/~sfh/tqftslides.pdf)
 了解的好起点是nlab的条目：https://ncatlab.org/nlab/show/topological+quantum+field+theory
 
@@ -1885,6 +1887,9 @@ Datta还有一本更深入的Electronic Transport in Mesoscopic Systems，是介
 > 基本对应大学开设的《半导体物理》类似课程。基于现代的凝聚态技术研究半导体物理现象的不在此范围内。为了理解现代电子技术，尤其是集成电路工艺的原理，需要学习固体物理，尤其是半导体物理的知识。
 
 **参考用**
+* 于鑫（Peter Y. Yu）, [西班牙] Manuel Cardona， 《半导体基础》（Fundamentals of Semiconductors）
+> 极为全面的半导体物理入门教程，不过偏重凝聚态实验室导向而非工业。此书目前只有英文版。
+
 * [日本] 滨口智寻（Chihiro Hamaguchi），Basic Semiconductor Physics
 > 在现代凝聚态理论的高度上的、内容更加深入的半导体物理教材。可以作为补充。
 
@@ -2135,7 +2140,7 @@ AMO方面时下比较常用的**计算/模拟工具**是**Qutip**, 一个强大�
 > 
 > 在标准模型的发展中，为了解决标准模型的问题，也一直有物理学者追求建立超越标准模型的粒子物理学新理论——**大统一理论**（Grand Unification Theory, GUT），有些GUT提案被实验确认失败，有的则仍在探索中。）一部分物理学者希望比GUT走得更远，按照存在更大的基本对称性的假设，**超对称（Supersymmetry, SUSY）理论**(*见量子场论部分*)很快诞生了，它具有优雅的理论形式，但其预言的多种已知微观粒子的伴随粒子的存在至今无法被实验证实。
 > 
-> 更大的问题是，由广义相对论成功描述的引力却与标准模型的框架是不相容的。于是，尝试统一两者的理论——即以统一四大基本作用力的「终极理论」为目标，将广义相对论量子化的多种**量子引力**理论不久被提出了，其中产生主要影响的是**弦理论**（*见弦论部分*），其主要竞争者还有圈量子引力理论和扭量理论（*见GR和LQG部分*），它们都是高度数学化的理论，因而也会被归入数学物理之列——而且它们目前没有一个得到验证。这些量子引力理论（最主要的是弦理论，包括其在「第一次弦论革命」中发展的超弦理论[引入了超对称的弦理论，在此之前的被称为玻色子弦理论]与「第二次弦论革命」中发展的膜（M-）理论[Witten提出的更一般的理论]，其他主要的更一般理论还包括Cumrun Vafa的[F理论](https://ncatlab.org/nlab/show/F-theory#Idea)）的技术除了因为宇宙尺度的量子效应的发现被引入宇宙学（见GR部分）以外，还（起初因为验证的需要）进入高能物理学界。对于更基本规律的追求使得使用量子引力的技术研究粒子物理对象成为主流，粒子物理学与量子引力的研究由此合流，这就是今天一般所说的**高能物理学**。其中主要基于量子引力理论的研究被称为**高能理论**（high-energy theory, hep-th），基于实验事实推演规律（但不一定上升到理论研究层次）的（包括弦论诞生前传统的方法以及当代对弦论等量子引力理论与实验现象的联系的探索）研究被称为**高能唯象学**（high-energy phenomenology，hep-ph），而具体进行实验的工程性研究则是**高能实验**（high-energy experiment，hep-ex）。这就是今日高能物理学的大致情况。
+> 更大的问题是，由广义相对论成功描述的引力却与标准模型的框架是不相容的。于是，尝试统一两者的理论——即以统一四大基本作用力的「终极理论」为目标，将广义相对论量子化的多种**量子引力**理论不久被提出了，其中产生主要影响的是**弦理论**（*见弦论部分*），其主要竞争者还有圈量子引力理论和扭量理论（*见GR和LQG部分*），它们都是高度数学化的理论，因而也会被归入数学物理之列——而且它们目前没有一个得到验证。这些量子引力理论（最主要的是弦理论，包括其在「第一次弦论革命」中发展的超弦理论[引入了超对称的弦理论，在此之前的被称为玻色子弦理论]与「第二次弦论革命」中发展的膜（M-）理论[Witten提出的更一般的理论]，其他主要的更一般理论还包括Cumrun Vafa的[F理论](https://ncatlab.org/nlab/show/F-theory#Idea)）的技术除了因为宇宙尺度的量子效应的发现被引入宇宙学（见GR部分）以外，还（起初因为验证的需要）进入高能物理学界。对于更基本规律的追求使得使用量子引力的技术研究粒子物理对象成为理论主流，粒子物理学与量子引力的研究由此合流，这就是今天一般所说的**高能物理学**。其中主要基于量子引力理论的研究被称为**高能理论**（high-energy theory, hep-th），传统的基于实验事实推演规律的（包括弦论诞生前传统的方法以及当代对弦论等量子引力理论与实验现象的联系的探索）研究被称为**高能唯象学**（high-energy phenomenology，hep-ph；这部分研究在上述量子引力前的粒子物理时代也曾与实验相对被以「理论」指代，而今天的高能理论也因此常被区别地称呼为「形式理论(formal theory)」），而具体进行实验的工程性研究则是**高能实验**（high-energy experiment，hep-ex）。这就是今日高能物理学的大致情况。
 >  主要参考：https://ihep.cas.cn/kxcb/kpcg/gnwl/gnwl_lzwl/200909/t20090914_2481775.html
 
 * 大卫. J. 格里菲斯（David J. Griffiths），《粒子物理导论》（由机械工业出版社出版了原书第二版的中译版。）
@@ -2152,7 +2157,7 @@ AMO方面时下比较常用的**计算/模拟工具**是**Qutip**, 一个强大�
 
 知名的其他入门教材还包括 D. H. Perkins 的 Introduction to High Energy Physics。
 
-这些资料中都包含了对高能物理所依赖的实验技术的基本介绍，但更多当下实际的实验技术好像找不到什么知名的专门学习资料，暂时我也并不需要，有需要的话去参考文献列表里找吧（
+这些资料中也都包含了对高能物理所依赖的实验技术的基本介绍，但更多当下实际的实验技术好像找不到什么知名的专门学习资料，暂时我也并不需要，有需要的话去参考文献列表里找吧（
 
 ### 3.16 量子信息（量子通信、量子计算）
 > 在量子计算方面的先驱之一是理查德・费曼，这源于他对计算的物理性质的深入研究——这方面他留下的一样资料是他在 Caltech 的入门讲稿，以 **Feynman Lecturees on Computation** 之名出版。适合所有对计算的物理性质（不止于量子物理）感兴趣的学习者。
@@ -2253,6 +2258,14 @@ AMO方面时下比较常用的**计算/模拟工具**是**Qutip**, 一个强大�
 * [日本] 夏梅诚（[Makoto Natsuume](https://research.kek.jp/people/natsuume/index-e.html)，），AdS/CFT Duality User Guide（arXiv:1409.3575v4 [hep-th]）
 > 作者是Polchinski（在德克萨斯大学时期）的门徒，目前属于日本高エネルギー加速器研究機構（KEK）素粒子原子核研究所理論センタ（高能加速器研究机构（其前身是1971年成立的日本高能物理研究所）素粒子（=基本粒子）原子核研究所理论中心，是国际知名的高能物理研究机构）。或许是因为发布在arXiv上的缘故，这应该是目前最广为人知的AdS/CFT入门材料。
 > 同样是低起点（不过要求的场论背景比Ammon略高一点）的入门教程，也同时讲解了理论和应用，可以和Ammon形成补充；还包括了一个Ammon没有的参考文献列表。
+
+#### 3.17.5 （弦）散射振幅
+> 关于各类量子场论与弦论中的核心理论对象——散射振幅的计算方面的研究。因其核心地位，此方面的工作堪称十字路口——连结了纯数学的技术、高能理论的传统以及高能实验的意义，近年（21世纪20年代）发展迅速，热度不凡。领域内人也常以「振幅（amplitude）」简称之。
+> 简要入门及了解领域目前概况可参考以下资料：概览介绍可看Clifford Cheung的[TASI Lectures on Scattering Amplitudes](http://arxiv.org/abs/1708.03872v1)；Tomasz R. Taylor的[A Course in Amplitudes](https://arxiv.org/abs/1703.05670)可作技术上的粗浅入门，也可参看Simon Badger等的[Scattering Amplitudes in Quantum Field Theory](https://arxiv.org/abs/2306.05976)；比较工整的教科书则有Henritte Elvang（密歇根大学安娜堡分校）与黄宇廷（台湾大学）的Scattering Amplitudes in Gauge Theory and Gravity。当下进展总结可参看2022年的[The SAGEX Review on Scattering Amplitudes](https://arxiv.org/abs/2203.13011)。
+> 各大视频网站也有大量近年会议视频资料供阅览（当然不止散射振幅，这句话也适用于其他高能理论热门课题）。
+
+
+**关于近来高能理论的总体进展**，我们也可以参看Fernando Quevedo在2022年的综述：[Formal Theory: Status and Outlook](https://arxiv.org/abs/2212.05651)。
 
 
 ### 3.18 圈量子引力（Loop Quantum Gravity, LQG）
