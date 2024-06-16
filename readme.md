@@ -45,7 +45,7 @@
       - [1.8.3 非交换几何（Noncommutative Geometry, 缩写为NCG）](#183-非交换几何noncommutative-geometry-缩写为ncg)
       - [1.8.4 曲线的模空间-Teichmüller理论-远阿贝尔几何-IUT理论](#184-曲线的模空间-teichmüller理论-远阿贝尔几何-iut理论)
       - [1.8.5 解析几何（Analytic Geometry）与凝聚态数学（Condensed Mathematics）](#185-解析几何analytic-geometry与凝聚态数学condensed-mathematics)
-      - [1.8.6 导出代数几何（Derived Algebraic Geometry）-高阶范畴（Higher Categories）-高阶意象（Higher Topos）-高阶代数（Higher Algebra）](#186-导出代数几何derived-algebraic-geometry-高阶范畴higher-categories-高阶意象higher-topos-高阶代数higher-algebra)
+      - [1.8.6 导出代数几何（Derived Algebraic Geometry）-高阶/同伦几何（Higher/Homopotical Geometry）-高阶/同伦代数（Higher/Homopotical Algebra）](#186-导出代数几何derived-algebraic-geometry-高阶同伦几何higherhomopotical-geometry-高阶同伦代数higherhomopotical-algebra)
     - [1.9 数论（及密码学）](#19-数论及密码学)
       - [1.9.1 数论入门及综览性材料](#191-数论入门及综览性材料)
       - [1.9.2 代数数论](#192-代数数论)
@@ -1073,8 +1073,8 @@ Rising Sea中也有相关的一些内容。
 了解凝聚态数学的好参考是 2021 春季学期北京大学凝聚态数学讨论班的讲义（发布于香蕉空间）：https://www.bananaspace.org/wiki/%E8%AE%B2%E4%B9%89:%E5%87%9D%E8%81%9A%E6%80%81%E6%95%B0%E5%AD%A6 以及 nLab的对应条目：https://ncatlab.org/nlab/show/condensed+mathematics
 
 
-#### 1.8.6 导出代数几何（Derived Algebraic Geometry）-高阶范畴（Higher Categories）-高阶意象（Higher Topos）-高阶代数（Higher Algebra）
-> 这一部分的工作始于一个核心人物——美国当代数学家Jacob Lurie（2014数学突破奖，目前在IAS）连通现代代数几何与代数拓扑之间的杰出工作。从他草创导出代数几何这一将代数几何同伦化的全新领域的博士论文开始，他与他的合作者们又为给这一领域提供基础的同伦论建立了新的理论框架——高阶范畴论，和以此为基础的高阶意象（意象/topos是Grothendieck创始的概念）理论和以其为语言的高阶几何（Higher Geometry，又称同伦几何 Homotopical Geometry）理论，以及高阶算筹（Higher Operad）理论和以其为语言的高阶代数（Higher Algebra，又称同伦代数 Homotopical Algebra）理论。在原则方面，这一系列理论框架都可以视为Grothendieck开创的代数几何现代流派的思路的延续，只是借由同伦论而得到了进一步的改良。
+#### 1.8.6 导出代数几何（Derived Algebraic Geometry）-高阶/同伦几何（Higher/Homopotical Geometry）-高阶/同伦代数（Higher/Homopotical Algebra）
+> 这一部分的工作始于一个核心人物——美国当代数学家Jacob Lurie（2014数学突破奖，目前在IAS）连通现代代数几何与代数拓扑之间的杰出工作。从他草创导出代数几何这一将代数几何同伦化的全新领域的博士论文开始，他与他的合作者们又为给这一领域提供基础的同伦论建立了新的理论框架——高阶范畴论（Higher Category THeory），和以此为基础的高阶意象（Higher Topos，意象/topos是Grothendieck创始的概念）理论和以其为语言的高阶几何（Higher Geometry，又称同伦几何 Homotopical Geometry）理论，以及高阶算筹（Higher Operad）理论和以其为语言的高阶代数（Higher Algebra，又称同伦代数 Homotopical Algebra）理论。在原则方面，这一系列理论框架都可以视为Grothendieck开创的代数几何现代流派的思路的延续，只是借由同伦论而得到了进一步的改良。
 > 这一系列工作也为拓扑量子场论提供了可用的数学语言（见物理学-量子场论-拓扑量子场论部分Lurie的相关工作），并且推动了范畴化数学与物理学潮流的发展，这一潮流（不过其开始的时间早在Lurie的工作前）涉及的领域从已经以范畴为标准语言的代数几何和代数拓扑遍及拓扑量子场论相关的数学物理领域（量子群、量子上同调、镜像对称甚至量子可积系统）和凝聚态物理中新兴的拓扑量子物质领域（尤其是文小刚引领的对拓扑序的研究）。
 > 这一潮流进一步产生了一个与范畴（尤其是高阶范畴）相关联的数学、物理乃至哲学的理论联盟，其中的各个领域因共通的理论基础产生着联系与互动。对于这一「n阶范畴（n-category）」理论的联盟，产生了一个重要的民间资源（实际上它源于Baez等职业研究者的博客，详见维基百科的nLab条目中的历史部分）：名为nLab的维基社群，收录了对于这一理论联盟中众多主题与相关主题的介绍与文献索引，所有内容都具有相当高的质量，并可以成为入门学习的优质起点。
 
