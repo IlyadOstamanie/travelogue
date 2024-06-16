@@ -669,7 +669,7 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 > [表示论比较系统的研究](https://www.zhihu.com/question/28116211/answer/39453997)主要有三部分：群表示论、李代数的表示（在上一小节包含了）、结合代数的表示（=箭图（quiver）的表示）。
 > 除去这些传统技术外，当下表示论的热潮所在与主流是表示论与几何的互动——几何表示论，基本上就是用现代的几何技术（主要来自代数、微分、辛几何）研究代数群、Hecke代数、量子群等对象的表示问题（而这亦回馈到几何），其中产生了诸如D-模和中岛箭簇（Nakajima quiver varieties）、范畴化Kac-Moody作用（重要的结果是Khovanov-Lauda-Rouquier代数/箭Hecke代数（quiver Hecke algebras））等新的理论。
 > 表示论天然地通过Langlands纲领联系着代数数论（见代数数论-Langlands纲领部分），而其现代形式几何表示论则与Langlands纲领的现代形式、当代数学中最宏大的纲领——几何Langlands纲领相融。
-> 表示论因此也成为**当代数学的三大主流方向**之一，其余两大方向则是几何Langlands纲领的另一端——代数几何与应用数学的绝对主流——偏微分方程。相比这三者，在当代数学中的其余方向无论在人力还是进展情况上均远不及之。
+> 表示论因此也成为**当代数学的三大主流方向**之一，其余两大方向则是几何Langlands纲领的另一端——代数几何与辛几何，以及应用数学的绝对主流——偏微分方程（含几何分析）。相比这三者，在当代数学中的其余方向无论在人力还是进展情况上均远不及之。
 * [法国] Jean-Pierre Serre，Linear Representations of Finite Groups
 > 群表示论的经典参考。
 > 本书的英文本已由施普林格（Springer）出版公司出版，被收入其GTM（Graduate Texts in Mathematics）系列，编号GTM 42。
