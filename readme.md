@@ -640,7 +640,7 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 > 「其目的是把读者的线性代数水平从本科一、二年级提高到国内及欧美大学的研究生水平，让读者有实力利用线性代数学习其他学科并展开科研」。内容包括了以此为主线延伸的内容：张量、张量代数、交错型、行列式、双线性型、二次型、Clifford 代数、典型群、旋量、模理论、线性变换结构与Jordan 典范型、数值线性代数关于复矩阵的基础理论、模的各种构造法、群表示理论、同调代数以及范畴学。可以用来在初学阶段速通，也可以用来作综合复习或参考。
 
 #### 1.3.3 李群、李代数（及其表示）
-> 有时这些被统称为「李理论」。
+> 有时这些被统称为「李理论」。对于此类群的研究主要通过其研究表示的手段进行，因此也被视作表示论的一部分。
 > 快速入门可以参考苏黎世大学的讲义（简明扼要，不到100页，还有带答案的习题和试卷，而且讲了其他地方很少提到的Haar Measure）：https://www.math.uzh.ch/gorodnik/lg17/index.html
 > 这方面理论物理用的比较多，所以不少不错的书是面向那边的。
 * [美国] Howard Georgi，Lie Algebras in Particle Physics: From Isospin to Unified Theories
@@ -667,28 +667,32 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 
 #### 1.3.4 表示论
 > [表示论比较系统的研究](https://www.zhihu.com/question/28116211/answer/39453997)主要有三部分：群表示论、李代数的表示（在上一小节包含了）、结合代数的表示（=箭图（quiver）的表示）。
-> 除此以外，当下比较热门的是表示论与几何的互动——几何表示论，基本上就是用几何技术研究表示论问题，产生了诸如D-模和中岛箭簇（Nakajima quiver varieties）、范畴化Kac-Moody作用（重要的结果是Khovanov-Lauda-Rouquier代数/箭Hecke代数（quiver Hecke algebras））等新的理论，和几何Langlands纲领也能联系起来。
+> 除去这些传统技术外，当下表示论的热潮所在与主流是表示论与几何的互动——几何表示论，基本上就是用现代的几何技术（主要来自代数、微分、辛几何）研究代数群、Hecke代数、量子群等对象的表示问题（而这亦回馈到几何），其中产生了诸如D-模和中岛箭簇（Nakajima quiver varieties）、范畴化Kac-Moody作用（重要的结果是Khovanov-Lauda-Rouquier代数/箭Hecke代数（quiver Hecke algebras））等新的理论。
+> 表示论天然地通过Langlands纲领联系着代数数论（见代数数论-Langlands纲领部分），而其现代形式几何表示论则与Langlands纲领的现代形式、当代数学中最宏大的纲领——几何Langlands纲领相融。
+> 表示论因此也成为**当代数学的三大主流方向**之一，其余两大方向则是几何Langlands纲领的另一端——代数几何与应用数学的绝对主流——偏微分方程。相比这三者，在当代数学中的其余方向无论在人力还是进展情况上均远不及之。
 * [法国] Jean-Pierre Serre，Linear Representations of Finite Groups
-> 群表示论的经典。
+> 群表示论的经典参考。
 > 本书的英文本已由施普林格（Springer）出版公司出版，被收入其GTM（Graduate Texts in Mathematics）系列，编号GTM 42。
 
 * [俄罗斯] Pavel Etingof 等, Introduction to Representation Theory
 > 深入的群表示论讲义，通过后半部分可以了解一些结合代数的表示。
 
+* [波兰] Daniel Simson, Andrej Skowronski, Elements of the Representation Theory of Associative Algebras（三卷本）
+> 结合代数表示的系统入门（字典），面向数学研究生的参考书。
+
 * [美国] Neil Chriss，[俄罗斯/美国] Victor Ginzburg, Representation Theory and Complex Geometry
 > 几何表示论的整体入门介绍。这位Ginzburg是Kirillov与Gelfand的学生；与另一位更年轻的辛几何学者Viktor Ginzburg不是一人。
 > Bulletin of the AMS: "... This is the only available introduction to geometric representation theory. " 
 
-* [波兰] Daniel Simson, Andrej Skowronski, Elements of the Representation Theory of Associative Algebras（三卷本）
-> 结合代数表示的系统入门（字典），面向数学研究生的参考书。
 
 #### 1.3.5 量子群
-> 量子群作为一种特殊的Hopf代数（q-量子化的李代数），可以产生Yang-Baxter方程的解，可以构造扭结不变量；也因此在TQFT、弦论、统计物理等与此相关的数学物理内容中有着重要的应用，因此量子群及其应用已经发展成为一个相对独立的数学物理方向。对量子群及其相关的数学物理的研究的代表性人物之一是俄罗斯数学家Nikolai Reshetikhin（目前任教于清华大学，Reshetikhin-Turaev不变量）。
+> 量子群作为一种特殊的Hopf代数（q-量子化的李代数），可以产生Yang-Baxter方程的解，可以构造扭结不变量；也因此在TQFT、弦论、统计物理等与此相关的数学物理内容中有着重要的应用，因此量子群及其应用已经发展成为一个相对独立的表示论与数学物理方向（但也常仍然被视为表示论的一部分）。
+> 对量子群及其相关的数学物理的研究的代表性人物之一是俄罗斯数学家Nikolai Reshetikhin（目前任教于清华大学，Reshetikhin-Turaev不变量）。
 > Reshetikhin本人在清华大学讲授的Invariants of knots and Quantum Groups的课程录像与资料可以在这里取得：Invariants of knots and Quantum Groups，可以用来入门。
 * [法国] Christian Kassel, Quantum Groups
 > 基本的量子群入门读物，不需要Hopf代数的预备知识。
 > 本书的英文本已由施普林格（Springer）出版公司出版，被收入其GTM（Graduate Texts in Mathematics）系列，编号GTM 155。
-> 这些作为一个开始基本上够了（
+> 这些作为一个开始基本上足够。
 
 ### 1.4 几何学
 > #### 1.4.0 古典几何学
@@ -1064,6 +1068,7 @@ Rising Sea中也有相关的一些内容。
 
 #### 1.8.5 解析几何（Analytic Geometry）与凝聚态数学（Condensed Mathematics）
 > **解析几何**（analytic geometry，这里区分于前述的论述坐标几何学的解析几何）可以形容为关于解析（即解析函数的解析义）簇的研究，一般也专指对复解析空间（即复几何所研究的对象复流形的推广，光滑的复解析空间=复流形）的研究，是当代代数几何的主要相关方向之一（方法上可以视作其分支）。解析几何的基础是Serre的GAGA（Géométrie Algébrique et Géométrie Analytique, 代数几何与解析几何）定理，由此数学界得以用代数几何的工具研究发源于复几何（但推广到这里已经与传统复几何的语境截然不同了）的对象。其较热门的一种泛化是Tate等数学家创始的刚性（解析）几何（rigid (analytic) geometry）或称全局解析几何（global analytic geometry），即将所有以上的「复」推广到更一般的非阿基米德域（尤其引起注意的例子如p进数域）的产物。
+> 今日解析几何的工具也正被大量用于表示论与算术几何。
 
 对这部分知识取得基本的了解可以参考Amnon Neeman的Algebraic and Analytic Geometry以及nLab对应条目https://ncatlab.org/nlab/show/analytic+geometry的资料。
 与解析几何密切相关的另一个重要主题则是$\mathbb{F}_1$（上的）几何，这是整个几何学发展中的一片新领域。一个良好但略微过时的综述是 	arXiv:0909.0069 [math.AG] Mapping $\mathbb{F}_1$-land:An overview of geometries over the field with one element，一个更新的教程是则是arXiv:1801.05337 [math.AG]  $\mathbb{F}_1$ for everyone。
@@ -1080,7 +1085,7 @@ Rising Sea中也有相关的一些内容。
 
 通过nLab查找分散的论文、讲义等各类材料进行学习也是我本人认为最行之有效的学习n阶范畴理论联盟中感兴趣的领域的方法。当然，因为理论的大致脉络已经在方才的介绍中理清，本人自己的途径是从应用的其他方面（主要是物理学方面）的材料入手按需要学习Lurie的一系列理论中的部分，而不会单独对其进行研究。
 
-这一系列工作最权威的参考无疑还是要数创造它们的核心人物、写书狂魔Lurie自己的一系列专著和论文，覆盖了以上所有的领域，在[他本人的主页](https://www.math.ias.edu/~lurie/)上都能免费取得。但缺点是往往这些专著过于篇幅庞大，更适合作为字典而非初学者使用。与此相补充的是Lurie本人仿照the Stacks project所作的综合在线教科书[Kerodon](https://kerodon.net)，正在连载中，作为切入Lurie高阶范畴体系——尤其是核心概念无穷范畴——的一个入口十分合适。
+这一系列工作最权威的参考无疑还是要数创造它们的核心人物、写书狂魔Lurie自己的一系列专著和论文，覆盖了以上所有的领域，在[他本人的主页](https://www.math.ias.edu/~lurie/)上都能免费取得。但缺点是往往这些专著过于篇幅庞大，更适合作为字典而非初学者使用。与此相补充的是Lurie本人仿照the Stacks project所作的综合在线教科书[Kerodon](https://kerodon.net)，正在连载中，作为切入Lurie基于高阶范畴的这套高阶/同伦代数-几何（他本人称之为'homotopy-coherent mathematics'）体系——尤其是核心概念无穷范畴——的一个入口十分合适。
 
 ### 1.9 数论（及密码学）
 > 其实从其他书里云的数论（只相当于最基本的初等数论程度...吧）也有一些了，但是对这个领域本身还没有认识；数论作为某种意义上数学中的核心（尤其考虑到现代在算术几何上不可思议的进展），还是需要正经地学一下比较好。
