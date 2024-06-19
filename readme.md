@@ -1012,13 +1012,22 @@ Schapira还有两个比较友好的讲义[Categories and Homological algebra](ht
 > 如题所示，偏重计算方法地讲解了代数几何和交换代数的一些基础内容，是严肃地学习概形等现代内容的很好准备。虽然深度有限且篇幅很长，但只需要熟悉线性代数就可以读。
 
 **双有理几何补充**
-一般代数几何（即代数几何中比较基本的，不可视为相对独立的部分）中一直比较热门的一个领域是双有理几何（birational geometry），它是以双有理等价分类代数簇的研究，是可以追溯到ALexandre Grothendieck开创以概形语言为基础的现代代数几何的统一体系的一系列工作前的古老领域。众多知名的数学家都因在双有理几何上的重要贡献而闻名，其中包括日本数学家广中平祐（Heisuke Hironaka，菲尔兹奖1970），森重文（Shigefumi Mori，菲尔兹奖1990），俄罗斯数学家Vyacheslav Shokurov（Вячеслав Владимирович Шокуров）和其门徒伊朗数学家 Caucher Birkar（菲尔兹奖2018）。
+> 一般代数几何（即代数几何中比较基本的，不可视为相对独立的部分）中一直比较热门的一个领域是双有理几何（birational geometry），它是以双有理等价分类代数簇的研究，是可以追溯到ALexandre Grothendieck开创以概形语言为基础的现代代数几何的统一体系的一系列工作前的古老领域。众多知名的数学家都因在双有理几何上的重要贡献而闻名，其中包括日本数学家广中平祐（Heisuke Hironaka，菲尔兹奖1970），森重文（Shigefumi Mori，菲尔兹奖1990），俄罗斯数学家Vyacheslav Shokurov（Вячеслав Владимирович Шокуров）和其门徒伊朗数学家 Caucher Birkar（菲尔兹奖2018）。
 
 入门学习可以参考巴黎数学科学基金会主办的系列讲座：https://www.bilibili.com/video/BV1Q4411g7ax 和清华数学科学中心Caucher Birkar主讲的双有理几何课程：https://www.bilibili.com/video/BV1K44y1Y7S6
 当代双有理几何方面的没有很多体系化的入门教科书，比较著名的一本专著是
 * [匈牙利] Janos Kollár, [日本] 森重文，Birational Geometry of Algebraic Varieties
 > 森重文本人也是20世纪双有理几何方面起引领作用的大师。
 具体学习还可以可以参考https://www.zhihu.com/question/264869849。
+
+**枚举几何补充**
+> 一般代数几何中比较热门的另一个领域是[枚举几何（enumerative geometry，又译作计数几何）](https://www.bananaspace.org/wiki/%E8%AE%A1%E6%95%B0%E5%87%A0%E4%BD%95)，它是专门研究代数几何中的枚举/计数问题（如两条曲线的交点个数）的分支。
+> 枚举几何中最重要的基础工具之一是相交论（intersection theory），在其他代数几何分支也发挥了重要的作用。
+> 枚举几何的理论在弦理论相关的数学方面有一些应用（见[美国]Sheldon Katz, Enumerative Geometry and String Theory），近来一些新的进展在镜像对称（见物理-弦理论部分）中也展现出人意料的应用空间。
+
+时兴的一部枚举几何入门教程是[美国]David Eisenbud, [美国]Joe Harris的3264 AND ALL THAT: A Second Course in Algebraic Geometry，从相交理论起步，常在代数几何学习者间以「3264/三贰陆肆」（其源于经典的结论「[3264条曲线](https://www.bananaspace.org/wiki/3264_%E6%9D%A1%E6%9B%B2%E7%BA%BF)」）指称之。
+具体到相交论，最为脍炙人口的的经典入门教程则是Fulton的Intersection Theory。
+
 
 #### 1.8.2 算术几何
 > 应用于数论的代数几何（基本上，也有模形式等来自解析数论与代数数论的重要工具）。算术几何在近几十年有着丰硕的进展，包括1973年比利时数学家皮埃尔·德利涅(Vicomte Pierre René Deligne，Grothendieck的门徒，菲尔兹奖1978，沃尔夫奖2008，阿贝尔奖2013)，完成韦伊猜想(Weil conjecture)的证明、1983年德国数学家法尔廷斯(Gerd Faltings，菲尔兹奖1986)对莫德尔猜想(Mordell conjecture)的证明（他与Grothendick就此有过交流，而据称远Abel几何就发源于此；他还是远Abel几何最重要的学者之一、日本数学家望月新一的导师，也指导过当代著名代数几何学者张寿武），以及1993年英国数学家Andrew Wiles（阿贝尔奖2016）和他在普林斯顿期间的学生Richard Taylor（2014突破奖，当世数论大家之一，几何朗兰兹纲领的主要人物之一）利用椭圆曲线对费马大定理的成功证明（关于此的论述可以参考[这个讲座系列](https://www.bilibili.com/video/BV1rt411R7uM)）。
