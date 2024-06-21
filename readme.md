@@ -1041,7 +1041,8 @@ Rising Sea中也有相关的一些内容。
 * 刘青（Qing Liu），Algebraic Geometry and Arithmetic Curves（《代数几何和算术曲线》）
 > 算术几何方向的基础书。
 
-算术几何方面核心的一个基本对象是**椭圆曲线**的算术（椭圆曲线-模曲线-模空间与椭圆积分-椭圆函数这两条概念线之间都有神奇的联系）。这方面最著名的入门教材是美国学者Joseph H. Silverman（布朗大学）的两部曲The Arithmetic of Elliptic Curves（GTM 106）和Advanced Topics in the Arithmetic of Elliptic Curves（GTM 151），可以说是这方面最友好的入门。Silverman本人还有一本友好但浅显的数论入门书A Friendly Introduction to Number Theory。（个人对算术几何进一步学习的动力有限，即使后面开始也还是以EGA，FGA等作为起点。）
+算术几何方面核心的一个基本对象是**椭圆曲线**的算术（椭圆曲线-模曲线-模空间与椭圆积分-椭圆函数这两条概念线之间都有神奇的联系）。这方面最著名的入门教材是美国学者Joseph H. Silverman（布朗大学）的两部曲The Arithmetic of Elliptic Curves（GTM 106）和Advanced Topics in the Arithmetic of Elliptic Curves（GTM 151），可以说是这方面最友好的入门。Silverman本人还有一本友好但浅显的数论入门书A Friendly Introduction to Number Theory。（志不专在此者对细节进一步深入熟悉的动力有限，所以一般即使涉足代数几何也还是以更广泛的EGA，FGA等作为起点。）
+在费马大定理（现在也称为怀尔斯定理）方面目前也有了一部（也大约是唯一一部）面向代数几何初学者的入门教材——Gary Cornell，Joseph H . Silverman（就是上面那位）和Glenn Stevens编著的 Modular Forms and Fermat's Last Theorem，专门从基础知识起步剖析了整个证明。
 
 算术几何中另一个稍有热度（但不多）的较有历史的分支是所谓**Arakelov几何**，基本上就是将复（微分）几何的方法引入算术几何的一种技术（但单独学习的必要对非其方向者或不甚大）。
 
@@ -1156,10 +1157,14 @@ Langlands纲领常被认为缺乏良好入门材料，但现在有了Bump，Cogd
 
 #### 1.9.3 解析数论
 > 浅入门可以看 Freitag 复分析第二卷的解析数论相关章节。对非解析数论或相关分析学科的学习者，一开始略了解些基本技术应当已经足够。
-
 虽然是老书，但是一个经典而且比较快速的解析数论入门是苏联数学家A. A. 卡拉楚巴（Karatsuba）的《解析数论基础》，只有200余页，但微言大义，不至于如其他入门书一样过浅。
+
+* [美国] Tom M. Apostol, 《解析数论导论》（An Introduction to Analytic Number Theory）
+> 同样是老书（这部分内容已经定型，所以并无新书流行起来），最常见的本科解析数论教材（虽然本来也不多），低起点，各方面普通但无明显不足，适合小白入门。缺点是能获得的版本的印刷质量都不是非常友好。
+> 作者另有一本有名的《数学分析》，也是适合小白入门的类型。
+
 * [波兰] Henryk Iwaniec（邵逸夫奖2015）, Emmanuel Kowalski(就是上面那位)，Analytic Number Theory
-> 内容最丰富而现代的同领域教材之一。基本上内容堪称当世最全，也是很受欢迎的数论从业者的参考书。
+> 内容最丰富而现代的同领域教材/专著之一。砖头，基本上内容堪称当世最全，也是很受欢迎的数论从业者的参考书。
 > Iwaniec似乎和Faltings还曾有过合作（。他还有一本和John Freidlander合写的、书名很有意思的专著Opera de Cribro(https://math.stackexchange.com/questions/492938/the-book-opera-de-cribro-by-john-friedlander-and-henryk-iwaniec)。
 同类者还有潘承洞、潘承彪两兄弟在上世纪80年代末的《解析数论基础》，也是古典解析数论的大整理，同样可以胜任字典。
 
