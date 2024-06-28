@@ -2601,6 +2601,8 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 ##### 4.3.3.5 操作系统
 * [荷兰] Andrew S. Tanenbaum，《现代操作系统》
 > 大家都在用的OS教材，可以初步了解现代操作系统的全貌。
+另一本更重设计思路的常用教材是[美国] Abraham Silberschatz，Peter B. Galvin, Greg Gagne的《操作系统概念》。
+
 [美国] H. Hahn，《UNIX&LINUX大学教程》
 > 全面学习Unix和Linux操作系统（世界上最主流的操作系统之一）的工作原理和使用方法（包括Unix和Linux上的常用软件工具的使用方法），以及Unix和Linux发展历程（作者是亲历者）中的八卦趣事。
 
@@ -2626,7 +2628,7 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 
 ##### 4.3.3.8 数据库
 > 如果不是专业的数据库开发人员，用[廖雪峰的SQL教程](https://www.liaoxuefeng.com/wiki/1177760294764384)学会用SQL就能提供足够好的数据库技术基础了。
-* [美国] Abraham Silberschatz, Henry F. Korth, S. Sudarshan，《数据库系统概念》
+* [美国] Abraham Silberschatz（也是前述《操作系统概念》作者）, Henry F. Korth, S. Sudarshan，《数据库系统概念》
 > 数据库的权威经典教材，砖头（CS的砖头是真的多...），但重在全面。
 
 #### 4.3.4 理论计算机科学方面
@@ -2682,26 +2684,28 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 > 当前发展最快，成果影响最大的人工智能技术。
 > 入门可以直接去看经典的两部开放课程：Stanford [CS229 Machine Learning](http://cs229.stanford.edu/)，[CS231N Deep Learning for Computer Vision](http://cs231n.stanford.edu/)，前者用于基础，后者用于了解深度学习等当下一线技术。
 > 「如果只是想在毕业之后能找到算法工程师的工作，《统计学习方法》、CS229、CS231N、《deep learning》这些书再加上leetcode、数据挖掘比赛、以及相关项目经验就已经足够。不过如果真的对机器学习背后的理论非常感兴趣，愿意将此作为个人一生的事业，我觉得以上四本书籍都非常经典，可以根据个人具体的情况来取舍。」——[最近开始学习机器学习，不知道看哪本书比较好（PRML ESL or MLAPP）？ - 知乎用户的回答](https://www.zhihu.com/question/37868662/answer/543175270)
-> 更新：对于算法工程师打工路线（而非理论路线），现在可以速通了（取代CS229 CS231N，会Python即可入门，书可以之后再看）——[《动手学深度学习》：面向中文读者的能运行、可讨论的深度学习教科书, 含 PyTorch、NumPy/MXNet、TensorFlow 和 PaddlePaddle 实现, 被全球 60 多个国家 400 多所大学用于教学](https://zh-v2.d2l.ai/index.html) 。这是一本由一个豪华的算法从业者团队打造的开源在线教程，纸质版也已经在人民邮电出版社出版。直接快速入门深度学习及其在计算机视觉（Computer Vsion(CV)，同义词是「机器视觉」 Machine/Robot Vision）、自然语言处理（NLP）两个主要方向的具体应用，还包含Kaggle实战案例，拯救伤心转码人（
-
+> 更新：对于算法工程师打工路线（而非理论路线），现在可以速通了（取代CS229 CS231N，会Python即可入门，书可以之后再看）：可以先通过Andriy Burkov的速通讲义《机器学习精讲》（The Hundred-Page Machine Learning Book）熟悉机器学习的基本概念，然后可以用黄佳《零基础学机器学习》得到一套目前机器学习界各类基本技术全面的上手经验，或者直接开始集中掌握当前最主要的机器学习方法——深度学习，通过[《动手学深度学习》：面向中文读者的能运行、可讨论的深度学习教科书, 含 PyTorch、NumPy/MXNet、TensorFlow 和 PaddlePaddle 实现, 被全球 60 多个国家 400 多所大学用于教学](https://zh-v2.d2l.ai/index.html) 。这是一本由一个豪华的算法从业者团队打造的开源在线教程，纸质版也已经在人民邮电出版社出版。直接快速入门深度学习及其在计算机视觉（Computer Vsion(CV)，同义词是「机器视觉」 Machine/Robot Vision）、自然语言处理（NLP）两个主要方向的具体应用，还包含Kaggle实战案例，拯救伤心转码人（
 
 * 周志华，《机器学习》
-> 国内机器学习标准教材之一，低起点、新人友好的入门书。作者本人是中国AI界的元老。
+> 国内机器学习标准理论教材之一，低起点、新人友好但具备充分理论深度的入门书。作者本人是中国AI界的元老之一，著名的南京大学Lambda实验室创始人。
 
-以下三部都是不同程度拥有「机器学习圣经」之名的大部头参考书：
+* 陈强，《机器学习及Python应用》
+> 600页+的大字典，从普及基本的Python编程讲起一路覆盖了几乎所有传统（=深度学习时代前）的机器学习技术，也一并讲了常用的数据科学——数据处理——的方法。理论与代码实例并重，非常好的参考。
+
+以下三部都是不同程度拥有「机器学习圣经」之名的大部头理论（学术向）参考书：
 * [英国] Christopher Bishop，Pattern Recognition and Machine Learning（民间通译：《模式识别与机器学习》）
 > 字典一号，大名鼎鼎的PRML。微软剑桥研究院实验室主任主笔的鸿篇巨著，上手难度合理，体系完整地从贝叶斯统计（概率模型）的角度叙述了当代机器学习和模式识别技术背后的理论基础（但这并不是唯一的角度，也算不得绝对主流的角度。）
 
 * [美国] Trevor Hastie, Robert Tibshirani, Jerome Friedman，The Elements of Statistical Learning（民间通译《统计学习基础》） - Data Mining, Inference, and Prediction
-> 字典二号，名声赫赫的ESL。顺便一提，书名里的**统计学习理论是机器学习技术的基础。也可以说统计学习=机器学习的理论(https://www.zhihu.com/question/515727053/answer/2437406113)**，阅读需要先具备一定的机器学习基础，叙述偏向传统统计(频率统计)角度且侧重方法（因此更适用于工程人员），总结了已经成熟的技术，对尚在发展中的一些议题和近年流行的新方法也有简明扼要的论述。
+> 字典二号，名声赫赫的ESL。顺便一提，书名里的**统计（机器）学习理论是当代机器学习技术的基础。也可以说统计（机器）学习=当代机器学习的理论(https://www.zhihu.com/question/515727053/answer/2437406113)**（当然也有区分于此方法的其他“‘非统计’机器学习”——如所谓符号机器学习等——方法存在，但均已经在统计机器学习方法的优良效果面前黯然失色，使得当代大行其道的机器学习技术以统计机器学习理论作为其唯一基础），阅读需要先具备一定的机器学习基础，叙述偏向传统统计(频率统计)角度且侧重方法（因此更适用于工程人员），总结了已经成熟的技术，对尚在发展中的一些议题和近年流行的新方法也有简明扼要的论述。
 > 额外亮点：第一作者另有一本与本书相辅的实操书，也很流行： Introduction to Statistical Learning with R，有完整的代码，两者可以从理论到落地相得益彰。
-> 如果需要中文书，有一本角度类似的中文教材：李航，《统计学习方法》。
+> 如果需要中文书，有一本角度类似，水准相当的优秀中文教材：李航，《统计学习方法》。
 
   * [加拿大] Kevin Patrick Murphy，Machine Learning: A Probabilistic Perspective
 > 字典三号，著名的MLAPP，比前两本都要新。实际上这是作者一个系列的第一本：["Probabilistic Machine Learning" - a book series by Kevin Murphy](https://probml.github.io/pml-book/)。最详细的大字典，可以说囊括了机器学习里面大部分的模型和方法，而且成书很新，包括MCMC，深度学习等近几年的热点技术。有详细的开源代码，但是matlab（无奈）；虽然覆盖面广，但系统性和条理性略差于PRML和ESL，更适合工程人员查阅，阅读也需要一定的理论背景。
   
 * [美国]Tom Mitchell，《机器学习》（Machine Learning）
-> 来自 CMU 大名鼎鼎的经典教材，和周志华的《深度学习》内容层次相同，但周书包括一些更新的内容（如SVM），相比新人友好叙述更加专业（数学多一些），篇幅更短，水分更少，可以作参考。
+> 来自 CMU 大名鼎鼎的经典教材，和周志华的《深度学习》内容层次相同，但周书包括一些更新的内容），相比新手友好叙述更加专业（数学多一些），篇幅更短，水分更少，可以作参考。
 
 * [美国、加拿大] Ian Goodfellow，Yoshua Bengio，Aaron Courville，《深度学习》（Deep Learning）
 > 深度学习领域奠基性的「圣经」，深度学习界唯一指定百科参考书（雾），深入浅出地介绍深度学习的各种技术，从基础到最新的发展，从理论到实践。阅读需要一定的机器学习基础（但不多，比如CS231n，大概）。
@@ -2709,7 +2713,7 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 > “深度神经网络负责现代计算机科学的一些最大进步，帮助在计算机视觉，语音识别和自然语言理解方面的长期问题上取得实质性进展，”Google高级研究员兼Google高级研究员Jeff Dean说。“这一进步的核心是30多年前由图灵奖获奖者，Yoshua Bengio，Geoffrey Hinton和Yann LeCun开始的基本技术。通过大幅提高计算机理解世界的能力，深度神经网络不仅改变了计算领域，而且几乎改变了科学和人类努力的每一个领域。“
 > 中文翻译可以在https://github.com/exacity/deeplearningbook-chinese 免费读。
 
-还有一本剑桥卡文迪许实验室David J. C. Mackay的《信息论、推理与学习算法》（Information Theory, Inference and Learning Algorithms），可以作为参考。**「学习算法」（Learning Algorithms, Bengio创立的蒙特利尔学习算法研究所（Montreal Institute for Learning Algorithms, MILA）里面就是这个意思），以及更老式的「模式识别」）（Pattern Recognition，这个名称现在主要在自动化等应用此技术的传统工科中使用），都是「机器学习」（Machine Learning）的同义词，指的是同一类技术。「机器学习」在相关领域内部的交流中也常简单地称呼为「学习」(Learning)。**
+还有一本剑桥卡文迪许实验室David J. C. Mackay的《信息论、推理与学习算法》（Information Theory, Inference and Learning Algorithms），可以作为参考。**「学习算法」（Learning Algorithms, Bengio创立的蒙特利尔学习算法研究所（Montreal Institute for Learning Algorithms, MILA）里面就是这个意思），以及更老式的「模式识别」）（Pattern Recognition，这个名称现在主要在自动化等应用此技术的传统工科中使用），都是「机器学习」（Machine Learning）的同义词，指的是同一类技术。「机器学习」一词在相关领域内部的交流中也常简单地略称为「学习」(Learning)。**
 
 
 **参考用（实践）**
