@@ -1620,7 +1620,7 @@ Shankar的书看起来比较友好，但篇幅冗长很多地方又非主流，�
 > 本书的英文原本已由施普林格（Springer）出版公司出版，被收入其GTM（Graduate Texts in Mathematics）系列，编号GTM 48。
 
 对于广义相对论，Carroll的书是北美普遍的通用教材，起点更基础也更详尽的则是Shutz。Wald的GR书更为数学化且精简（还要更数学化的还有Hawking的书），而Misner, Thorne&Wheeler的大部头则是从基础到前沿的百科全书。T. Padmanabhan的Gravitation: foundations and frontiers则是比较现代的教材（没有那么知名）。Einstein本人的书也常常被列作参考。这些都是有参考价值的作品。
-> 说到Hawking，他和Penrose（诺贝尔物理学奖2020）同为现代宇宙学的数学结构的奠基人。不同于Hawking，Penrose的工作还遍及之外的其他方面，除了Penrose地砖外，Penrose还提出了一种新的量子引力方案（它与LQG关系紧密）——扭量理论(Twistor theory，虽然看上去因为面对的问题较多而没有弦论和LQG那么热门；或许新的数学结构的引入能给它注入活力)和共形循环宇宙假说（好像有一定市场，可以参考他的《宇宙的轮回：宇宙的非凡新观点》（Cycles of Time: An Extraordinary New View of the Universe）），并写了不少面向不同层次读者的非正式物理名著（其中不少也阐述了他自己独特的哲学观点；其中有一本上千页的巨著《通向实在之路》，写的很妙，也介绍了他的扭量理论，值得看看。关于他的扭量理论的专著是两卷本的Twistors and Space-time。）
+> 说到Hawking，他和Penrose（诺贝尔物理学奖2020）同为现代宇宙学的数学结构的奠基人。不同于Hawking，Penrose的工作还遍及之外的其他方面，除了Penrose地砖外，Penrose还提出了一种新的量子引力方案（它与LQG关系紧密）——扭量理论(Twistor theory，虽然看上去因为面对的问题较多而没有弦论和LQG那么热门；或许新的数学结构的引入能给它注入活力)和共形循环宇宙假说（好像有一定市场，可以参考他的《宇宙的轮回：宇宙的非凡新观点》（Cycles of Time: An Extraordinary New View of the Universe）），并写了不少面向不同层次读者的非正式物理名著（其中不少也阐述了他自己独特的哲学观点；其中有一本上千页的半科普巨著《通向实在之路》，写的很妙，从大学本科程度的数学基础一路讲到量子引力研究的当代进展，也介绍了他的扭量理论（以及他的很多其他创造，比如张量图示），值得一看。关于他的扭量理论的专著是两卷本的Twistors and Space-time。）
 
 宇宙学方面还可以参考[Hannu Kurki-Suonio（赫尔辛基大学）](https://www.mv.helsinki.fi/home/hkurkisu/)的讲义以及[David Langlois（巴黎七大）的讲义](https://arxiv.org/abs/1001.5259)，的受欢迎的参考书则有Scott Dodelson的《现代宇宙学》和V. Mukhanov的《宇宙学的物理基础》，以及Lyth&Liddle的The primodial density perturbation--Cosmology Inflation and the Origin of Structure（对早期宇宙、暴涨模型的详述）。一个比较轻松的休闲入门读物是Princeton物理系主任、美国观测宇宙学家莱曼·佩奇（Lyman Page）的《宇宙小史》（The Little Book of Cosmology）。
 
