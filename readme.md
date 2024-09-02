@@ -1233,6 +1233,8 @@ Langlands纲领常被认为缺乏良好入门材料，但现在有了Bump，Cogd
 * [意大利] Alfio Quarteroni，Riccardo Sacco，Fausto Saleri，Numerical Mathematics
 > 类似于前一本，但更新，篇幅更长，内容稍详细丰富些。
 
+寻求习题的教师和考试准备者可以参考Richard L. Burden，J. Douglas Faires，Annette M. Burden的《数值分析》（Numerical Analysis），含有大量习题（以及长大逾百页的部分答案）。
+
 《计算物理学》基本就是物理院系开设的特种数值方法，内容范围和上面的数学院系教材区别不大。好处是可以了解下具体的物理应用，比如很多学校选用的标准教材：
 * [美国] Steven E. Koonin，Computational Physics - Fortran Version（没有找到中文译本）
 
