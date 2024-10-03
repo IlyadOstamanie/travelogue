@@ -866,7 +866,7 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 
 形变量子化还可以联系到另一个更广泛的几何理论——**形变理论**（[deformation theory](https://ncatlab.org/nlab/show/deformation+theory)），暂时不准备学，不过一篇比较的入门文值得看看：深谷贤治（Kenji Fukaya），[Deformation Theory, Homological Algebra, and Mirror Symmetry](https://www1.mat.uniroma1.it/people/manetti/DT2011/fukaya.pdf)，其他材料可以参考https://www.zhihu.com/question/512415828。
 > 深谷贤治的一个比较有意思的报告：https://www.bilibili.com/video/BV1va411n7E4/
-Kontsevich的另一项重要工作——同调镜像对称（见物理学-镜像对称部分）中的很多技术也来源于他亲手奠基的形变量子化理论，其中也包括在弦论和TQFT以及非交换几何的范畴化结构中大放异彩的深谷范畴（[fukaya category](https://ncatlab.org/nlab/show/Fukaya+category)），它在镜像对称中具有很基本的作用。关于深谷范畴一个快速入门的材料是Ivan Smith的[A symplectic prolegomen](https://arxiv.org/abs/1401.0269)。
+Kontsevich的另一项重要工作——同调镜像对称（见物理学-弦理论-镜像对称部分）中的很多技术也来源于他亲手奠基的形变量子化理论，其中也包括在弦论和TQFT以及非交换几何的范畴化结构中大放异彩的深谷范畴（[fukaya category](https://ncatlab.org/nlab/show/Fukaya+category)），它在镜像对称中具有很基本的作用。关于深谷范畴一个快速入门的材料是Ivan Smith的[A symplectic prolegomen](https://arxiv.org/abs/1401.0269)。
 当然，事实上辛几何本身就——和复几何（见上方微分几何部分）一起——构成镜像对称的主要数学基础，所以可以说Kontsevich的这两项重要工作都至少部分地源于辛几何。
 
 ##### 14.3.3 量子上同调（Quantum Cohomology）
@@ -2331,17 +2331,18 @@ AMO方面时下比较常用的**计算/模拟工具**是**Qutip**, 一个强大�
 > 人称 Hori Bible，但实际上是数学物理学界群星云集的巨著，由AMS Clay Mathematics Institute出版，最著名的镜像对称入门教材。平易近人，上手需要的基础要求很低，数学和物理背景的读者都容易接受。
 > 作者中的 Vafa 本人就是镜像对称的初创者，而数学家Ravi Vakil则是之前提到过的著名的Rising Sea的作者。
 
+* [英国] Clifford V. Johnson，D-branes
+> 镜像对称的主要工具——D膜的权威，可以作为参考或者“参考的起点/文献指南”查阅。
+
+在被弦论专家与几何学家们联手草创之时，镜像对称与其具体的弦论背景有着紧密的联系，但随后它的主要进展集中于纯粹几何而基本脱离了弦论背景，所以今日镜像对称的大部分研究并不依赖对于弦论的知识。
 * [比利时] Raf Bocklandt, A Gentle Introduction to Homological Mirror Symmetry
-> 一点都不Gentle（全恼
+> 一点都不Gentle（全恼）
 > 作者在阿姆斯特丹大学开的同调镜像对称课的讲义，各方面比较常规。
-> 作为镜像对称的热门方面（它的两个重要数学表述之一，另一个则是植根于弦论的Strominger-Yau-Zaslow(SYZ)猜想），Kontsevich开创的同调镜像对称（Homological Mirror Symmetry, HMS，在之前的数学-几何学-辛几何部分曾提及）或许是当代最激动人心的几何主题之一，这一范畴化的理论在当代数学/理论物理中产生了巨大、深远的影响，因此对于学习HMS，参考Kontsevich和与他合作的数学物理学家们的文章是有益的。
+> 作为镜像对称的热门方面（它的两个重要数学表述之一，另一个则是植根于弦论的Strominger-Yau-Zaslow(SYZ)猜想），Kontsevich开创的同调镜像对称（Homological Mirror Symmetry, HMS，在之前的数学-几何学-辛几何部分曾提及）或许是当代最激动人心的几何主题之一（一般主要被视为辛几何内容），这一范畴化的理论在当代数学/理论物理中产生了巨大、深远的影响，因此对于学习HMS，参考Kontsevich和与他合作的数学物理学家们的文章是有益的。
 > 适合**快速入门扫盲**的是Nicolas Sheridan（他也在量子上同调理论上有突出的贡献）在爱丁堡大学的HMS讲义：[Lectures on Homological Mirror Symmetry](https://www.maths.ed.ac.uk/~nsherida/HMS.html)，涉及知识面非常广，向所有学习者推荐之。Sheridan在IAS的HMS授课视频：https://www.bilibili.com/video/BV1ss411P7Tx
 > UIUC的HMS课资料也可作参考：https://faculty.math.illinois.edu/~jpascale/courses/2018/595/
 * [美国] David A. Cox（代数几何那边有他的另一本书），Sheldon Katz，Mirror Symmetry and Algebraic Geometry
 >  另一本同调镜像对称教材，侧重其中的代数几何技术。
-
-* [英国] Clifford V. Johnson，D-branes
-> 镜像对称的主要工具——D膜的权威，可以作为参考或者“参考的起点/文献指南”查阅。
 
 #### 3.17.4 AdS/CFT对偶
 > 全称为「反德・西特空间/共形场论对偶(对应)」（Anti-de Sitter / Conformal Field Theory duality(correspondence)）或「规范/引力对偶(对应)」（Gauge/Gravity duality(correspondence)）或「马尔达西那对偶(对应)」（Maldacena duality(correspondence)）
@@ -2366,7 +2367,7 @@ AMO方面时下比较常用的**计算/模拟工具**是**Qutip**, 一个强大�
 ### 3.18 圈量子引力（Loop Quantum Gravity, LQG）
 > 虽然同为（尚未完成的）量子引力理论，弦论中的内容与从宇宙学到代数几何的广大数学物理范围都有着繁杂的联系，而圈量子引力因为它本身从广义相对论开始量子化的路线则相对僻静很多。LQG的开山鼻祖是当代印度广义相对论名家Abhay Ashtekar，他是GR泰斗Robert Geroch（就是那本Mathematical Physics的作者本人，与Hawking和Penrose一起证明奇点定理的物理大师）的门徒，和美国理论物理学家Gary Horowitz（弦论和黑洞信息悖论的名家，卡拉比—丘紧化，全息原理及其应用方面的突出贡献者）与希腊物理学家Basilis Xanthopoulos（与1983年诺贝尔物理学奖得主Chandrasekhar（就是Chandrasekhar极限的那位钱德拉塞卡）一起在广义相对论中平面波碰撞产生的奇点研究上做出了重要贡献）师出同门。
 
-> [欢迎光临北京师范大学圈量子引力研究组！](http://virphysics.bnu.edu.cn/web/application/research/gravity/LQG/cn/index.html)
+> 国内的LQG研究主要集中于：[欢迎光临北京师范大学圈量子引力研究组！](http://virphysics.bnu.edu.cn/web/application/research/gravity/LQG/cn/index.html)
 > 快速入门LQG结构的讲义：[Fundamental Structure of Loop Quantum Gravity](https://arxiv.org/abs/gr-qc/0509064) （作者均为上述研究组成员ww）
 * [乌拉圭] Rodolfo Gambini，[阿根廷] Jorge Pullin，A First Course in Loop Quantum Gravity
 > 目前的主流教材之一。不到200页，因为比较僻静所以LQG的内容也写不出来很多（
@@ -2377,8 +2378,10 @@ AMO方面时下比较常用的**计算/模拟工具**是**Qutip**, 一个强大�
 > Rovelli 本人现已入驻bilibili: https://www.bilibili.com/video/BV1gY4y187NS/ 个人空间：https://space.bilibili.com/1798008365
 > 他另有一本非常著名的理论物理科普书《七堂极简物理课》，以及一本关于量子引力的科普书《现实不似你所见：量子引力之旅》，等等。Rovelli应该也已经称得上是科普大家了。
 Rovelli 另有一本大部头的 Quantum Gravity，这个是完整的、可供参考的LQG专著，侧重于物理（广义相对论与量子理论）统一性的论述。另一本侧重数学体系的专著是：
-* [德国] Thomas Thiemann，Modern Canonical Quantum General Relativity（2008，序言是Chris Isham写的XD）
+* [德国] Thomas Thiemann，Modern Canonical Quantum General Relativity（2008，序言是Chris Isham写的）
 两者恰好相互补充，可以算作一套完整的LQG专著。
+
+除去北师大势力以外，国内其他LQG方面的主要研究多来自武汉，比较知名的是来自武汉几所高校的「三邵」（邵常贵，邵亮，邵丹父子三人），他们撰写了中文界仅有的几部LQG教材（不过都夹杂了其自己的研究内容），包括较基本的《量子引力一空时与引力的新体制》与较深入的《空间时间的量子理论》。
 
 ### 3.Ex1 流体力学
 > 流体力学产生于数学、物理学等学科尚未分化的时代，诞生于欧拉、高斯、拉格朗日、柯西等伟大的数学-物理（自然哲学）家之手。因为它本身是一门高度依赖数学的、以研究流体的力学性质的理论（流体相关的PDE在数学界也是主流的方向之一），而又在工程上有非常广泛和重要的应用（航空航天、医疗、汽车、高层建筑...），当代流体力学的研究呈现出数学-物理学-工程学的复合属性。以各种流体为对象的研究同时在以上三种学科的组织中开展，研究的具体方面（数学模型、物理性质、工程应用）与方法都各有不同。这也催生了面向数学、物理学、工程学的三类不同的流体力学教科书，下面我会将其各自分开谈论。
