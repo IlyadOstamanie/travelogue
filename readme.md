@@ -29,6 +29,7 @@
       - [1.4.3 辛几何（Symplectic Geometry, 又称辛拓扑(Symplectic Topology)）](#143-辛几何symplectic-geometry-又称辛拓扑symplectic-topology)
         - [1.4.3.1 辛几何入门](#1431-辛几何入门)
         - [1.4.3.2 泊松几何（Poisson Geometry）-形变量子化（Deformation Quantisation）](#1432-泊松几何poisson-geometry-形变量子化deformation-quantisation)
+        - [14.3.4 镜像对称（Mirror Symmetry），数学部分](#1434-镜像对称mirror-symmetry数学部分)
         - [14.3.3 量子上同调（Quantum Cohomology）](#1433-量子上同调quantum-cohomology)
     - [1.5 概率论、数理统计、信息论](#15-概率论数理统计信息论)
     - [1.6 （数理）逻辑（取广义，或称数学基础）](#16-数理逻辑取广义或称数学基础)
@@ -36,7 +37,7 @@
       - [1.6.2 数理逻辑（狭义），含模型论](#162-数理逻辑狭义含模型论)
       - [1.6.3 范畴论（Category Theory）](#163-范畴论category-theory)
       - [1.6.3.1 一般范畴论](#1631-一般范畴论)
-      - [1.6.3.2 张量范畴](#1632-张量范畴)
+      - [1.6.3.2 张量范畴（Tensor Categories）/幺半范畴（Monoidal Categories）](#1632-张量范畴tensor-categories幺半范畴monoidal-categories)
       - [1.6.4 类型论（Type Theory）](#164-类型论type-theory)
     - [1.7 离散数学/组合数学](#17-离散数学组合数学)
     - [1.8 代数几何](#18-代数几何)
@@ -122,7 +123,7 @@
     - [3.17 弦（理）论](#317-弦理论)
       - [3.17.1 一般弦论](#3171-一般弦论)
       - [3.17.2 弦唯象学（String Phenomenology）](#3172-弦唯象学string-phenomenology)
-      - [3.17.3 镜像对称（Mirror Symmetry）](#3173-镜像对称mirror-symmetry)
+      - [3.17.3 镜像对称（Mirror Symmetry），物理部分](#3173-镜像对称mirror-symmetry物理部分)
       - [3.17.4 AdS/CFT对偶](#3174-adscft对偶)
       - [3.17.5 （弦）散射振幅](#3175-弦散射振幅)
     - [3.18 圈量子引力（Loop Quantum Gravity, LQG）](#318-圈量子引力loop-quantum-gravity-lqg)
@@ -736,7 +737,7 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 > 在发展中与微分几何相互交织的是拓扑学，它可以形容为研究空间（几何对象）的整体性质的数学分支，与微分几何对立而互补，因而两者的发展相互影响促进，所以我们在此也就不分开叙述和列举材料了。
 > 拓扑学研究的历史也可以一直追溯到早至欧拉的年代，如经典的欧拉多面体公式 V - E + F = 2 就产生于斯。（在很长的早期年代中，拓扑学的名字尚未被广泛采用，这时一般使用的名称是据称由莱布尼茨首先使用的「位置分析（拉丁语：analysis situs）」。）在随后的很长一段时间中，最初步的拓扑概念开始逐渐产生。Gauss和Johann Benedict Listing（拓扑学一词的最早使用者），还有Riemann、Jordan等都在这一持续至19世纪末的漫长阶段为拓扑学积累了丰富的素材和概念，虽然尚未形成有序的一个体系。完成这一工作的是1895年Poincaré的论文系列《位置分析（Analysis Situs）》，它第一次初步奠定了整个拓扑学的严格基础，是现代拓扑学的真正开端。（同时Poincaré提出了著名的三维流形的Poincaré猜想，它的解决见几何分析部分）自此以后掀开了拓扑学分化和发展的风潮，也对几何学的其他方面产生了极大的影响：与集合论的结合产生了**点集拓扑**的基础语言（内容不多，并不构成研究方向）；与代数方法的结合（最早的主要推动者之一是L. E. J. Brouwer）产生了研究代数化的拓扑空间的**代数拓扑**（其中到20世纪中叶又发展出同调论和作为其推广的同伦论，以及K理论等几种广义同调论（这些也是同伦论的一部分）），与微分几何的结合产生了研究微分流形的**微分拓扑**（这也是Smale，Milnor等人成名的领域），在20世纪后半叶代数拓扑与微分拓扑一度是拓扑学最鼎盛的两个分支（当然现在代数拓扑因为代数的繁荣和分析的相对衰弱而更胜一筹）。除这两个分别引入了代数与分析工具的分支以外的部分，基本就属于原本的拓扑学的传承，即原教旨的，由Poincaré开创的以一般的（拓扑）流形为对象的拓扑学，现在它一般被称为**几何拓扑**，其中对于低维数（一般认为维数不低于4）的几何对象——包括三维流形（这方面有过杰出工作的是美国数学家William Paul Thurston（菲尔兹奖1983，将二维流形概念拓展到三维流形的研究），他提出的几何化猜想（Geometrisation Conjecture）启发了其证明者，俄罗斯数学家Grigori Perelman（菲尔兹奖2006）用几何分析解决Poincaré猜想（它正是以三维流形为对象的）的工作; 三维流形下比较时兴的一个主题是Heegaard Floer同调）、四维流形（具有尤其奇怪的性质，Donaldson将规范场论引入低维拓扑的主要开创性工作就在这里，Witten在这一方面初期的工作被称为Donaldson-Witten Theory，后来的Seiberg-Witten Theory则提供了更简便的方法）、扭结等——的研究被称为**低维拓扑**。因为其本身的性质，低维拓扑的结构在数学物理中发挥着很大的价值（如在弦论中发挥意想不到作用的扭结不变量和在TQFT中发挥核心作用的三维流形（见TQFT部分），是一个仍在发展中（但不热门）的方向。与低维拓扑相对的是高维拓扑，这方面主要运用的方法是示性类、割补（surgery）技术、Morse理论等。现在的几何拓扑已经发展为高度综合的学科，运用的技术十分多样，来自代数拓扑、微分拓扑、微分几何等各个数学领域，在当下与代数拓扑、微分拓扑共同组成所谓拓扑学的三大领域，也可以加上点集拓扑并称拓扑学的四大分支。也有部分学者按照研究性质相近的原则将几何拓扑视为（广义）微分拓扑的一部分，从而只将拓扑学一分为二，为求方便下一段的论述中就采取此分类。
 >
-> 从21世纪初开始，微分几何与拓扑学的研究主流逐渐趋于解体：代数几何对几何学语言的根本革新使得代数拓扑的新理论与代数几何（尤其是算术几何）的基础研究交融，以至于不分彼此（更确切地说，是代数拓扑社区被代数几何社区所吞并了）；而微分拓扑一侧一方面与微分几何的主流一道融入新兴的几何分析（以及较小众的动力系统），另一方面则天然地汇入辛几何以及几何表示论的热潮。可以说，往日“纯粹的”拓扑学者正趋于式微，20世纪发展出的微分几何与拓扑学大厦正如19世纪的点集拓扑一般固化为基本理论，而其上新的研究则被其他社区所囊括，不再具有完全独立的地位。
+> 从21世纪初开始，微分几何与拓扑学的研究主流逐渐趋于解体：代数几何对几何学语言的根本革新使得代数拓扑的新理论（如K理论（及其基础上发展出的拓扑Hochschild同调THH, 拓扑循环同调TC）、Bhatt-Morrow-Scholze及Bhatt-Lurie等工作构建的棱镜上同调及其发展出的解析棱镜化（用以处理p进Hodge理论与局部p进Langlands对应），其滥觞可见于此文：[燕园数学 | 刘若川关于“局部域的拓扑循环同调”的研究工作](https://mp.weixin.qq.com/s?__biz=MzI1ODQ2MTkwOQ==&mid=2247509533&idx=1&sn=5c22a8b42b68dfd1dff6e9b64ce75aa7&sharer_shareinfo=9760df27e9b153a53ef06af7539c0cba&sharer_shareinfo_first=9760df27e9b153a53ef06af7539c0cba#rd）与代数几何（尤其是算术几何）的基础研究交融，以至于不分彼此（更确切地说，是代数拓扑社区被代数几何社区所吞并了）；而微分拓扑一侧一方面与微分几何的主流一道融入新兴的几何分析（以及较小众的动力系统），另一方面则天然地汇入辛几何以及几何表示论的热潮。可以说，往日“纯粹的”拓扑学者正趋于式微，20世纪发展出的微分几何与拓扑学大厦正如19世纪的点集拓扑一般固化为基本理论，而其上新的研究则被其他社区所囊括，不再具有全然独立的地位。
 > 
 > 因为几何方面的领域与概念相对而言复杂而缺少条理，通过历史进行概念的梳理相比其他条理比较清楚的分支就变得更加必要了——这也是在这里专门从历史发展梳理各个分支及其基本概念的原因。
 > 微分几何、拓扑学与代数几何共同构成了20世纪几何学理论体系中的基础，因而了解他们的历史就能够大致把握住整个几何学发展至今的一般脉络。（代数几何的历史解说见代数几何部分）
@@ -798,7 +799,7 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 对于黎曼几何，不推荐 do Carmo 的 Riemannian Geometry（即使它广受欢迎）。虽然看起来似乎是入门比较友好，但是它太过「纯粹」的高度抽象风格使它在本人看来完全无法用来学习这一套体系背后的思想与方法（这些思想与方法——而非基于它们所搭建起来的理论框架——才是数学发现的真正价值所在）。基于同样的理由不推荐他的另一本 Differential Geometry of Curves and Surfaces。
 
 
-*代数拓扑与微分拓扑*
+*其他代数拓扑与微分拓扑材料*
 * [苏联-俄罗斯] V.A. 瓦西里耶夫，《拓扑学导论》
 > 1. 本书基于作者在莫斯科独立大学开设代数拓扑与微分拓扑导论课程的讲义编写。
 > 2. 「介绍了拓扑学的经典概念与方法，这些内容对本领域的专家是不可或缺的，对于数学研究者与理论物理专家也十分有用。特别地，作者介绍了与流形、胞腔空间、覆叠与纤维映射、同伦群、同调与上同调、相交指标等内容相关的一些思想和结果。可供数学及理论物理专业的教师和大学生使用。」——本书简介
@@ -866,11 +867,29 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 
 形变量子化还可以联系到另一个更广泛的几何理论——**形变理论**（[deformation theory](https://ncatlab.org/nlab/show/deformation+theory)），暂时不准备学，不过一篇比较的入门文值得看看：深谷贤治（Kenji Fukaya），[Deformation Theory, Homological Algebra, and Mirror Symmetry](https://www1.mat.uniroma1.it/people/manetti/DT2011/fukaya.pdf)，其他材料可以参考https://www.zhihu.com/question/512415828。
 > 深谷贤治的一个比较有意思的报告：https://www.bilibili.com/video/BV1va411n7E4/
-Kontsevich的另一项重要工作——同调镜像对称（见物理学-弦理论-镜像对称部分）中的很多技术也来源于他亲手奠基的形变量子化理论，其中也包括在弦论和TQFT以及非交换几何的范畴化结构中大放异彩的深谷范畴（[fukaya category](https://ncatlab.org/nlab/show/Fukaya+category)），它在镜像对称中具有很基本的作用。关于深谷范畴一个快速入门的材料是Ivan Smith的[A symplectic prolegomen](https://arxiv.org/abs/1401.0269)。
+Kontsevich的另一项重要工作——同调镜像对称（下方）中的很多技术也来源于他亲手奠基的形变量子化理论，其中也包括在弦论和TQFT以及非交换几何的范畴化结构中大放异彩的深谷范畴（[fukaya category](https://ncatlab.org/nlab/show/Fukaya+category)），它在镜像对称中具有很基本的作用。关于深谷范畴一个快速入门的材料是Ivan Smith的[A symplectic prolegomen](https://arxiv.org/abs/1401.0269)。
 当然，事实上辛几何本身就——和复几何（见上方微分几何部分）一起——构成镜像对称的主要数学基础，所以可以说Kontsevich的这两项重要工作都至少部分地源于辛几何。
 
+##### 14.3.4 镜像对称（Mirror Symmetry），数学部分
+> 作为数学物理领域，镜像对称起源于弦论中的理论结构。具体的背景解说参见下方「物理学-弦论-镜像对称，物理部分」一节。
+> 目前镜像对称的两个主要数学表述分别是Kontsevich开创的如日中天的同调镜像对称（Homological Mirror Symmetry，HMS）猜想以及较为冷门的植根于弦论的Strominger-Yau-Zaslow(SYZ)猜想。
+**同调镜像对称**
+> 同调镜像对称这一范畴化的优雅理论在当代数学（及数学物理）中产生了巨大、深远的影响，因此对于学习HMS，参考Kontsevich和与他合作的数学物理学家们的原始文章是有益的。
+* [比利时] Raf Bocklandt, A Gentle Introduction to Homological Mirror Symmetry
+> 一点都不Gentle（全恼）。
+> 作者在阿姆斯特丹大学开的同调镜像对称课的讲义，各方面比较常规。
+适合快速扫盲的则是Nicolas Sheridan（他也在量子上同调理论上有突出的贡献）在爱丁堡大学的HMS讲义：[Lectures on Homological Mirror Symmetry](https://www.maths.ed.ac.uk/~nsherida/HMS.html)，涉及知识面非常广。Sheridan在IAS的HMS授课视频：https://www.bilibili.com/video/BV1ss411P7Tx；UIUC的HMS课资料也可作参考：https://faculty.math.illinois.edu/~jpascale/courses/2018/595/
+
+**Strominger-Yau-Zaslow猜想**
+> 作为较为冷门的方向，SYZ猜想仍处在入门资料稀缺的阶段（所以只能依靠流通的论文）。除了三人的原始论文外，一个较为友好的材料是Mark Gross的综述[Mirror Symmetry and the Strominger-Yau-Zaslow conjecture](https://arxiv.org/abs/1212.4220)。一些HMS资料中也会对SYZ论及一二。
+
+
+专论镜像对称中的代数几何内容：
+* [美国] David A. Cox（代数几何那边有他的另一本书），Sheldon Katz，Mirror Symmetry and Algebraic Geometry
+
+
 ##### 14.3.3 量子上同调（Quantum Cohomology）
-> 量子上同调理论的建立是Kontsevich四项最著名的工作中的第三项（与Manin一起，见下；最后一项是他刚开始博士学习时证明的Witten猜想），它处于辛几何和代数几何的交界地带，但因为和辛几何看上去更紧密放在辛几何底下了。量子上同调的一个（代数几何上的）重要结果是有理平面曲线的Kontsevich公式，与Drinfeld的量子群和量子可积系统都有重要的联系，与数学物理则有根本性的关系，如Kontsevich与Manin在 Gromov-Witten 不变量（这部分就是著名的「Gromov-Witten理论」，这部分还可看Simon Rose的讲义：https://arxiv.org/abs/1407.1260）上的（对量子上同调而言的）奠基性工作。
+> 量子上同调理论的建立是Kontsevich四项最著名的工作中的第三项（与Manin一起，见下；最后一项是他刚开始博士学习时证明的Witten猜想）。与上面的镜像对称（数学部分）一样，它处于辛几何和代数几何的交界地带，但因为和辛几何看上去更紧密放在辛几何底下了。量子上同调的一个（代数几何上的）重要结果是有理平面曲线的Kontsevich公式，与Drinfeld的量子群和量子可积系统都有重要的联系，与当代数学物理中的诸多主题则（主要经由Kontsevich的其他工作）更是同气连枝，如Kontsevich与Manin在 Gromov-Witten 不变量（这部分就是著名的「Gromov-Witten理论」，这部分还可看Simon Rose的讲义：https://arxiv.org/abs/1407.1260）上的（对量子上同调而言的）奠基性工作。
 * [瑞典] [Joachim Kock](https://www.mat.uab.cat/~kock/)（巴塞罗那自治大学）, [巴西] Israel Vainsencher（巴西Minas Gerais联邦大学）, An Invitation to Quantum Cohomology: Kontsevich’s Formula for Rational Plane Curves
 > 友好而富有直觉的量子上同调入门书，不到200页，风评不错。
 * [苏联-俄罗斯] 尤里·伊万诺维奇·马宁（Ю́рий Ива́нович Ма́нин，Yuri Ivanovich Manin）, Frobenius Manifolds, Quantum Cohomology, and Moduli Spaces
@@ -954,17 +973,17 @@ Kontsevich的另一项重要工作——同调镜像对称（见物理学-弦理
 > 范畴论创始人之一亲作。最标准的参考。（当字典还好，生啃就有些费劲了x） 
 > 本书的英文原本已由施普林格（Springer）出版公司出版，被收入其 GTM（Graduate Texts in Mathematics）系列，编号GTM 5。
 
-#### 1.6.3.2 张量范畴
-> 在TQFT和拓扑序（Wen学）等数学物理方面有比较大的应用。
+#### 1.6.3.2 张量范畴（Tensor Categories）/幺半范畴（Monoidal Categories）
+> 在TQFT和拓扑序（Wen学）等数学物理方面有重要的应用。
 * [俄罗斯] P. Etingof, S. Gelaki, D. Nikshych, V. Ostrik, [Tensor Categories](https://math.mit.edu/~etingof/egnobookfinal.pdf)
-> 比较新而且系统的教材。
+> 系统的教材。
 
 #### 1.6.4 类型论（Type Theory）
-> 在计科那边（似乎是编程语言方面？）有很大的应用。 所以就先云一点w（顺便在计划学习用一门证明辅助器）；这个分支暂时没有正式的中文出版物，研究应该也集中于英文世界。
+> 在理论计算机科学（编程语言方面）有重要应用，其重要成果例如构造自动定理证明器（同时学一门定理证明器（如完成了四色定理证明的Coq或已经代之成长为今日主流的Lean 4）是有益的）；这个分支暂时没有正式的中文出版物，研究应该也集中于英文世界。
 * The Univalent Foundations Program, Institute for Advanced Study，Homotopy Type Theory: Univalent Foundations of Mathematics（可译为《同伦类型论：数学的单价基础》）
 > 这本书的第一章是类型论的一个入门教学，暂时先计划看到这里。它本身是一部总结Homotopy Type Theory（常译为「同伦类型论」，简称HoTT）开发进展（如副标题，这也包括给整个数学搞出一个新的基础w）的一部作品，诞生于普林斯顿高等研究院的一群学者（具体参与者见前言w）的工作。非常清楚。
 
-一个非常非常好的专栏，作者对中文术语的翻译可作参考：[Arjuna：类型论驿站写作计划](https://zhuanlan.zhihu.com/p/32182423?refer=typetheory)
+一个非常好的专栏，作者对中文术语的翻译可作参考：[Arjuna：类型论驿站写作计划](https://zhuanlan.zhihu.com/p/32182423?refer=typetheory)
 
 
 ### 1.7 离散数学/组合数学
@@ -1171,9 +1190,9 @@ Langlands纲领常被认为缺乏良好入门材料，但现在有了Bump，Cogd
 
 与Langlands纲领诞生相关的一些历史背景可以在季理真、黎景辉编著的《langlands纲领和他的数学世界》中看到。
 
-让Langlands纲领进一步大放异彩的是Langlands纲领与现代代数几何与算术几何体系的交汇与融合，这诞生了进一步推广的**几何Langlands纲领**(Geometric Langlands Program)，并进一步在数论、表示论、代数几何外，由表示论一侧联系起几何拓扑、辛几何、量子场论、量子群与量子上同调及量子可积系统（Drinfeld之学）、镜像对称（Kontsevich之学）与其他弦论/数学物理内容，又联系起算术几何在内的所有代数几何理论，由此延伸开去成为Edward Frenkel所言之当代「数学的一种大统一理论」。毫无疑问，几何Langlands纲领已经成为当代数学的核心主题之一，它连结起来自绝大部分纯粹数学与数学物理领域的众多研究者，史无前例地进行围绕着一个共同方向的探索；在其中自20世纪后半叶起诞生了诸多传奇与无数风流人物。一近年来，几何Langlands纲领、Peter Scholze的解析几何理论（见代数几何部分）、Jacob Lurie基于无穷范畴的高阶/同伦代数-几何理论（见代数几何部分）三者得到了当代数学「三幻神」的戏名，成为最为吸引年轻学习者的三大最热门方向。
+让Langlands纲领进一步大放异彩的是Langlands纲领与现代代数几何与算术几何体系的交汇与融合，这诞生了进一步推广的**几何Langlands纲领**(Geometric Langlands Program)，并进一步在数论、表示论、代数几何外，由表示论一侧联系起几何拓扑、辛几何、量子场论、量子群与量子上同调及量子可积系统（Drinfeld之学）、镜像对称（Kontsevich之学）与其他弦论/数学物理内容（显要者如Kapustin与Witten的Electromagnetic duality，以及近年Ben-Zvi, Sakellaridis与Venkatesh，金明迥(김민형，Minhyong Kim)等人对其进一步发展所得之「相对Langlands对偶（Relative Langlands Duality）」与「算术拓扑场论（Arithmetic Topological Field Theory）」），又联系起算术几何在内的所有代数几何理论，由此延伸开去成为Edward Frenkel所言之当代「数学的一种大统一理论」。毫无疑问，几何Langlands纲领已经成为当代数学的核心主题之一，它连结起来自绝大部分纯粹数学与数学物理领域的众多研究者，史无前例地进行围绕着一个共同方向的探索；在其中自20世纪后半叶起诞生了诸多传奇与无数风流人物。一近年来，几何Langlands纲领、Peter Scholze的解析几何理论（见代数几何部分）、Jacob Lurie基于无穷范畴的高阶/同伦代数-几何理论（见代数几何部分）三者得到了当代数学「三幻神」的戏名（有时也再加上Kontsevich领导的辛几何学派），成为最为吸引年轻学习者的「显学」。2024年，几何Langlands纲领中基石性的猜想——几何Langlands猜想已被Dennis Gaitsgory（马克斯・普朗克数学所），Sam Raskin（耶鲁大学），Nick Rozenblyum（多伦多大学），Lin Chen（陈麟，清华大学），Dario Beraldo，Kevin Lin，Joakim Færgeman，Justin Campbell和Dima Arinkin组成的九人团队完成了证明（报道：https://www.qbitai.com/2024/07/170147.html）。
 
-入门几何Langlands纲领的最好材料除去前述Bump等人教材的最后一部分外，无疑是从[其nLab页面](https://ncatlab.org/nlab/show/geometric+Langlands+correspondence)开始，其精致豪华的参考列表提供了各方面典范的学习材料。对于理论物理途径的数学物理学习者而言，也可以通过Karl-Georg Schlesinger的[A physics perspective on geometric Langlands duality](http://arxiv.org/abs/0911.4586v1)与Edward Frenkel的Lecture on Langlands program and conformal field theory。
+入门几何Langlands纲领的最好材料除去前述Bump等人教材的最后一部分外，无疑是从[其nLab页面](https://ncatlab.org/nlab/show/geometric+Langlands+correspondence)开始，其精致豪华的参考列表提供了各方面典范的学习材料。对于理论物理途径的数学物理学习者而言，也可以通过Karl-Georg Schlesinger的[A physics perspective on geometric Langlands duality](http://arxiv.org/abs/0911.4586v1)（其中重点即在于前述Electromagnetic duality）与Edward Frenkel的Lecture on Langlands program and conformal field theory。
 
 
 #### 1.9.3 解析数论
@@ -1800,18 +1819,16 @@ QCD：[牟田泰三](https://home.hiroshima-u.ac.jp/mutata/)（Taizo Muta）的�
 > 'A TQFT is a QFT that computes topological invariants' ——[Shintaro Fushida-Hardy](https://www.chineseherald.co.nz/news/education/whangarei-student-accepted-to-do-phd-in-mathematics-at-stanford-university-in-california/)，[Introduction to Topological Quantum Field Theory](https://stanford.edu/~sfh/tqftslides.pdf)
 了解的好起点是nlab的条目：https://ncatlab.org/nlab/show/topological+quantum+field+theory
 
-这方面的历史背景与进展（到2009）可以看 Baez 和 Aaron Lauda的一篇非常好的综述：[A Prehistory of n-Categorical Physics](https://arxiv.org/abs/0908.2469)，一路从起源讲到最新的发展。
+作为数学物理领域，TQFT的研究同时在涉及数学与物理学内容。这方面的历史背景与进展（到2009）可以看 Baez 和 Aaron Lauda的一篇非常好的综述：[A Prehistory of n-Categorical Physics](https://arxiv.org/abs/0908.2469)，一路从起源讲到最新的发展。
 
 TQFT的奠基性文献是Atiyah开天辟地的文章，可读性很高：
 * [英国] Michael Atiyah，[Topological Quantum Field Theory](http://www.numdam.org/article/PMIHES_1988__68__175_0.pdf)
 简单的快速入门材料：
 * [英国] Wolfger Peelaers，[Introductory Lectures on Topological Quantum Field Theory](https://pos.sissa.it/384/002/pdf)
 * [德国] Nils Carqueville，Ingo Runkel，[Introductory Lectures on Topological Quantum Field Theory](https://arxiv.org/abs/1705.05734)
-经典的技术教材（很数学）：
+经典的名著，数学一侧的技术教材：
 * [俄罗斯] Vladimir G. Turaev, Quantum Invariants of Knots and 3-Manifolds
-> 经典名著。Turaev还有一本(与Virelizier合著)Monoidal Categories and Topological Field Theory，是很好的补充材料。
-
-一些地方可能需要用到张量范畴，上面范畴论部分有写到。
+张量（幺半）范畴是TQFT的基本工具。除去上面范畴论部分写到的外，还可以参考 Turaev 与 Alexis Virelizier合著的Monoidal Categories and Topological Field Theory，也可作为张量范畴的好入门。 
 
 > 其他更深入的东西目前没有体系化的专著，所以很乱，以下部分纯粹是准备看着玩的（）
 > 对于更深入的细节和新的进展，具体的历史Baez&Lauda有很好的记述，也可以在ncatlab里四处逛逛。看起来比较重要的几篇工作有：
@@ -2325,7 +2342,8 @@ AMO方面时下比较常用的**计算/模拟工具**是**Qutip**, 一个强大�
 > 弦唯象标准参考书。
 > Ibáñez还有一个对弦论革命在弦唯象学中的影响的综述 	arXiv:hep-ph/9911499 The second string (phenomenology) revolution
 
-#### 3.17.3 镜像对称（Mirror Symmetry）
+#### 3.17.3 镜像对称（Mirror Symmetry），物理部分
+> 镜像对称起源于超理论的理论结构，其内涵具有二重意义：既是物理对象，亦是几何对象。在被弦论专家与几何学家们联手草创之时，镜像对称与其具体的弦论背景有着紧密的联系，但此后其突飞猛进的主要进展集中于几何一侧而逐渐（迅速）脱离了弦论背景，所以今日镜像对称的大部分研究并不依赖对于弦论的知识，而被视为当代最激动人心的几何主题之一（一般主要被视为辛几何的内容）。基于其性质，这些数学内容在上方的「数学-几何学-辛几何-镜像对称，数学部分」陈述。
 > 因为是数学物理，所以一般镜像对称的书都会（在前言里声称）按照同时面向来自数学和理论物理的读者的方式写作。
 * [日本] 堀健太朗(Kentaro Hori)，Sheldon Katz，Cumrun Vafa，Ravi Vakil（全 明 星 阵 容）等，Mirror Symmetry
 > 人称 Hori Bible，但实际上是数学物理学界群星云集的巨著，由AMS Clay Mathematics Institute出版，最著名的镜像对称入门教材。平易近人，上手需要的基础要求很低，数学和物理背景的读者都容易接受。
@@ -2334,15 +2352,6 @@ AMO方面时下比较常用的**计算/模拟工具**是**Qutip**, 一个强大�
 * [英国] Clifford V. Johnson，D-branes
 > 镜像对称的主要工具——D膜的权威，可以作为参考或者“参考的起点/文献指南”查阅。
 
-在被弦论专家与几何学家们联手草创之时，镜像对称与其具体的弦论背景有着紧密的联系，但随后它的主要进展集中于纯粹几何而基本脱离了弦论背景，所以今日镜像对称的大部分研究并不依赖对于弦论的知识。
-* [比利时] Raf Bocklandt, A Gentle Introduction to Homological Mirror Symmetry
-> 一点都不Gentle（全恼）
-> 作者在阿姆斯特丹大学开的同调镜像对称课的讲义，各方面比较常规。
-> 作为镜像对称的热门方面（它的两个重要数学表述之一，另一个则是植根于弦论的Strominger-Yau-Zaslow(SYZ)猜想），Kontsevich开创的同调镜像对称（Homological Mirror Symmetry, HMS，在之前的数学-几何学-辛几何部分曾提及）或许是当代最激动人心的几何主题之一（一般主要被视为辛几何内容），这一范畴化的理论在当代数学/理论物理中产生了巨大、深远的影响，因此对于学习HMS，参考Kontsevich和与他合作的数学物理学家们的文章是有益的。
-> 适合**快速入门扫盲**的是Nicolas Sheridan（他也在量子上同调理论上有突出的贡献）在爱丁堡大学的HMS讲义：[Lectures on Homological Mirror Symmetry](https://www.maths.ed.ac.uk/~nsherida/HMS.html)，涉及知识面非常广，向所有学习者推荐之。Sheridan在IAS的HMS授课视频：https://www.bilibili.com/video/BV1ss411P7Tx
-> UIUC的HMS课资料也可作参考：https://faculty.math.illinois.edu/~jpascale/courses/2018/595/
-* [美国] David A. Cox（代数几何那边有他的另一本书），Sheldon Katz，Mirror Symmetry and Algebraic Geometry
->  另一本同调镜像对称教材，侧重其中的代数几何技术。
 
 #### 3.17.4 AdS/CFT对偶
 > 全称为「反德・西特空间/共形场论对偶(对应)」（Anti-de Sitter / Conformal Field Theory duality(correspondence)）或「规范/引力对偶(对应)」（Gauge/Gravity duality(correspondence)）或「马尔达西那对偶(对应)」（Maldacena duality(correspondence)）
@@ -2656,8 +2665,11 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 > 大家都在用的OS教材，可以初步了解现代操作系统的全貌。
 另一本更重设计思路的常用教材是[美国] Abraham Silberschatz，Peter B. Galvin, Greg Gagne的《操作系统概念》。
 
-[美国] H. Hahn，《UNIX&LINUX大学教程》
-> 全面学习Unix和Linux操作系统（世界上最主流的操作系统之一）的工作原理和使用方法（包括Unix和Linux上的常用软件工具的使用方法），以及Unix和Linux发展历程（作者是亲历者）中的八卦趣事。
+**类Unix系统专题**
+> Windows系统的操作具有计算机基本常识的读者摸索一二（+网络检索）即可掌握。世界上最主流的另一种操作系统——类Unix系统（Unix与其社区重制版Linux，以及苹果公司的Mac OS）则设计上更加专业化，许多使用方法需要单独花费时间学习。
+一般对于具有足够计算机背景（尤其是操作系统）知识的学习者，一般以已经对类Unix系统有了初步的印象；可以如学习Windows一般直接从实际操作入手，借由网络上的大量零散资料进行摸索式学习，假以时日就可以掌握一般工作所需的全部基本操作与背景知识。倘若需要速成、背景不足或需要一初学者友好的参考，可看：
+* [美国] H. Hahn，《UNIX&LINUX大学教程》
+> 零门槛学习Unix和Linux操作系统的基本功能和使用方法，以及Unix和Linux发展历程（作者是其参与者）中的背景知识。
 
 ##### 4.3.3.6 编译原理
 > 首先，快速入门可以参考哈工大友好的《编译原理》公开课：https://www.bilibili.com/video/BV1dL4y1H7T8
