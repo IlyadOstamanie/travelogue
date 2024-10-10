@@ -36,8 +36,8 @@
       - [1.6.1 集合论/集论](#161-集合论集论)
       - [1.6.2 数理逻辑（狭义），含模型论](#162-数理逻辑狭义含模型论)
       - [1.6.3 范畴论（Category Theory）](#163-范畴论category-theory)
-      - [1.6.3.1 一般范畴论](#1631-一般范畴论)
-      - [1.6.3.2 张量范畴（Tensor Categories）/幺半范畴（Monoidal Categories）](#1632-张量范畴tensor-categories幺半范畴monoidal-categories)
+        - [1.6.3.1 一般范畴论](#1631-一般范畴论)
+        - [1.6.3.2 张量范畴（Tensor Categories）/幺半范畴（Monoidal Categories）](#1632-张量范畴tensor-categories幺半范畴monoidal-categories)
       - [1.6.4 类型论（Type Theory）](#164-类型论type-theory)
     - [1.7 离散数学/组合数学](#17-离散数学组合数学)
     - [1.8 代数几何](#18-代数几何)
@@ -51,6 +51,7 @@
       - [1.9.1 数论入门及综览性材料](#191-数论入门及综览性材料)
       - [1.9.2 代数数论](#192-代数数论)
       - [1.9.3 解析数论](#193-解析数论)
+      - [1.9.4 密码学](#194-密码学)
     - [1.10 计算数学（或称「计算科学」「理论计算机科学」，取广义）](#110-计算数学或称计算科学理论计算机科学取广义)
       - [1.10.1 数值方法/数值计算/计算方法/数值分析、计算物理学](#1101-数值方法数值计算计算方法数值分析计算物理学)
       - [1.10.2 最优化/最适化/（数学）优化](#1102-最优化最适化数学优化)
@@ -169,7 +170,7 @@
           - [4.3.5.2.1 人工智能入门](#43521-人工智能入门)
           - [4.3.5.2.2 机器学习](#43522-机器学习)
         - [4.3.5.3 （计算机）图形学](#4353-计算机图形学)
-        - [4.3.5.4 计算机安全、信息安全、网络安全](#4354-计算机安全信息安全网络安全)
+        - [4.3.5.4 信息安全/数据安全（计算机安全、网络安全）](#4354-信息安全数据安全计算机安全网络安全)
         - [4.3.5.5 生物信息学/计算生物学（bioinformatics/computational biology）](#4355-生物信息学计算生物学bioinformaticscomputational-biology)
     - [4.4 （信息与）通信工程学部分](#44-信息与通信工程学部分)
       - [4.4.1 通信原理](#441-通信原理)
@@ -737,7 +738,7 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 > 在发展中与微分几何相互交织的是拓扑学，它可以形容为研究空间（几何对象）的整体性质的数学分支，与微分几何对立而互补，因而两者的发展相互影响促进，所以我们在此也就不分开叙述和列举材料了。
 > 拓扑学研究的历史也可以一直追溯到早至欧拉的年代，如经典的欧拉多面体公式 V - E + F = 2 就产生于斯。（在很长的早期年代中，拓扑学的名字尚未被广泛采用，这时一般使用的名称是据称由莱布尼茨首先使用的「位置分析（拉丁语：analysis situs）」。）在随后的很长一段时间中，最初步的拓扑概念开始逐渐产生。Gauss和Johann Benedict Listing（拓扑学一词的最早使用者），还有Riemann、Jordan等都在这一持续至19世纪末的漫长阶段为拓扑学积累了丰富的素材和概念，虽然尚未形成有序的一个体系。完成这一工作的是1895年Poincaré的论文系列《位置分析（Analysis Situs）》，它第一次初步奠定了整个拓扑学的严格基础，是现代拓扑学的真正开端。（同时Poincaré提出了著名的三维流形的Poincaré猜想，它的解决见几何分析部分）自此以后掀开了拓扑学分化和发展的风潮，也对几何学的其他方面产生了极大的影响：与集合论的结合产生了**点集拓扑**的基础语言（内容不多，并不构成研究方向）；与代数方法的结合（最早的主要推动者之一是L. E. J. Brouwer）产生了研究代数化的拓扑空间的**代数拓扑**（其中到20世纪中叶又发展出同调论和作为其推广的同伦论，以及K理论等几种广义同调论（这些也是同伦论的一部分）），与微分几何的结合产生了研究微分流形的**微分拓扑**（这也是Smale，Milnor等人成名的领域），在20世纪后半叶代数拓扑与微分拓扑一度是拓扑学最鼎盛的两个分支（当然现在代数拓扑因为代数的繁荣和分析的相对衰弱而更胜一筹）。除这两个分别引入了代数与分析工具的分支以外的部分，基本就属于原本的拓扑学的传承，即原教旨的，由Poincaré开创的以一般的（拓扑）流形为对象的拓扑学，现在它一般被称为**几何拓扑**，其中对于低维数（一般认为维数不低于4）的几何对象——包括三维流形（这方面有过杰出工作的是美国数学家William Paul Thurston（菲尔兹奖1983，将二维流形概念拓展到三维流形的研究），他提出的几何化猜想（Geometrisation Conjecture）启发了其证明者，俄罗斯数学家Grigori Perelman（菲尔兹奖2006）用几何分析解决Poincaré猜想（它正是以三维流形为对象的）的工作; 三维流形下比较时兴的一个主题是Heegaard Floer同调）、四维流形（具有尤其奇怪的性质，Donaldson将规范场论引入低维拓扑的主要开创性工作就在这里，Witten在这一方面初期的工作被称为Donaldson-Witten Theory，后来的Seiberg-Witten Theory则提供了更简便的方法）、扭结等——的研究被称为**低维拓扑**。因为其本身的性质，低维拓扑的结构在数学物理中发挥着很大的价值（如在弦论中发挥意想不到作用的扭结不变量和在TQFT中发挥核心作用的三维流形（见TQFT部分），是一个仍在发展中（但不热门）的方向。与低维拓扑相对的是高维拓扑，这方面主要运用的方法是示性类、割补（surgery）技术、Morse理论等。现在的几何拓扑已经发展为高度综合的学科，运用的技术十分多样，来自代数拓扑、微分拓扑、微分几何等各个数学领域，在当下与代数拓扑、微分拓扑共同组成所谓拓扑学的三大领域，也可以加上点集拓扑并称拓扑学的四大分支。也有部分学者按照研究性质相近的原则将几何拓扑视为（广义）微分拓扑的一部分，从而只将拓扑学一分为二，为求方便下一段的论述中就采取此分类。
 >
-> 从21世纪初开始，微分几何与拓扑学的研究主流逐渐趋于解体：代数几何对几何学语言的根本革新使得代数拓扑的新理论（如K理论（及其基础上发展出的拓扑Hochschild同调THH, 拓扑循环同调TC）、Bhatt-Morrow-Scholze及Bhatt-Lurie等工作构建的棱镜上同调及其发展出的解析棱镜化（用以处理p进Hodge理论与局部p进Langlands对应），其滥觞可见于此文：[燕园数学 | 刘若川关于“局部域的拓扑循环同调”的研究工作](https://mp.weixin.qq.com/s?__biz=MzI1ODQ2MTkwOQ==&mid=2247509533&idx=1&sn=5c22a8b42b68dfd1dff6e9b64ce75aa7&sharer_shareinfo=9760df27e9b153a53ef06af7539c0cba&sharer_shareinfo_first=9760df27e9b153a53ef06af7539c0cba#rd）与代数几何（尤其是算术几何）的基础研究交融，以至于不分彼此（更确切地说，是代数拓扑社区被代数几何社区所吞并了）；而微分拓扑一侧一方面与微分几何的主流一道融入新兴的几何分析（以及较小众的动力系统），另一方面则天然地汇入辛几何以及几何表示论的热潮。可以说，往日“纯粹的”拓扑学者正趋于式微，20世纪发展出的微分几何与拓扑学大厦正如19世纪的点集拓扑一般固化为基本理论，而其上新的研究则被其他社区所囊括，不再具有全然独立的地位。
+> 从21世纪初开始，微分几何与拓扑学的研究主流逐渐趋于解体：代数几何对几何学语言的根本革新使得代数拓扑的新理论（如K理论（及其基础上发展出的拓扑Hochschild同调THH, 拓扑循环同调TC）、Bhatt-Morrow-Scholze及Bhatt-Lurie等工作构建的棱镜上同调及其发展出的解析棱镜化（用以处理p进Hodge理论与局部p进Langlands对应），其滥觞可见于此文：[燕园数学：刘若川关于“局部域的拓扑循环同调”的研究工作](https://mp.weixin.qq.com/s?__biz=MzI1ODQ2MTkwOQ==&mid=2247509533&idx=1&sn=5c22a8b42b68dfd1dff6e9b64ce75aa7&sharer_shareinfo=9760df27e9b153a53ef06af7539c0cba&sharer_shareinfo_first=9760df27e9b153a53ef06af7539c0cba#rd）与代数几何（尤其是算术几何）的基础研究交融，以至于不分彼此（更确切地说，是代数拓扑社区被代数几何社区所吞并了）；而微分拓扑一侧一方面与微分几何的主流一道融入新兴的几何分析（以及较小众的动力系统），另一方面则天然地汇入辛几何以及几何表示论的热潮。可以说，往日“纯粹的”拓扑学者正趋于式微，20世纪发展出的微分几何与拓扑学大厦正如19世纪的点集拓扑一般固化为基本理论，而其上新的研究则被其他社区所囊括，不再具有全然独立的地位。
 > 
 > 因为几何方面的领域与概念相对而言复杂而缺少条理，通过历史进行概念的梳理相比其他条理比较清楚的分支就变得更加必要了——这也是在这里专门从历史发展梳理各个分支及其基本概念的原因。
 > 微分几何、拓扑学与代数几何共同构成了20世纪几何学理论体系中的基础，因而了解他们的历史就能够大致把握住整个几何学发展至今的一般脉络。（代数几何的历史解说见代数几何部分）
@@ -771,6 +772,7 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 对于物理路径的学习者，以上几本短书也可以在完成《现代几何学》三卷本级别的学习前作为Nakahara程度以上的补充。
 
 **参考用**
+
 *物理向*
 * 汪容，《数学物理中的微分几何与拓扑学》
 > 也是Nakahara的同类教材，内容范围略少于Nakahara，多了一点四维流形的东西。好处是它是中文的，可以作有益的参考。
@@ -873,6 +875,7 @@ Kontsevich的另一项重要工作——同调镜像对称（下方）中的很�
 ##### 14.3.4 镜像对称（Mirror Symmetry），数学部分
 > 作为数学物理领域，镜像对称起源于弦论中的理论结构。具体的背景解说参见下方「物理学-弦论-镜像对称，物理部分」一节。
 > 目前镜像对称的两个主要数学表述分别是Kontsevich开创的如日中天的同调镜像对称（Homological Mirror Symmetry，HMS）猜想以及较为冷门的植根于弦论的Strominger-Yau-Zaslow(SYZ)猜想。
+
 **同调镜像对称**
 > 同调镜像对称这一范畴化的优雅理论在当代数学（及数学物理）中产生了巨大、深远的影响，因此对于学习HMS，参考Kontsevich和与他合作的数学物理学家们的原始文章是有益的。
 * [比利时] Raf Bocklandt, A Gentle Introduction to Homological Mirror Symmetry
@@ -884,7 +887,7 @@ Kontsevich的另一项重要工作——同调镜像对称（下方）中的很�
 > 作为较为冷门的方向，SYZ猜想仍处在入门资料稀缺的阶段（所以只能依靠流通的论文）。除了三人的原始论文外，一个较为友好的材料是Mark Gross的综述[Mirror Symmetry and the Strominger-Yau-Zaslow conjecture](https://arxiv.org/abs/1212.4220)。一些HMS资料中也会对SYZ论及一二。
 
 
-专论镜像对称中的代数几何内容：
+专论**镜像对称中的代数几何**内容：
 * [美国] David A. Cox（代数几何那边有他的另一本书），Sheldon Katz，Mirror Symmetry and Algebraic Geometry
 
 
@@ -965,7 +968,7 @@ Kontsevich的另一项重要工作——同调镜像对称（下方）中的很�
 
 #### 1.6.3 范畴论（Category Theory）
 > 基本上已经快要成为和集合论一样重要的基本语言了。 实际上李文威老师的《代数学引论》第一卷第二、三章以及陈志杰老师的同调代数已经是极好的范畴论学习材料，这里也只是列出一些专著作为参考。
-#### 1.6.3.1 一般范畴论
+##### 1.6.3.1 一般范畴论
 * 贺伟，《范畴论》
 > 入门书，只有109页，用来作最初的开始+了解通行术语的中文说法足够了。
 
@@ -973,7 +976,7 @@ Kontsevich的另一项重要工作——同调镜像对称（下方）中的很�
 > 范畴论创始人之一亲作。最标准的参考。（当字典还好，生啃就有些费劲了x） 
 > 本书的英文原本已由施普林格（Springer）出版公司出版，被收入其 GTM（Graduate Texts in Mathematics）系列，编号GTM 5。
 
-#### 1.6.3.2 张量范畴（Tensor Categories）/幺半范畴（Monoidal Categories）
+##### 1.6.3.2 张量范畴（Tensor Categories）/幺半范畴（Monoidal Categories）
 > 在TQFT和拓扑序（Wen学）等数学物理方面有重要的应用。
 * [俄罗斯] P. Etingof, S. Gelaki, D. Nikshych, V. Ostrik, [Tensor Categories](https://math.mit.edu/~etingof/egnobookfinal.pdf)
 > 系统的教材。
@@ -1211,21 +1214,21 @@ Langlands纲领常被认为缺乏良好入门材料，但现在有了Bump，Cogd
 针对具体研究方法（尤其是概率方法）的名著还有法国数学家G. 特伦鲍姆的《解析与概率数论导引》。
 其他著名的材料还可以参考https://www.zhihu.com/question/64485350，但是因为当下解析数论已经渐渐不再快速发展，所以非数论从业者并不需要首先学习以上基础知识以外的内容。
 
+
 **模形式部分**
 > 对模形式这一类性质特异的解析函数的研究常被视为解析数论的一部分，但也被排除于解析数论的一般教程之外单独专著讲解。它大约是解析数论中与代数数论的现代理论和其他数学分支关联最多且深刻的部分，是自守形式最典范的例子，通过椭圆曲线的模空间联系着代数几何、代数拓扑与数学物理（弦论）。这部分知识对于学习算术几何也几乎是必要的。
 * 李文威，《模形式初步》
 > 中文教材的几乎唯一选择，与黎景辉类似的「一步登天」书，适合结合其他资料学习。在令初学者感到挫败之余也可大开眼界。。
 英文界标准的教材是 [美国]Fred Diamond 与 [美国]Jerry Shurman 的A First Course in Modular Forms，即著名的GTM228。Serre的GTM7 A Course in Arithmetic是代数数论、解析数论中一些基本主题简短的选讲讲稿，其中也包含了模形式的简要入门。
 
-**密码学部分**
+#### 1.9.4 密码学
 > 作为数论或许最有影响力的应用领域，无论是基于它的巧妙还是它在现代科技中的重要地位，密码学都值得进一步了解。有时密码学被归入数学，但更多的时候因为用途被归入计算机科学，但这里由于现代密码学是基于数论的理论，所以放在这里。可以参考的资料：https://www.cs.cmu.edu/~goyal/15356/ http://crypto.cs.mcgill.ca/~crepeau/COMP547/
 
 * [美国] David Wong，《深入浅出密码学》（Real-World Cryptography）
-> 包含很多当代应用实例的密码学入门教材。简明易读，讲解生动，适合入门。
+> 包含很多当代应用实例的密码学科普。简明易读，讲解生动，适合初步了解概念（但深度十分有限）。
 
-**参考用**
 * [美国] 乔纳森·卡茨（Jonathan Katz），耶胡达·林德尔（Yehuda Lindell），《现代密码学：原理与协议》（原作名：Introduction to Modern Cryptogarphy: Principles and Protocols）
-> 北美学校广泛使用的密码学标准教材。详细系统，大约一元微积分、线代+基本的离散数学内容就可以上手
+> 在北美各大学研究生院广泛使用的密码学标准教材。详细系统，内容丰富，条理清晰，大约一元微积分、线代+基本的离散数学内容就可以上手。
 > 因为中译本翻译质量风评恶劣，建议读原版。
 
 * [美国] Bruce Schneier，《应用密码学：协议、算法与C源程序》（原作名: Applied Cryptography: Protocols, Algorithms, and Source Code in C）
@@ -1236,6 +1239,7 @@ Langlands纲领常被认为缺乏良好入门材料，但现在有了Bump，Cogd
 对于计算数论一个很好的导引是C. Pomerance的介绍性短文[Computational Number Theory](https://math.dartmouth.edu/~carlp/PDF/pcm0049.pdf).
 对于计算代数数论（面向代数数论）可以参考法国数学家Henri Cohen的GTM138 A course in computational algebraic number theory 和续作 GTM193 Advanced Topics in Computational Number Theory（他还有一套两卷本的Number Theory，被列为GTM239和240，是大而全的参考书。）
 而计算解析数论（面向解析数论）可以参考 arXiv:math/0412181 [math.NT] Computational methods and experiments in analytic number theory以简要入门。
+
 
 ### 1.10 计算数学（或称「计算科学」「理论计算机科学」，取广义）
 > 这里指一切以计算为研究对象的数学内容，只是除去了关于计算这一过程本身的研究（即「计算理论」以及其衍生出的计算机的理论，因为这些内容虽然本身是数学，但是一般因为本身作为计算机科学与技术的理论基础，被单独分类到计算机科学下，称为「理论计算机科学」（狭义））。
@@ -2360,7 +2364,7 @@ AMO方面时下比较常用的**计算/模拟工具**是**Qutip**, 一个强大�
 * [德国] Martin Ammon, Johanna Erdmenger, Gauge/Gravity Duality: Foundations and Applications
 > 非常友好的入门教材，不需要弦论和GR的背景，全书的三部分中的第一个介绍了所需的GR、QFT和超弦背景知识，随后的第二部分介绍了AdS/CFT对偶的起源、核心概念和基本理论，最后一部分对AdS/CFT对偶的应用进行了介绍。
 > ' We hope that after studying this book, readers will be able to read and understand original research papers on many other exciting aspects of gauge/gravity duality, and to become involved with research in this fascinating area themselves.' ——前言
-* [日本] 夏梅诚（[Makoto Natsuume](https://research.kek.jp/people/natsuume/index-e.html)，），AdS/CFT Duality User Guide（arXiv:1409.3575v4 [hep-th]）
+* [日本] 夏梅诚（[Makoto Natsuume](https://research.kek.jp/people/natsuume/index-e.html)），AdS/CFT Duality User Guide（arXiv:1409.3575v4 [hep-th]）
 > 作者是Polchinski（在德克萨斯大学时期）的门徒，目前属于日本高エネルギー加速器研究機構（KEK）素粒子原子核研究所理論センタ（高能加速器研究机构（其前身是1971年成立的日本高能物理研究所）素粒子（=基本粒子）原子核研究所理论中心，是国际知名的高能物理研究机构）。或许是因为发布在arXiv上的缘故，这应该是目前最广为人知的AdS/CFT入门材料。
 > 同样是低起点（不过要求的场论背景比Ammon略高一点）的入门教程，也同时讲解了理论和应用，可以和Ammon形成补充；还包括了一个Ammon没有的参考文献列表。
 
@@ -2370,7 +2374,7 @@ AMO方面时下比较常用的**计算/模拟工具**是**Qutip**, 一个强大�
 > 各大视频网站也有大量近年会议视频资料供阅览（当然不止散射振幅，这句话也适用于其他高能理论热门课题）。
 
 
-**关于近来高能理论的总体进展**，我们也可以参看Fernando Quevedo在2022年的综述：[Formal Theory: Status and Outlook](https://arxiv.org/abs/2212.05651)。
+**关于近来弦论的总体进展**，我们也可以参看Fernando Quevedo在2022年的综述：[Formal Theory: Status and Outlook](https://arxiv.org/abs/2212.05651)。
 
 
 ### 3.18 圈量子引力（Loop Quantum Gravity, LQG）
@@ -2802,13 +2806,16 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 由这里开始可以搭建出一条游戏开发的学习序列：GAMES101图形学（前述） + GAMES104现代游戏引擎https://www.bilibili.com/video/BV1oU4y1R7Km/ + 参考《Game Coding Complete》 + 《Unity与C++游戏开发实战》 + bilibili和youtube大学的大量项目教学。
 
 
-##### 4.3.5.4 计算机安全、信息安全、网络安全
-> 可以参考的资料：CMU Introduction to Computer Security, Network Security, and Applied Cryptography Fall 2013: https://users.ece.cmu.edu/~dbrumley/courses/18487-f13/ [零基础学习网络安全这一块，请问有哪些相关资料可以推荐一下？ ](https://www.zhihu.com/question/371464541/answer/1495014590)
+##### 4.3.5.4 信息安全/数据安全（计算机安全、网络安全）
+> 可以参考的入门资料：CMU Introduction to Computer Security, Network Security, and Applied Cryptography Fall 2013: https://users.ece.cmu.edu/~dbrumley/courses/18487-f13/ [零基础学习网络安全这一块，请问有哪些相关资料可以推荐一下？ ](https://www.zhihu.com/question/371464541/answer/1495014590)
 > 顺便借此安利一下与算法方面的ICPC其名的系列赛事CTF（Capture The Flag）：详情和学习资料请参考 [简介 - CTF Wiki](https://link.zhihu.com/?target=https%3A//ctf-wiki.org/)
-> 计算机安全方面的两方面重要理论基础是密码学、信息论。学习材料在之前的数论、密码学和信息论章节已经说过了ww
-* 《密码编码学与网络安全——原理与实践》（Cryptography and Network Security: Principles and Practice）
-> 面向信息安全学生的教材，前半本是密码学技术入门，后半本则是网络安全的各个方面的概述。
-
+> 信息安全目前仍是一个较冷门、没有清晰分野，也没有形成教学的一般章法的领域。它的理论基础是**密码学**（以及一点信息论，参见上方「数学-数论（及密码学）」中的密码学部分及「数学-概率论、数理统计、信息论」部分。），这也是大部分信息安全专门教科书的内容。具体的安全保障方法则与计算机系统（软件、一般硬件、网络三方面）的工程细节以及管理紧密相连。因此对信息安全知识的学习最终只能依靠广泛涉猎各种材料从其中总结而进行。
+作为对信息安全领域总体了解的起点，可以选择：
+* [美国] Michael E. Whitman，Herbert J. Mattord，《信息安全原理》（Principles of Information Security）
+> 按照CISSP（认证信息系统安全专家）认证设计的教材，但依然是不错的导论。
+* [英国] Ross Anderson, 《信息安全工程》（Security Engineering）
+* [美国] Mark Strup, 《信息安全原理与实践》（Information Security: Principles and Practice） 
+> 可以作为补充的另外两本概论性教材。上述三本应该足够提供一个较为完善的基础知识面。
 
 ##### 4.3.5.5 生物信息学/计算生物学（bioinformatics/computational biology）
 > 在生物数据上应用计算机科学方法的研究，但今天通常也只狭义地指代在研究遗传学、蛋白质等生物数据上的应用。
