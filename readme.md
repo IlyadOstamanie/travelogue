@@ -1252,7 +1252,10 @@ Langlands纲领常被认为缺乏良好入门材料，但现在有了Bump，Cogd
 寻求习题的教师和考试准备者可以参考Richard L. Burden，J. Douglas Faires，Annette M. Burden的《数值分析》（Numerical Analysis），含有大量习题（以及长大逾百页的部分答案）。
 
 《计算物理学》基本就是物理院系开设的特种数值方法，内容范围和上面的数学院系教材区别不大。好处是可以了解下具体的物理应用，比如很多学校选用的标准教材：
-* [美国] Steven E. Koonin，Computational Physics - Fortran Version（没有找到中文译本）
+* 彭芳麟，《计算物理基础》
+> 中文教材中比较清晰易懂的一本。使用的语言是MATLAB。
+* [美国] Steven E. Koonin，Computational Physics - Fortran Version
+> 使用广泛的老教材，涉猎广泛，使用的语言是Fortran（计算物理是为数不多还会真的使用Fortran工作的行业了）。
 
 跨学科的终极数值方法字典：
 * William H. Press, Saul A. Teukolsky 等，Numerical Recipes
