@@ -21,7 +21,6 @@
       - [1.3.3 李群、李代数（及其表示）](#133-李群李代数及其表示)
       - [间节 李理论的进一步发展、不变量理论](#间节-李理论的进一步发展不变量理论)
       - [1.3.4 表示论](#134-表示论)
-      - [1.3.5 量子群](#135-量子群)
     - [1.4 几何学](#14-几何学)
       - [1.4.1 解析几何](#141-解析几何)
       - [1.4.2 微分几何、拓扑学（微分拓扑\&代数拓扑）](#142-微分几何拓扑学微分拓扑代数拓扑)
@@ -46,7 +45,7 @@
       - [1.8.3 非交换几何（Noncommutative Geometry, 缩写为NCG）](#183-非交换几何noncommutative-geometry-缩写为ncg)
       - [1.8.4 曲线的模空间-Teichmüller理论-远阿贝尔几何-IUT理论](#184-曲线的模空间-teichmüller理论-远阿贝尔几何-iut理论)
       - [1.8.5 解析几何（Analytic Geometry）与凝聚态数学（Condensed Mathematics）](#185-解析几何analytic-geometry与凝聚态数学condensed-mathematics)
-      - [1.8.6 导出代数几何（Derived Algebraic Geometry）-高阶/同伦几何（Higher/Homopotical Geometry）-高阶/同伦代数（Higher/Homopotical Algebra）](#186-导出代数几何derived-algebraic-geometry-高阶同伦几何higherhomopotical-geometry-高阶同伦代数higherhomopotical-algebra)
+      - [1.8.6 导出代数几何（Derived Algebraic Geometry）-高阶/同伦几何（Higher/Homotopical Geometry）-高阶/同伦代数（Higher/Homotopical Algebra）](#186-导出代数几何derived-algebraic-geometry-高阶同伦几何higherhomotopical-geometry-高阶同伦代数higherhomotopical-algebra)
     - [1.9 数论（及密码学）](#19-数论及密码学)
       - [1.9.1 数论入门及综览性材料](#191-数论入门及综览性材料)
       - [1.9.2 代数数论](#192-代数数论)
@@ -120,7 +119,7 @@
         - [3.16.2.2 弦唯象学（String Phenomenology）](#31622-弦唯象学string-phenomenology)
         - [3.16.2.3 镜像对称（Mirror Symmetry），物理部分](#31623-镜像对称mirror-symmetry物理部分)
         - [3.16.2.4 AdS/CFT对偶](#31624-adscft对偶)
-        - [3.16.2.5 （弦）散射振幅](#31625-弦散射振幅)
+        - [3.16.2.5 散射振幅（Scattering Amplitudes）](#31625-散射振幅scattering-amplitudes)
       - [3.16.3 圈量子引力（Loop Quantum Gravity, LQG）](#3163-圈量子引力loop-quantum-gravity-lqg)
     - [3.Ex1 流体力学](#3ex1-流体力学)
       - [3.Ex1.1 偏数学的流体力学资料](#3ex11-偏数学的流体力学资料)
@@ -442,7 +441,7 @@
 > 简而言之，Arnold等人从经典力学发展了Hamilton动力系统，随后作为其特例的可积系统研究兴起，并带动这部分研究成为整个数学中的热门分支之一，并且因为其辛几何化等特质逐渐从动力系统界走向独立（本节开头的部分因此没有提到它），不再总是被视为「动力系统」的研究，但因其起源我们还是放在这里。然而，或许部分地因为其苏联背景（基本上主要的进展都来自苏联-独联体地区），这部分的知识通常在一般西方学界的动力系统入门书里是简略的，所以需要专门阅读以入门。
 对于哈密顿动力系统，可以参考[印度]Sarada G. Rajeev的Advanced Mechanics: From Euler's Determinism to Arnold's Chaos（见后面流体力学部分顺带的介绍）和Arnold本人的《经典力学的数学方法》。对于理论的历史发展比较好的综述是[美国]H. S. Dumas的《KAM的故事——经典Kolmogorov-Arnorld-Moser理论的历史之旅》（The KAM Story: A Friendly Introduction to the Content, History, and Significance of Classical Kolmogorov-Arnold-Moser Theory，2014年出版）
 
-> 乌克兰数学家Владимир Гершонович Дринфельд（Vladimir Gershonovich Drinfel'd，菲尔兹奖1990（与同为Manin门徒的合作者Beilinson共同获得），沃尔夫奖2018，目前在芝加哥大学，几何朗兰兹纲领的主要人物之一）最主要的工作之一是提出了量子群（见数学-代数学-量子群部分）以及量子可积系统，这些具有丰富物理意义的理论都成为数学/理论物理学者们关注的焦点。此后，其他诞生于经典力学的可积系统理论就被称为经典可积系统。量子可积系统是目前可积系统研究中的主流，其中的两个核心对象是Yang-Baxter方程（其描述的统计力学关系分别由杨振宁和在澳大利亚国立大学养老（好像现在退休了x）的澳洲数学家Rodney J. Baxter独立提出）和Bethe拟设，几种重要的理论物理模型，包括Hubbard模型和Lieb-Liniger模型，都是量子可积系统的实例。
+> 乌克兰数学家Владимир Гершонович Дринфельд（Vladimir Gershonovich Drinfel'd，菲尔兹奖1990（与同为Manin门徒的合作者Beilinson共同获得），沃尔夫奖2018，目前在芝加哥大学，几何朗兰兹纲领的主要人物之一）最主要的工作之一是提出了量子群（见数学-代数学-表示论部分）以及量子可积系统，这些具有丰富物理意义的理论都成为数学/理论物理学者们关注的焦点。此后，其他诞生于经典力学的可积系统理论就被称为经典可积系统。量子可积系统是目前可积系统研究中的主流，其中的两个核心对象是Yang-Baxter方程（其描述的统计力学关系分别由杨振宁和在澳大利亚国立大学养老（好像现在退休了x）的澳洲数学家Rodney J. Baxter独立提出）和Bethe拟设，几种重要的理论物理模型，包括Hubbard模型和Lieb-Liniger模型，都是量子可积系统的实例。
 针对可积系统的入门教材并不多，比较有名的一个针对数学学生的小册子是三位数学物理学者 [英国][Negal James Hitchin](https://people.maths.ox.ac.uk/hitchin/)（几何与数学物理泰斗，除了在量子可积系统的重要工作外还有Yang-Mill场论数学化方面的（Yang-Mills瞬子的）Atiyah-Drinfeld-Hitchin-Manin构造等贡献，并且是当今最著名的几何学大师、用物理理解几何的引领者之一、1986年菲尔兹奖得主及2014数学突破奖得主Simon Donaldson（石溪Simons中心，菲尔兹奖1986）的两位导师之一——另一位正是20世纪最有影响力的数学家之一大名鼎鼎的Michael Atiyah（菲尔兹奖1966，拓扑学、微分几何与PDE，K理论，向量丛，Atiyah-Singer指标定理）；牛津大学）, [澳大利亚] [Graeme B. Segal](https://www.maths.ox.ac.uk/people/graeme.segal)（牛津大学）, [英国]R. S. Ward（杜伦大学）的Integrable Systems。还有一本可以参考的是[俄罗斯]С.М.那汤松（С.М.Натанзон，S. M. Natanzon，有本旧但经典的实变函数论）的Complex Analysis, Riemann Surfaces and Integrable System（原作名Комплексный анализ, римановы поверхности и интегрируемые системы，翻译本由Springer出版收入其Moscow Lectures系列）（去看《数学物理学百科全书》的动力系统卷也行）可以参考的还有Martin A. Guest的From Quantum Cohomology to Integrable Systems，算是用一本书同时入门量子上同调（见辛几何部分）和可积系统的入门串讲。
 
 论述经典可积系统的有名专著是[法国]Olivier Babelon（巴黎六大）, Denis Bernard（IAS）, Michel Talon（巴黎六大、七大）的Introduction to Classical Integrable Systems，而论述量子可积系统的专著则有[印度]Asesh Roy Chowdhury和Aninlya Ghose Choudhury兄弟的Quantum Integrable Systems；
@@ -688,8 +687,8 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 > Bulletin of the AMS: "... This is the only available introduction to geometric representation theory. " 
 
 
-#### 1.3.5 量子群
-> 量子群作为一种特殊的Hopf代数（q-量子化的李代数），可以产生Yang-Baxter方程的解，可以构造扭结不变量；也因此在TQFT、弦论、统计物理等与此相关的数学物理内容中有着重要的应用，因此量子群及其应用已经发展成为一个相对独立的表示论与数学物理方向（但也常仍然被视为表示论的一部分）。
+**量子群专题**
+> 量子群作为一种特殊的Hopf代数（q-量子化的李代数），可以产生Yang-Baxter方程的解，可以构造扭结不变量；也因此在TQFT、弦论、统计物理等与此相关的数学物理内容中有着重要的应用，因此量子群及其应用已经发展成为一个相对独立的表示论与数学物理方向（但也通常被视为表示论社区的一部分）。
 > 对量子群及其相关的数学物理的研究的代表性人物之一是俄罗斯数学家Nikolai Reshetikhin（目前任教于清华大学，Reshetikhin-Turaev不变量）。
 > Reshetikhin本人在清华大学讲授的Invariants of knots and Quantum Groups的课程录像与资料可以在这里取得：Invariants of knots and Quantum Groups，可以用来入门。
 * [法国] Christian Kassel, Quantum Groups
@@ -1125,7 +1124,7 @@ Rising Sea中也有相关的一些内容。
 了解凝聚态数学的好参考是 2021 春季学期北京大学凝聚态数学讨论班的讲义（发布于香蕉空间）：https://www.bananaspace.org/wiki/%E8%AE%B2%E4%B9%89:%E5%87%9D%E8%81%9A%E6%80%81%E6%95%B0%E5%AD%A6 以及 nLab的对应条目：https://ncatlab.org/nlab/show/condensed+mathematics
 
 
-#### 1.8.6 导出代数几何（Derived Algebraic Geometry）-高阶/同伦几何（Higher/Homopotical Geometry）-高阶/同伦代数（Higher/Homopotical Algebra）
+#### 1.8.6 导出代数几何（Derived Algebraic Geometry）-高阶/同伦几何（Higher/Homotopical Geometry）-高阶/同伦代数（Higher/Homotopical Algebra）
 > 这一部分的工作始于一个核心人物——美国当代数学家Jacob Lurie（2014数学突破奖，目前在IAS）连通现代代数几何与代数拓扑之间的杰出工作。从他草创导出代数几何这一将代数几何同伦化的全新领域的博士论文开始，他与他的合作者们又为给这一领域提供基础的同伦论建立了新的理论框架——高阶范畴论（Higher Category THeory），和以此为基础的高阶意象（Higher Topos，意象/topos是Grothendieck创始的概念）理论和以其为语言的高阶几何（Higher Geometry，又称同伦几何 Homotopical Geometry）理论，以及高阶算筹（Higher Operad）理论和以其为语言的高阶代数（Higher Algebra，又称同伦代数 Homotopical Algebra）理论。在原则方面，这一系列理论框架都可以视为Grothendieck开创的代数几何现代流派的思路的延续，只是借由同伦论而得到了进一步的改良。
 > 这一系列工作也为拓扑量子场论提供了可用的数学语言（见物理学-量子场论-拓扑量子场论部分Lurie的相关工作），并且推动了范畴化数学与物理学潮流的发展，这一潮流（不过其开始的时间早在Lurie的工作前）涉及的领域从已经以范畴为标准语言的代数几何和代数拓扑遍及拓扑量子场论相关的数学物理领域（量子群、量子上同调、镜像对称甚至量子可积系统）和凝聚态物理中新兴的拓扑量子物质领域（尤其是文小刚引领的对拓扑序的研究）。
 > 这一潮流进一步产生了一个与范畴（尤其是高阶范畴）相关联的数学、物理乃至哲学的理论联盟，其中的各个领域因共通的理论基础产生着联系与互动。对于这一「n阶范畴（n-category）」理论的联盟，产生了一个重要的民间资源（实际上它源于Baez等职业研究者的博客，详见维基百科的nLab条目中的历史部分）：名为nLab的维基社群，收录了对于这一理论联盟中众多主题与相关主题的介绍与文献索引，所有内容都具有相当高的质量，并可以成为入门学习的优质起点。
@@ -1813,7 +1812,7 @@ QCD：[牟田泰三](https://home.hiroshima-u.ac.jp/mutata/)（Taizo Muta）的�
 > 'A TQFT is a QFT that computes topological invariants' ——[Shintaro Fushida-Hardy](https://www.chineseherald.co.nz/news/education/whangarei-student-accepted-to-do-phd-in-mathematics-at-stanford-university-in-california/)，[Introduction to Topological Quantum Field Theory](https://stanford.edu/~sfh/tqftslides.pdf)
 了解的好起点是nlab的条目：https://ncatlab.org/nlab/show/topological+quantum+field+theory
 
-作为数学物理领域，TQFT的研究同时在涉及数学与物理学内容。这方面的历史背景与进展（到2009）可以看 Baez 和 Aaron Lauda的一篇非常好的综述：[A Prehistory of n-Categorical Physics](https://arxiv.org/abs/0908.2469)，一路从起源讲到最新的发展。
+作为数学物理领域，TQFT的研究同时涉及数学（主要是拓扑与代数）与物理学内容。这方面的历史背景与进展（到2009）可以看 Baez 和 Aaron Lauda的一篇非常好的综述：[A Prehistory of n-Categorical Physics](https://arxiv.org/abs/0908.2469)，一路从起源讲到最新的发展。
 
 TQFT的奠基性文献是Atiyah开天辟地的文章，可读性很高：
 * [英国] Michael Atiyah，[Topological Quantum Field Theory](http://www.numdam.org/article/PMIHES_1988__68__175_0.pdf)
@@ -1824,8 +1823,8 @@ TQFT的奠基性文献是Atiyah开天辟地的文章，可读性很高：
 * [俄罗斯] Vladimir G. Turaev, Quantum Invariants of Knots and 3-Manifolds
 张量（幺半）范畴是TQFT的基本工具。除去上面范畴论部分写到的外，还可以参考 Turaev 与 Alexis Virelizier合著的Monoidal Categories and Topological Field Theory，也可作为张量范畴的好入门。 
 
-> 其他更深入的东西目前没有体系化的专著，所以很乱，以下部分纯粹是准备看着玩的（）
-> 对于更深入的细节和新的进展，具体的历史Baez&Lauda有很好的记述，也可以在ncatlab里四处逛逛。看起来比较重要的几篇工作有：
+> 其他更深入的内容目前没有体系化的专著，所以很乱，以下部分纯粹是准备看着玩的（）
+> 对于更多的细节和新的进展，具体的历史Baez&Lauda有很好的记述，也可以在ncatlab里四处逛逛。看起来比较重要的几篇工作有：
 >* John C. Baez, James Dolan, [Higher-dimensional Algebra and Topological Quantum Field Theory](https://arxiv.org/abs/q-alg/9503002)（奠基性的假设）
 >* Jacob Lurie，[On the Classification of Topological Field Theories](https://arxiv.org/abs/0905.0465)（假设的形式化与证明的概述）
 > Lurie 在IAS对此项工作的报告：https://www.bilibili.com/video/BV13r4y1n7b5
@@ -2366,7 +2365,7 @@ AMO方面时下比较常用的**计算/模拟工具**是**Qutip**, 一个强大�
 > 作者是Polchinski（在德克萨斯大学时期）的门徒，目前属于日本高エネルギー加速器研究機構（KEK）素粒子原子核研究所理論センタ（高能加速器研究机构（其前身是1971年成立的日本高能物理研究所）素粒子（=基本粒子）原子核研究所理论中心，是国际知名的高能物理研究机构）。或许是因为发布在arXiv上的缘故，这应该是目前最广为人知的AdS/CFT入门材料。
 > 同样是低起点（不过要求的场论背景比Ammon略高一点）的入门教程，也同时讲解了理论和应用，可以和Ammon形成补充；还包括了一个Ammon没有的参考文献列表。
 
-##### 3.16.2.5 （弦）散射振幅
+##### 3.16.2.5 散射振幅（Scattering Amplitudes）
 > 关于各类量子场论与弦论中的核心理论对象——散射振幅的计算方面的研究。因其核心地位，此方面的工作堪称十字路口——连结了纯数学的技术、高能理论的传统以及高能实验的意义，近年（21世纪20年代）发展迅速，热度不凡。领域内人也常以「振幅（amplitude）」简称之。今天它基本上被视作弦论社区的一部分。
 > 简要入门及了解领域目前概况可参考以下资料：概览介绍可看Clifford Cheung的[TASI Lectures on Scattering Amplitudes](http://arxiv.org/abs/1708.03872v1)；Tomasz R. Taylor的[A Course in Amplitudes](https://arxiv.org/abs/1703.05670)可作技术上的粗浅入门，也可参看Simon Badger等的[Scattering Amplitudes in Quantum Field Theory](https://arxiv.org/abs/2306.05976)；比较工整的教科书则有Henritte Elvang（密歇根大学安娜堡分校）与黄宇廷（台湾大学）的Scattering Amplitudes in Gauge Theory and Gravity。当下进展总结可参看2022年的[The SAGEX Review on Scattering Amplitudes](https://arxiv.org/abs/2203.13011)。
 > 各大视频网站也有大量近年会议视频资料供阅览（当然不止散射振幅，这句话也适用于其他高能理论热门课题）。
