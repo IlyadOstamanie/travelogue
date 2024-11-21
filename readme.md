@@ -1028,7 +1028,7 @@ Kontsevich的另一项重要工作——同调镜像对称（下方）中的很�
 * [美国] David Mumford, Red Book of Varieties and Schemes
 > 代数几何先驱Mumford早期的代数几何讲义，内容非常基础，具有对许多概念来龙去脉的独门解读，生动隽永，适合初学者参考。
 
-除了先前已经提过的，还有一些其他简短的专题讲义可能对初学者起到帮助：[加拿大]Adeel A. Khan（台湾中研院），Lectures on Algebraic Stacks；[美国] Jarod Alper, Notes on stacks and moduli。
+除了先前已经提过的，还有一些其他简短的专题讲义可能对初学者起到帮助：[加拿大]Adeel A. Khan（台湾中研院），Lectures on Algebraic Stacks；[美国] Jarod Alper, Notes on stacks and moduli；[美国]Martin Olsson，Algebraic Spaces and Stacks。
 
 * [日本] 柏原正树（Masaki Kashiwara），[法国] Pierre Schapira，Sheaves on Manifolds（影印本标题翻译为《流形上的层》）
 > 柏原正树（京都大学RIMS教授）是日本数学界泰斗、2003年Wolf奖得主、RIMS前所长佐藤干夫（Mikio Sato）的门徒。佐藤干夫是现代代数分析理论（日本学派）的开山鼻祖，在完整量子场论（holonomic QFT）等数学物理问题上也有重要工作。
@@ -1133,7 +1133,7 @@ Rising Sea中也有相关的一些内容。
 与解析几何密切相关的另一个重要主题则是$\mathbb{F}_1$（上的）几何，这是整个几何学发展中的一片新领域。一个良好但略微过时的综述是 	arXiv:0909.0069 [math.AG] Mapping $\mathbb{F}_1$-land:An overview of geometries over the field with one element，一个更新的教程是则是arXiv:1801.05337 [math.AG]  $\mathbb{F}_1$ for everyone。对于Scholze（下述）在p进几何方面的工作，则可以参考其与Jared Weinstein的Berkeley Lectures on p-adic Geometry。
 
 > 解析几何近年来主要的进展是由凝聚态数学纲领的发展推动的。**凝聚态数学**（Condensed Mathematics）是由德国当代传奇的青年算术几何学家 Peter Schloze（开挂的人生：2004 IMO银牌，2005，2006，2007 连续三届IMO金牌（2005年满分），三学期拿到学士学位，两学期拿到硕士学位，24岁博士毕业之后被波恩大学聘任为德国史上最年轻的W3最高级教授，在算术几何做出了Langlands纲领相关的（p进Hodge理论等方面的）重要工作，菲尔兹奖2018）与Dustin Clausen、Bhargav Bhatt等当代风云人物创始的数学纲领，旨在合理地于带拓扑的对象上做代数, 并试图由此理清目前较为混乱的解析几何理论（已经取得了部分的成功，今日凝聚态数学已经有成为解析几何主线的趋势，其核心对象正是Scholze立身的完美胚（perfectoid）理论；Scholze以其对p进对象的深刻洞见开启了这一革新的大门），具有以统一的语言连通数学各个分支的潜力。
-> 同样是基于对p进对象的深刻洞见，Scholze及其密切合作者们的另一重要工作方向——p进Hodge理论同样对于代数几何与代数拓扑具备极为深远的革命意义，`从p进Hodge理论中的A_{\inf}上同调（Bhatt-Morrow-Scholze 2018）出发到相对、绝对棱镜上同调（Bhatt-Scholze 2019，Bhatt-Lurie 2022）、再到联系起解析几何的解析棱镜化，这些新的理论也在为代数拓扑及其与代数几何的统一提供新的生命力。第三个Scholze产生了巨大影响的方面则是Langlands对应的几何化（Fargues-Scholze 2021）。
+> 同样是基于对p进对象的深刻洞见，Scholze及其密切合作者们的另一重要工作方向——p进Hodge理论（这方面一个好的了解渠道是Bhargav Bhatt与Martin Olsson主编的2017年的会议文集p-adic Hodge Theory。）同样对于代数几何与代数拓扑具备极为深远的革命意义，`从p进Hodge理论中的A_{\inf}上同调（Bhatt-Morrow-Scholze 2018）出发到相对、绝对棱镜上同调（Bhatt-Scholze 2019，Bhatt-Lurie 2022）、再到联系起解析几何的解析棱镜化（亦参见拓扑学部分的解说），这些新的理论也在为代数拓扑及其与代数几何的统一提供新的生命力。第三个Scholze产生了巨大影响的方面则是Langlands对应的几何化（Fargues-Scholze 2021）。
 
 了解凝聚态数学的好参考是 2021 春季学期北京大学凝聚态数学讨论班的讲义（发布于香蕉空间）：https://www.bananaspace.org/wiki/%E8%AE%B2%E4%B9%89:%E5%87%9D%E8%81%9A%E6%80%81%E6%95%B0%E5%AD%A6 以及 nLab的对应条目：https://ncatlab.org/nlab/show/condensed+mathematics
 
