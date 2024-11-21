@@ -45,7 +45,7 @@
       - [1.8.3 非交换几何（Noncommutative Geometry, 缩写为NCG）](#183-非交换几何noncommutative-geometry-缩写为ncg)
       - [1.8.4 曲线的模空间-Teichmüller理论-远阿贝尔几何-IUT理论](#184-曲线的模空间-teichmüller理论-远阿贝尔几何-iut理论)
       - [1.8.5 解析几何（Analytic Geometry）与凝聚态数学（Condensed Mathematics）](#185-解析几何analytic-geometry与凝聚态数学condensed-mathematics)
-      - [1.8.6 导出代数几何（Derived Algebraic Geometry）-高阶/同伦几何（Higher/Homotopical Geometry）-高阶/同伦代数（Higher/Homotopical Algebra）](#186-导出代数几何derived-algebraic-geometry-高阶同伦几何higherhomotopical-geometry-高阶同伦代数higherhomotopical-algebra)
+      - [1.8.6 同伦相容数学（Homotopy-Coherent Mathematics）：导出代数几何（Derived Algebraic Geometry）-高阶/同伦几何（Higher/Homotopical Geometry）-高阶/同伦代数（Higher/Homotopical Algebra）](#186-同伦相容数学homotopy-coherent-mathematics导出代数几何derived-algebraic-geometry-高阶同伦几何higherhomotopical-geometry-高阶同伦代数higherhomotopical-algebra)
     - [1.9 数论（及密码学）](#19-数论及密码学)
       - [1.9.1 数论入门及综览性材料](#191-数论入门及综览性材料)
       - [1.9.2 代数数论](#192-代数数论)
@@ -300,7 +300,7 @@
 
 当我们要学习一个领域的知识时，以防迷路，最好首先了解这个领域的概况。如先前讨论划分知识领域的方法时所述，我们从对一个领域的介绍性材料开始（也可以结合与有学习经验的他人交流所得），当我们手里有了一个领域的全景图（即便它没有任何细节），知道了这片区域内都有哪些地区之后，就可以针对每一个地区再寻找对应的材料来了解这个地区的风貌；而在了解了一个地区的大致情况之后，就可以进一步寻找材料，探索每个地区内我们想要观光的具体地点——如此继续下去，由浅到深，就可以达到清楚把握领域内容的目的（虽然因为领域本身还在发展而不可能完全穷尽，但是未来的发展无疑也是基于今天的内容之上的）。这也表明，无论以什么形式，人探索这个世界的方式总是相通的，而这里的策略就是通过计划指导学习，再利用在学习中得到的知识来制定下一步计划，以指导之后下一阶段的行程，正是古往今来的探险旅行者所用的方法。
 
-整体的顺序是这样，但是这个过程往往并不是一帆风顺的：很多时候初步的学习不足以带来运用自如的熟悉，也会遇到各种疑惑的地方。好在一切都是相互联系的——所以当我们进一步学习更深入和别处的知识时，循着相互的联系多次地解读和使用，这些疑惑和不熟悉会自然地被照亮和驱散；因此，这样的学习在局部上并不是线性的（一个主题接着一个的）：实际上，每一个主题的学习同时也是对与它相联系的所有方面的学习和熟悉。
+整体的顺序是这样，但是这个过程往往并不是一帆风顺的：很多时候初步的学习不足以带来运用自如的熟悉，也会遇到各种疑惑的地方。好在一切都是相互联系的——所以当我们进一步学习更深入和别处的知识时，循着相互的联系多次地解读和使用，这些疑惑和不熟悉会自然地被照亮和驱散；因此，这样的学习在局部上并不是线性的（一个主题接着一个的）：实际上，每一个主题的学习同时也是对与它相联系的所有方面的学习和熟悉。因此，最后这里的内容的成形实际上最终有赖于沉浸在各个领域当中不断摸索，直至逐渐探尽所有边缘，达到全面的认识。
 
 使用的学习材料的主体是教材——也就是这个领域的学者所创作的、教授这个领域知识的专门书籍等类型的材料；除了书籍以外，其他媒介的教材——主要包括各种（纸质或电子的）报刊杂志上各个领域的讨论文章、各个大学的课程内容（如网上公布的教学视频）——也当然可以用于学习。我们不难看到，作为人类社会中进行教育工作的主要媒介（或许没有之一），教科书、教案、讲义等相近形式的纸质教材的全面、系统和种类丰富程度在叙述已成熟的知识上要远优于其他媒介，因此这里的大部分材料也都是书籍的形式。
 
@@ -801,13 +801,15 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 
 * [美国] Allen Hatcher, Algebraic Topology
 > 可在[作者的主页](https://pi.math.cornell.edu/~hatcher/)取得本书电子稿。
-> 代数拓扑圣经，标准大部头参考书。虽然内容很经典也很全，但碎碎念的风格不一定适合所有人。
-
-* [印度] S. Ramanan, Global Calculus
-> 大约是当今对微分流形（=微分拓扑）的基础理论最现代的处理方式。按照前言中的形容，作者的视角是「以微分算子为核心，并不妥协地以全局（一般）的形式处理它们的演算」。
+> 代数拓扑圣经，标准大部头参考书。虽然内容很经典也很全，但碎碎念的风格不一定适合所有人。比较强调几何直观。
+其他常用且质量较高的代数拓扑教材/参考书还有[德国]Tammo tom Dieck的Algebraic Topology，[美国]J. P. May的A Concise Course in Algebraic Topology。
 
 * [美国] Jon Pierre Fortney, A Visual Introduction to Differential Forms and Calculus on Manifolds
 > 类似于《复分析：可视化方法》的微分形式教材，新手友好，通过很多图像生动详尽地讲解了微分形式（与流形上的微积分）的基本理论，内容比Spivak，Munkres之流丰富不少。
+类似的还有广受欢迎的[匈牙利-美国]Raoul Bott，杜武亮（Lorning Wu-liang Tu）的 Differential Forms in Algebraic Topology（即GTM 82）。
+
+* [印度] S. Ramanan, Global Calculus
+> 大约是当今对微分流形（=微分拓扑）的基础理论最现代的处理方式。按照前言中的形容，作者的视角是「以微分算子为核心，并不妥协地以全局（一般）的形式处理它们的演算」。
 
 * [罗马尼亚] Liviu Nicolaescu, An Invitation to Morse Theory
 > 材料现代（=与其他现代几何方向的联系多）、丰富的Morse理论教材。
@@ -1014,13 +1016,19 @@ Kontsevich的另一项重要工作——同调镜像对称（下方）中的很�
 > 知名度最高、使用最广泛的现代代数几何教科书。不是很初学者友好，要能顺利阅读需要足够熟悉交换代数和同调代数的语言（用上范畴论的那种），无论如何作者写的相当用心，提供了承前启后的入门教科书需要的一切，初学不去追究细节也能受益很多。本书的英文原本已由施普林格（Springer）出版公司出版，被收入其 GTM（Graduate Texts in Mathematics）系列，编号GTM 52。
 
 * [德国] Siegfried Bosch, Algebraic Geometry and Commutative Algebra
-> 一本交换代数和代数几何的一贯制教科书，大部头新书（第二版2022年发行；实际上交换代数不过200页，代数几何也不到300页），入门友好，内容简明扼要地把握了对当代数学最核心的主线。
+> 一本交换代数和代数几何的一贯制教科书，大部头新书（第二版2022年发行；实际上交换代数不过200页，代数几何也不到300页），入门友好，内容简明扼要地把握了对当代数学而言最核心的主线，可以视为同类先驱[德国]Ernst Kunz的Introduction to Communitative Algbera and Algebraic Geometry的重制版。Bosch另有一本优良的经典（前Scholze时代）解析几何（见下方解析几何部分）教材 Lectures on Formal and Rigid Geometry。
+最适合接轨当下的研究潮流的一本新入门教材则是[捷克-美国]Igor Křiž , Sophie Kriz父女的Introduction to Algebraic Geometry（Igor Křiž另有一本与其导师[捷克]Aleš Pultr合著的数学分析入门教材[Introduction to Mathematical Analysis](https://www.amazon.com/Introduction-Mathematical-Analysis-Igor-Kriz/dp/3034806353)，其跃进程度堪称东欧版于品）。比较侧重详述Grothendieck前时代的经典代数几何的入门教材则是沙法列维奇的《基础代数几何》两卷本。目前最大部头的代数几何入门教材则是[德国]Ulrich Görtz和Torsten Wedhorn二人的Algebraic Geometry I & II，内容非常详尽，适合查阅和参考，不甚适合初学者入门。
+
 
 **参考用**
 * [美国] Philips Griffiths, Joseph Harris, Principles of Algebraic Geometry
-> 大而细的另一部主流代数几何教科书，细节很多所以适合参考查阅。
+> 大而细的另一部主流代数几何入门教科书，细节很多所以适合参考查阅。
+其他适合作为此类入门级参考的还有扶磊（Lei Fu）的Algebraic Geometry以及Justin R. Smith的Introduction to Algebraic Geometry。
 
-其他适合作为此类参考的还有扶磊（Lei Fu）的Algebraic Geometry以及Justin R. Smith的Introduction to Algebraic Geometry。
+* [美国] David Mumford, Red Book of Varieties and Schemes
+> 代数几何先驱Mumford早期的代数几何讲义，内容非常基础，具有对许多概念来龙去脉的独门解读，生动隽永，适合初学者参考。
+
+除了先前已经提过的，还有一些其他简短的专题讲义可能对初学者起到帮助：[加拿大]Adeel A. Khan（台湾中研院），Lectures on Algebraic Stacks；[美国] Jarod Alper, Notes on stacks and moduli。
 
 * [日本] 柏原正树（Masaki Kashiwara），[法国] Pierre Schapira，Sheaves on Manifolds（影印本标题翻译为《流形上的层》）
 > 柏原正树（京都大学RIMS教授）是日本数学界泰斗、2003年Wolf奖得主、RIMS前所长佐藤干夫（Mikio Sato）的门徒。佐藤干夫是现代代数分析理论（日本学派）的开山鼻祖，在完整量子场论（holonomic QFT）等数学物理问题上也有重要工作。
@@ -1047,12 +1055,12 @@ Schapira还有两个比较友好的讲义[Categories and Homological algebra](ht
 > 森重文本人也是20世纪双有理几何方面起引领作用的大师。
 具体学习还可以可以参考https://www.zhihu.com/question/264869849。
 
-**枚举几何补充**
-> 一般代数几何中比较热门的另一个领域是[枚举几何（enumerative geometry，又译作计数几何）](https://www.bananaspace.org/wiki/%E8%AE%A1%E6%95%B0%E5%87%A0%E4%BD%95)，它是专门研究代数几何中的枚举/计数问题（如两条曲线的交点个数）的分支。
-> 枚举几何中最重要的基础工具之一是相交论（intersection theory），在其他代数几何分支也发挥了重要的作用。
-> 枚举几何的理论在弦理论相关的数学方面有一些应用（见[美国]Sheldon Katz, Enumerative Geometry and String Theory），近来一些新的进展在镜像对称（见物理-弦理论部分）中也展现出人意料的应用空间。
+**计数几何/枚举几何补充**
+> 一般代数几何中比较热门的另一个领域是[计数几何（enumerative geometry，又译作枚举几何）](https://www.bananaspace.org/wiki/%E8%AE%A1%E6%95%B0%E5%87%A0%E4%BD%95)，它是专门研究代数几何中的枚举/计数问题（如两条曲线的交点个数）的分支。
+计数几何中最重要的基础工具之一是相交论（intersection theory），在其他代数几何分支也发挥了重要的作用。
+> 枚举几何的理论在弦理论相关的数学方面有一些应用（见[美国]Sheldon Katz, Enumerative Geometry and String Theory，目前有译本《计数几何学与弦论》），近来一些新的进展在镜像对称（见物理-弦理论部分）中也展现出人意料的应用空间。
 
-时兴的一部枚举几何入门教程是[美国]David Eisenbud, [美国]Joe Harris的3264 AND ALL THAT: A Second Course in Algebraic Geometry，从相交理论起步，常在代数几何学习者间以「3264/三贰陆肆」（其源于经典的结论「[3264条曲线](https://www.bananaspace.org/wiki/3264_%E6%9D%A1%E6%9B%B2%E7%BA%BF)」）指称之。
+时兴的一部计数几何入门教程是[美国]David Eisenbud, [美国]Joe Harris的3264 AND ALL THAT: A Second Course in Algebraic Geometry，从相交理论起步，常在代数几何学习者间以「3264/三贰陆肆」（其源于经典的结论「[3264条曲线](https://www.bananaspace.org/wiki/3264_%E6%9D%A1%E6%9B%B2%E7%BA%BF)」）指称之。
 具体到相交论，最为脍炙人口的的经典入门教程则是Fulton的Intersection Theory。
 
 **计算代数几何补充**
@@ -1063,6 +1071,9 @@ Schapira还有两个比较友好的讲义[Categories and Homological algebra](ht
 另一部较早但更加深入的教材是：
 * [美国] Hal Schenck，Computational algebraic geometry (2003)
 > 着眼于讨论到21世纪初期的新进展。作者另有一本新书 Algebraic Foundations for Applied Topology and Data Analysis (2022)，算是对拓扑数据分析（Topological Data Analysis, TDA）的数学基础（具有算法实现的代数几何与代数拓扑）方面的介绍。（数学家们口中的研究TDA基本上就是这类计算代数几何研究（有套皮蹭热度的嫌疑），而实践中的TDA（也是TDA一词的产生地）则是借用相关理论概念开发出的一些统计学习指标（参考(当机器学习遇见拓扑：拓扑数据分析与拓扑深度学习)[https://blog.csdn.net/cf2suds8x8f0v/article/details/134213134]一文），其研究性质完全是机器学习社区的实验导向式，因而实际上前者（数学）和后者（算法工程）之间并不构成指导关系，两个社区几乎是完全隔绝的）
+
+**对数（代数）几何补充**
+代数几何中的一项特别技术是借助所谓对数结构研究代数簇的紧化与简并问题的**对数（代数）几何**（Logatithmic (Algebraic) Geometry），主要起源于L. Illusie, J.-M. Fontaine和加藤和也的一系列先驱性工作，并以Illusie之诸门徒发展成为代数几何界的一方小门派。这一方向目前主流的入门教材是Arthur Ogus的Lectures on Logarithmic Algebraic Geometry。
 
 
 #### 1.8.2 算术几何
@@ -1082,8 +1093,10 @@ Rising Sea中也有相关的一些内容。
 
 算术几何中另一个稍有热度（但不多）的较有历史的分支是所谓**Arakelov几何**，基本上就是将复（微分）几何的方法引入算术几何的一种技术（但单独学习的必要对非其方向者或不甚大）。
 
+要了解算术几何的主要进展，一个非常有益的参考是所谓「1986文集」：G. Cornell, J. H. Silverman（主编）, M. Artin, G. Faltings, B. H. Gross, F. O. McGuiness, J. S. Milne等群星汇聚的1986年Storrs会议文集Arithmetic Geometry，对算术几何其时的进展提供了很好的全局性把握。
+
 #### 1.8.3 非交换几何（Noncommutative Geometry, 缩写为NCG）
-> 又称「交换微分几何」（以区别于Grothendieck代数几何理论中的非交换情形），是由法国数学家 Alain Connes （菲尔兹奖1982）由算子代数出发创始的代数几何理论，NCG的框架被Atiyah等数学物理学家给予了极高评价，被认为具有联系起数学和理论物理的诸多方面的潜力，且在弦论、形变量子化等数学/理论物理领域已经开始起到一些重要的作用。
+> 又称「非交换微分几何」（以区别于Grothendieck代数几何理论中的非交换情形），是由法国数学家 Alain Connes （菲尔兹奖1982）由算子代数出发创始的代数几何理论，NCG的框架被Atiyah等数学物理学家给予了极高评价，被认为具有联系起数学和理论物理的诸多方面的潜力，且在弦论、形变量子化等数学/理论物理领域已经开始起到一些重要的作用。
 > 简短的入门材料很多，可以参考 https://www.zhihu.com/question/266745712 https://www.zhihu.com/question/28551625 自选，
 > 也可以先看一下Connes的入门讲座：https://www.bilibili.com/video/BV1Q64y1h78g，Victor Ginzburg的[Lectures on Noncommutative Geometry](https://arxiv.org/abs/math/0506603)（数学侧）和Michael Douglas&Nikita Nekrasov的[Noncommutative Field Theory](https://arxiv.org/abs/hep-th/0106048v4)（物理侧），附带一个良好文献列表的历史性的综述可以参考 J. Madore 的 [Noncommutative Geometry for Pedestrians](https://arxiv.org/abs/gr-qc/9906059)。作为开始是足够了。
 > **包含NCG在内各种当代几何框架的一些进展**可以从[科莫湖高级研究学院：几何中的统一主题—M.Kontsevich；L.Lafforgue；I.Fesenko—辛几何；代数几何；非交换几何；热带几何；远阿贝尔几何](https://www.bilibili.com/video/BV17S4y1Y7dR)了解。
@@ -1113,25 +1126,26 @@ Rising Sea中也有相关的一些内容。
 对于IUT的nLab条目：https://ncatlab.org/nlab/show/inter-universal+Teichm%C3%BCller+theory。望月的原始论文可以在[他的主页]https://www.kurims.kyoto-u.ac.jp/~motizuki/top-english.html)找到。
 
 #### 1.8.5 解析几何（Analytic Geometry）与凝聚态数学（Condensed Mathematics）
-> **解析几何**（analytic geometry，这里区分于前述的论述坐标几何学的解析几何）可以形容为关于解析（即解析函数的解析义）簇的研究，一般也专指对复解析空间（即复几何所研究的对象复流形的推广，光滑的复解析空间=复流形）的研究，是当代代数几何的主要相关方向之一（方法上可以视作其分支）。解析几何的基础是Serre的GAGA（Géométrie Algébrique et Géométrie Analytique, 代数几何与解析几何）定理，由此数学界得以用代数几何的工具研究发源于复几何（但推广到这里已经与传统复几何的语境截然不同了）的对象。其较热门的一种泛化是Tate等数学家创始的刚性（解析）几何（rigid (analytic) geometry）或称全局解析几何（global analytic geometry），即将所有以上的「复」推广到更一般的非阿基米德域（尤其引起注意的例子如p进数域）的产物。
+> **解析几何**（analytic geometry，这里区分于前述的论述坐标几何学的解析几何）可以形容为关于解析（即解析函数的解析义）簇的研究，一般也专指对复解析空间（即复几何所研究的对象复流形的推广，光滑的复解析空间=复流形）的研究，是当代代数几何的主要相关方向之一（方法上可以视作其分支）。解析几何的基础是Serre的GAGA（Géométrie Algébrique et Géométrie Analytique, 代数几何与解析几何）定理，由此数学界得以用代数几何的工具研究发源于复几何（但推广到这里已经与传统复几何的语境截然不同了）的对象。其较热门的一种泛化是Tate等数学家创始的刚性（解析）几何（rigid (analytic) geometry）或称全局解析几何（global analytic geometry），即将所有以上的「复」推广到更一般的非阿基米德域（尤其是p进数域，这带来了下述的革命）的产物。
 > 今日解析几何的工具也正被大量用于表示论与算术几何。
 
 对这部分知识取得基本的了解可以参考Amnon Neeman的Algebraic and Analytic Geometry以及nLab对应条目https://ncatlab.org/nlab/show/analytic+geometry的资料。
-与解析几何密切相关的另一个重要主题则是$\mathbb{F}_1$（上的）几何，这是整个几何学发展中的一片新领域。一个良好但略微过时的综述是 	arXiv:0909.0069 [math.AG] Mapping $\mathbb{F}_1$-land:An overview of geometries over the field with one element，一个更新的教程是则是arXiv:1801.05337 [math.AG]  $\mathbb{F}_1$ for everyone。
+与解析几何密切相关的另一个重要主题则是$\mathbb{F}_1$（上的）几何，这是整个几何学发展中的一片新领域。一个良好但略微过时的综述是 	arXiv:0909.0069 [math.AG] Mapping $\mathbb{F}_1$-land:An overview of geometries over the field with one element，一个更新的教程是则是arXiv:1801.05337 [math.AG]  $\mathbb{F}_1$ for everyone。对于Scholze（下述）在p进几何方面的工作，则可以参考其与Jared Weinstein的Berkeley Lectures on p-adic Geometry。
 
-> 解析几何近年来主要的进展是由凝聚态数学纲领的发展推动的。**凝聚态数学**（Condensed Mathematics）是由德国当代传奇的青年算术几何学家 Peter Schloze（开挂的人生：2004 IMO银牌，2005，2006，2007 连续三届IMO金牌（2005年满分），三学期拿到学士学位，两学期拿到硕士学位，24岁博士毕业之后被波恩大学聘任为德国史上最年轻的W3最高级教授，在算术几何做出了Langlands纲领相关的（p进Hodge理论等方面的）重要工作，菲尔兹奖2018）与Dustin Clausen、Bhargav Bhatt等数学学者创始的数学纲领，旨在合理地于带拓扑的对象上做代数, 并试图由此理清目前较为混乱的解析几何理论（已经取得了部分的成功，今日凝聚态数学已经有成为解析几何主线的趋势，其核心对象正是Scholze的完美胚（perfectoid）理论），具有以统一的语言连通数学各个分支的潜力。
+> 解析几何近年来主要的进展是由凝聚态数学纲领的发展推动的。**凝聚态数学**（Condensed Mathematics）是由德国当代传奇的青年算术几何学家 Peter Schloze（开挂的人生：2004 IMO银牌，2005，2006，2007 连续三届IMO金牌（2005年满分），三学期拿到学士学位，两学期拿到硕士学位，24岁博士毕业之后被波恩大学聘任为德国史上最年轻的W3最高级教授，在算术几何做出了Langlands纲领相关的（p进Hodge理论等方面的）重要工作，菲尔兹奖2018）与Dustin Clausen、Bhargav Bhatt等当代风云人物创始的数学纲领，旨在合理地于带拓扑的对象上做代数, 并试图由此理清目前较为混乱的解析几何理论（已经取得了部分的成功，今日凝聚态数学已经有成为解析几何主线的趋势，其核心对象正是Scholze立身的完美胚（perfectoid）理论；Scholze以其对p进对象的深刻洞见开启了这一革新的大门），具有以统一的语言连通数学各个分支的潜力。
+> 同样是基于对p进对象的深刻洞见，Scholze及其密切合作者们的另一重要工作方向——p进Hodge理论同样对于代数几何与代数拓扑具备极为深远的革命意义，`从p进Hodge理论中的A_{\inf}上同调（Bhatt-Morrow-Scholze 2018）出发到相对、绝对棱镜上同调（Bhatt-Scholze 2019，Bhatt-Lurie 2022）、再到联系起解析几何的解析棱镜化，这些新的理论也在为代数拓扑及其与代数几何的统一提供新的生命力。第三个Scholze产生了巨大影响的方面则是Langlands对应的几何化（Fargues-Scholze 2021）。
 
 了解凝聚态数学的好参考是 2021 春季学期北京大学凝聚态数学讨论班的讲义（发布于香蕉空间）：https://www.bananaspace.org/wiki/%E8%AE%B2%E4%B9%89:%E5%87%9D%E8%81%9A%E6%80%81%E6%95%B0%E5%AD%A6 以及 nLab的对应条目：https://ncatlab.org/nlab/show/condensed+mathematics
 
 
-#### 1.8.6 导出代数几何（Derived Algebraic Geometry）-高阶/同伦几何（Higher/Homotopical Geometry）-高阶/同伦代数（Higher/Homotopical Algebra）
+#### 1.8.6 同伦相容数学（Homotopy-Coherent Mathematics）：导出代数几何（Derived Algebraic Geometry）-高阶/同伦几何（Higher/Homotopical Geometry）-高阶/同伦代数（Higher/Homotopical Algebra）
 > 这一部分的工作始于一个核心人物——美国当代数学家Jacob Lurie（2014数学突破奖，目前在IAS）连通现代代数几何与代数拓扑之间的杰出工作。从他草创导出代数几何这一将代数几何同伦化的全新领域的博士论文开始，他与他的合作者们又为给这一领域提供基础的同伦论建立了新的理论框架——高阶范畴论（Higher Category THeory），和以此为基础的高阶意象（Higher Topos，意象/topos是Grothendieck创始的概念）理论和以其为语言的高阶几何（Higher Geometry，又称同伦几何 Homotopical Geometry）理论，以及高阶算筹（Higher Operad）理论和以其为语言的高阶代数（Higher Algebra，又称同伦代数 Homotopical Algebra）理论。在原则方面，这一系列理论框架都可以视为Grothendieck开创的代数几何现代流派的思路的延续，只是借由同伦论而得到了进一步的改良。
 > 这一系列工作也为拓扑量子场论提供了可用的数学语言（见物理学-量子场论-拓扑量子场论部分Lurie的相关工作），并且推动了范畴化数学与物理学潮流的发展，这一潮流（不过其开始的时间早在Lurie的工作前）涉及的领域从已经以范畴为标准语言的代数几何和代数拓扑遍及拓扑量子场论相关的数学物理领域（量子群、量子上同调、镜像对称甚至量子可积系统）和凝聚态物理中新兴的拓扑量子物质领域（尤其是文小刚引领的对拓扑序的研究）。
 > 这一潮流进一步产生了一个与范畴（尤其是高阶范畴）相关联的数学、物理乃至哲学的理论联盟，其中的各个领域因共通的理论基础产生着联系与互动。对于这一「n阶范畴（n-category）」理论的联盟，产生了一个重要的民间资源（实际上它源于Baez等职业研究者的博客，详见维基百科的nLab条目中的历史部分）：名为nLab的维基社群，收录了对于这一理论联盟中众多主题与相关主题的介绍与文献索引，所有内容都具有相当高的质量，并可以成为入门学习的优质起点。
 
 通过nLab查找分散的论文、讲义等各类材料进行学习也是我本人认为最行之有效的学习n阶范畴理论联盟中感兴趣的领域的方法。当然，因为理论的大致脉络已经在方才的介绍中理清，本人自己的途径是从应用的其他方面（主要是物理学方面）的材料入手按需要学习Lurie的一系列理论中的部分，而不会单独对其进行研究。
 
-这一系列工作最权威的参考无疑还是要数创造它们的核心人物、写书狂魔Lurie自己的一系列专著和论文，覆盖了以上所有的领域，在[他本人的主页](https://www.math.ias.edu/~lurie/)上都能免费取得。但缺点是往往这些专著过于篇幅庞大，更适合作为字典而非初学者使用。与此相补充的是Lurie本人仿照the Stacks project所作的综合在线教科书[Kerodon](https://kerodon.net)，正在连载中，作为切入Lurie基于高阶范畴的这套高阶/同伦代数-几何（他本人称之为'homotopy-coherent mathematics'）体系——尤其是核心概念无穷范畴——的一个入口十分合适。
+这一系列工作最权威的参考无疑还是要数创造它们的核心人物、写书狂魔Lurie自己的一系列专著和论文，覆盖了以上所有的领域，在[他本人的主页](https://www.math.ias.edu/~lurie/)上都能免费取得。但缺点是往往这些专著过于篇幅庞大，更适合作为字典而非初学者使用。与此相补充的是Lurie本人仿照the Stacks project所作的综合在线教科书[Kerodon](https://kerodon.net)，正在连载中，作为切入Lurie基于高阶范畴的这套高阶/同伦代数-几何（他本人称之为'homotopy-coherent mathematics'/可译为“同伦相容数学”）体系——尤其是核心概念无穷范畴——的一个入口十分合适。
 
 ### 1.9 数论（及密码学）
 > 其实从其他书里云的数论（只相当于最基本的初等数论程度...吧）也有一些了，但是对这个领域本身还没有认识；数论作为某种意义上数学中的核心（尤其考虑到现代在算术几何上不可思议的进展），还是需要正经地学一下比较好。
@@ -1186,7 +1200,7 @@ Langlands纲领常被认为缺乏良好入门材料，但现在有了Bump，Cogd
 
 与Langlands纲领诞生相关的一些历史背景可以在季理真、黎景辉编著的《langlands纲领和他的数学世界》中看到。
 
-让Langlands纲领进一步大放异彩的是Langlands纲领与现代代数几何与算术几何体系的交汇与融合，这诞生了进一步推广的**几何Langlands纲领**(Geometric Langlands Program)，并进一步在数论、表示论、代数几何外，由表示论一侧联系起几何拓扑、辛几何、量子场论、量子群与量子上同调及量子可积系统（Drinfeld之学）、镜像对称（Kontsevich之学）与其他弦论/数学物理内容（显要者如Kapustin与Witten的Electromagnetic duality，以及近年Ben-Zvi, Sakellaridis与Venkatesh，金明迥(김민형，Minhyong Kim)等人对其进一步发展所得之「相对Langlands对偶（Relative Langlands Duality）」与「算术拓扑场论（Arithmetic Topological Field Theory）」），又联系起算术几何在内的所有代数几何理论，由此延伸开去成为Edward Frenkel所言之当代「数学的一种大统一理论」。毫无疑问，几何Langlands纲领已经成为当代数学的核心主题之一，它连结起来自绝大部分纯粹数学与数学物理领域的众多研究者，史无前例地进行围绕着一个共同方向的探索；在其中自20世纪后半叶起诞生了诸多传奇与无数风流人物。一近年来，几何Langlands纲领、Peter Scholze的解析几何理论（见代数几何部分）、Jacob Lurie基于无穷范畴的高阶/同伦代数-几何理论（见代数几何部分）三者得到了当代数学「三幻神」的戏名（有时也再加上Kontsevich领导的辛几何学派），成为最为吸引年轻学习者的「显学」。2024年，几何Langlands纲领中基石性的猜想——几何Langlands猜想已被Dennis Gaitsgory（马克斯・普朗克数学所），Sam Raskin（耶鲁大学），Nick Rozenblyum（多伦多大学），Lin Chen（陈麟，清华大学），Dario Beraldo，Kevin Lin，Joakim Færgeman，Justin Campbell和Dima Arinkin组成的九人团队完成了证明（报道：https://www.qbitai.com/2024/07/170147.html）。
+让Langlands纲领进一步大放异彩的是Langlands纲领与现代代数几何与算术几何体系的交汇与融合，这诞生了进一步推广的**几何Langlands纲领**(Geometric Langlands Program)，并进一步在数论、表示论、代数几何外，由表示论一侧联系起几何拓扑、辛几何、量子场论、量子群与量子上同调及量子可积系统（Drinfeld之学）、镜像对称（Kontsevich之学）与其他弦论/数学物理内容（显要者如Kapustin与Witten的Electromagnetic duality，以及近年Ben-Zvi, Sakellaridis与Venkatesh，金明迥(김민형，Minhyong Kim)等人对其进一步发展所得之「相对Langlands对偶（Relative Langlands Duality）」与「算术拓扑场论（Arithmetic Topological Field Theory）」），又联系起算术几何在内的所有代数几何理论，由此延伸开去成为Edward Frenkel所言之当代「数学的一种大统一理论」。毫无疑问，几何Langlands纲领已经成为当代数学的核心主题之一，它连结起来自绝大部分纯粹数学与数学物理领域的众多研究者，史无前例地进行围绕着一个共同方向的探索；在其中自20世纪后半叶起诞生了诸多传奇与无数风流人物。一近年来，几何Langlands纲领、Peter Scholze的解析几何-凝聚态数学及其它相关**p进**理论（见代数几何部分）、Jacob Lurie基于无穷范畴的**同伦**相容数学（或称高阶/同伦代数-几何理论，见代数几何部分）三者得到了当代数学「三幻神」的戏名（有时也再加上Kontsevich开创的辛几何革新），成为最为吸引年轻学习者的「显学」。2024年，几何Langlands纲领中基石性的猜想——几何Langlands猜想已被Dennis Gaitsgory（马克斯・普朗克数学所），Sam Raskin（耶鲁大学），Nick Rozenblyum（多伦多大学），Lin Chen（陈麟，清华大学），Dario Beraldo，Kevin Lin，Joakim Færgeman，Justin Campbell和Dima Arinkin组成的九人团队完成了证明（报道：https://www.qbitai.com/2024/07/170147.html）。
 
 入门几何Langlands纲领的最好材料除去前述Bump等人教材的最后一部分外，无疑是从[其nLab页面](https://ncatlab.org/nlab/show/geometric+Langlands+correspondence)开始，其精致豪华的参考列表提供了各方面典范的学习材料。对于理论物理途径的数学物理学习者而言，也可以通过Karl-Georg Schlesinger的[A physics perspective on geometric Langlands duality](http://arxiv.org/abs/0911.4586v1)（其中重点即在于前述Electromagnetic duality）与Edward Frenkel的Lecture on Langlands program and conformal field theory。
 
@@ -1238,7 +1252,7 @@ Langlands纲领常被认为缺乏良好入门材料，但现在有了Bump，Cogd
 > 这里指一切以计算为研究对象的数学内容，只是除去了关于计算这一过程本身的研究（即「计算理论」以及其衍生出的计算机的理论，因为这些内容虽然本身是数学，但是一般因为本身作为计算机科学与技术的理论基础，被单独分类到计算机科学下，称为「理论计算机科学」（狭义））。
 
 #### 1.10.1 数值方法/数值计算/计算方法/数值分析、计算物理学
-> 数学中研究如何计算各种数学问题的数值解的部分。在数学中对这一部分上面的四个名字都是常用的。
+> 「数值方法」一般指代数学中研究如何计算各种数学问题的数值解的部分。在数学中对这一部分上面的四个名字都是常用的。
 > 部分场合「数值分析」会专指分析问题的数值解的研究，而将代数问题相关的此类研究称为「数值代数」。
 * 李庆扬 等，《数值分析》
 > 友好快速的入门，但不深入。包含一些MATLAB相关内容。
@@ -2763,17 +2777,17 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 > 更新：对于算法工程师打工路线（而非理论路线），现在可以速通了（取代CS229 CS231N，会Python即可入门，书可以之后再看）：可以先通过Andriy Burkov的速通讲义《机器学习精讲》（The Hundred-Page Machine Learning Book）熟悉机器学习的基本概念，然后可以用黄佳《零基础学机器学习》得到一套目前机器学习界各类基本技术全面的上手经验，或者直接开始集中掌握当前最主要的机器学习方法——深度学习，通过[《动手学深度学习》：面向中文读者的能运行、可讨论的深度学习教科书, 含 PyTorch、NumPy/MXNet、TensorFlow 和 PaddlePaddle 实现, 被全球 60 多个国家 400 多所大学用于教学](https://zh-v2.d2l.ai/index.html) 。这是一本由一个豪华的算法从业者团队打造的开源在线教程，纸质版也已经在人民邮电出版社出版。直接快速入门深度学习及其在计算机视觉（Computer Vsion(CV)，同义词是「机器视觉」 Machine/Robot Vision）、自然语言处理（NLP）两个主要方向的具体应用，还包含Kaggle实战案例，拯救伤心转码人（
 
 * 周志华，《机器学习》
-> 国内机器学习标准理论教材之一，低起点、新人友好但具备充分理论深度的入门书。作者本人是中国AI界的元老之一，著名的南京大学Lambda实验室创始人。
+> 国内机器学习标准理论教材之一，低起点、新人友好但具备充分理论深度的入门书，只是为了涉猎广泛而多处不得详述，但足够作为指路的地图提供一个对整个机器学习领域完善的宏观视角。作者本人是中国AI界的元老之一，著名的南京大学Lambda实验室创始人。
 
 * 陈强，《机器学习及Python应用》
 > 600页+的大字典，从普及基本的Python编程讲起一路覆盖了几乎所有传统（=深度学习时代前）的机器学习技术，也一并讲了常用的数据科学——数据处理——的方法。理论与代码实例并重，非常好的参考。
 
-以下三部都是不同程度拥有「机器学习圣经」之名的大部头理论（学术向）参考书：
+以下几部都是不同程度拥有「机器学习圣经」之名的大部头理论（学术向）参考书：
 * [英国] Christopher Bishop，Pattern Recognition and Machine Learning（民间通译：《模式识别与机器学习》）
 > 字典一号，大名鼎鼎的PRML。微软剑桥研究院实验室主任主笔的鸿篇巨著，上手难度合理，体系完整地从贝叶斯统计（概率模型）的角度叙述了当代机器学习和模式识别技术背后的理论基础（但这并不是唯一的角度，也算不得绝对主流的角度。）
 
 * [美国] Trevor Hastie, Robert Tibshirani, Jerome Friedman，The Elements of Statistical Learning（民间通译《统计学习基础》） - Data Mining, Inference, and Prediction
-> 字典二号，名声赫赫的ESL。顺便一提，书名里的**统计（机器）学习理论是当代机器学习技术的基础。也可以说统计（机器）学习=当代机器学习的理论(https://www.zhihu.com/question/515727053/answer/2437406113)**（当然也有区分于此方法的其他“‘非统计’机器学习”——如所谓符号机器学习等——方法存在，但均已经在统计机器学习方法的优良效果面前黯然失色，使得当代大行其道的机器学习技术以统计机器学习理论作为其唯一基础），阅读需要先具备一定的机器学习基础，叙述偏向传统统计(频率统计)角度且侧重方法（因此更适用于工程人员），总结了已经成熟的技术，对尚在发展中的一些议题和近年流行的新方法也有简明扼要的论述。
+> 字典二号，名声赫赫的ESL。顺便一提，书名里的**统计（机器）学习理论是当代机器学习技术的基础。也可以说统计（机器）学习=当代机器学习的理论(https://www.zhihu.com/question/515727053/answer/2437406113)**（当然也有区分于此方法的其他历史上出现又式微的‘非统计’机器学习”——即所谓符号主义与连接主义机器学习——方法存在，但均已经在统计机器学习方法的优良效果面前黯然失色，使得当代大行其道的机器学习技术以统计机器学习理论作为其唯一基础），阅读需要先具备一定的机器学习基础，叙述偏向传统统计(频率统计)角度且侧重方法（因此更适用于工程人员），总结了已经成熟的技术，对尚在发展中的一些议题和近年流行的新方法也有简明扼要的论述。
 > 额外亮点：第一作者另有一本与本书相辅的实操书，也很流行： Introduction to Statistical Learning with R，有完整的代码，两者可以从理论到落地相得益彰。
 > 如果需要中文书，有一本角度类似，水准相当的优秀中文教材：李航，《统计学习方法》。
 
@@ -2791,6 +2805,7 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 
 还有一本剑桥卡文迪许实验室David J. C. Mackay的《信息论、推理与学习算法》（Information Theory, Inference and Learning Algorithms），可以作为参考。**「学习算法」（Learning Algorithms, Bengio创立的蒙特利尔学习算法研究所（Montreal Institute for Learning Algorithms, MILA）里面就是这个意思），以及更老式的「模式识别」）（Pattern Recognition，这个名称现在主要在自动化等应用此技术的传统工科中使用），都是「机器学习」（Machine Learning）的同义词，指的是同一类技术。「机器学习」一词在相关领域内部的交流中也常简单地略称为「学习」(Learning)。**
 
+侧重贝叶斯推断方法（所谓「贝叶斯学派」）的旗舰著作则是[英国]大卫・巴伯（David Barber）的《贝叶斯推理与机器学习》（Bayesian Reasoning and Machine Learning）。
 
 **参考用（实践）**
 * 范淼，李超 编著，《Python机器学习及实践——从零开始通往Kaggle竞赛之路》[有《动手学机器学习》后大部分不再必要]
