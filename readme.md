@@ -816,7 +816,7 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 > 大约是当今对微分流形（=微分拓扑）的基础理论最现代的处理方式。按照前言中的形容，作者的视角是「以微分算子为核心，并不妥协地以全局（一般）的形式处理它们的演算」。
 
 * [罗马尼亚] Liviu Nicolaescu, An Invitation to Morse Theory
-> 材料现代（=与其他现代几何方向的联系多）、丰富的Morse理论教材。
+> 材料现代（=与其他现代几何方向的联系多）、丰富的Morse理论教材。Morse理论更主流也更经典的入门则是 [美国] John Milnor（其人以文笔清晰易读著称）的Morse Theory。
 
 对于*低维拓扑*，一个适于初学的入门是 [匈牙利] András Juhász （牛津大学）的 Differential and Low-Dimensional Topology；数学物理上联系较多的是三维与四位流形的研究；TQFT部分的参考书提供了一些前者的相关知识，而后者的著名专著则是Donaldson本人的The Geometry of Four-Manifolds（他还有一本非常受好评的Riemann Surfaces）。
 
@@ -830,9 +830,9 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 > 和代数几何类似，它可以被归入分析，也可以被归入几何，但其中更多的继承了20世纪几何（含拓扑）的研究思路，因而归入几何更加合适，也更加常见。
 > 两项当代（21世纪20年代）几何分析的最主流技术是黎曼几何和（主要是椭圆）PDE。
 作为一个新的领域，几何分析方面的教材不多，对主要课题的覆盖可以由以下几本完成：
-* 丘成桐，孙理察（Richard Schoen），《微分几何讲义》（Lectures on Differential Geometry）
+* 丘成桐，[美国] 孙理察（Richard Schoen），《微分几何讲义》（Lectures on Differential Geometry）
 > 实际上是几何分析专题讲义的合集，高屋建瓴地讲解了当代几何学中几何分析一侧的重要问题。
-另一本早期教材，[法国] Thierry Aubin 的 Nonlinear Analysis on Manifolds. Monge-Ampère Equations 则可以作为良好的非线性方程方面的补充。关于Monge-Ampère方程以及最优输运两个主题的细节，还可以参考 [意大利-瑞士] Alessio Figalli 的两本著作：The Monge-Ampère Equation and its Applications 以及An Invitation to Optimal Transport, Wasserstein Distances, and Gradient Flows。
+另一本早期教材，[法国] Thierry Aubin 的 Nonlinear Analysis on Manifolds. Monge-Ampère Equations 则可以作为良好的非线性方程方面的补充和入门。关于Monge-Ampère方程以及最优输运两个主题的细节，还可以参考 [意大利-瑞士] Alessio Figalli 的两本著作：The Monge-Ampère Equation and its Applications 以及An Invitation to Optimal Transport, Wasserstein Distances, and Gradient Flows。
 * [德国] Jürgen Jost, Riemannian Geometry and Geometric Analysis（影音版标题翻译为《黎曼几何和几何分析》）
 > 低起点的研究生教材，前半本是黎曼几何的一个详尽的入门，后半本则是对于几何分析的代表性方法的介绍，并且着力于在对于黎曼流形的研究中综合几何与分析的方法。
 > 说到几何分析相关，Jost还有一本面向研究生新生的 Postmodern Analysis，是一本介绍了Sobolev Space、Weak Solution还有Maximum Principle的分析书，完成了从基本的分析学概念到现代PDE理论的过渡，是很好的参考书。
