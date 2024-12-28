@@ -824,14 +824,17 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 
 
 #### 间节 几何分析（Geometric Analysis）
-> 几何分析发源于分析与几何的交界地，其精神在于用分析（主要是PDE）的方法去认识几何现象，又用几何的概念解读分析结论，研究内容丰富多样，涉及到分析与几何的几乎所有方面。它在20世纪后半叶起通过Nash, Nirenberg, Morrey, Caffarelli, Calabi, 丘成桐（菲尔兹奖1982），Gromov（阿贝尔奖2009），Donaldson等数学家们的工作发展起来，到今天逐渐融汇了微分几何与拓扑方面的诸多分支，合众为一成为一个繁荣的大领域，并且成为当代数学的一个热点。它所联系的主要方面从各种几何背景的PDE，包括平均曲率流与Ricci流在内的各种几何流，度量几何，到几何测度论、极小曲面、最优输运、调和映照与Yang-Mills方程，几乎包罗万象。
-> 几何分析在近年的最大胜利之一是俄罗斯数学家Grigori Yakovlevich Perelman利用Ricci流技术对Poincaré猜想的成功证明（菲尔兹奖2006）。（关于Ricci流有一本经典的入门书《Ricci流与球定理》）
+> 几何分析发源于分析与几何的交界地，其精神在于用分析（主要是PDE）的方法去认识几何现象，又用几何的概念解读分析结论，研究内容丰富多样，涉及到分析与几何的几乎所有方面。它在20世纪后半叶起通过Nash, Nirenberg, Morrey, Caffarelli, 山边英彦，Calabi, Aubin， 丘成桐（菲尔兹奖1982），Gromov（阿贝尔奖2009），Donaldson等数学家们的工作发展起来，到今天逐渐融汇了微分几何与拓扑方面的诸多分支，合众为一成为一个繁荣的大领域，并且成为当代数学的一个热点。它所联系的主要方面从各种几何背景的PDE，包括平均曲率流与Ricci流在内的各种几何流，度量几何，到几何测度论、极小曲面、最优输运、调和映照与Yang-Mills方程，几乎包罗万象。
+> 几何分析在近年的最大胜利之一是俄罗斯数学家Grigori Yakovlevich Perelman利用Ricci流技术对Poincaré猜想的成功证明（菲尔兹奖2006）。（关于Ricci流Simon Brendle有一本经典的入门书《Ricci流与球定理》）
 > 不过，对几何分析这一新名称的使用还并未完全普及，所以有一些实际上可以归入的研究不常带上几何分析的分类标签。
 > 和代数几何类似，它可以被归入分析，也可以被归入几何，但其中更多的继承了20世纪几何（含拓扑）的研究思路，因而归入几何更加合适，也更加常见。
 > 两项当代（21世纪20年代）几何分析的最主流技术是黎曼几何和（主要是椭圆）PDE。
-作为一个新的领域，几何分析方面的教材很少，这本可能是最著名的：
+作为一个新的领域，几何分析方面的教材不多，对主要课题的覆盖可以由以下几本完成：
+* 丘成桐，孙理察（Richard Schoen），《微分几何讲义》（Lectures on Differential Geometry）
+> 实际上是几何分析专题讲义的合集，高屋建瓴地讲解了当代几何学中几何分析一侧的重要问题。
+另一本早期教材，[法国] Thierry Aubin 的 Nonlinear Analysis on Manifolds. Monge-Ampère Equations 则可以作为良好的非线性方程方面的补充。关于Monge-Ampère方程以及最优输运两个主题的细节，还可以参考 [意大利-瑞士] Alessio Figalli 的两本著作：The Monge-Ampère Equation and its Applications 以及An Invitation to Optimal Transport, Wasserstein Distances, and Gradient Flows。
 * [德国] Jürgen Jost, Riemannian Geometry and Geometric Analysis（影音版标题翻译为《黎曼几何和几何分析》）
-> 研究生教材，前半本是黎曼几何的一个详尽的入门，后半本则是对于几何分析的代表性方法的介绍，并且着力于在对于黎曼流形的研究中综合几何与分析的方法。
+> 低起点的研究生教材，前半本是黎曼几何的一个详尽的入门，后半本则是对于几何分析的代表性方法的介绍，并且着力于在对于黎曼流形的研究中综合几何与分析的方法。
 > 说到几何分析相关，Jost还有一本面向研究生新生的 Postmodern Analysis，是一本介绍了Sobolev Space、Weak Solution还有Maximum Principle的分析书，完成了从基本的分析学概念到现代PDE理论的过渡，是很好的参考书。
 
 几何分析中的另一个重要理论工具是**几何测度论**，诞生于极小曲面问题的研究；这方面的主要专著是[德国] Herbert Federer的 Geometric Measure Theory；更适合入门的教材则是[美国] Frank Morgan的Geometric Measure Theory: A Beginner's Guide。
@@ -1153,7 +1156,7 @@ Rising Sea中也有相关的一些内容。
 
 通过nLab查找分散的论文、讲义等各类材料进行学习也是我本人认为最行之有效的学习n阶范畴理论联盟中感兴趣的领域的方法。当然，因为理论的大致脉络已经在方才的介绍中理清，本人自己的途径是从应用的其他方面（主要是物理学方面）的材料入手按需要学习Lurie的一系列理论中的部分，而不会单独对其进行研究。
 
-这一系列工作最权威的参考无疑还是要数创造它们的核心人物、写书狂魔Lurie自己的一系列专著和论文，覆盖了以上所有的领域，在[他本人的主页](https://www.math.ias.edu/~lurie/)上都能免费取得。但缺点是往往这些专著过于篇幅庞大，更适合作为字典而非初学者使用。与此相补充的是Lurie本人仿照the Stacks project所作的综合在线教科书[Kerodon](https://kerodon.net)，正在连载中，作为切入Lurie基于高阶范畴的这套高阶/同伦代数-几何（他本人称之为'homotopy-coherent mathematics'/可译为“同伦相容数学”）体系——尤其是核心概念无穷范畴——的一个入口十分合适。
+这一系列工作最权威的参考无疑还是要数创造它们的核心人物、写书狂魔Lurie自己的一系列专著和论文，覆盖了以上所有的领域，在[他本人的主页](https://www.math.ias.edu/~lurie/)上都能免费取得。但缺点是往往这些专著过于篇幅庞大，更适合作为字典而非初学者使用。与此相补充的是Lurie本人仿照the Stacks project所作的综合在线教科书[Kerodon](https://kerodon.net)，正在连载中，作为切入Lurie基于高阶范畴的这套高阶/同伦代数-几何（他本人称之为'homotopy-coherent mathematics'/可译为“同伦相容数学”）体系——尤其是核心概念无穷范畴——的一个入口十分合适。常见的他人著述则有[法国-德国]Denis-Charles Cisinski（雷根斯堡大学）的Higher categories and homotopical algebra以及[美国]Emily Riehl（约翰・霍普金斯大学）的系列讲义/教科书（见[其主页](https://math.jhu.edu/~eriehl/)）。目前还有一个既新又好的参考：陈麟在清华大学的[无穷范畴讲义](https://windshower.github.io/linchen/teaching/f2024.html)。
 
 ### 1.9 数论（及密码学）
 > 其实从其他书里云的数论（只相当于最基本的初等数论程度...吧）也有一些了，但是对这个领域本身还没有认识；数论作为某种意义上数学中的核心（尤其考虑到现代在算术几何上不可思议的进展），还是需要正经地学一下比较好。
@@ -2849,6 +2852,7 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 > 易懂的基础知识教材+专业入门参考书，尤为适合缺乏生物学背景的学习者。
 
 ### 4.4 （信息与）通信工程学部分
+> 对通信的理论研究以信息论为基础，尤其是其中的编码理论；见于上方数学-信息论部分。
 #### 4.4.1 通信原理
 > 通信原理是通信方向严肃学习的起点。
 * 周炯槃 等，《通信原理》
