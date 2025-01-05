@@ -32,7 +32,7 @@
         - [1.4.2.5 微分拓扑](#1425-微分拓扑)
       - [间节 几何分析（Geometric Analysis）](#间节-几何分析geometric-analysis)
       - [间节 复几何（Complex Geometry）](#间节-复几何complex-geometry)
-      - [1.4.3 辛几何（Symplectic Geometry, 又称辛拓扑(Symplectic Topology)）](#143-辛几何symplectic-geometry-又称辛拓扑symplectic-topology)
+      - [1.4.3 辛几何（Symplectic Geometry）/辛拓扑（Symplectic Topology）](#143-辛几何symplectic-geometry辛拓扑symplectic-topology)
         - [1.4.3.1 辛几何入门](#1431-辛几何入门)
         - [1.4.3.2 泊松几何（Poisson Geometry）-形变量子化（Deformation Quantisation）](#1432-泊松几何poisson-geometry-形变量子化deformation-quantisation)
         - [14.3.4 镜像对称（Mirror Symmetry），数学部分](#1434-镜像对称mirror-symmetry数学部分)
@@ -391,7 +391,7 @@
 > 3. 本书的传奇历史：本书最初脱胎于苏联数学家 И. Н. 布隆施泰因和 К. А. 谢门德雅耶夫主编，于上世纪中期出版的《数学手册》（«Справочник по математике»）由 Zeidler 等德国学者翻译的德文译本，经过世纪之交的全面修订改版，造就了这部重获新生的、真正意义上的《数学指南》。 书名为从原文（德文）Teubner-Taschenbuch der Mathematik 直译，英译本名当时则被英译本的译者们稍作调整，成了 Oxford User's Guide to Mathematics （即《牛津数学指南》）
 > 安利文：[遇见数学：数学手册与实用性 —— 闲聊《数学指南》](https://zhuanlan.zhihu.com/p/267959418)
 
-**参考用数学（圈子的）历史文化常识读物**
+**参考用数学（圈子的）历史与文化常识读物**
 > 学习学科的历史、了解学者们的圈子里的常识是加入其中进行研究的好途径。
 * 李文林，《数学史概论》
 > 或许是能找到的最好的简要讲述从古至今的数学史的书，适合在《数学——它的内容、方法和意义》第一章的精简概述的基础上快速对数学史建立更具体的大致印象。
@@ -405,6 +405,9 @@
 * [匈牙利-美国] 保罗・哈尔莫斯（Paul Halmos），《我要作数学家》
 > 20世纪著名数学家 Halmos 的自传。具有代表性且翔实，可用来了解上世纪美国大学中的数学家们的工作、圈子和社会是怎样的。某种意义上这套做派由于美国学术的领先地位也是今天全球化的学术圈中的一种标杆。
 > 冷知识：Halmos 好像在世时还曾经是Springer的GTM丛书的编委会之一来着（找本稍早的GTM应该就能看到他的大名XD
+
+* 汤涛, 丁玖，《数学之英文写作》
+> 书名有一定的欺骗性，实际上系统总结了作者在各项书面学术活动（论文写作、审稿、推荐、专著写作、口头报告等）的行内经验（以及大量中英文实例），态度极其真诚，是不可多得的宝贵经验。
 
 ### 1.2 数学分析/分析学
 > 用「甲/乙」表示「甲」「乙」两者一般为同义词，下同。 一般地，对于数学内以及科学内各部分的名称，词末的「学」或「论」（「论」与「理论」意义完全一致，一般都可以无条件互换使用）字作为后缀可加或不加，不影响表意。 「分析」（又写作「解析」（多见于日本），对应英文的Analysis，俄文的Анализ，）或「数学分析」（又写作「数学解析」，对应英文的Mathematical Analysis，俄文的Математический анализ）都可以指数学中以微积分学为起源发展出的分支；同时它们在各国的很多大学中也作为讲授本分支的入门内容的科目名称——即以微积分为主要内容的此分支基本知识（这类科目的另一个常见名称是「微积分」）；传统上，虽然实际上两种说法在东西方都有使用，但今天的西方学界及受其影响较深的地区更惯用「分析」，而东方（前社会主义阵营国家）则更惯用「数学分析」，不过今天的东方学者们由于受西方，尤其是英语学术圈的强势地位影响，也有在以上两种语境使用「分析」取代「数学分析」的趋势。
@@ -568,7 +571,7 @@
 
 对于最常见的类别椭圆型方程，经典的专门教材是林芳华（Fanghua Lin，纽约大学柯朗所，华人PDE界的泰斗）与韩青（Qing Han，印第安纳州圣母大学）的Elliptic Partial Differential Equations，常常被用于研究生的PDE课程。韩青还有一本面向研究生新生的A Basic Course in Partial Differential Equations很受欢迎，可以查阅参考。
 
-当然对于非PDE职业研究者而言，在Evans级别的知识之上，我的建议依然是等到遇到什么问题（理论或数值）再去找讲对应的方程类别的书也不迟（
+当然对于非PDE职业研究者而言，在Evans级别的知识之上，通用的学习方法依然是等到遇到什么问题（理论或数值）再去找讲对应的方程类别的书也不迟；例如对于流体PDE中重要的不可压缩欧拉方程与Navier-Stokes方程，一本新且精炼的入门是Jacob Bedrossian和Vlad Vicol的The Mathematical Analysis of the Incompressible Euler and Navier-Stokes Equations: An Introduction （GSM 225）。
 
 #### 1.2.6 傅里叶分析/调和分析
 > 首先傅里叶分析和调和分析是同义词，后者是更新也更流行的名字，但是前者作为旧名字常常作为这一分支基础课的标题。
@@ -899,7 +902,7 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 
 此外常见的更深入参考还有 [法国] Jean-Pierre Demailly 的讲义 Complex Analytic and Differential Geometry 以及 [法国] Claire Voisin 的两卷本 Hodge Theory and Complex Algebraic Geometry。
 
-#### 1.4.3 辛几何（Symplectic Geometry, 又称辛拓扑(Symplectic Topology)）
+#### 1.4.3 辛几何（Symplectic Geometry）/辛拓扑（Symplectic Topology）
 > 辛几何是由分析力学中哈密顿力学的研究所产生的几何学科，发展的方法的独特性使其成为相对独立的几何分支。辛几何和理论物理的发展一直有着相对密切的联系，在镜像对称中更是理论的舞台。
 ##### 1.4.3.1 辛几何入门
 基本概念靠Arnold的《经典力学的数学方法》可以了解一些，而下面泊松几何的资料也提供了辛几何中关键概念的入门讲解。目前只准备了解到这个程度（+下面这本+或许读一下da Silva）
@@ -2876,12 +2879,24 @@ P. A. Durbin的Statistical Theory and Modeling for Turbulent Flows也是很好�
 
 侧重贝叶斯推断方法（所谓「贝叶斯学派」）的旗舰著作则是[英国]大卫・巴伯（David Barber）的《贝叶斯推理与机器学习》（Bayesian Reasoning and Machine Learning）。
 
+**强化学习（Reinforcement Learning）补充**
+> 作为与游戏智能、机器人等紧密相关的机器学习分支，强化学习（Reinforcement Learning）是近年来机器学习领域的一大热点，也拥有诸多单独的入门教材。
+> 除此之外，各大高校的强化学习相关课程资源也是入门的好选择，一个尤其饱受赞誉的是台湾大学李宏毅的[深度学习课程](https://speech.ee.ntu.edu.tw/~tlkagk/courses_MLDS18.html)的强化学习相关部分（同样广受好评的还有他的机器学习课程，均有完整的公开资源）。另一本良好的笔记（已编为教材出版）则是DataWhale出品的《强化学习中文教程》即[蘑菇书](https://github.com/datawhalechina/easy-rl)
+* 董豪，丁子涵，仉尚航 等，《深度强化学习：基础、研究与应用》
+> 一本极为全面的新教材，力图覆盖深度学习领域从基础知识、新近进展到实际应用的全貌，重点聚焦于深度强化学习这一目前的主流方法。行文精炼，篇幅适中，是良好的一站式解决方案。
+* [日本] 杉山将（东京大学），《统计强化学习：现代机器学习方法》（Statistical Reinforcement Learning： Modern Machine Learning Approaches）
+> 更偏重统计学习出发的理论基础的简短小书；作者名下的东京大学杉山研究室是日本最富盛名的强化学习研究团队之一，本书也反映了其流派的风格。
+强化学习更早的一般入门教材是来自这一领域创始人 [美国]Richard S. Sutton 与 Andrew G. Barto 的 [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html)（中文社区翻译进行中：https://github.com/qiwihui/reinforcement-learning-an-introduction-chinese），有独特的侧重，也可作为有益的参考。
+
+* 刘佳，《强化学习实战——从零开始制作AlphaGo围棋》
+> 完全面向工程实践的低起点入门教程，以复现AlphaGo为主线，可以作为上述理论教材的良好补充。
+
 **参考用（实践）**
 * 范淼，李超 编著，《Python机器学习及实践——从零开始通往Kaggle竞赛之路》[有《动手学机器学习》后大部分不再必要]
 > 来点流行的机器学习操作教学）。学习使用一些基本的Python机器学习工具，同时学习如何打Kaggle（x。 从零开始的调参侠之旅（划掉）
 
 * [印度] 雅兰・萨纳卡，《Python自然语言处理》[有《动手学机器学习》后不再必要]
-> 依然是用Python，零基础入门当代机器学习的重要应用领域之一自然语言处理（Natural Language Processing, NLP）中的基本方法与工具。
+> 零基础入门当代机器学习的重要应用领域之一自然语言处理（Natural Language Processing, NLP）中的基本方法与工具。
 
 ##### 4.3.5.3 （计算机）图形学
 > 操作系统、编译器、图形学三个领域并称「程序员的三大浪漫」。（似乎是起源于轮子哥@vczh的典故） 迅速入门了解图形学：http://staff.ustc.edu.cn/~lgliu/Resources/CG/What_is_CG.htm
