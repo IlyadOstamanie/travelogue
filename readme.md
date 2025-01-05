@@ -24,6 +24,12 @@
     - [1.4 几何学](#14-几何学)
       - [1.4.1 解析几何](#141-解析几何)
       - [1.4.2 微分几何、拓扑学（微分拓扑\&代数拓扑）](#142-微分几何拓扑学微分拓扑代数拓扑)
+        - [1.4.2.0 微分几何与拓扑学的一贯制教材](#1420-微分几何与拓扑学的一贯制教材)
+        - [1.4.2.1 微分流形基本理论](#1421-微分流形基本理论)
+        - [1.4.2.1 古典微分几何](#1421-古典微分几何)
+        - [1.4.2.2 黎曼几何](#1422-黎曼几何)
+        - [1.4.2.3 代数拓扑](#1423-代数拓扑)
+        - [1.4.2.4 微分拓扑](#1424-微分拓扑)
       - [间节 几何分析（Geometric Analysis）](#间节-几何分析geometric-analysis)
       - [1.4.3 辛几何（Symplectic Geometry, 又称辛拓扑(Symplectic Topology)）](#143-辛几何symplectic-geometry-又称辛拓扑symplectic-topology)
         - [1.4.3.1 辛几何入门](#1431-辛几何入门)
@@ -743,6 +749,7 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 > 关于微分形式到底是个什么东西的有益讨论：[魔鬼的枷锁：几何中的微分形式是什么？Hodge星算子又是什么意思？](https://zhuanlan.zhihu.com/p/401207597)
 > 了解拓扑学整体发展到现代的脉络：姜伯驹（北京大学），《代数拓扑和微分拓扑简史》
 
+##### 1.4.2.0 微分几何与拓扑学的一贯制教材
 * [日本] 中原幹夫（Mikio Nakahara）等，Geometry, Topology and Physics
 > 1. 从物理学应用角度介绍现代微分几何（含黎曼几何、复几何）与拓扑（代数拓扑、微分拓扑）的入门教材
 > 2. 几乎涉及了现代物理学中所有最常用的几何概念，多用物理学的角度和思维方式进行解释
@@ -761,33 +768,56 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 > 4. 对于不准备成为几何学者的学习者，是非常合适的字典。 
 > 本书的英文译本已由施普林格（Springer）出版公司出版，被收入其GTM（Graduate Texts in Mathematics）系列，编号GTM 124。
 
-* [苏联-俄罗斯] А. С. 米先柯， А Т. 福明柯，《微分几何与拓扑学简明教程》
-> 风格类似福明柯的三卷本，不过内容不一样，略浅。「两百多页里介绍了基本的古典微分几何、点集拓扑、微分流形、黎曼几何和De Rham上同调，而且例子丰富可操作性强，属实神书。」 基本上涵盖了一切支持后续学习所需的基础内容，适合快速复习和参考。
-* 梅加强，《流形与几何初步》
-* 苏竞存，《流形的拓扑学》
-> 两本类似的教材，但内容侧重都略有不同，前者最后一章《流形上的椭圆算子》是对指标定理良好的入门级介绍。
-对于物理路径的学习者，以上几本短书也可以在完成《现代几何学》三卷本级别的学习前作为Nakahara程度以上的补充。
-
 **参考用**
-
-*物理向*
 * 汪容，《数学物理中的微分几何与拓扑学》
 > 也是Nakahara的同类教材，内容范围略少于Nakahara，多了一点四维流形的东西。好处是它是中文的，可以作有益的参考。
 
-*古典微分几何（曲线曲面论）*:
+##### 1.4.2.1 微分流形基本理论
+> 此部分内容是现代微分几何与微分拓扑的共同基础，常在高等学校中以课名《微分流形》开设，例如王作勤在中科大的《[微分几何](http://staff.ustc.edu.cn/~wangzuoq/Courses/16F-Manifolds/)》。
+* [苏联-俄罗斯] А. С. 米先柯， А Т. 福明柯，《微分几何与拓扑学简明教程》
+> 两百多页里介绍了基本的古典微分几何、点集拓扑、微分流形、黎曼几何和De Rham上同调，例子丰富，适合快速入门与复习。
+* 梅加强，《流形与几何初步》
+* 苏竞存，《流形的拓扑学》
+> 两本类似的教材，但内容侧重都略有不同，前者最后一章《流形上的椭圆算子》是对指标定理良好的入门级介绍。
+除了用于数学学生的入门，对于物理路径的学习者，以上几本短书也可以在完成《现代几何学》三卷本级别的学习前作为Nakahara程度以上的补充。
+
+英文教材中最受欢迎的此类当属：
+* [美国] John M. Lee, Introduction to Smooth Manifolds
+> 最流行的微分流形教材，内容全面的美式大部头，本书的英文译本已由施普林格（Springer）出版公司出版，被收入其GTM（Graduate Texts in Mathematics）系列，编号GTM 218。
+> Lee 本人以写作详实闻名，在微分几何与拓扑方面撰写了一条龙式的教材系列：除了本教材以外，还有面向代数拓扑的Introduction to Topological Manifolds（GTM 202），面向黎曼几何的Introduction to Riemannian Manifolds（GTM 176），面向复几何的Introduction to Complex Manifolds（GSM 244），以及论述古典几何基础的小书 Axiomatic Geometry。
+
+* 杜武亮（Loring Wuliang Tu，塔夫茨大学），《流形导论》（An Introduction to Manifolds）
+> 风格类似于Lee，但入门更加友好，其考究的习题广受赞誉。‘
+
+**微分形式补充**
+微分形式的理论（主要是流形上的微积分） 是微分流形理论中重要的基础部分，因此也催生了诸多专著。其中知名者如
+* [美国] Michael Spivak，《流形上的微积分》
+> 简短、强调几何直观的友好入门书，较为初等。
+* [美国] James R. Munkres，《流形上的分析》（Analysis on Manifolds）
+> 主流的“流形上的微积分”教材中内容最详尽的一本。
+一本更现代的教材则是：
+* [美国] Jon Pierre Fortney, A Visual Introduction to Differential Forms and Calculus on Manifolds
+> 类似于《复分析：可视化方法》的微分形式教材，新手友好、内容丰富，通过很多图像生动详尽地讲解了微分形式（与流形上的微积分）的基本理论。
+
+其他比较知名的教材还有Cartan的《微分学》（下编），偏重与微分几何关联的 [巴西] Manfredo do Carmo 的《微分形式及其应用》（Differential Forms and Applications）, [美国] John H.Hubbard 的《向量微积分、线性代数和微分形式》（Vector calculus. linear algebra and differential forms: A UNIFIED APPROACH）也可作为更初等的参考。
+
+##### 1.4.2.1 古典微分几何
+> 关于微分几何的传统（古典）技术的专论。这部分内容常以课名《微分几何》开设。
 * [日本、美国] 小林昭七（Shoshichi Kobayashi），野水克己（Katsumi Nomizu），《微分几何基础》（Foundations of Differential Geometry）（两卷本，第一卷有科学出版社的中译本，但第二卷无中译，建议看英文版。）
+> 古典微分几何的圣经。内容贯通古今，高屋建瓴。 
+> 小林昭七另有写过一本《曲線と曲面の微分幾何》（疑有旧版的中译本），是风评极佳的古典微分几何入门书。
 
-> 古典微分几何（曲线曲面论）的圣经。内容贯通古今，高屋建瓴。 
-> 小林昭七另有写过一本《曲線と曲面の微分幾何》（似乎有旧版的中译本），是风评极佳的古典微分几何入门书。
-
-* [法国] M. 贝尔热（Marcel Berger）[20]，B. 戈斯丢（Bernard Gostiaux），《微分几何——流形、曲线和曲面》
-> 古典微分几何在法国学派（Cartan与陈省身的传承来源）的代表作。对于常微分方程、单位分解、临界点、拓扑度和流形上的微积分等研究微分几何的各种奇技淫巧做了相当充分的讲解。其中也包括了整体微分几何的一些内容。
+* [法国] M. 贝尔热（Marcel Berger），B. 戈斯丢（Bernard Gostiaux），《微分几何——流形、曲线和曲面》
+> 古典微分几何在法国学派（Cartan与陈省身的传承来源）的代表作。对于常微分方程、单位分解、临界点、拓扑度等研究微分几何的各种技术也做了相当充分的讲解。其中也包括了整体微分几何的一些内容。
 > 本书的英文译本已由施普林格（Springer）出版公司出版，被收入其GTM（Graduate Texts in Mathematics）系列，编号GTM 115。
+类似的还有 do Carmo 的《曲线与曲面的微分几何》（Differential Geometry of Curves and Surfaces），内容更为初等，但也富有Cartan-陈学派（do Carmo是陈省身的门徒）的鲜明特色，包括一整章的整体微分几何专论。
 
+对于古典微分几何技术与精神的延续——整体微分几何的专著：
 * 陈省身，《微分几何讲义》
-> 了解整体微分几何最好的方法自然是阅读开创者自己的名作。（
+> 了解整体微分几何最好的方法自然是阅读开创者自己的名作。
 
-*黎曼几何*
+
+##### 1.4.2.2 黎曼几何
 * [伍鸿熙](http://math.berkeley.edu/~wu/)，《黎曼几何初步》
 > 非常经典的黎曼几何入门教科书，篇幅简明，但内容丰富，也包括了现代微分几何中的一些重要成果和开放问题。其前言文采很好，广为传播。
 > 伍鸿熙是著名的微分几何学家和教育学家，算是陈省身的整体(global)微分几何学派（见微分几何部分）的主要成员，现定居美国。
@@ -795,28 +825,40 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 * 白正国，《黎曼几何初步》
 > 起点低但理论比较深入的黎曼几何教材，「对研究黎曼几何的三种表示法——不变形式法、活动标架法和自然坐标法——作了统一的处理，介绍了微分流形与黎曼几何中的各种基本概念和技巧，兼顾到经典理论和近代进展的内容，以使读者在学完本教程后能独立从事研究工作。」
 
-对于黎曼几何，不推荐 do Carmo 的 Riemannian Geometry（即使它广受欢迎）。虽然看起来似乎是入门比较友好，但是它太过「纯粹」的高度抽象风格使它在本人看来完全无法用来学习这一套体系背后的思想与方法（这些思想与方法——而非基于它们所搭建起来的理论框架——才是数学发现的真正价值所在）。基于同样的理由不推荐他的另一本 Differential Geometry of Curves and Surfaces。
+英文世界广受欢迎的专著则是 do Carmo 的《黎曼几何》（Riemannian Geometry），内容基本，作为老教材内容褒贬不一，但也是常见的参考。
 
-
-*其他代数拓扑与微分拓扑材料*
-* [苏联-俄罗斯] V.A. 瓦西里耶夫，《拓扑学导论》
-> 1. 本书基于作者在莫斯科独立大学开设代数拓扑与微分拓扑导论课程的讲义编写。
-> 2. 「介绍了拓扑学的经典概念与方法，这些内容对本领域的专家是不可或缺的，对于数学研究者与理论物理专家也十分有用。特别地，作者介绍了与流形、胞腔空间、覆叠与纤维映射、同伦群、同调与上同调、相交指标等内容相关的一些思想和结果。可供数学及理论物理专业的教师和大学生使用。」——本书简介
-
+##### 1.4.2.3 代数拓扑
 * [美国] Allen Hatcher, Algebraic Topology
 > 可在[作者的主页](https://pi.math.cornell.edu/~hatcher/)取得本书电子稿。
 > 代数拓扑圣经，标准大部头参考书。虽然内容很经典也很全，但碎碎念的风格不一定适合所有人。比较强调几何直观。
-其他常用且质量较高的代数拓扑教材/参考书还有[德国]Tammo tom Dieck的Algebraic Topology，[美国]J. P. May的A Concise Course in Algebraic Topology。
 
-* [美国] Jon Pierre Fortney, A Visual Introduction to Differential Forms and Calculus on Manifolds
-> 类似于《复分析：可视化方法》的微分形式教材，新手友好，通过很多图像生动详尽地讲解了微分形式（与流形上的微积分）的基本理论，内容比Spivak，Munkres之流丰富不少。
-类似的还有广受欢迎的[匈牙利-美国]Raoul Bott，杜武亮（Lorning Wu-liang Tu）的 Differential Forms in Algebraic Topology（即GTM 82）。
+* [匈牙利-美国]Raoul Bott，杜武亮（Lorning Wuliang Tu），Differential Forms in Algebraic Topology
+> 杜武亮的另一本代表作，广受欢迎的代数拓扑入门，特色是以微分形式作为其基本角度。
+> 本书的英文译本已由施普林格（Springer）出版公司出版，被收入其GTM（Graduate Texts in Mathematics）系列，编号GTM 82。
 
-* [印度] S. Ramanan, Global Calculus
-> 大约是当今对微分流形（=微分拓扑）的基础理论最现代的处理方式。按照前言中的形容，作者的视角是「以微分算子为核心，并不妥协地以全局（一般）的形式处理它们的演算」。
+其他常用且质量较高的代数拓扑教材/参考书还有：
+* [德国] Tammo tom Dieck，Algebraic Topology
+* [美国] J. P. May，A Concise Course in Algebraic Topology
 
-* [罗马尼亚] Liviu Nicolaescu, An Invitation to Morse Theory
-> 材料现代（=与其他现代几何方向的联系多）、丰富的Morse理论教材。Morse理论更主流也更经典的入门则是 [美国] John Milnor（其人以文笔清晰易读著称）的Morse Theory。
+此外 Munkres 的大部头《代数拓扑基础》（Elements of Algebraic Topology）虽然褒贬不一，但也是常见的参考书。
+
+##### 1.4.2.4 微分拓扑
+> 虽然微分拓扑实际上的主要研究对象正是微分流形的拓扑，实践中常以「微分流形」泛指研究局部性质的微分几何与研究整体性质的微分拓扑的共同基础知识。
+* [苏联-俄罗斯] V.A. 瓦西里耶夫，《拓扑学导论》
+> 1. 本书基于作者在莫斯科独立大学开设代数拓扑与微分拓扑导论课程的讲义编写，强侧重于微分拓扑，极其精简的提要小册子。
+> 2. 「介绍了拓扑学的经典概念与方法，这些内容对本领域的专家是不可或缺的，对于数学研究者与理论物理专家也十分有用。特别地，作者介绍了与流形、胞腔空间、覆叠与纤维映射、同伦群、同调与上同调、相交指标等内容相关的一些思想和结果。可供数学及理论物理专业的教师和大学生使用。」——本书简介
+
+* [美国] John Milnor，Topology from the differential viewpoint
+> 标准的参考书。除了作为微分拓扑泰斗以外，Milnor其人常被誉为教材写作的模范，以文笔清晰易读、适合初学者著称。
+> Milnor的其他代表性著作还有他的 Morse Theory，Lectures on the H-cobordism Theorem，以及 Characteristic Classes，均为微分拓扑领域的经典教材。
+类似的教材还有 [美国] Victor Guillemin 和 Alan Pollack 的 Differential Topology，以及使用广泛（但褒贬不一）的 [美国] James R. Munkres 的 Elementary Differential Topology，以及 [美国] Morris W.Hirsch 的 Differential Topology （GTM 33）。
+
+* 张筑生，《微分拓扑新讲》
+> 中文学术圈的老教材。也可以参考更新的徐森林的《微分拓扑》。
+
+一本富有创新精神的补充读物是 [印度] S. Ramanan 的 Global Calculus，以代数几何的观点、微分算子为主线处理了微分形式及所有相关的微分几何/微分拓扑内容。
+
+对于Morse理论，一本更现代的材料是 [罗马尼亚] Liviu Nicolaescu的An Invitation to Morse Theory。
 
 对于*低维拓扑*，一个适于初学的入门是 [匈牙利] András Juhász （牛津大学）的 Differential and Low-Dimensional Topology；数学物理上联系较多的是三维与四位流形的研究；TQFT部分的参考书提供了一些前者的相关知识，而后者的著名专著则是Donaldson本人的The Geometry of Four-Manifolds（他还有一本非常受好评的Riemann Surfaces）。
 
@@ -1063,7 +1105,7 @@ Schapira还有两个比较友好的讲义[Categories and Homological algebra](ht
 入门学习可以参考巴黎数学科学基金会主办的系列讲座：https://www.bilibili.com/video/BV1Q4411g7ax 和清华数学科学中心Caucher Birkar主讲的双有理几何课程：https://www.bilibili.com/video/BV1K44y1Y7S6
 当代双有理几何方面的没有很多体系化的入门教科书，比较著名的一本专著是
 * [匈牙利] Janos Kollár, [日本] 森重文，Birational Geometry of Algebraic Varieties
-> 森重文本人也是20世纪双有理几何方面起引领作用的大师。
+> 森重文本人也是20世纪双有理几何领域的重要人物，他提出的极小模型纲领（Minimal Model Program）直到今天都在双有理几何中起着主要的引领作用。
 具体学习还可以可以参考https://www.zhihu.com/question/264869849。
 
 **计数几何/枚举几何补充**
