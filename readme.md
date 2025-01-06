@@ -17,9 +17,8 @@
     - [1.3 代数学](#13-代数学)
       - [1.3.1 高等代数学入门（线性代数+多项式理论）、抽象代数/近世代数](#131-高等代数学入门线性代数多项式理论抽象代数近世代数)
       - [间节 现代代数学综览性材料](#间节-现代代数学综览性材料)
-      - [1.3.2 交换代数和同调代数（作为代数几何的铺垫）](#132-交换代数和同调代数作为代数几何的铺垫)
+      - [1.3.2 交换代数和同调代数](#132-交换代数和同调代数)
       - [1.3.3 李群、李代数（及其表示）](#133-李群李代数及其表示)
-      - [间节 李理论的进一步发展、不变量理论](#间节-李理论的进一步发展不变量理论)
       - [1.3.4 表示论](#134-表示论)
     - [1.4 几何学](#14-几何学)
       - [1.4.1 解析几何](#141-解析几何)
@@ -28,15 +27,15 @@
         - [1.4.2.1 微分流形基本理论](#1421-微分流形基本理论)
         - [1.4.2.2 古典微分几何](#1422-古典微分几何)
         - [1.4.2.3 黎曼几何](#1423-黎曼几何)
-        - [1.4.2.4 代数拓扑](#1424-代数拓扑)
-        - [1.4.2.5 微分拓扑](#1425-微分拓扑)
-      - [间节 复几何（Complex Geometry）](#间节-复几何complex-geometry)
+        - [1.4.2.4 复几何（Complex Geometry）](#1424-复几何complex-geometry)
+        - [1.4.2.5 代数拓扑](#1425-代数拓扑)
+        - [1.4.2.6 微分拓扑](#1426-微分拓扑)
       - [间节 几何分析（Geometric Analysis）](#间节-几何分析geometric-analysis)
       - [1.4.3 辛几何（Symplectic Geometry）/辛拓扑（Symplectic Topology）](#143-辛几何symplectic-geometry辛拓扑symplectic-topology)
         - [1.4.3.1 辛几何入门](#1431-辛几何入门)
         - [1.4.3.2 泊松几何（Poisson Geometry）-形变量子化（Deformation Quantisation）](#1432-泊松几何poisson-geometry-形变量子化deformation-quantisation)
-        - [14.3.4 镜像对称（Mirror Symmetry），数学部分](#1434-镜像对称mirror-symmetry数学部分)
-        - [14.3.3 量子上同调（Quantum Cohomology）](#1433-量子上同调quantum-cohomology)
+        - [1.4.3.3 镜像对称（Mirror Symmetry），数学部分](#1433-镜像对称mirror-symmetry数学部分)
+        - [1.4.3.4 量子上同调（Quantum Cohomology）](#1434-量子上同调quantum-cohomology)
     - [1.5 概率论、数理统计、信息论](#15-概率论数理统计信息论)
     - [1.6 （数理）逻辑（取广义，或称数学基础）](#16-数理逻辑取广义或称数学基础)
       - [1.6.1 集合论/集论](#161-集合论集论)
@@ -89,6 +88,7 @@
       - [3.10.4 超对称（Supersymmetry, 缩写为SUSY）](#3104-超对称supersymmetry-缩写为susy)
       - [3.10.5 共形场论](#3105-共形场论)
       - [3.10.6 拓扑量子场论（Topological Quantum Field Theory, TQFT）](#3106-拓扑量子场论topological-quantum-field-theory-tqft)
+      - [3.10.7 散射振幅（Scattering Amplitudes）](#3107-散射振幅scattering-amplitudes)
     - [间节 基础理论物理一贯制教材](#间节-基础理论物理一贯制教材)
     - [3.11 固体物理-凝聚态物理学](#311-固体物理-凝聚态物理学)
       - [3.11.0 凝聚态物理综览性材料](#3110-凝聚态物理综览性材料)
@@ -126,7 +126,6 @@
         - [3.16.2.2 弦唯象学（String Phenomenology）](#31622-弦唯象学string-phenomenology)
         - [3.16.2.3 镜像对称（Mirror Symmetry），物理部分](#31623-镜像对称mirror-symmetry物理部分)
         - [3.16.2.4 AdS/CFT对偶](#31624-adscft对偶)
-        - [3.16.2.5 散射振幅（Scattering Amplitudes）](#31625-散射振幅scattering-amplitudes)
       - [3.16.3 圈量子引力（Loop Quantum Gravity, LQG）](#3163-圈量子引力loop-quantum-gravity-lqg)
     - [3.Ex1 流体力学](#3ex1-流体力学)
       - [3.Ex1.1 偏数学的流体力学资料](#3ex11-偏数学的流体力学资料)
@@ -639,11 +638,10 @@
 > "As I see it, the graduate course in algebra must primarily prepare students to handle the algebra which they will meet in all of mathematics" ——序言 
 > 本书的英文原本已由施普林格（Springer）出版公司出版，被收入其GTM（Graduate Texts in Mathematics）系列，编号GTM 211。
 
-#### 1.3.2 交换代数和同调代数（作为代数几何的铺垫）
+#### 1.3.2 交换代数和同调代数
 衔接教材：
-* 李文威，《代数学方法》（目前只出了第一卷，第二卷即将出版，正在连载，见https://www.wwli.asia/index.php/zh/books-item-zh，无条件推荐一切李文威老师的作品。）
-> 1. 代数方向人手一本的新经典参考书，独具匠心，广受好评
-> 2. 从当代代数学（同调代数、交换代数、代数几何等）的角度审视建立代数的核心内容，几乎没有同类替代品。
+* 李文威，《代数学方法》（目前已出版第一卷、第二卷，正在连载，见作者主页 https://www.wwli.asia/index.php/zh/books-item-zh）
+> 代数方向人手一本的新经典参考书，独具匠心，广受好评。从当代代数学（同调代数、交换代数、代数几何等）的角度审视建立代数的核心内容，几乎没有同类替代品。
 > [如何评价李文威教授的《代数学方法》？](https://www.zhihu.com/question/390795302)
 李文威老师的《代数学方法》卷一、二已经统一化讲解了很多同调代数的内容，但选择一套标准的专题教材仍不失必要性。
 * 李克正，《交换代数与同调代数》
@@ -677,11 +675,13 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 > 从理论物理应用角度入门群论、李群、李代数及它们的表示的大厚书。新手友好，对于理论物理来说涵盖大部分需要，讲解比较友善，「如同在读小说」算是徐一鸿的个人风格，他确实也算是个作家：推荐他的另一部关于中国文化的通俗作品 Swallowing Clouds（《吞云》），非常有趣。
 > 徐一鸿（UCSB的Kavli Institute for Theoretical Physics的教授）是民国时期生于上海的美籍华人，Zee实际上是「徐」的上海话转写（物理部分会有关于他的更多情报
 
-#### 间节 李理论的进一步发展、不变量理论
-事实上，李群和李代数的理论在现代数学中早已开支散叶，从它们的应用中发展出众多（尤其是与对称性相关）的新结构，例如从与代数几何的互动中产生的代数群（Algebraic Groups；Humphreys也有一本专讲这个的GTM）理论；一本在Bump级别的李理论教学之外还初步涉足这些进一步发展的教材是
+**补充：李理论与一般群论的现代发展：代数群、几何群论、不变量理论**
+事实上，李群和李代数的理论在现代数学中早已开支散叶，从它们的应用中发展出众多（尤其是与对称性相关）的新结构，例如从与代数几何的互动中产生的**代数群**（Algebraic Groups；Humphreys也有一本专讲这个的GTM）理论，它也在当代代数几何中有着重要的角色；一本在Bump级别的李理论教学之外，还初步涉足这些进一步发展的教材是
 * [美国] Roe Goodman , Nolan R. Wallach, Symmetry, Representations, and Invariants
 > 前言中作者们如此界定其内容：'...The result is a comprehensive introduction to Lie theory, representation theory, invariant theory, and algebraic groups, in a new presentation that is more accessible to students and includes a broader range of applications.'
-不变量理论虽然诞生于抽象代数的土壤之中（主要是Hilbert，Calyley与Klein的贡献），但其发展与李理论（当然也包括上述李理论教材中覆盖的群表示论的初步内容）的发展联系千丝万缕，密不可分；Goodman和Wallach的此书也可以作为一个入门。在19世纪60年代，David Mumford为沉寂的不变量理论带来了变革，与几何与拓扑的交汇产生了在现代数学物理中（尤其是TQFT相关）光芒四射的**几何不变量理论**，而延续之前主要研究风格的其他内容则有时被对应称为**经典/代数不变量理论**，几何不变量理论的经典教材是Mumford的名著Geometric Invariant Theory，后续可以衔接到与之相关的更近发展。
+与此类似且相通的是，一般的群论与现代几何的互动中诞生了名为**几何群论**的新综合分支（由Gromov的工作奠基），主要使用度量几何的方法（主要来自研究几何对象大范围性质的**粗几何**（Coarse Geometry）这一分支）与图论的技术从Cayley图的角度研究离散群。一本较新的入门教材是
+* [德国] Clara Löh（雷根斯堡大学），Geometric Group Theory: An Introduction
+不变量理论同样诞生于抽象代数的土壤之中（主要是Hilbert，Calyley与Klein的贡献），但其发展又与李理论（当然也包括上述李理论教材中覆盖的群表示论的初步内容）的发展联系千丝万缕，密不可分；Goodman和Wallach的此书也可以作为一个入门。在19世纪60年代，David Mumford为沉寂的不变量理论带来了变革，与几何与拓扑的交汇产生了在当代几何学中（尤其是TQFT相关）影响深远的**几何不变量理论**，而延续之前主要研究风格的其他内容则有时被对应称为**经典/代数不变量理论**，几何不变量理论的经典教材是Mumford的名著Geometric Invariant Theory，后续可以衔接到与之相关的更近发展。
 
 
 #### 1.3.4 表示论
@@ -704,7 +704,6 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 > 几何表示论的整体入门介绍（虽然书名中有复几何，但只是未作导引直接使用了复几何的工具）。这位Ginzburg是Kirillov与Gelfand的学生；与另一位更年轻的辛几何学者Viktor Ginzburg不是一人。
 > Bulletin of the AMS: "... This is the only available introduction to geometric representation theory. " 
 
-
 **量子群专题**
 > 量子群作为一种特殊的Hopf代数（q-量子化的李代数），可以产生Yang-Baxter方程的解，可以构造扭结不变量；也因此在TQFT、弦论、统计物理等与此相关的数学物理内容中有着重要的应用，因此量子群及其应用已经发展成为一个相对独立的表示论与数学物理方向（但也通常被视为表示论社区的一部分）。
 > 对量子群及其相关的数学物理的研究的代表性人物之一是俄罗斯数学家Nikolai Reshetikhin（目前任教于清华大学，Reshetikhin-Turaev不变量）。
@@ -713,6 +712,7 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 > 基本的量子群入门读物，不需要Hopf代数的预备知识。
 > 本书的英文本已由施普林格（Springer）出版公司出版，被收入其GTM（Graduate Texts in Mathematics）系列，编号GTM 155。
 > 这些作为一个开始基本上足够。
+
 
 ### 1.4 几何学
 > #### 1.4.0 古典几何学
@@ -747,9 +747,9 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 > 当然，古典微分几何也仍然延续着它的生命力。在黎曼之后最有影响力的微分几何学家之一是 E. 嘉当。他延续了古典微分几何的方法，强调了联络的概念，建立了外微分形式的微分几何理论，对黎曼几何以及其他几何分支都产生了重要的影响。在此基础上，嘉当与他的门徒，杰出的几何学家陈省身几乎完全结束了古典微分几何的已有研究，并共同开启了以已经渗透入当代数学所有几何方面（以及理论物理）的纤维丛、示性类理论为代表的微分几何整体化的先河，还创造了**整体微分几何**的新理论框架，它可以被视为古典微分几何的现代分支，也可以因为其整体性视为独立的分支（其中的Chern-Simons类等概念在现代物理学中的拓扑量子物质理论中（见物理学的相应部分）有非常重要的应用）；无论如何，整体微分几何已经成为了现代微分几何（狭义）研究的主体，不过今日又已经汇入几何分析的新潮流，逐渐失去其独立性。陈省身更早另一项的代表性工作是推广了曲面上的高斯-博内定理，成为高斯-博内-陈定理。
 >  
 > 在发展中与微分几何相互交织的是拓扑学，它可以形容为研究空间（几何对象）的整体性质的数学分支，与微分几何对立而互补，因而两者的发展相互影响促进，所以我们在此也就不分开叙述和列举材料了。
-> 拓扑学研究的历史也可以一直追溯到早至欧拉的年代，如经典的欧拉多面体公式 V - E + F = 2 就产生于斯。（在很长的早期年代中，拓扑学的名字尚未被广泛采用，这时一般使用的名称是据称由莱布尼茨首先使用的「位置分析（拉丁语：analysis situs）」。）在随后的很长一段时间中，最初步的拓扑概念开始逐渐产生。Gauss和Johann Benedict Listing（拓扑学一词的最早使用者），还有Riemann、Jordan等都在这一持续至19世纪末的漫长阶段为拓扑学积累了丰富的素材和概念，虽然尚未形成有序的一个体系。完成这一工作的是1895年Poincaré的论文系列《位置分析（Analysis Situs）》，它第一次初步奠定了整个拓扑学的严格基础，是现代拓扑学的真正开端。（同时Poincaré提出了著名的三维流形的Poincaré猜想，它的解决见几何分析部分）自此以后掀开了拓扑学分化和发展的风潮，也对几何学的其他方面产生了极大的影响：与集合论的结合产生了**点集拓扑**的基础语言（内容不多，并不构成研究方向）；与代数方法的结合（最早的主要推动者之一是L. E. J. Brouwer）产生了研究代数化的拓扑空间的**代数拓扑**（其中到20世纪中叶又发展出同调论和作为其推广的同伦论，以及K理论等几种广义同调论（这些也是同伦论的一部分）），与微分几何的结合产生了研究微分流形的**微分拓扑**（这也是Smale，Milnor等人成名的领域），在20世纪后半叶代数拓扑与微分拓扑一度是拓扑学最鼎盛的两个分支（当然现在代数拓扑因为代数的繁荣和分析的相对衰弱而更胜一筹）。除这两个分别引入了代数与分析工具的分支以外的部分，基本就属于原本的拓扑学的传承，即原教旨的，由Poincaré开创的以一般的（拓扑）流形为对象的拓扑学，现在它一般被称为**几何拓扑**，其中对于低维数（一般认为维数不低于4）的几何对象——包括三维流形（这方面有过杰出工作的是美国数学家William Paul Thurston（菲尔兹奖1983，将二维流形概念拓展到三维流形的研究），他提出的几何化猜想（Geometrisation Conjecture）启发了其证明者，俄罗斯数学家Grigori Perelman（菲尔兹奖2006）用几何分析解决Poincaré猜想（它正是以三维流形为对象的）的工作; 三维流形下比较时兴的一个主题是Heegaard Floer同调）、四维流形（具有尤其奇怪的性质，Donaldson将规范场论引入低维拓扑的主要开创性工作就在这里，Witten在这一方面初期的工作被称为Donaldson-Witten Theory，后来的Seiberg-Witten Theory则提供了更简便的方法）、扭结等——的研究被称为**低维拓扑**。因为其本身的性质，低维拓扑的结构在数学物理中发挥着很大的价值（如在弦论中发挥意想不到作用的扭结不变量和在TQFT中发挥核心作用的三维流形（见TQFT部分），是一个仍在发展中（但不热门）的方向。与低维拓扑相对的是高维拓扑，这方面主要运用的方法是示性类、割补（surgery）技术、Morse理论等。现在的几何拓扑已经发展为高度综合的学科，运用的技术十分多样，来自代数拓扑、微分拓扑、微分几何等各个数学领域，在当下与代数拓扑、微分拓扑共同组成所谓拓扑学的三大领域，也可以加上点集拓扑并称拓扑学的四大分支。也有部分学者按照研究性质相近的原则将几何拓扑视为（广义）微分拓扑的一部分，从而只将拓扑学一分为二，为求方便下一段的论述中就采取此分类。
+> 拓扑学研究的历史也可以一直追溯到早至欧拉的年代，如经典的欧拉多面体公式 V - E + F = 2 就产生于斯。（在很长的早期年代中，拓扑学的名字尚未被广泛采用，这时一般使用的名称是据称由莱布尼茨首先使用的「位置分析（拉丁语：analysis situs）」。）在随后的很长一段时间中，最初步的拓扑概念开始逐渐产生。Gauss和Johann Benedict Listing（拓扑学一词的最早使用者），还有Riemann、Jordan等都在这一持续至19世纪末的漫长阶段为拓扑学积累了丰富的素材和概念，虽然尚未形成有序的一个体系。完成这一工作的是1895年Poincaré的论文系列《位置分析（Analysis Situs）》，它第一次初步奠定了整个拓扑学的严格基础，是现代拓扑学的真正开端。（同时Poincaré提出了著名的三维流形的Poincaré猜想，它的解决见几何分析部分）自此以后掀开了拓扑学分化和发展的风潮，也对几何学的其他方面产生了极大的影响：与集合论的结合产生了**点集拓扑**（又名「一般拓扑学（General Topology）」）的基础语言（内容不多，并不构成研究方向）；与代数方法的结合（最早的主要推动者之一是L. E. J. Brouwer）产生了研究代数化的拓扑空间的**代数拓扑**（其中到20世纪中叶又发展出同调论和作为其推广的同伦论，以及K理论等几种广义同调论（这些也是同伦论的一部分）），与微分几何的结合产生了研究微分流形的**微分拓扑**（这也是Smale，Milnor等人成名的领域），在20世纪后半叶代数拓扑与微分拓扑一度是拓扑学最鼎盛的两个分支（当然现在代数拓扑因为代数的繁荣和分析的相对衰弱而更胜一筹）。除这两个分别引入了代数与分析工具的分支以外的部分，基本就属于原本的拓扑学的传承，即原教旨的，由Poincaré开创的以一般的（拓扑）流形为对象的拓扑学，现在它一般被称为**几何拓扑**，其中对于低维数（一般认为维数不低于4）的几何对象——包括三维流形（这方面有过杰出工作的是美国数学家William Paul Thurston（菲尔兹奖1983，将二维流形概念拓展到三维流形的研究），他提出的几何化猜想（Geometrisation Conjecture）启发了其证明者，俄罗斯数学家Grigori Perelman（菲尔兹奖2006）用几何分析解决Poincaré猜想（它正是以三维流形为对象的）的工作; 三维流形下比较时兴的一个主题是Heegaard Floer同调）、四维流形（具有尤其奇怪的性质，Donaldson将规范场论引入低维拓扑的主要开创性工作就在这里，Witten在这一方面初期的工作被称为Donaldson-Witten Theory，后来的Seiberg-Witten Theory则提供了更简便的方法）、扭结等——的研究被称为**低维拓扑**。因为其本身的性质，低维拓扑的结构在数学物理中发挥着很大的价值（如在弦论中发挥意想不到作用的扭结不变量和在TQFT中发挥核心作用的三维流形（见TQFT部分），是当代数学中一个活跃的方向，并且其技术成为今日几何拓扑的主流。与低维拓扑相对的是高维拓扑，这方面主要运用的方法是示性类、割补（surgery）技术、Morse理论等，基本上只是低维技术和代数、微分拓扑技术的应用。现在的几何拓扑已经发展为高度综合的学科，运用的技术十分多样，来自代数拓扑、微分拓扑、微分几何等各个数学领域，在当下与代数拓扑、微分拓扑共同组成所谓拓扑学的三大领域，也可以加上点集拓扑并称拓扑学的四大分支。也有部分学者按照研究性质相近的原则将几何拓扑视为（广义）微分拓扑的一部分，从而只将拓扑学一分为二，为求方便下一段的论述中就采取此分类。
 >
-> 从21世纪初开始，微分几何与拓扑学的研究主流逐渐趋于解体：代数几何对几何学语言的根本革新使得代数拓扑的新理论（如K理论（及其基础上发展出的拓扑Hochschild同调THH, 拓扑循环同调TC）、Bhatt-Morrow-Scholze及Bhatt-Lurie等工作构建的棱镜上同调及其发展出的解析棱镜化（用以处理p进Hodge理论与局部p进Langlands对应），其滥觞可见于此文：[燕园数学：刘若川关于“局部域的拓扑循环同调”的研究工作](https://mp.weixin.qq.com/s?__biz=MzI1ODQ2MTkwOQ==&mid=2247509533&idx=1&sn=5c22a8b42b68dfd1dff6e9b64ce75aa7&sharer_shareinfo=9760df27e9b153a53ef06af7539c0cba&sharer_shareinfo_first=9760df27e9b153a53ef06af7539c0cba#rd）——以及复代数几何为代表的部分微分几何研究——与代数几何（尤其是算术几何）的基础研究交融，以至于不分彼此（更确切地说，代数拓扑社区被代数几何社区所吞并了）；而另一边，微分拓扑一方面与微分几何的其余主流一道融入新兴的几何分析（以及较小众的动力系统），另一方面则天然地汇入辛几何以及几何表示论的热潮。可以说，往日“纯粹的”拓扑学者正趋于式微，20世纪发展出的微分几何与拓扑学大厦正如19世纪的点集拓扑一般固化为基本理论，而其上新的研究则被其他社区所囊括，不再具有全然独立的地位。
+> 从21世纪初开始，微分几何与拓扑学的研究主流逐渐趋于解体：代数几何对几何学语言的根本革新使得代数拓扑的新理论（如K理论（及其基础上发展出的拓扑Hochschild同调THH, 拓扑循环同调TC）、Bhatt-Morrow-Scholze及Bhatt-Lurie等工作构建的棱镜上同调及其发展出的解析棱镜化（用以处理p进Hodge理论与局部p进Langlands对应），其滥觞可见于此文：[燕园数学：刘若川关于“局部域的拓扑循环同调”的研究工作](https://mp.weixin.qq.com/s?__biz=MzI1ODQ2MTkwOQ==&mid=2247509533&idx=1&sn=5c22a8b42b68dfd1dff6e9b64ce75aa7&sharer_shareinfo=9760df27e9b153a53ef06af7539c0cba&sharer_shareinfo_first=9760df27e9b153a53ef06af7539c0cba#rd)——以及复代数几何为代表的部分微分几何研究——与代数几何（尤其是算术几何）的基础研究交融，以至于不分彼此（更确切地说，代数拓扑社区被代数几何社区所吞并了）；而另一边，微分拓扑一方面与微分几何的其余主流一道融入新兴的几何分析（以及较小众的动力系统），另一方面则天然地汇入辛几何以及几何表示论的热潮。可以说，往日“纯粹的”拓扑学者正趋于式微，20世纪发展出的微分几何与拓扑学大厦正如19世纪的点集拓扑一般固化为基本理论，而其上新的研究则被其他社区所囊括，不再具有全然独立的地位。
 > 
 > 因为几何方面的领域与概念相对而言复杂而缺少条理，通过历史进行概念的梳理相比其他条理比较清楚的分支就变得更加必要了——这也是在这里专门从历史发展梳理各个分支及其基本概念的原因。
 > 微分几何、拓扑学与代数几何共同构成了20世纪几何学理论体系中的基础，因而了解他们的历史就能够大致把握住整个几何学发展至今的一般脉络。（代数几何的历史解说见代数几何部分）
@@ -793,7 +793,7 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 英文教材中最受欢迎的此类当属：
 * [美国] John M. Lee, Introduction to Smooth Manifolds
 > 最流行的微分流形教材，内容全面的美式大部头，本书的英文译本已由施普林格（Springer）出版公司出版，被收入其GTM（Graduate Texts in Mathematics）系列，编号GTM 218。
-> Lee 本人以写作详实闻名，在微分几何与拓扑方面撰写了一条龙式的教材系列：除了本教材以外，还有面向代数拓扑的Introduction to Topological Manifolds（GTM 202），面向黎曼几何的Introduction to Riemannian Manifolds（GTM 176），面向复几何的Introduction to Complex Manifolds（GSM 244），以及论述古典几何基础的小书 Axiomatic Geometry。
+> Lee 本人以写作详实闻名，在微分几何与拓扑方面撰写了一条龙式的教材系列：除了本教材以外，还有面向代数拓扑与几何拓扑的Introduction to Topological Manifolds（GTM 202），面向黎曼几何的Introduction to Riemannian Manifolds（GTM 176），面向复几何的Introduction to Complex Manifolds（GSM 244），以及论述古典几何基础的小书 Axiomatic Geometry。
 
 * 杜武亮（Loring Wuliang Tu，塔夫茨大学），《流形导论》（An Introduction to Manifolds）
 > 风格类似于Lee，但入门更加友好，其考究的习题广受赞誉。‘
@@ -835,7 +835,22 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 
 英文世界广受欢迎的专著则是 do Carmo 的《黎曼几何》（Riemannian Geometry），内容基本，作为老教材内容褒贬不一，但也是常见的参考。
 
-##### 1.4.2.4 代数拓扑
+##### 1.4.2.4 复几何（Complex Geometry）
+> 复几何以复流形（= 带有复结构的微分流形，故一个n维复流形在实数意义下具有维数2n）为核心研究对象，复分析中所示的黎曼曲面实际上就是一维复流形；这可以自然延伸到其代数化的推广——复解析空间/解析簇（即通过周炜良、Serre与小平邦彦等人的一系列定理延伸至代数几何中的解析几何；见代数几何-解析几何部分）。这种特殊性使得复几何介于微分几何与代数几何之间，可以同时使用传统的微分几何手段（或称之为「复微分几何」）和代数几何手段（或称之为「复代数几何」）进行研究。
+> 鉴于其基本对象的性质，此处仍将复几何归于微分几何学而非代数几何学之下，但其中的复代数几何部分也常被自然地视作代数几何的一部分。
+> 复几何中的重要主题还包括具有额外结构的复流形, 例如 Kähler 流形（其中包括重要的Calabi猜想及应运而生的Calabi-丘流形，这又为镜像对称的发现提供了基础——见下方辛几何-镜像对称部分）、超 Kähler 流形等. 前者是 Riemann 流形在复几何中的类比（即带有度量的复流形），而后者是 Riemann 流形在四元数几何中的类比；复代数几何（及解析几何）中热门的主流研究方向则是内容丰富的Hodge理论。
+* 谭小江，《多复分析与复流形引论》
+> 北大的研究生课讲义，从多复变函数论出发的一个浅近入门。内容精要，也适合作参考书。
+* [德国] Daniel Huybrechts（波恩大学），Complex Geometry: An Introduction
+> 最经典和通用的复几何教材之一，起点友好，内容精要。
+
+此外常见的更深入参考还有 [法国] Jean-Pierre Demailly 的讲义 Complex Analytic and Differential Geometry 以及 [法国] Claire Voisin 的两卷本 Hodge Theory and Complex Algebraic Geometry。
+
+
+**点集拓扑**
+> 点集拓扑方面通用的基础知识一般在分析学序列的教材中（主要是泛函分析）已经完整覆盖，所以无需单独学习（但如有必要深造，此方面一本经典的老教材是 [美国] John L. Kelley 的《一般拓扑学》；也可以参考更新的张德学著《一般拓扑学基础》）。
+
+##### 1.4.2.5 代数拓扑
 * [美国] Allen Hatcher, Algebraic Topology
 > 可在[作者的主页](https://pi.math.cornell.edu/~hatcher/)取得本书电子稿。
 > 代数拓扑圣经，标准大部头参考书。虽然内容很经典也很全，但碎碎念的风格不一定适合所有人。比较强调几何直观。
@@ -850,7 +865,7 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 
 针对同调论（以及与其衔接的同调代数），一本详实的专门中文教材是姜伯驹的《同调论》。此外 Munkres 的大部头《代数拓扑基础》（Elements of Algebraic Topology）虽然褒贬不一，但也是常见的参考书。
 
-##### 1.4.2.5 微分拓扑
+##### 1.4.2.6 微分拓扑
 > 微分拓扑实际上的主要研究对象是微分流形的拓扑 (整体性质)。
 * [苏联-俄罗斯] V.A. 瓦西里耶夫，《拓扑学导论》
 > 1. 本书基于作者在莫斯科独立大学开设代数拓扑与微分拓扑导论课程的讲义编写，强侧重于微分拓扑，极其精简的提要小册子。
@@ -869,19 +884,10 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 
 对于Morse理论，一本更现代的材料是 [罗马尼亚] Liviu Nicolaescu的An Invitation to Morse Theory。
 
-对于*低维拓扑*，一个适于初学的入门是 [匈牙利] András Juhász （牛津大学）的 Differential and Low-Dimensional Topology；数学物理上联系较多的是三维与四位流形的研究；TQFT部分的参考书提供了一些前者的相关知识，而后者的著名专著则是Donaldson本人的The Geometry of Four-Manifolds（他还有一本非常受好评的Riemann Surfaces）。
-
+**几何拓扑**
+上述材料中已涉及到关于几何拓扑的一些技术，但几何拓扑仍有着相对独立的学习体系。作为补充，对于几何拓扑的主流*低维拓扑*，一个适于初学的入门是 [匈牙利] András Juhász （牛津大学）的 Differential and Low-Dimensional Topology；数学物理上联系较多的是三维与四位流形的研究；TQFT部分的参考书提供了一些前者的相关知识，而后者的著名专著则是Donaldson本人的The Geometry of Four-Manifolds（他还有一本非常受好评的Riemann Surfaces）。
 > 题外话：Thurston的学生之一是华人Chien-Hao Liu（汉字名未知），他在Harvard期间也曾受丘成桐指导，有一系列与丘合作的在Polchinski-Grothendieck ansatz方面的工作，综合了众多数学物理领域，如arXiv:1003.1178 [math.SG] D-branes and Azumaya noncommutative geometry: From Polchinski to Grothendieck
 
-#### 间节 复几何（Complex Geometry）
-> 复几何以复流形（= 带有复结构的微分流形，故一个n维复流形在实数意义下具有维数2n）为核心研究对象，复分析中所示的黎曼曲面实际上就是一维复流形；这可以自然延伸到其代数化的推广——复解析空间/解析簇（即通过周炜良、Serre与小平邦彦等人的一系列定理延伸至代数几何中的解析几何；见代数几何-解析几何部分）。这种特殊性使得复几何介于微分几何与代数几何之间，可以同时使用传统的微分几何手段（或称之为「复微分几何」）和代数几何手段（或称之为「复代数几何」）进行研究。鉴于其基本对象的性质，此处仍将复几何归于几何学而非代数几何学之下，但其中的复代数几何部分也常被自然地视作代数几何的一部分。
-> 复几何中的重要主题还包括具有额外结构的复流形, 例如 Kähler 流形（其中包括重要的Calabi猜想及应运而生的Calabi-丘流形，这又为镜像对称的发现提供了基础——见下方辛几何-镜像对称部分）、超 Kähler 流形等. 前者是 Riemann 流形在复几何中的类比（即带有度量的复流形），而后者是 Riemann 流形在四元数几何中的类比；复代数几何（及解析几何）中热门的主流研究方向则是内容丰富的Hodge理论。
-* 谭小江，《多复分析与复流形引论》
-> 北大的研究生课讲义，从多复变函数论出发的一个浅近入门。内容精要，也适合作参考书。
-* [德国] Daniel Huybrechts（波恩大学），Complex Geometry: An Introduction
-> 最经典和通用的复几何教材之一，起点友好，内容精要。
-
-此外常见的更深入参考还有 [法国] Jean-Pierre Demailly 的讲义 Complex Analytic and Differential Geometry 以及 [法国] Claire Voisin 的两卷本 Hodge Theory and Complex Algebraic Geometry。
 
 #### 间节 几何分析（Geometric Analysis）
 > 几何分析发源于分析与几何的交界地，其精神在于用分析（主要是PDE）的方法去认识几何现象，又用几何的概念解读分析结论，研究内容丰富多样，涉及到分析与几何的几乎所有方面。它在20世纪后半叶起通过Nash, Nirenberg, Morrey, Caffarelli, 山边英彦，Calabi, Aubin， 丘成桐（菲尔兹奖1982），Gromov（阿贝尔奖2009），Donaldson等数学家们的工作发展起来，到今天逐渐融汇了微分几何与拓扑方面的诸多分支，合众为一成为一个繁荣的大领域，并且成为当代数学的一个热点。它所联系的主要方面从各种几何背景的PDE，包括平均曲率流与Ricci流在内的各种几何流，度量几何，到几何测度论、极小曲面、最优输运、调和映照与Yang-Mills方程，几乎包罗万象。
@@ -903,14 +909,13 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 
 
 #### 1.4.3 辛几何（Symplectic Geometry）/辛拓扑（Symplectic Topology）
-> 辛几何是由分析力学中哈密顿力学的研究所产生的几何学科，发展的方法的独特性使其成为相对独立的几何分支。辛几何和理论物理的发展一直有着相对密切的联系，在镜像对称中更是理论的舞台。
+> 辛几何是由分析力学中哈密顿力学的研究所产生的几何学科，其研究的主要对象是辛流形（= 带有辛结构的微分流形），因此也常和复几何类似地被划归微分几何的一支；然而，辛几何与理论物理从起源上的联系与辛流形的强烈特殊性（例如其无法以曲率等局部不变量度量）使得辛几何在基本方法与思想上与其他微分几何与拓扑学研究有着显著的差异（比较明显的一个特征是在这里「几何」/整体性质与「拓扑」/局部性质的界限完全模糊了，这也是为何「辛几何」「辛拓扑」两个名称被等同地使用），辛几何作为一个年轻的几何方向，其几十年的发展与它们很大程度上相互独立而自成一国（但是也因此略有小国寡民、缺乏势力之态），虽然大量引入微分几何与拓扑学的技术，但仍有相当清晰的边界；同时，随着表示论的发展与镜像对称的提出，辛几何也与几何表示论、代数几何产生了同样密切的互动，与几何分析也借由Gromov等人的工作产生了深刻的关联，由此成为一个真正意义上的综合领域。因此，此处我们更自然地将辛几何视为单独的几何学分支。
 ##### 1.4.3.1 辛几何入门
 基本概念靠Arnold的《经典力学的数学方法》可以了解一些，而下面泊松几何的资料也提供了辛几何中关键概念的入门讲解。目前只准备了解到这个程度（+下面这本+或许读一下da Silva）
 
 * [日本] 植田一石（Kazushi Ueda，东京大学），《数物系のためのシンプレクティック幾何学入門》
 > 面向数学和物理学科学生的辛几何入门讲义（只有日文，好在不难懂），大概是为数不多会考虑物理的同类教材之一。语言精炼，节奏较快，在200页的篇幅内完成了从入门到Gromov-Witten不变量这些比较深入的物理应用的征程，甚至复习了经典力学、介绍了可积系统和Hamilton动力系统（
 相似风格的还有伊藤克司（Katsushi Ito, 东京工业大学）的《共形場理論: 現代数理物理の基礎として》，是共形场论的简短教材。（知乎上的翻译：https://zhuanlan.zhihu.com/p/590386434）
-
 
 如果需要进一步学习，下面是一些参考资料：
 * [葡萄牙] Ana Cannas da Silva，Lectures on Symplectic Geometry
@@ -937,7 +942,7 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 Kontsevich的另一项重要工作——同调镜像对称（下方）中的很多技术也来源于他亲手奠基的形变量子化理论，其中也包括在弦论和TQFT以及非交换几何的范畴化结构中大放异彩的深谷范畴（[fukaya category](https://ncatlab.org/nlab/show/Fukaya+category)），它在镜像对称中具有很基本的作用。关于深谷范畴一个快速入门的材料是Ivan Smith的[A symplectic prolegomen](https://arxiv.org/abs/1401.0269)。
 当然，事实上辛几何本身就——和复几何（见上方微分几何部分）一起——构成镜像对称的主要数学基础，所以可以说Kontsevich的这两项重要工作都至少部分地源于辛几何。
 
-##### 14.3.4 镜像对称（Mirror Symmetry），数学部分
+##### 1.4.3.3 镜像对称（Mirror Symmetry），数学部分
 > 作为数学物理领域，镜像对称起源于弦论中的理论结构，作为桥梁连接起了（Calabi-丘流形上的）辛几何和复几何。具体的背景解说参见下方「物理学-弦论-镜像对称，物理部分」一节。
 > 目前镜像对称的两个主要数学表述分别是Kontsevich开创的如日中天的同调镜像对称（Homological Mirror Symmetry，HMS）猜想以及较为冷门的植根于弦论的Strominger-Yau-Zaslow(SYZ)猜想。
 
@@ -951,12 +956,10 @@ Kontsevich的另一项重要工作——同调镜像对称（下方）中的很�
 **Strominger-Yau-Zaslow猜想**
 > 作为较为冷门的方向，SYZ猜想仍处在入门资料稀缺的阶段（所以只能依靠流通的论文）。除了三人的原始论文外，一个较为友好的材料是Mark Gross的综述[Mirror Symmetry and the Strominger-Yau-Zaslow conjecture](https://arxiv.org/abs/1212.4220)。一些HMS资料中也会对SYZ论及一二。
 
-
 专论**镜像对称中的代数几何**内容：
 * [美国] David A. Cox（代数几何那边有他的另一本书），Sheldon Katz，Mirror Symmetry and Algebraic Geometry
 
-
-##### 14.3.3 量子上同调（Quantum Cohomology）
+##### 1.4.3.4 量子上同调（Quantum Cohomology）
 > 量子上同调理论的建立是Kontsevich四项最著名的工作中的第三项（与Manin一起，见下；最后一项是他刚开始博士学习时证明的Witten猜想）。与上面的镜像对称（数学部分）一样，它处于辛几何和代数几何的交界地带，但因为和辛几何看上去更紧密放在辛几何底下了。量子上同调的一个（代数几何上的）重要结果是有理平面曲线的Kontsevich公式，与Drinfeld的量子群和量子可积系统都有重要的联系，与当代数学物理中的诸多主题则（主要经由Kontsevich的其他工作）更是同气连枝，如Kontsevich与Manin在 Gromov-Witten 不变量（这部分就是著名的「Gromov-Witten理论」，这部分还可看Simon Rose的讲义：https://arxiv.org/abs/1407.1260）上的（对量子上同调而言的）奠基性工作。
 * [瑞典] [Joachim Kock](https://www.mat.uab.cat/~kock/)（巴塞罗那自治大学）, [巴西] Israel Vainsencher（巴西Minas Gerais联邦大学）, An Invitation to Quantum Cohomology: Kontsevich’s Formula for Rational Plane Curves
 > 友好而富有直觉的量子上同调入门书，不到200页，风评不错。
@@ -968,6 +971,10 @@ Kontsevich的另一项重要工作——同调镜像对称（下方）中的很�
 > Tohru Eguchi（江口徹，Hori（以及整整两代日本弦论大家中的大部分人）的导师，日本数学物理殿堂级人物，Mathieu月光的发现者）, Kentaro Hori（堀健太朗）, Chuan-Sheng Xiong（熊传胜，北京大学），Gravitational Quantum Cohomology 	arXiv:hep-th/9605225（Int.J.Mod.Phys. A12 (1997) 1743-1782）
 > Martin A. Guest，Quantum cohomology: is it still relevant? arXiv:2210.05413 [math.DG] 包含了对量子上同调的相对完整的历史记述（包括Simon Donaldson在Kontsevich与Manin前的前瞻工作）
 > Matthew Strom Borman, Nick Sheridan, Umut Varolgunes. Quantum cohomology as a deformation of symplectic cohomology arXiv:2108.08391 [math.SG]
+
+**切触几何（Contact Geometry）补充**
+> 作为「辛几何的影子」（偶数维的辛几何在奇数维的对应），切触几何这一不完全独立的小众领域主要依赖辛几何与拓扑的工具而成长，亦诞生出众多富有创造力的工作。一个通俗的介绍是[返朴：数学中的“太极”：切触几何的柔与刚](https://www.thepaper.cn/newsDetail_forward_25988437)。入门内容的学习可见于Andrew McInerney的First Steps in Differential Geometry: Riemannian, Contact, Symplectic的相应部分（此书本身不失为一本低起点的微分几何、黎曼几何、辛几何与切触几何入门，其中切触几何具有相当的比重）。
+
 
 ### 1.5 概率论、数理统计、信息论
 > 数理统计应该是概率论最重要的应用，常被归于概率论之内。概率论与数理统计的另一个重要的应用是由美国数学家Claude Shannon创立的信息论，它是信息（主要是其传输）的数学理论，是现代通信工程乃至所有信息技术最重要的基础理论之一。
@@ -1778,7 +1785,6 @@ Shankar的书看起来比较友好，但篇幅冗长很多地方又非主流，�
 关于圈量子宇宙学的发展，可以看LQG开山鼻祖Ashtekar在2011年的长文综述：[arXiv:1108.0893 [gr-qc] Loop Quantum Cosmology: A Status Report](https://arxiv.org/abs/1108.0893)
 
 
-
 ### 3.9 规范（场）（理）论专题
 > 因为规范场论这一类理论在其中的重要作用，规范场的一些相关内容一般也会在电动力学和粒子物理相关的教材中讲解。但是独立讲解它和相关背景的专著可以提供新的全局视角。
 [美国] John Baez，Javier Muniain，Gauge Fields, Knots, and Gravity
@@ -1923,6 +1929,12 @@ TQFT的奠基性文献是Atiyah开天辟地的文章，可读性很高：
 >* Daniel S. Freed, Michael J. Hopkins, Jacob Lurie, Constantin Teleman，[Topological Quantum Field Theories from Compact Lie Groups](https://arxiv.org/abs/0905.0731) (或许没有什么意思；Teleman另有一个简短的TQFT讲义[Five lectures on topological field theory](http://math.berkeley.edu/~teleman/math/barclect.pdf))
 
 其他进一步专门讨论TQFT的材料大部分也是零散论文的形式，可以在之前这些材料的参考文献（尤其是Baez那篇）中查找。不过因为TQFT与拓扑量子物质-拓扑量子计算以及一些弦论内容的发展关系密切，在这几个领域的教材当中也会包含一些（作为其基础的）TQFT内容。
+
+#### 3.10.7 散射振幅（Scattering Amplitudes）
+> 关于各类量子场论（以及弦论）中的核心理论对象——散射振幅的计算方面的研究，虽然同样基本，却因其困难而常在量子场论的入门资料中缺位。因其核心地位，此方面的工作堪称十字路口——连结了纯数学的技术、高能理论的传统以及高能实验的意义，近年（21世纪20年代）发展迅速，热度不凡。领域内人也常以「振幅（amplitude）」简称之。今天它基本上被视作高能理论社区的一部分。
+> 简要入门及了解领域目前概况可参考以下资料：概览介绍可看Clifford Cheung的[TASI Lectures on Scattering Amplitudes](http://arxiv.org/abs/1708.03872v1)；Tomasz R. Taylor的[A Course in Amplitudes](https://arxiv.org/abs/1703.05670)可作技术上的粗浅入门，也可参看Simon Badger等的[Scattering Amplitudes in Quantum Field Theory](https://arxiv.org/abs/2306.05976)；比较工整的教科书则有Henritte Elvang（密歇根大学安娜堡分校）与黄宇廷（台湾大学）的Scattering Amplitudes in Gauge Theory and Gravity。当下进展总结可参看2022年的[The SAGEX Review on Scattering Amplitudes](https://arxiv.org/abs/2203.13011)。
+> 各大视频网站也有大量近年会议视频资料供阅览（当然不止散射振幅，这句话也适用于其他高能理论热门课题，在其中资料公开是近年明显的趋势，信为学习者之幸事）。
+
 
 ### 间节 基础理论物理一贯制教材
 达到此处基本上应该就已经对现代理论物理学的基础知识有完整了解（即使浅尝辄止）了。进一步提高基础技术水准完善基础知识推荐按需选用：
@@ -2453,12 +2465,6 @@ AMO方面时下比较常用的**计算/模拟工具**是**Qutip**, 一个强大�
 * [日本] 夏梅诚（[Makoto Natsuume](https://research.kek.jp/people/natsuume/index-e.html)），AdS/CFT Duality User Guide（arXiv:1409.3575v4 [hep-th]）
 > 作者是Polchinski（在德克萨斯大学时期）的门徒，目前属于日本高エネルギー加速器研究機構（KEK）素粒子原子核研究所理論センタ（高能加速器研究机构（其前身是1971年成立的日本高能物理研究所）素粒子（=基本粒子）原子核研究所理论中心，是国际知名的高能物理研究机构）。或许是因为发布在arXiv上的缘故，这应该是目前最广为人知的AdS/CFT入门材料。
 > 同样是低起点（不过要求的场论背景比Ammon略高一点）的入门教程，也同时讲解了理论和应用，可以和Ammon形成补充；还包括了一个Ammon没有的参考文献列表。
-
-##### 3.16.2.5 散射振幅（Scattering Amplitudes）
-> 关于各类量子场论与弦论中的核心理论对象——散射振幅的计算方面的研究。因其核心地位，此方面的工作堪称十字路口——连结了纯数学的技术、高能理论的传统以及高能实验的意义，近年（21世纪20年代）发展迅速，热度不凡。领域内人也常以「振幅（amplitude）」简称之。今天它基本上被视作弦论社区的一部分。
-> 简要入门及了解领域目前概况可参考以下资料：概览介绍可看Clifford Cheung的[TASI Lectures on Scattering Amplitudes](http://arxiv.org/abs/1708.03872v1)；Tomasz R. Taylor的[A Course in Amplitudes](https://arxiv.org/abs/1703.05670)可作技术上的粗浅入门，也可参看Simon Badger等的[Scattering Amplitudes in Quantum Field Theory](https://arxiv.org/abs/2306.05976)；比较工整的教科书则有Henritte Elvang（密歇根大学安娜堡分校）与黄宇廷（台湾大学）的Scattering Amplitudes in Gauge Theory and Gravity。当下进展总结可参看2022年的[The SAGEX Review on Scattering Amplitudes](https://arxiv.org/abs/2203.13011)。
-> 各大视频网站也有大量近年会议视频资料供阅览（当然不止散射振幅，这句话也适用于其他高能理论热门课题）。
-
 
 **关于近来弦论的总体进展**，我们也可以参看Fernando Quevedo在2022年的综述：[Formal Theory: Status and Outlook](https://arxiv.org/abs/2212.05651)。
 
