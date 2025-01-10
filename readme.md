@@ -663,6 +663,9 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 * [美国] Howard Georgi，Lie Algebras in Particle Physics: From Isospin to Unified Theories
 * [美国] Nadir Jeevanjee，An Introduction to Tensors and Group Theory for Physicists （中译本名《给物理学家的张量和群论导论》）
 > 这两部都是面向物理的，篇幅比较简练，适合初学，该有的也基本都不缺（
+另一本专门面向高能物理的同类书是[美国] Matthew Robinson的Symmetry and the
+Standard Model: Mathematics and Particle Physics，包含了很多粒子物理相关的应用内容，最后一章包含了对不同量子引力途径的精彩综述。
+
 * [美国] Brian Hall，Lie Groups, Lie Algebras, and Representations
 > 这是数学书，原书（英文）已由施普林格（Springer）出版公司出版，被收入其GTM（Graduate Texts in Mathematics）系列，编号GTM 222。
 > 入门友好且材料丰富，挺够用的. 
@@ -865,6 +868,8 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 
 针对同调论（以及与其衔接的同调代数），一本详实的专门中文教材是姜伯驹的《同调论》。此外 Munkres 的大部头《代数拓扑基础》（Elements of Algebraic Topology）虽然褒贬不一，但也是常见的参考书。
 
+另一值得提及的新参考则是 [德国] Stefan Friedl（雷根斯堡大学）的代数拓扑豪华大词典：可以在[他的个人网站](https://friedl.app.uni-regensburg.de/index.html)取得，目前已达到4785页的规模。在同一处还能取得他的另一本200余页的扭结理论讲义；顺带一提，另一本扭结理论方面的常见参考书是Dale Rolfsen的Knots and Links。
+
 ##### 1.4.2.6 微分拓扑
 > 微分拓扑实际上的主要研究对象是微分流形的拓扑 (整体性质)。
 * [苏联-俄罗斯] V.A. 瓦西里耶夫，《拓扑学导论》
@@ -885,7 +890,7 @@ Atiyah 的那本有些难读，不建议新手使用。松村英之的书则是�
 对于Morse理论，一本更现代的材料是 [罗马尼亚] Liviu Nicolaescu的An Invitation to Morse Theory。
 
 **几何拓扑**
-上述材料中已涉及到关于几何拓扑的一些技术，但几何拓扑仍有着相对独立的学习体系。作为补充，对于几何拓扑的主流*低维拓扑*，一个适于初学的入门是 [匈牙利] András Juhász （牛津大学）的 Differential and Low-Dimensional Topology；数学物理上联系较多的是三维与四位流形的研究；TQFT部分的参考书提供了一些前者的相关知识，而后者的著名专著则是Donaldson本人的The Geometry of Four-Manifolds（他还有一本非常受好评的Riemann Surfaces）。
+上述材料中已涉及到关于几何拓扑的一些技术（如提及的扭结理论入门材料），但几何拓扑仍有着相对独立的学习体系。作为补充，对于几何拓扑的主流*低维拓扑*，一个适于初学的入门是 [匈牙利] András Juhász （牛津大学）的 Differential and Low-Dimensional Topology；数学物理上联系较多的是三维与四位流形的研究；TQFT部分的参考书提供了一些前者的相关知识，而后者的著名专著则是Donaldson本人的The Geometry of Four-Manifolds（他还有一本非常受好评的Riemann Surfaces）。
 > 题外话：Thurston的学生之一是华人Chien-Hao Liu（汉字名未知），他在Harvard期间也曾受丘成桐指导，有一系列与丘合作的在Polchinski-Grothendieck ansatz方面的工作，综合了众多数学物理领域，如arXiv:1003.1178 [math.SG] D-branes and Azumaya noncommutative geometry: From Polchinski to Grothendieck
 
 
@@ -1112,10 +1117,11 @@ Kontsevich的另一项重要工作——同调镜像对称（下方）中的很�
 > 柏原正树（京都大学RIMS教授）是日本数学界泰斗、2003年Wolf奖得主、RIMS前所长佐藤干夫（Mikio Sato）的门徒。佐藤干夫是现代代数分析理论（日本学派）的开山鼻祖，在完整量子场论（holonomic QFT）等数学物理问题上也有重要工作。
 > 柏原正树与Pierre Schapira（索邦大学及IMJ-PRG）同为这一支代数分析发展中的重要贡献者，他们在这方面最主要的工作是对微局部分析的发展，由此诞生的微局部层论使得微局部分析成为辛几何的有效工具，而这本书至今还是微局部层论最主要的成书资料。
 > 前三章基础知识可以用来入门同调代数和层。之后的正题部分是讲流形上的层，但是实际上大部分都是微局部层论的东西（
-> **代数分析**/代数解析（Algebraic Analysis）是当代数学的主要方向之一，是，虽然并不大红大紫，但也一直在不断发展和对数学的各个方向产生影响（主要是日本和欧洲），与几何表示论与几何Langlands纲领都有可观的联系。
-> 代数分析的主要入门专著（「入门」指不分学派的共同基础）之一是柏原正树本人与河合隆裕 (Takahiro Kawai)， 木村达雄 (Tatsuo Kimura)合著的 Foundations of Algebraic Analysis（日文版名：《代数解析学の基礎》）。（作为起点足够，主要的文献还都是论文形式）
-> 了解代数分析与数学物理的联系可以参考这个简要的综述（共51页） arXiv:1706.04105 [math-ph]（Jean-Francois Pommaret, Algebraic Analysis and Mathematical Physics）
-> IHES之前还办过群星云集的代数分析专题讲座：https://www.bilibili.com/video/BV1p4411A7LX/
+
+**代数分析**/代数解析（Algebraic Analysis）是当代数学的重要方向之一，是，虽然并不大红大紫，但也一直在不断发展和对数学的各个方向产生影响（主要是日本和欧洲），与几何表示论与几何Langlands纲领都有可观的联系。
+代数分析的主要入门专著（「入门」指不分学派的共同基础）之一是柏原正树本人与河合隆裕 (Takahiro Kawai)， 木村达雄 (Tatsuo Kimura)合著的 Foundations of Algebraic Analysis（日文版名：《代数解析学の基礎》）。（作为起点足够，主要的文献还都是论文形式）。
+了解代数分析与数学物理的联系可以参考这个简要的综述（共51页） arXiv:1706.04105 [math-ph]（Jean-Francois Pommaret, Algebraic Analysis and Mathematical Physics），IHES之前还办过群星云集的代数分析专题讲座：https://www.bilibili.com/video/BV1p4411A7LX/。
+中文数学圈为数不多的代数分析入门教材则是黎景辉的《微分方程和代数》，着重于微分方程的代数结构，内容现代，覆盖了众多在当代数学各个分支应用广泛的实用技术（包括p进微分方程、形式微分方程、G丛、Simpson对应等）。
 
 Schapira还有两个比较友好的讲义[Categories and Homological algebra](https://perso.imj-prg.fr/pierre-schapira/wp-content/uploads/schapira-pub/lectnotes/HomAl.pdf)和[Abelian Sheaves](https://perso.imj-prg.fr/pierre-schapira/wp-content/uploads/schapira-pub/lectnotes/Shv.pdf)。非常简洁，节奏很快的讲义，像前者可以直接从基础的范畴论、R-模速通到导出范畴，后者则可以作为微局部层论的一个“热身环节”衔接到《流形上的层》。
 
@@ -1652,10 +1658,13 @@ Stone & Goldbart 和 Geroch 一样属于休闲读物，但更新，质量也好�
 
 ### 3.5 热物理学 / 热力学与统计物理学（统计力学、统计热力学）
 **入门级** 
-* [英国] 斯蒂芬 J. 布伦德尔，凯瑟琳 M. 布伦德尔（两位均在牛津大学任教），《热物理概念：热力学与统计物理学》
-> 两位作者是夫妻哦（w）。 层次分明、内容广泛，入门友好（和 Griffiths 三部曲风格很像，读起来非常舒服）。
+* [英国] 斯蒂芬 J. 布伦德尔，凯瑟琳 M. 布伦德尔（夫妇二人均在牛津大学任教），《热物理概念：热力学与统计物理学》
+> 层次分明、内容丰富广泛，入门友好（和 Griffiths 三部曲风格很像，读起来非常舒服）。
+* 刘川（北京大学），《热力学与统计物理》
+> 源于作者在北大物理学院的讲义，篇幅精炼，内容现代。
+风格高度类似的另一部教材是[美国]Herbert B. Callen的《热力学与热统计物理导论》（在网上可以找到超理汉化物理组的民间翻译版）。
 * [英国] David Tong, Lectures on Statistical Physics
-> 这份讲稿来自于作者在剑桥教授的本科三年级的统计物理科目，有着他一贯的通俗、简明却蔚为大观的风格，适于快速入门。（上方全集链接可下载）
+> 来自于作者在剑桥教授的本科三年级的统计物理科目，有着他一贯的通俗、简明风格，适于快速入门。
 
 **更现代的教程**
 > 一般我们称为「热力学」的是热现象的宏观理论，它基本上是唯象的，其主要内容在本科热物理学课程一般就讲完了；而称为「统计力学/统计物理/统计热力学」的则是热现象的微观理论，目的是从微观性质出发研究和计算宏观性质，已经是一套成熟的理论架构。我之后的方向偏重微观尺度的物性，所以需要恶补一些统计力学达到研究生课程的级别。
@@ -2222,6 +2231,10 @@ Datta还有一本更深入的Electronic Transport in Mesoscopic Systems，是介
 
 #### 3.13.3 量子光学
 > 相对于普物光学与电动力学构成的传统光学，此处特指以原子物理为基础的现代光学，或称量子光学。
+* 张智明（华南师范大学），《量子光学》
+> 简短精炼、入门友好、内容丰富现代的量子光学综合入门教科书，全书清晰明了、参考完备，可以作为除分子物理外整个AMO领域的极佳入门书。
+另一本专门讨论量子光学的量子力学基础的新专著是范洪义、陈实、吴泽、陈俊华的《基于光子产生-湮灭机制的量子力学引论》。
+
 * [法国] Claude Cohen-Tannoudji，Photons and Atoms: Introduction to Quantum Electrodynamics & Atom-Photon Interactions（中译本《原子与光子相互作用》）
 > 第一本是和Cohen-Tannoudji本人的量子力学一样全面的QED+光学教材，第二本则是量子光学中光和原子间的基本过程的专论，也非常详尽（毕竟是这位诺奖得主自己的领域）。都是标准的参考书。
 
